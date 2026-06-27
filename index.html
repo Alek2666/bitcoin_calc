@@ -13,19 +13,24 @@
       color: #f0f0f0;
       min-height: 100vh;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: center;
-      padding: 24px;
+      padding: 24px 16px;
     }
 
     .card {
       background: #1a1a1a;
       border: 1px solid #2a2a2a;
       border-radius: 20px;
-      padding: 36px;
+      padding: 28px 24px;
       width: 100%;
       max-width: 560px;
       box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    }
+
+    @media (min-width: 560px) {
+      body { align-items: center; padding: 24px; }
+      .card { padding: 36px; }
     }
 
     .header {
@@ -80,8 +85,12 @@
 
     .row {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       gap: 12px;
+    }
+
+    @media (min-width: 420px) {
+      .row { grid-template-columns: 1fr 1fr; }
     }
 
     .field {
@@ -105,12 +114,13 @@
       background: #111;
       border: 1px solid #333;
       border-radius: 10px;
-      padding: 11px 44px 11px 14px;
+      padding: 13px 44px 13px 14px;
       color: #fff;
-      font-size: 15px;
+      font-size: 16px; /* 16px zapobiega auto-zoom na iOS */
       font-weight: 600;
       outline: none;
       transition: border-color 0.2s;
+      -webkit-appearance: none;
     }
 
     input:focus {
@@ -173,7 +183,11 @@
 
     .result-value.highlight {
       color: #f7931a;
-      font-size: 18px;
+      font-size: 16px;
+    }
+
+    @media (min-width: 420px) {
+      .result-value.highlight { font-size: 18px; }
     }
 
     .result-value.green { color: #4ade80; }
@@ -259,13 +273,6 @@
       padding-right: 24px;
     }
 
-    .footer {
-      text-align: center;
-      margin-top: 20px;
-      font-size: 11px;
-      color: #444;
-    }
-
     .live-price-bar {
       display: flex;
       align-items: center;
@@ -307,14 +314,23 @@
     }
 
     .live-price-text {
-      font-size: 13px;
+      font-size: 12px;
       color: #888;
       flex: 1;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
 
     .live-price-text strong {
       color: #4ade80;
-      font-size: 15px;
+      font-size: 13px;
+    }
+
+    @media (min-width: 420px) {
+      .live-price-text { font-size: 13px; white-space: normal; }
+      .live-price-text strong { font-size: 15px; }
     }
 
     .refresh-btn {
@@ -401,8 +417,6 @@
     <p class="placeholder-text">Wypełnij dane powyżej, aby zobaczyć wyniki</p>
   </div>
 </div>
-
-<div class="footer">Dane nie są wysyłane nigdzie — kalkulator działa lokalnie w przeglądarce.</div>
 
 <script>
   let currency = 'USD';
