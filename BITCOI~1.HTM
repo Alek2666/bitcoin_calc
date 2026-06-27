@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalkulator Uśredniania BTC</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #0d0d0d;
+      color: #f0f0f0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 20px;
+      padding: 36px;
+      width: 100%;
+      max-width: 560px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+
+    .btc-icon {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, #f7931a, #ffb347);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      font-weight: 900;
+      color: white;
+      flex-shrink: 0;
+    }
+
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.2;
+    }
+
+    h1 span {
+      font-size: 13px;
+      font-weight: 400;
+      color: #888;
+      display: block;
+      margin-top: 2px;
+    }
+
+    .section-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: #f7931a;
+      margin-bottom: 14px;
+      margin-top: 28px;
+    }
+
+    .section-label:first-of-type {
+      margin-top: 0;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    label {
+      font-size: 12px;
+      color: #999;
+      font-weight: 500;
+    }
+
+    .input-wrap {
+      position: relative;
+    }
+
+    input {
+      width: 100%;
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 11px 44px 11px 14px;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 600;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    input:focus {
+      border-color: #f7931a;
+    }
+
+    input::placeholder {
+      color: #444;
+      font-weight: 400;
+    }
+
+    .unit {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 11px;
+      font-weight: 700;
+      color: #555;
+      pointer-events: none;
+    }
+
+    /* Remove spinners */
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; }
+    input[type=number] { -moz-appearance: textfield; }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #222;
+      margin: 28px 0;
+    }
+
+    .results {
+      background: #111;
+      border: 1px solid #222;
+      border-radius: 14px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .result-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .result-label {
+      font-size: 13px;
+      color: #888;
+    }
+
+    .result-value {
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .result-value.highlight {
+      color: #f7931a;
+      font-size: 18px;
+    }
+
+    .result-value.green { color: #4ade80; }
+    .result-value.red { color: #f87171; }
+
+    .result-divider {
+      border: none;
+      border-top: 1px solid #1e1e1e;
+    }
+
+    .placeholder-text {
+      text-align: center;
+      color: #444;
+      font-size: 13px;
+      padding: 8px 0;
+    }
+
+    .currency-toggle {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .toggle-btn {
+      flex: 1;
+      padding: 8px;
+      border-radius: 8px;
+      border: 1px solid #333;
+      background: #111;
+      color: #888;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .toggle-btn.active {
+      background: #f7931a22;
+      border-color: #f7931a;
+      color: #f7931a;
+    }
+
+    .add-row-btn {
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px dashed #333;
+      background: transparent;
+      color: #666;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: all 0.2s;
+    }
+
+    .add-row-btn:hover {
+      border-color: #f7931a;
+      color: #f7931a;
+    }
+
+    .purchase-block {
+      position: relative;
+    }
+
+    .remove-btn {
+      position: absolute;
+      top: -4px;
+      right: 0;
+      background: none;
+      border: none;
+      color: #555;
+      font-size: 18px;
+      cursor: pointer;
+      line-height: 1;
+      padding: 0 4px;
+      transition: color 0.2s;
+    }
+
+    .remove-btn:hover { color: #f87171; }
+
+    .purchase-block .section-label {
+      padding-right: 24px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 11px;
+      color: #444;
+    }
+
+    .live-price-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #0f1f0f;
+      border: 1px solid #1a3a1a;
+      border-radius: 10px;
+      padding: 10px 14px;
+      margin-bottom: 4px;
+    }
+
+    .live-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #4ade80;
+      flex-shrink: 0;
+      animation: pulse 2s infinite;
+    }
+
+    .live-dot.loading {
+      background: #f7931a;
+      animation: pulse-fast 0.8s infinite;
+    }
+
+    .live-dot.error {
+      background: #f87171;
+      animation: none;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    @keyframes pulse-fast {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.2; }
+    }
+
+    .live-price-text {
+      font-size: 13px;
+      color: #888;
+      flex: 1;
+    }
+
+    .live-price-text strong {
+      color: #4ade80;
+      font-size: 15px;
+    }
+
+    .refresh-btn {
+      background: none;
+      border: 1px solid #2a2a2a;
+      border-radius: 6px;
+      color: #666;
+      font-size: 13px;
+      cursor: pointer;
+      padding: 3px 8px;
+      transition: all 0.2s;
+      line-height: 1.4;
+    }
+
+    .refresh-btn:hover {
+      border-color: #f7931a;
+      color: #f7931a;
+    }
+
+    .use-live-btn {
+      width: 100%;
+      padding: 8px;
+      border-radius: 8px;
+      border: 1px solid #1a3a1a;
+      background: #0f1f0f;
+      color: #4ade80;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin-top: 6px;
+    }
+
+    .use-live-btn:hover {
+      background: #162b16;
+    }
+
+    .use-live-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .fiat-hint {
+      font-size: 11px;
+      color: #f7931a;
+      margin-top: 5px;
+      min-height: 16px;
+      font-weight: 600;
+      letter-spacing: 0.2px;
+    }
+
+    .fiat-hint.empty {
+      color: #444;
+      font-weight: 400;
+    }
+  </style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="btc-icon">₿</div>
+    <h1>
+      Kalkulator uśredniania BTC
+      <span>Oblicz swoją średnią cenę zakupu</span>
+    </h1>
+  </div>
+
+  <div>
+    <div class="section-label" style="margin-top:0">Waluta kursów</div>
+    <div class="currency-toggle">
+      <button class="toggle-btn active" onclick="setCurrency('USD')">$ USD</button>
+      <button class="toggle-btn" onclick="setCurrency('PLN')">zł PLN</button>
+      <button class="toggle-btn" onclick="setCurrency('EUR')">€ EUR</button>
+    </div>
+  </div>
+
+  <div id="purchases-container"></div>
+
+  <button class="add-row-btn" onclick="addPurchase()">+ Dodaj kolejny zakup</button>
+
+  <hr class="divider" />
+
+  <div class="results" id="results">
+    <p class="placeholder-text">Wypełnij dane powyżej, aby zobaczyć wyniki</p>
+  </div>
+</div>
+
+<div class="footer">Dane nie są wysyłane nigdzie — kalkulator działa lokalnie w przeglądarce.</div>
+
+<script>
+  let currency = 'USD';
+  const symbols = { USD: '$', PLN: 'zł', EUR: '€' };
+  const currencyKeys = { USD: 'usd', PLN: 'pln', EUR: 'eur' };
+
+  const purchasesContainer = document.getElementById('purchases-container');
+  const resultsEl = document.getElementById('results');
+
+  let purchases = [];
+  let idCounter = 0;
+  let livePrices = {};         // { usd: 103000, pln: 420000, eur: 96000 }
+  let liveUpdatedAt = null;
+  let isFetchingPrice = false;
+
+  // ── Live price fetch (CoinGecko free API) ────────────────────────────
+  async function fetchBtcPrice() {
+    if (isFetchingPrice) return;
+    isFetchingPrice = true;
+    updateLiveBar('loading');
+    try {
+      const res = await fetch(
+        'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd,pln,eur',
+        { cache: 'no-store' }
+      );
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      livePrices = data.bitcoin;         // { usd, pln, eur }
+      liveUpdatedAt = new Date();
+      updateLiveBar('ok');
+      updateAllFiatHints();
+      calculate();
+    } catch (e) {
+      updateLiveBar('error');
+    } finally {
+      isFetchingPrice = false;
+    }
+  }
+
+  function updateLiveBar(state) {
+    const bar = document.getElementById('live-bar');
+    if (!bar) return;
+    const dot = bar.querySelector('.live-dot');
+    const text = bar.querySelector('.live-price-text');
+    const refreshBtn = bar.querySelector('.refresh-btn');
+
+    dot.className = 'live-dot' + (state === 'loading' ? ' loading' : state === 'error' ? ' error' : '');
+
+    if (state === 'loading') {
+      text.innerHTML = 'Pobieram aktualny kurs BTC…';
+      if (refreshBtn) refreshBtn.disabled = true;
+    } else if (state === 'error') {
+      text.innerHTML = 'Nie udało się pobrać kursu — <span style="color:#f87171">sprawdź połączenie</span>';
+      if (refreshBtn) refreshBtn.disabled = false;
+    } else {
+      const price = livePrices[currencyKeys[currency]];
+      const time = liveUpdatedAt ? liveUpdatedAt.toLocaleTimeString('pl-PL', { hour: '2-digit', minute: '2-digit', second: '2-digit' }) : '';
+      text.innerHTML = `Kurs live: <strong>${fmt(price)}</strong> <span style="color:#555;font-size:11px">· ${time}</span>`;
+      if (refreshBtn) refreshBtn.disabled = false;
+    }
+  }
+
+  function getLivePrice() {
+    return livePrices[currencyKeys[currency]] || null;
+  }
+  // ─────────────────────────────────────────────────────────────────────
+
+  function setCurrency(c) {
+    currency = c;
+    document.querySelectorAll('.toggle-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.textContent.includes(c));
+    });
+    document.querySelectorAll('.unit.price-unit').forEach(el => {
+      el.textContent = symbols[currency];
+    });
+    updateLiveBar(Object.keys(livePrices).length ? 'ok' : 'loading');
+    updateAllFiatHints();
+    calculate();
+  }
+
+  function addPurchase(defaultBtc = '', defaultPrice = '') {
+    const id = ++idCounter;
+    purchases.push(id);
+
+    const isFirst = purchases.length === 1;
+    const block = document.createElement('div');
+    block.className = 'purchase-block';
+    block.id = `purchase-${id}`;
+    block.innerHTML = `
+      <div class="section-label">
+        ${isFirst ? 'Posiadane BTC' : `Zakup ${purchases.length - 1}`}
+        ${!isFirst ? `<button class="remove-btn" onclick="removePurchase(${id})" title="Usuń">×</button>` : ''}
+      </div>
+      <div class="row">
+        <div class="field">
+          <label>${isFirst ? 'Ilość BTC którą posiadasz' : 'Ilość BTC'}</label>
+          <div class="input-wrap">
+            <input type="number" id="btc-${id}" placeholder="0.00" min="0" step="any"
+              value="${defaultBtc}" oninput="updateFiatHint(${id}); calculate()" />
+            <span class="unit">BTC</span>
+          </div>
+          <div class="fiat-hint empty" id="fiat-hint-${id}">≈ wpisz ilość BTC</div>
+        </div>
+        <div class="field">
+          <label>${isFirst ? 'Kurs po którym kupiłeś' : 'Kurs zakupu'}</label>
+          <div class="input-wrap">
+            <input type="number" id="price-${id}" placeholder="0.00" min="0" step="any"
+              value="${defaultPrice}" oninput="updateFiatHint(${id}); calculate()" />
+            <span class="unit price-unit">${symbols[currency]}</span>
+          </div>
+        </div>
+      </div>
+    `;
+    purchasesContainer.appendChild(block);
+    renumberLabels();
+    calculate();
+  }
+
+  function updateFiatHint(id) {
+    const hintEl = document.getElementById(`fiat-hint-${id}`);
+    if (!hintEl) return;
+
+    const btc = parseFloat(document.getElementById(`btc-${id}`)?.value);
+    const rowPrice = parseFloat(document.getElementById(`price-${id}`)?.value);
+
+    if (isNaN(btc) || btc <= 0) {
+      hintEl.textContent = '≈ wpisz ilość BTC';
+      hintEl.className = 'fiat-hint empty';
+      return;
+    }
+
+    // Use row price if filled, else fall back to live price
+    const price = (!isNaN(rowPrice) && rowPrice > 0) ? rowPrice : getLivePrice();
+
+    if (!price) {
+      hintEl.textContent = `≈ wpisz kurs zakupu`;
+      hintEl.className = 'fiat-hint empty';
+      return;
+    }
+
+    const fiatVal = btc * price;
+    const src = (!isNaN(rowPrice) && rowPrice > 0) ? '' : ' (kurs live)';
+    hintEl.textContent = `≈ ${fmt(fiatVal)}${src}`;
+    hintEl.className = 'fiat-hint';
+  }
+
+  function updateAllFiatHints() {
+    purchases.forEach(id => updateFiatHint(id));
+  }
+
+  function removePurchase(id) {
+    purchases = purchases.filter(p => p !== id);
+    document.getElementById(`purchase-${id}`).remove();
+    renumberLabels();
+    calculate();
+  }
+
+  function renumberLabels() {
+    const blocks = purchasesContainer.querySelectorAll('.purchase-block');
+    blocks.forEach((block, i) => {
+      const label = block.querySelector('.section-label');
+      const removeBtn = block.querySelector('.remove-btn');
+      if (i === 0) {
+        label.childNodes[0].textContent = 'Posiadane BTC ';
+        if (removeBtn) removeBtn.remove();
+      } else {
+        label.childNodes[0].textContent = `Zakup ${i} `;
+        if (!block.querySelector('.remove-btn')) {
+          const id = parseInt(block.id.split('-')[1]);
+          const btn = document.createElement('button');
+          btn.className = 'remove-btn';
+          btn.title = 'Usuń';
+          btn.textContent = '×';
+          btn.onclick = () => removePurchase(id);
+          label.appendChild(btn);
+        }
+      }
+    });
+  }
+
+  function fmt(n, isBtc = false) {
+    if (isBtc) {
+      return n.toLocaleString('pl-PL', { minimumFractionDigits: 8, maximumFractionDigits: 8 }) + ' BTC';
+    }
+    return symbols[currency] + ' ' + n.toLocaleString('pl-PL', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  }
+
+  function calculate() {
+    let totalBtc = 0;
+    let totalCost = 0;
+    let valid = false;
+
+    for (const id of purchases) {
+      const btcEl = document.getElementById(`btc-${id}`);
+      const priceEl = document.getElementById(`price-${id}`);
+      if (!btcEl || !priceEl) continue;
+
+      const btc = parseFloat(btcEl.value);
+      const price = parseFloat(priceEl.value);
+
+      if (!isNaN(btc) && !isNaN(price) && btc > 0 && price > 0) {
+        totalBtc += btc;
+        totalCost += btc * price;
+        valid = true;
+      }
+    }
+
+    if (!valid || totalBtc === 0) {
+      resultsEl.innerHTML = '<p class="placeholder-text">Wypełnij dane powyżej, aby zobaczyć wyniki</p>';
+      return;
+    }
+
+    const avgPrice = totalCost / totalBtc;
+
+    // Try to get current price from last input if user enters it separately
+    // For now just show the result rows
+    resultsEl.innerHTML = `
+      <div class="result-row">
+        <span class="result-label">Łączna ilość BTC</span>
+        <span class="result-value">${fmt(totalBtc, true)}</span>
+      </div>
+      <hr class="result-divider" />
+      <div class="result-row">
+        <span class="result-label">Łączny koszt zakupów</span>
+        <span class="result-value">${fmt(totalCost)}</span>
+      </div>
+      <hr class="result-divider" />
+      <div class="result-row">
+        <span class="result-label">⚡ Średnia cena zakupu</span>
+        <span class="result-value highlight">${fmt(avgPrice)}</span>
+      </div>
+      ${purchases.length >= 2 ? renderPriceCheck(avgPrice) : ''}
+    `;
+  }
+
+  function renderPriceCheck(avgPrice) {
+    const livePrice = getLivePrice();
+    const liveVal = livePrice ? Math.round(livePrice) : '';
+    return `
+      <hr class="result-divider" />
+      <div style="margin-top:2px">
+        <div class="result-label" style="margin-bottom:8px">
+          Aktualny kurs BTC
+          <span style="color:#555;font-size:11px"> — pobierany automatycznie, możesz edytować</span>
+        </div>
+
+        <!-- Live price bar -->
+        <div class="live-price-bar" id="live-bar">
+          <div class="live-dot ${livePrice ? '' : 'loading'}"></div>
+          <span class="live-price-text">
+            ${livePrice
+              ? `Kurs live: <strong>${fmt(livePrice)}</strong> <span style="color:#555;font-size:11px">· ${liveUpdatedAt ? liveUpdatedAt.toLocaleTimeString('pl-PL',{hour:'2-digit',minute:'2-digit',second:'2-digit'}) : ''}</span>`
+              : 'Pobieram aktualny kurs BTC…'}
+          </span>
+          <button class="refresh-btn" onclick="fetchBtcPrice()" title="Odśwież kurs">↻</button>
+        </div>
+
+        <!-- Manual override input -->
+        <div class="input-wrap" style="margin-top:8px">
+          <input type="number" id="current-price" placeholder="lub wpisz własny kurs" min="0" step="any"
+            value="${liveVal}" oninput="calcPnl(${avgPrice})" />
+          <span class="unit price-unit">${symbols[currency]}</span>
+        </div>
+        ${livePrice ? `<button class="use-live-btn" onclick="useLivePrice(${avgPrice})">↺ Użyj kursu live (${fmt(livePrice)})</button>` : ''}
+      </div>
+      <div id="pnl-result"></div>
+    `;
+  }
+
+  function useLivePrice(avgPrice) {
+    const livePrice = getLivePrice();
+    if (!livePrice) return;
+    const el = document.getElementById('current-price');
+    if (el) {
+      el.value = Math.round(livePrice);
+      calcPnl(avgPrice);
+    }
+  }
+
+  function calcPnl(avgPrice) {
+    const el = document.getElementById('current-price');
+    const pnlEl = document.getElementById('pnl-result');
+    if (!el || !pnlEl) return;
+    const currentPrice = parseFloat(el.value);
+    if (isNaN(currentPrice) || currentPrice <= 0) {
+      pnlEl.innerHTML = '';
+      return;
+    }
+
+    let totalBtc = 0, totalCost = 0;
+    for (const id of purchases) {
+      const btcEl = document.getElementById(`btc-${id}`);
+      const priceEl = document.getElementById(`price-${id}`);
+      if (!btcEl || !priceEl) continue;
+      const btc = parseFloat(btcEl.value);
+      const price = parseFloat(priceEl.value);
+      if (!isNaN(btc) && !isNaN(price) && btc > 0 && price > 0) {
+        totalBtc += btc;
+        totalCost += btc * price;
+      }
+    }
+
+    const currentValue = totalBtc * currentPrice;
+    const pnl = currentValue - totalCost;
+    const pnlPct = (pnl / totalCost) * 100;
+    const isProfit = pnl >= 0;
+
+    pnlEl.innerHTML = `
+      <hr class="result-divider" style="margin-top:12px" />
+      <div class="result-row" style="margin-top:4px">
+        <span class="result-label">Wartość portfela teraz</span>
+        <span class="result-value">${fmt(currentValue)}</span>
+      </div>
+      <div class="result-row" style="margin-top:10px">
+        <span class="result-label">${isProfit ? '📈 Zysk' : '📉 Strata'}</span>
+        <span class="result-value ${isProfit ? 'green' : 'red'}">
+          ${isProfit ? '+' : ''}${fmt(pnl)} (${isProfit ? '+' : ''}${pnlPct.toFixed(2)}%)
+        </span>
+      </div>
+    `;
+  }
+
+  // Init with 2 rows: existing position + new purchase
+  addPurchase();
+  addPurchase();
+
+  // Fetch live price on load, refresh every 60 s
+  fetchBtcPrice();
+  setInterval(fetchBtcPrice, 60_000);
+</script>
+</body>
+</html>
