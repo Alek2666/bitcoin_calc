@@ -353,12 +353,16 @@
       next();
     });
   }
-  function seekVideo(v, time) {
+  function seekVideo(v, time, presented = false) {
     return new Promise((resolve) => {
       if (Math.abs(v.currentTime - time) < 0.001 && v.readyState >= 2) { resolve(); return; }
-      const done = () => { v.removeEventListener('seeked', done); clearTimeout(to); resolve(); };
-      const to = setTimeout(done, 4000);
-      v.addEventListener('seeked', done);
+      // w renderze czekamy też, aż klatka zostanie faktycznie wyświetlona (inaczej zrzut bywa czarny)
+      let seeked = false, shown = !presented || !('requestVideoFrameCallback' in v);
+      const finish = () => { if (seeked && shown) { v.removeEventListener('seeked', onSeeked); clearTimeout(to); resolve(); } };
+      const onSeeked = () => { seeked = true; finish(); };
+      const to = setTimeout(() => { seeked = shown = true; finish(); }, 4000);
+      if (!shown) v.requestVideoFrameCallback(() => { shown = true; finish(); });
+      v.addEventListener('seeked', onSeeked);
       v.currentTime = time;
     });
   }
@@ -713,7 +717,7 @@
     return out;
   }
   async function syncVideosExact(t) {
-    await Promise.all(liveNeeds(t).map(({ v, target }) => seekVideo(v, target)));
+    await Promise.all(liveNeeds(t).map(({ v, target }) => seekVideo(v, target, true)));
   }
   function syncVideosLive(t, playing) {
     const need = liveNeeds(t);
