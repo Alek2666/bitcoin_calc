@@ -57,6 +57,22 @@ Wszystkie przejścia i ruchy kamery używają krzywych *Easy Ease* (jak w After 
    Inna ścieżka: `npm run render -- --audio C:\muzyka.mp3`.
    Prompty do Suno / ElevenLabs i znaczniki czasu: **[AUDIO.md](AUDIO.md)**.
 
+## Wersja pozioma 16:9 (1920×1080)
+
+Ten sam scenariusz w poziomie, z innymi ośrodkami: **Master Ski** (wyszukiwanie, warunki, kamera na żywo)
+i **Kasprowy Wierch** (przesunięcie kamery, pogoda na stoku). Hasła są w lewej kolumnie, telefon po prawej,
+a w scenie „Kamery na żywo” telefon obraca się do poziomu na środku kadru.
+
+```bash
+npm run assets:16x9     # nagrania + logo ze ścieżek w promo.config.16x9.json
+npm run render:16x9     # -> out/webcameraski-16x9.mp4
+```
+
+- Dane ośrodków: `js/data-16x9.js` (nadpisuje `js/data.js`) — Master Ski: 80 cm, trasy 11/11, wyciągi 6/6;
+  Kasprowy Wierch: 110 cm, trasy 3/3, wyciągi 3/3.
+- Podgląd: `index-16x9.html`.
+- Sprawdź ścieżki w `promo.config.16x9.json` (logo Master Ski i folder z nagraniami są wpisane orientacyjnie).
+
 ## Co zmieniono względem screenów
 
 - Pasek statusu: **9:41, bateria 100%**, bez trybu oszczędzania.

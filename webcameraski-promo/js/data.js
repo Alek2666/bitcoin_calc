@@ -7,6 +7,7 @@
  * Dostępne ikony pogody: 'sun' | 'cloud' | 'snow'.
  */
 window.PROMO = {
+  format: '9x16',        // 9x16 = App Store (886×1920), 16x9 = poziomo (1920×1080)
   fps: 30,
   duration: 20,          // App Store: min 15 s, max 30 s
   statusTime: '9:41',
@@ -29,7 +30,7 @@ window.PROMO = {
   statusOpen: 'Czynny',
 
   resorts: {
-    kasina: {
+    r1: {                                // 1. ośrodek: wyszukiwanie, warunki, kamera na żywo
       name: 'Kasina Ski',
       city: 'Mszana Dolna', region: 'woj. małopolskie', country: 'Polska',
       logo: 'assets/kasina-logo.png',
@@ -50,7 +51,7 @@ window.PROMO = {
         { title: 'Kasina Ski - widok na stok i dolną stację kolei', live: true },
       ],
     },
-    kotelnica: {
+    r2: {                                // 2. ośrodek: przesunięcie kamery, pogoda na stoku
       name: 'Kotelnica Białczańska',
       city: 'Białka Tatrzańska', region: 'woj. małopolskie', country: 'Polska',
       logo: 'assets/kotelnica-logo.png',

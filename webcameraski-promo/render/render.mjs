@@ -6,6 +6,7 @@
 //   npm run render -- --draft            -> szybki podgląd (15 fps)
 //   npm run render -- --stills 1,5.2,9   -> tylko wybrane klatki PNG do out/
 //   npm run render -- --browser chromium -> przeglądarka Playwright zamiast Chrome/Edge
+//   npm run render:16x9                  -> wersja pozioma 1920×1080 (index-16x9.html)
 import { spawn } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -43,11 +44,15 @@ async function launch() {
 }
 
 const browser = await launch();
-const page = await browser.newPage({ viewport: { width: 886, height: 1920 }, deviceScaleFactor: 1 });
+const pageFile = opt('page', 'index.html');
+const variant = path.basename(pageFile, '.html').replace(/^index-?/, '');
+const page = await browser.newPage({ viewport: { width: 1920, height: 1920 }, deviceScaleFactor: 1 });
 page.on('console', (m) => { if (m.type() === 'error') console.log('  [strona]', m.text()); });
 page.on('pageerror', (e) => console.log('  [strona]', e.message));
-await page.goto(pathToFileURL(path.join(root, 'index.html')).href + '?render=1');
+await page.goto(pathToFileURL(path.join(root, pageFile)).href + '?render=1');
 const info = await page.evaluate(() => window.__ready);
+await page.setViewportSize({ width: info.width, height: info.height });
+await page.evaluate(() => window.__seek(0));
 if (info.missing.length && !opt('allow-missing', false)) {
   console.error('\n✗ Brakuje plików: ' + info.missing.join(', ') + '\n  Uruchom najpierw: npm run assets  (albo dodaj --allow-missing)');
   await browser.close();
@@ -63,7 +68,7 @@ const frame = async (t) => {
 const stills = opt('stills', null);
 if (stills) {
   for (const s of String(stills).split(',').map(Number)) {
-    const f = path.join(outDir, `still-${s.toFixed(2).padStart(5, '0')}s.png`);
+    const f = path.join(outDir, `still${variant ? '-' + variant : ''}-${s.toFixed(2).padStart(5, '0')}s.png`);
     fs.writeFileSync(f, await frame(s));
     console.log('  ✓', path.relative(root, f));
   }
@@ -75,7 +80,8 @@ if (stills) {
 const fps = opt('draft', false) ? 15 : info.fps;
 const dur = info.duration;
 const total = Math.round(dur * fps);
-const out = path.resolve(opt('out', path.join(outDir, opt('draft', false) ? 'webcameraski-draft.mp4' : 'webcameraski-app-preview.mp4')));
+const baseName = variant ? `webcameraski-${variant}` : 'webcameraski-app-preview';
+const out = path.resolve(opt('out', path.join(outDir, `${baseName}${opt('draft', false) ? '-draft' : ''}.mp4`)));
 
 let audio = opt('audio', null);
 if (!audio) {

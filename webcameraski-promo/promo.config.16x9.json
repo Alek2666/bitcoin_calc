@@ -1,0 +1,20 @@
+{
+  "videos": {
+    "masterski": {
+      "src": "C:/Users/Alek/Desktop/nowy_layout/preview/WEBC1_2026-02-12-12-55.h264.mp4",
+      "start": 0,
+      "duration": 20
+    },
+    "kasprowy": {
+      "src": "C:/Users/Alek/Desktop/nowy_layout/preview/WEBC1_2025-03-19-09-25.h264.mp4",
+      "start": 0,
+      "duration": 20
+    }
+  },
+  "audio": "C:/Users/Alek/Desktop/Winter_Horizon_2026-09-29T095718.wav",
+  "outroLogo": "C:/Users/Alek/Desktop/stoki_warunki_belki/elementy/alpha_webcamera_white.png",
+  "logos": {
+    "masterski": "C:/Users/Alek/Desktop/nowy_layout/preview/masterski-logo.png",
+    "kasprowy": "C:/Users/Alek/Desktop/nowy_layout/preview/resort-logo-22.png"
+  }
+}

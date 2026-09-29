@@ -64,8 +64,8 @@
   function homeScreen() {
     const R = P.resorts;
     const near = [
-      ['kasina', R.kasina, 20],
-      ['kotelnica', R.kotelnica, 225.4],
+      ['r1', R.r1, 20],
+      ['r2', R.r2, 225.4],
     ].map(([key, r, x]) => `
       <div class="near-card" style="left:${x}px;top:512.5px">
         <div class="near-img"><canvas class="still" data-media="${key}" data-at="${r.stillAt}"></canvas>
@@ -123,10 +123,10 @@
   }
   function listScreen() {
     const all = P.list.map((r) => listCard(r, `<img src="${esc(r.img)}" alt="">`)).join('');
-    const k = P.resorts.kasina;
+    const k = P.resorts.r1;
     const res = listCard(
       { name: k.name, loc: `${k.city}, ${k.region}`, flag: 'pl', snow: k.snow, runs: k.runs },
-      `<canvas class="still" data-media="kasina" data-at="${k.stillAt}"></canvas>`);
+      `<canvas class="still" data-media="r1" data-at="${k.stillAt}"></canvas>`);
     return `<div class="scr" id="s-list"><div class="content">
         <div class="l-head">${ic('chevron_back', 22, '#fff', 'position:absolute;left:19px;top:18px')}<h1>Ośrodki narciarskie</h1></div>
         <div class="l-search">${ic('search', 24, '#e8ecf3', 'position:absolute;left:15px;top:14px')}
@@ -225,14 +225,14 @@
     </div>`;
   }
   function liveLayer() {
-    return `<div class="live-backdrop"></div><div class="live" id="live"><div class="live-track">${livePane('kasina')}${livePane('kotelnica')}</div></div>`;
+    return `<div class="live-backdrop"></div><div class="live" id="live"><div class="live-track">${livePane('r1')}${livePane('r2')}</div></div>`;
   }
 
   function phone() {
     return `<div id="phone"><div class="phone-body">
       <i class="btn-side b-action"></i><i class="btn-side b-volup"></i><i class="btn-side b-voldn"></i><i class="btn-side b-power"></i>
       <div class="screen" id="screen">
-        ${homeScreen()}${listScreen()}${detailScreen('kasina')}${detailScreen('kotelnica')}${feedScreen()}
+        ${homeScreen()}${listScreen()}${detailScreen('r1')}${detailScreen('r2')}${feedScreen()}
         ${navBar()}
         ${liveLayer()}
         ${statusBar()}

@@ -1,5 +1,5 @@
 /*
- * WebCameraSki — App Preview (886×1920, 30 fps, 20 s)
+ * WebCameraSki — App Preview (9:16 886×1920 lub 16:9 1920×1080, 30 fps, 20 s)
  * Cała animacja jest funkcją czasu: render(t). Dzięki temu podgląd w przeglądarce
  * i render klatka-po-klatce (render/render.mjs) dają identyczny obraz.
  */
@@ -9,7 +9,6 @@
   const params = new URLSearchParams(location.search);
   const RENDER = params.has('render');
   const FPS = P.fps, DUR = P.duration;
-  const W = 886, H = 1920;
 
   // ---------------------------------------------------------------- easing
   function bezier(x1, y1, x2, y2) {
@@ -58,9 +57,9 @@
     tapResult: 2.85,
     pushDetail: [3.0, 3.5],
     capConditions: [3.45, 6.45],
-    countKasina: [3.65, 4.55],
+    countR1: [3.65, 4.55],
     scroll1: [4.65, 5.35],
-    countOpenKasina: [4.95, 5.65],
+    countOpenR1: [4.95, 5.65],
     tapCams: 5.72,
     tabSlide: [5.78, 6.12],
     scroll2: [5.98, 6.46],
@@ -71,7 +70,7 @@
     swipe: [8.85, 9.4],
     collapse: [10.3, 11.15],
     capWeather: [10.8, 14.0],
-    countKot: [10.95, 11.85],
+    countR2: [10.95, 11.85],
     scroll3: [12.1, 12.85],
     tapStart: 14.28,
     pop: [14.38, 14.93],
@@ -87,24 +86,66 @@
     fadeOut: [19.45, 20.0],
   };
 
-  // Kamera (telefon): x/y przesunięcie od środka, s skala, rx/ry obrót 3D (stopnie)
-  const PHONE_S0 = 1.55, PHONE_CX = 443, PHONE_CY = 1150;
-  const CAM = [
-    [0.0,   { x: 0, y: 560, s: 0.9,   rx: 34, ry: -26 }],
-    [1.55,  { x: 0, y: 0,   s: 1.0,   rx: 9,  ry: -13 }, ease.out],
-    [3.3,   { x: 0, y: 0,   s: 1.0,   rx: 6,  ry: -7 }],
-    [4.6,   { x: 0, y: 30,  s: 1.05,  rx: 4,  ry: 7 }],
-    [5.6,   { x: 0, y: 30,  s: 1.05,  rx: 3,  ry: 5 }],
-    [6.62,  { x: 0, y: 10,  s: 1.02,  rx: 4,  ry: -3 }],
-    [7.65,  { x: 0, y: -150, s: 0.745, rx: 0, ry: 0 }],
-    [10.3,  { x: 0, y: -150, s: 0.79, rx: 2,  ry: -3 }, ease.easy],
-    [11.15, { x: 0, y: 20,  s: 1.0,   rx: 8,  ry: 11 }],
-    [12.85, { x: 0, y: 40,  s: 1.06,  rx: 4,  ry: 6 }],
-    [14.28, { x: 0, y: 40,  s: 1.07,  rx: 3,  ry: 3 }],
-    [14.95, { x: 0, y: 0,   s: 1.0,   rx: 7,  ry: -8 }],
-    [17.25, { x: 0, y: 10,  s: 1.03,  rx: 4,  ry: -2 }],
-    [18.3,  { x: 0, y: 860, s: 0.86,  rx: 30, ry: 6 }, ease.in],
-  ];
+  // ---------------------------------------------------------------- układ kadru
+  // Kamera (telefon): x/y przesunięcie od pozycji bazowej, s skala, rx/ry obrót 3D (stopnie)
+  const LAYOUTS = {
+    '9x16': {
+      W: 886, H: 1920,
+      phone: { s0: 1.55, cx: 443, cy: 1150 }, persp: [443, 1100],
+      cam: [
+        [0.0,   { x: 0, y: 560, s: 0.9,   rx: 34, ry: -26 }],
+        [1.55,  { x: 0, y: 0,   s: 1.0,   rx: 9,  ry: -13 }, ease.out],
+        [3.3,   { x: 0, y: 0,   s: 1.0,   rx: 6,  ry: -7 }],
+        [4.6,   { x: 0, y: 30,  s: 1.05,  rx: 4,  ry: 7 }],
+        [5.6,   { x: 0, y: 30,  s: 1.05,  rx: 3,  ry: 5 }],
+        [6.62,  { x: 0, y: 10,  s: 1.02,  rx: 4,  ry: -3 }],
+        [7.65,  { x: 0, y: -150, s: 0.745, rx: 0, ry: 0 }],
+        [10.3,  { x: 0, y: -150, s: 0.79, rx: 2,  ry: -3 }, ease.easy],
+        [11.15, { x: 0, y: 20,  s: 1.0,   rx: 8,  ry: 11 }],
+        [12.85, { x: 0, y: 40,  s: 1.06,  rx: 4,  ry: 6 }],
+        [14.28, { x: 0, y: 40,  s: 1.07,  rx: 3,  ry: 3 }],
+        [14.95, { x: 0, y: 0,   s: 1.0,   rx: 7,  ry: -8 }],
+        [17.25, { x: 0, y: 10,  s: 1.03,  rx: 4,  ry: -2 }],
+        [18.3,  { x: 0, y: 860, s: 0.86,  rx: 30, ry: 6 }, ease.in],
+      ],
+      caps: { search: { top: 150 }, conditions: { top: 150 }, live: { top: 420 }, weather: { top: 150 }, feed: { top: 150 } },
+      capMax: 820,
+      marquee: { top: 1318, rowGap: 86, merge: false },
+      outro: { logoBottom: 945, svgTop: 790, titleTop: 985, subTop: 1140, subMax: 840 },
+    },
+    '16x9': {
+      W: 1920, H: 1080,
+      phone: { s0: 1.04, cx: 1370, cy: 540 }, persp: [960, 540],
+      cam: [
+        [0.0,   { x: 260, y: 300, s: 0.9,  rx: 22, ry: -34 }],
+        [1.55,  { x: 0,   y: 0,   s: 1.0,  rx: 6,  ry: -18 }, ease.out],
+        [3.3,   { x: 0,   y: 0,   s: 1.0,  rx: 4,  ry: -12 }],
+        [4.6,   { x: -10, y: 0,   s: 1.035, rx: 3, ry: -5 }],
+        [5.6,   { x: -10, y: 0,   s: 1.035, rx: 3, ry: -7 }],
+        [6.62,  { x: 0,   y: 0,   s: 1.02, rx: 3,  ry: -10 }],
+        [7.65,  { x: -410, y: 60, s: 1.455, rx: 0, ry: 0 }],
+        [10.3,  { x: -410, y: 60, s: 1.498, rx: 1.5, ry: -2 }, ease.easy],
+        [11.15, { x: 0,   y: 0,   s: 1.0,  rx: 5,  ry: -20 }],
+        [12.85, { x: 0,   y: 0,   s: 1.035, rx: 3, ry: -13 }],
+        [14.28, { x: 0,   y: 0,   s: 1.04, rx: 3,  ry: -11 }],
+        [14.95, { x: 0,   y: 0,   s: 1.0,  rx: 5,  ry: -17 }],
+        [17.25, { x: 0,   y: 0,   s: 1.02, rx: 3,  ry: -11 }],
+        [18.3,  { x: 120, y: 780, s: 0.86, rx: 24, ry: -8 }, ease.in],
+      ],
+      // hasła w lewej kolumnie obok telefonu; "Kamery na żywo" wyśrodkowane nad telefonem w poziomie
+      caps: {
+        search: { top: 432, left: 250 }, conditions: { top: 432, left: 250 }, live: { top: 44 },
+        weather: { top: 432, left: 250 }, feed: { top: 432, left: 250 },
+      },
+      capMax: 840,
+      marquee: { top: 962, rowGap: 0, merge: true },
+      outro: { logoBottom: 500, svgTop: 360, titleTop: 540, subTop: 690, subMax: 1200 },
+    },
+  };
+  const LAY = LAYOUTS[P.format] || LAYOUTS['9x16'];
+  const { W, H } = LAY;
+  const PHONE_S0 = LAY.phone.s0, PHONE_CX = LAY.phone.cx, PHONE_CY = LAY.phone.cy;
+  const CAM = LAY.cam;
   const camAt = (() => {
     const props = ['x', 'y', 's', 'rx', 'ry'];
     const keys = [];
@@ -130,11 +171,15 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
   const stage = $('#stage');
+  document.body.classList.add('fmt-' + (LAYOUTS[P.format] ? P.format : '9x16'));
+  stage.style.width = W + 'px';
+  stage.style.height = H + 'px';
+  $('#camera').style.perspectiveOrigin = `${LAY.persp[0]}px ${LAY.persp[1]}px`;
   $('#camera').innerHTML = S.phone();
   const phone = $('#phone');
   const screen = $('#screen');
   const scr = {
-    home: $('#s-home'), list: $('#s-list'), kasina: $('#s-kasina'), kotelnica: $('#s-kotelnica'), feed: $('#s-feed'),
+    home: $('#s-home'), list: $('#s-list'), r1: $('#s-r1'), r2: $('#s-r2'), feed: $('#s-feed'),
   };
   const statusbar = $('.statusbar', screen);
   const touch = $('#touch');
@@ -142,10 +187,9 @@
   const liveTrack = $('.live-track', live);
   const livePanes = $$('.live-pane', live);
   const liveBackdrop = $('.live-backdrop', screen);
-  const kotHero = $('#s-kotelnica canvas.hero');
-  const KOT = P.resorts.kotelnica, KAS = P.resorts.kasina;
-  // kadr zdjęcia Kotelnicy = dokładnie ta klatka, na której kończy się "zwijanie" wideo na żywo
-  kotHero.dataset.at = (KOT.stillAt + (T.collapse[1] - T.swipe[0])).toFixed(3);
+  const R1 = P.resorts.r1, R2 = P.resorts.r2;
+  // kadr zdjęcia 2. ośrodka = dokładnie ta klatka, na której kończy się "zwijanie" wideo na żywo
+  $('#s-r2 canvas.hero').dataset.at = (R2.stillAt + (T.collapse[1] - T.swipe[0])).toFixed(3);
 
   // live — przycisk play (znika po dotknięciu)
   livePanes.forEach((pane) => {
@@ -157,10 +201,11 @@
 
   // ---------------------------------------------------------------- hasła
   const capRoot = $('#captions');
-  function buildCaption(c, top) {
+  function buildCaption(c, pos) {
     const el = document.createElement('div');
     el.className = 'cap';
-    el.style.top = top + 'px';
+    el.style.top = pos.top + 'px';
+    if (pos.left != null) { el.classList.add('cap-left'); el.style.left = pos.left + 'px'; }
     const chars = Array.from(c.title).map((ch) => `<span class="ch">${S.esc(ch)}</span>`).join('');
     const words = c.sub ? c.sub.split(' ').map((w, i, a) => `<span class="w">${S.esc(w)}${i < a.length - 1 ? ' ' : ''}</span>`).join('') : '';
     el.innerHTML = `<div class="cap-bar"></div><div class="cap-title">${chars}<i class="cap-caret"></i></div>${words ? `<div class="cap-sub">${words}</div>` : ''}`;
@@ -168,17 +213,18 @@
     return el;
   }
   const CAPS = [
-    { key: 'search', at: T.capSearch, top: 150 },
-    { key: 'conditions', at: T.capConditions, top: 150 },
-    { key: 'live', at: T.capLive, top: 420 },
-    { key: 'weather', at: T.capWeather, top: 150 },
-    { key: 'feed', at: T.capFeed, top: 150 },
-  ].map((c) => ({ ...c, el: buildCaption(P.captions[c.key], c.top) }));
+    { key: 'search', at: T.capSearch },
+    { key: 'conditions', at: T.capConditions },
+    { key: 'live', at: T.capLive },
+    { key: 'weather', at: T.capWeather },
+    { key: 'feed', at: T.capFeed },
+  ].map((c) => ({ ...c, el: buildCaption(P.captions[c.key], LAY.caps[c.key]) }));
 
   // outro
   const outro = $('#outro');
   outro.innerHTML = `<div class="o-logo">${window.LOGO_SVG}</div><div class="o-sub">${S.esc(P.captions.outro.sub)}</div>`;
   const outroLogo = $('.o-logo', outro);
+  outroLogo.style.top = LAY.outro.svgTop + 'px';
   let outroBar = $('.logo-bar', outro);
   outroBar.style.transformBox = 'fill-box';
   outroBar.style.transformOrigin = '0% 50%';
@@ -193,7 +239,7 @@
       outroLogo.style.width = w + 'px';
       outroLogo.style.height = h + 'px';
       outroLogo.style.marginLeft = -w / 2 + 'px';
-      outroLogo.style.top = 945 - h + 'px'; // dół logo zawsze nad hasłem
+      outroLogo.style.top = LAY.outro.logoBottom - h + 'px'; // dół logo zawsze nad hasłem
       outroLogo.replaceChildren(outroImg);
       outroBar = null;
       resolve();
@@ -203,9 +249,10 @@
   outroImg.alt = '';
   outroImg.src = P.outroLogo?.src ?? 'assets/logo-outro.png';
   const outroSub = $('.o-sub', outro);
-  const outroCap = { key: 'outro', at: [T.outroType - 0.15, 99], top: 0 };
+  outroSub.style.top = LAY.outro.subTop + 'px';
+  const outroCap = { key: 'outro', at: [T.outroType - 0.15, 99] };
   {
-    const el = buildCaption({ title: P.captions.outro.title, sub: '' }, 985);
+    const el = buildCaption({ title: P.captions.outro.title, sub: '' }, { top: LAY.outro.titleTop });
     el.classList.add('cap-outro');
     $('.cap-bar', el).style.display = 'none';
     outro.appendChild(el);
@@ -214,10 +261,12 @@
 
   // marquee
   const marquee = $('#marquee');
-  const mqRows = P.marquee.map((names, r) => {
+  marquee.style.top = LAY.marquee.top + 'px';
+  const mqLists = LAY.marquee.merge ? [P.marquee.flat()] : P.marquee;
+  const mqRows = mqLists.map((names, r) => {
     const row = document.createElement('div');
     row.className = 'mq-row';
-    row.style.top = r * 86 + 'px';
+    row.style.top = r * LAY.marquee.rowGap + 'px';
     const set = names.map((n) => `<div class="mq-chip"><i></i>${S.esc(n)}</div>`).join('');
     row.innerHTML = set + set + set + set;
     marquee.appendChild(row);
@@ -226,15 +275,15 @@
 
   function measureCaption(C) {
     const title = $('.cap-title', C.el);
-    // dopasuj szerokość (max 820 px)
-    const max = 820;
+    // dopasuj szerokość (kolumna hasła; wyśrodkowane hasło może być szersze)
+    const max = C.el.classList.contains('cap-left') ? LAY.capMax : Math.min(W - 120, 1500);
     title.style.fontSize = '';
     const w = title.scrollWidth;
     if (w > max) title.style.fontSize = (86 * max) / w + 'px';
     const sub = $('.cap-sub', C.el);
     if (sub) {
       sub.style.fontSize = '';
-      if (sub.scrollWidth > 820) sub.style.fontSize = (38 * 820) / sub.scrollWidth + 'px';
+      if (sub.scrollWidth > max) sub.style.fontSize = (38 * max) / sub.scrollWidth + 'px';
     }
     C.title = title;
     C.chars = $$('.ch', title);
@@ -378,8 +427,8 @@
   }
   // czas w nagraniu dla danej chwili filmu
   const liveClock = {
-    kasina: { start: T.expand[0], from: KAS.stillAt, active: [T.expand[0] - 0.2, T.swipe[1] + 0.05] },
-    kotelnica: { start: T.swipe[0], from: KOT.stillAt, active: [T.swipe[0] - 0.05, T.collapse[1] + 0.05] },
+    r1: { start: T.expand[0], from: R1.stillAt, active: [T.expand[0] - 0.2, T.swipe[1] + 0.05] },
+    r2: { start: T.swipe[0], from: R2.stillAt, active: [T.swipe[0] - 0.05, T.collapse[1] + 0.05] },
   };
   function videoTime(key, t, dur) {
     const c = liveClock[key];
@@ -395,7 +444,8 @@
   const flakes = (() => {
     const r = rng(1234);
     const back = [], front = [];
-    for (let i = 0; i < 110; i++) {
+    const n = Math.round((110 * W * H) / (886 * 1920));
+    for (let i = 0; i < n; i++) {
       const z = r();
       back.push({ x: r() * W, y: r() * H, r: 1 + z * 2.6, vy: 35 + z * 85, a: 8 + r() * 26, f: 0.15 + r() * 0.35, ph: r() * 6.28, dr: -6 + r() * 12, o: 0.18 + z * 0.4 });
     }
@@ -459,8 +509,8 @@
       statsBlock: $('.d-stats', root),
     };
   };
-  const DK = detail('kasina');
-  const DT = detail('kotelnica');
+  const D1 = detail('r1');
+  const D2 = detail('r2');
   function renderDetail(D, scroll, t, countK, openK) {
     D.content.style.transform = `translate3d(0,${(-scroll).toFixed(2)}px,0)`;
     const tabTop = 940.5;
@@ -505,7 +555,7 @@
     const pList = range(t, T.pushList, ease.out);
     const pDet = range(t, T.pushDetail, ease.out);
     const pPop = range(t, T.pop, ease.out);
-    const underKot = t >= (T.swipe[0] + T.swipe[1]) / 2;
+    const underR2 = t >= (T.swipe[0] + T.swipe[1]) / 2;
 
     showScreen(scr.home, t < T.pushList[1] + 0.01);
     slide(scr.home, -118 * pList, 0.18 * pList);
@@ -513,11 +563,11 @@
     showScreen(scr.list, t >= T.pushList[0] && t < T.pushDetail[1] + 0.01);
     slide(scr.list, 393 * (1 - pList) - 118 * pDet, 0.18 * pDet, pList < 1);
 
-    showScreen(scr.kasina, t >= T.pushDetail[0] && !underKot);
-    slide(scr.kasina, 393 * (1 - pDet), 0, pDet < 1);
+    showScreen(scr.r1, t >= T.pushDetail[0] && !underR2);
+    slide(scr.r1, 393 * (1 - pDet), 0, pDet < 1);
 
-    showScreen(scr.kotelnica, underKot && t < T.pop[1] + 0.01);
-    slide(scr.kotelnica, 393 * pPop, 0, pPop > 0);
+    showScreen(scr.r2, underR2 && t < T.pop[1] + 0.01);
+    slide(scr.r2, 393 * pPop, 0, pPop > 0);
 
     showScreen(scr.feed, t >= T.pop[0]);
     slide(scr.feed, -118 * (1 - pPop), 0.18 * (1 - pPop));
@@ -540,21 +590,21 @@
     L.res.style.transform = `translateY(${14 * (1 - pr)}px)`;
     L.cnt.textContent = t >= T.filterAt ? 1 : P.listTotal;
 
-    // ---- Kasina: szczegóły
+    // ---- 1. ośrodek: szczegóły
     const s1 = range(t, T.scroll1, ease.smooth), s2 = range(t, T.scroll2, ease.smooth);
     const kScroll = 309 * s1 + (905.5 - 309) * s2;
-    renderDetail(DK, kScroll, t, range(t, T.countKasina, ease.out), range(t, T.countOpenKasina, ease.out));
+    renderDetail(D1, kScroll, t, range(t, T.countR1, ease.out), range(t, T.countOpenR1, ease.out));
     const ts = range(t, T.tabSlide, ease.smooth);
-    DK.ul.style.left = lerp(S.TAB_X[0], S.TAB_X[1], ts) + 'px';
-    DK.ul.style.width = lerp(S.TAB_W[0], S.TAB_W[1], ts) + 'px';
-    DK.tabEls.forEach((e, i) => e.classList.toggle('on', ts < 0.5 ? i === 0 : i === 1));
-    DK.cams.style.opacity = prog(t, T.tabSlide[0] + 0.05, T.tabSlide[1] + 0.05);
-    const playCirc = $('.play-circ', DK.cams);
+    D1.ul.style.left = lerp(S.TAB_X[0], S.TAB_X[1], ts) + 'px';
+    D1.ul.style.width = lerp(S.TAB_W[0], S.TAB_W[1], ts) + 'px';
+    D1.tabEls.forEach((e, i) => e.classList.toggle('on', ts < 0.5 ? i === 0 : i === 1));
+    D1.cams.style.opacity = prog(t, T.tabSlide[0] + 0.05, T.tabSlide[1] + 0.05);
+    const playCirc = $('.play-circ', D1.cams);
     if (playCirc) playCirc.style.transform = `scale(${1 - 0.12 * prog(t, T.tapPlay - 0.12, T.tapPlay, ease.out) * (1 - prog(t, T.tapPlay, T.tapPlay + 0.2))})`;
 
-    // ---- Kotelnica: szczegóły
-    const kotScroll = 309 * range(t, T.scroll3, ease.smooth);
-    renderDetail(DT, kotScroll, t, range(t, T.countKot, ease.out), range(t, [T.countKot[0] + 0.2, T.countKot[1] + 0.3], ease.out));
+    // ---- 2. ośrodek: szczegóły
+    const r2Scroll = 309 * range(t, T.scroll3, ease.smooth);
+    renderDetail(D2, r2Scroll, t, range(t, T.countR2, ease.out), range(t, [T.countR2[0] + 0.2, T.countR2[1] + 0.3], ease.out));
 
     // ---- Start: kanał
     const fs = range(t, T.feedScroll, ease.smooth);
@@ -570,7 +620,7 @@
     statusbar.style.opacity = 1 - land;
     if (liveOn) {
       const expanding = t < T.collapse[0];
-      // prostokąt startowy (karta kamery) i końcowy (hero Kotelnicy)
+      // prostokąt startowy (karta kamery) i końcowy (hero 2. ośrodka)
       const from = expanding ? { cx: 20.4 + 176.25, cy: 139 + 99.1, w: 352.5, h: 198.2, r: 20 } : { cx: 196.5, cy: 170, w: 393, h: 340, r: 0 };
       const k = land;
       const w = lerp(from.w, 852, k), h = lerp(from.h, 393, k);
@@ -692,7 +742,7 @@
     await outroImgReady;
     // dopasuj podpis w outro
     outroSub.style.letterSpacing = '8px';
-    if (outroSub.scrollWidth > 840) outroSub.style.fontSize = (25 * 840) / outroSub.scrollWidth + 'px';
+    if (outroSub.scrollWidth > LAY.outro.subMax) outroSub.style.fontSize = (25 * LAY.outro.subMax) / outroSub.scrollWidth + 'px';
     await loadMedia();
     // obrazki UI
     await Promise.all($$('img').map((im) => (im.complete ? 0 : new Promise((r) => { im.onload = im.onerror = r; }))));
