@@ -35,6 +35,8 @@ Wszystkie przejścia i ruchy kamery używają krzywych *Easy Ease* (jak w After 
    - `C:\Users\Alek\Desktop\nowy_layout\preview\WEBC1_2024-12-26-11-50.h265.mp4` → Kasina Ski
    - `C:\Users\Alek\Desktop\nowy_layout\elementy\tlo-kotelnica-bialczanska.mp4` → Kotelnica Białczańska
    - `...\preview\20.png` i `...\preview\resortlogo-21.png` → logo ośrodków
+   - `C:\Users\Alek\Desktop\Winter_Horizon_2026-09-29T095718.wav` → ścieżka audio (`assets/audio.wav`)
+   - `C:\Users\Alek\Desktop\stoki_warunki_belki\elementy\alpha_webcamera_white.png` → logo na końcu filmu (`assets/logo-outro.png`)
 
    Skrypt przerabia wideo (także H.265/HEVC) na VP9 `.webm`, które odtworzy każda przeglądarka.
    Pole `start` pozwala wybrać, od której sekundy nagrania zacząć.
@@ -51,7 +53,8 @@ Wszystkie przejścia i ruchy kamery używają krzywych *Easy Ease* (jak w After 
    npm run stills          # kilka klatek PNG do out/
    ```
 
-   Z muzyką: zapisz ścieżkę jako `assets/audio.mp3` (lub `.wav`) albo `npm run render -- --audio C:\muzyka.mp3`.
+   Audio z `promo.config.json` jest dołączane automatycznie (przycięte do 20 s, 0,5 s wygaszenia na samym końcu).
+   Inna ścieżka: `npm run render -- --audio C:\muzyka.mp3`.
    Prompty do Suno / ElevenLabs i znaczniki czasu: **[AUDIO.md](AUDIO.md)**.
 
 ## Co zmieniono względem screenów
@@ -61,7 +64,8 @@ Wszystkie przejścia i ruchy kamery używają krzywych *Easy Ease* (jak w After 
 - Dane **zimowe**: Kasina Ski — 75 cm, trasy 4/4, wyciągi 2/2; Kotelnica Białczańska — 65 cm, trasy 18/18, wyciągi 11/11;
   status „Czynny” zamiast „Sezon zamknięty”, ujemne temperatury, zimowe tytuły aktualności.
 - Kolory, ikony (Material Icons — te same co w aplikacji), układ i odstępy skalibrowane nakładką 1:1 na Twoje screeny.
-- Logo WebCameraSki zwektoryzowane ze screena (`js/logo.js`) — jeśli masz oficjalny SVG, podmień `LOGO_SVG`.
+- Logo w aplikacji (pasek u góry) zwektoryzowane ze screena (`js/logo.js`); logo na końcu filmu z Twojego pliku PNG
+  (`assets/logo-outro.png`, max 640 × 300 px — zmienisz w `outroLogo` w `js/data.js`).
 - Font: **Inter** (dołączony, najbliższy odpowiednik SF Pro z iOS), rozmiary dopasowane do screenów —
   dzięki temu render wygląda tak samo na każdym komputerze.
 

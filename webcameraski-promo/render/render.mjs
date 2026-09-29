@@ -84,7 +84,8 @@ if (!audio) {
 }
 if (audio === true) audio = null;
 const aIn = audio ? ['-i', path.resolve(audio)] : ['-f', 'lavfi', '-t', String(dur), '-i', 'anullsrc=r=48000:cl=stereo'];
-const aFx = audio ? ['-af', `atrim=0:${dur},afade=t=in:st=0:d=0.2,afade=t=out:st=${(dur - 1.2).toFixed(2)}:d=1.2,aresample=48000`] : [];
+// gotowa ścieżka: tylko przycięcie do długości filmu + krótkie wygaszenie na samym końcu (bez trzasku)
+const aFx = audio ? ['-af', `atrim=0:${dur},afade=t=in:st=0:d=0.02,afade=t=out:st=${(dur - 0.5).toFixed(2)}:d=0.5,aresample=48000`] : [];
 
 const args = [
   '-hide_banner', '-loglevel', 'error', '-y',

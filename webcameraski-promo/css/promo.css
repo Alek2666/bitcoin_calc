@@ -354,6 +354,7 @@ body.render #stage { transform: none !important; }
 #outro { position: absolute; inset: 0; z-index: 6; pointer-events: none; opacity: 0; }
 #outro .o-logo { position: absolute; left: 50%; top: 790px; width: 720px; height: 138.3px; margin-left: -360px; transform-origin: 50% 50%; }
 #outro .o-logo svg { width: 100%; height: 100%; display: block; overflow: visible; }
+#outro .o-logo img { width: 100%; height: 100%; display: block; object-fit: contain; }
 #outro .o-title { position: absolute; left: 0; right: 0; top: 1010px; text-align: center; }
 #outro .o-sub {
   position: absolute; left: 0; right: 0; top: 1140px; text-align: center; font-size: 25px; letter-spacing: 5px; color: #e2eafe;

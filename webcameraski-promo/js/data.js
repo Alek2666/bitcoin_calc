@@ -21,6 +21,10 @@ window.PROMO = {
     outro:      { title: 'Zawsze bliżej gór',    sub: 'OŚRODKI • TRASY • WYCIĄGI • KAMERY • POGODA' },
   },
 
+  // Logo na końcu filmu: plik kopiowany przez `npm run assets` (pole "outroLogo" w promo.config.json).
+  // Gdy pliku brak, używane jest logo wektorowe z js/logo.js.
+  outroLogo: { src: 'assets/logo-outro.png', maxWidth: 640, maxHeight: 300 },
+
   // Status ośrodka (w aplikacji zimą)
   statusOpen: 'Czynny',
 

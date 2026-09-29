@@ -58,4 +58,28 @@ for (const [key, src0] of Object.entries(cfg.logos || {})) {
   console.log(`  ✓ ${path.relative(root, out)}`);
 }
 
+// logo na koniec filmu -> assets/logo-outro.png
+if (cfg.outroLogo) {
+  const src = resolveSrc(cfg.outroLogo);
+  const out = path.join(assets, 'logo-outro.png');
+  if (!fs.existsSync(src)) { console.error(`✗ Nie znaleziono logo końcowego: ${src}`); process.exitCode = 1; }
+  else {
+    if (src.toLowerCase().endsWith('.png')) fs.copyFileSync(src, out);
+    else await ffmpeg(['-i', src, '-y', out], 'logo-outro');
+    console.log(`  ✓ ${path.relative(root, out)}`);
+  }
+}
+
+// ścieżka audio -> assets/audio.<rozszerzenie> (render dołącza ją automatycznie)
+if (cfg.audio) {
+  const src = resolveSrc(cfg.audio);
+  if (!fs.existsSync(src)) { console.error(`✗ Nie znaleziono audio: ${src}`); process.exitCode = 1; }
+  else {
+    for (const f of fs.readdirSync(assets)) if (/^audio\./i.test(f)) fs.rmSync(path.join(assets, f));
+    const out = path.join(assets, 'audio' + path.extname(src).toLowerCase());
+    fs.copyFileSync(src, out);
+    console.log(`  ✓ ${path.relative(root, out)}`);
+  }
+}
+
 if (!process.exitCode) console.log('\nGotowe. Otwórz index.html w przeglądarce albo uruchom: npm run render');

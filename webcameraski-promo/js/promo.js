@@ -179,9 +179,29 @@
   const outro = $('#outro');
   outro.innerHTML = `<div class="o-logo">${window.LOGO_SVG}</div><div class="o-sub">${S.esc(P.captions.outro.sub)}</div>`;
   const outroLogo = $('.o-logo', outro);
-  const outroBar = $('.logo-bar', outro);
+  let outroBar = $('.logo-bar', outro);
   outroBar.style.transformBox = 'fill-box';
   outroBar.style.transformOrigin = '0% 50%';
+  // Logo na koniec z pliku (assets/logo-outro.png, białe z przezroczystością) — jeśli jest, zastępuje wektor.
+  const outroImg = new Image();
+  const outroImgReady = new Promise((resolve) => {
+    outroImg.onload = () => {
+      const a = outroImg.naturalWidth / outroImg.naturalHeight;
+      const w = Math.min(P.outroLogo?.maxWidth ?? 640, (P.outroLogo?.maxHeight ?? 300) * a);
+      const h = w / a;
+      outroLogo.classList.add('o-logo-img');
+      outroLogo.style.width = w + 'px';
+      outroLogo.style.height = h + 'px';
+      outroLogo.style.marginLeft = -w / 2 + 'px';
+      outroLogo.style.top = 945 - h + 'px'; // dół logo zawsze nad hasłem
+      outroLogo.replaceChildren(outroImg);
+      outroBar = null;
+      resolve();
+    };
+    outroImg.onerror = () => resolve(); // brak pliku -> zostaje logo wektorowe
+  });
+  outroImg.alt = '';
+  outroImg.src = P.outroLogo?.src ?? 'assets/logo-outro.png';
   const outroSub = $('.o-sub', outro);
   const outroCap = { key: 'outro', at: [T.outroType - 0.15, 99], top: 0 };
   {
@@ -623,7 +643,7 @@
       outroLogo.style.opacity = pl;
       outroLogo.style.transform = `translateY(${(1 - pl) * 30}px) scale(${lerp(0.92, 1, pl)})`;
       outroLogo.style.filter = pl < 0.999 ? `blur(${((1 - pl) * 12).toFixed(2)}px)` : 'none';
-      outroBar.style.transform = `scaleX(${range(t, T.logoBar, ease.smooth)})`;
+      if (outroBar) outroBar.style.transform = `scaleX(${range(t, T.logoBar, ease.smooth)})`;
       renderCaption(outroCap, t);
       const ps = range(t, T.outroSub, ease.out);
       outroSub.style.opacity = ps;
@@ -669,6 +689,7 @@
     await document.fonts.ready;
     CAPS.forEach(measureCaption);
     measureCaption(outroCap);
+    await outroImgReady;
     // dopasuj podpis w outro
     outroSub.style.letterSpacing = '8px';
     if (outroSub.scrollWidth > 840) outroSub.style.fontSize = (25 * 840) / outroSub.scrollWidth + 'px';
