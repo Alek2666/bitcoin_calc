@@ -251,6 +251,7 @@ body.render #stage { transform: none !important; }
   display: grid; place-items: center; overflow: hidden; box-shadow: 0 6px 18px rgba(0,0,0,.25);
 }
 .d-logo img { max-width: 84%; max-height: 84%; object-fit: contain; display: block; }
+.d-logo.fill img, .live-pane .ov-logo.fill img { width: 100%; height: 100%; max-width: none; max-height: none; object-fit: cover; }
 .d-country {
   position: absolute; left: 129.6px; top: 310.5px; height: 23.5px; padding: 0 11px 0 10px; border-radius: 12px;
   background: rgba(10, 21, 38, .82); display: flex; align-items: center; gap: 8px;

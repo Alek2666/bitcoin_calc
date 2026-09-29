@@ -37,15 +37,17 @@ window.PROMO = {
       snow: 75, runs: 4, runsOpen: 4, lifts: 2, liftsOpen: 2,
       distance: '14.2 km',
       stillAt: 2.0,                      // sekunda nagrania użyta jako zdjęcie ośrodka / podgląd kamery
+      logoFit: 'cover',                  // logo z własnym tłem wypełnia całe pole
+      // nagranie: bezchmurne niebo, oszronione drzewa
       weather: {
-        temp: -3, cond: 'Pochmurno', icon: 'cloud', wind: 8, humidity: 86,
+        temp: -5, cond: 'Bezchmurnie', icon: 'sun', wind: 6, humidity: 78,
         days: [
-          { label: 'Dziś',  hi: -1, lo: -6, precip: 10, icon: 'cloud' },
-          { label: 'Jutro', hi: -2, lo: -8, precip: 40, icon: 'snow' },
+          { label: 'Dziś',  hi: -2, lo: -9, precip: 0, icon: 'sun' },
+          { label: 'Jutro', hi: -3, lo: -10, precip: 0, icon: 'sun' },
         ],
       },
       cams: [
-        { title: 'Kasina Ski - widok na stok', live: true },
+        { title: 'Kasina Ski - widok na stok i dolną stację kolei', live: true },
       ],
     },
     kotelnica: {
@@ -56,11 +58,13 @@ window.PROMO = {
       snow: 65, runs: 18, runsOpen: 18, lifts: 11, liftsOpen: 11,
       distance: '61.8 km',
       stillAt: 1.0,                      // start odtwarzania na żywo (sekunda nagrania)
+      logoFit: 'cover',
+      // nagranie: słońce, niewielkie chmury
       weather: {
-        temp: -6, cond: 'Bezchmurnie', icon: 'sun', wind: 5, humidity: 64,
+        temp: -4, cond: 'Małe zachmurzenie', icon: 'sun', wind: 9, humidity: 70,
         days: [
-          { label: 'Dziś',  hi: -3, lo: -11, precip: 0, icon: 'sun' },
-          { label: 'Jutro', hi: -4, lo: -12, precip: 10, icon: 'sun' },
+          { label: 'Dziś',  hi: -2, lo: -10, precip: 0, icon: 'sun' },
+          { label: 'Jutro', hi: -3, lo: -11, precip: 10, icon: 'cloud' },
         ],
       },
     },

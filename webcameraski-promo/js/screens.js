@@ -167,7 +167,7 @@
           <div class="circ" style="left:276px">${ic('heart_o', 24, '#fff')}</div>
           <div class="circ" style="left:341px">${ic('share', 24, '#fff')}</div>
         </div>
-        <div class="d-logo"><img src="${esc(r.logo)}" alt="" onerror="this.replaceWith(Object.assign(document.createElement('b'),{textContent:'${esc(r.name).slice(0, 1)}',style:'font:800 44px var(--font-display);color:#0b1c34'}))"></div>
+        <div class="d-logo${r.logoFit === 'cover' ? ' fill' : ''}"><img src="${esc(r.logo)}" alt="" onerror="this.replaceWith(Object.assign(document.createElement('b'),{textContent:'${esc(r.name).slice(0, 1)}',style:'font:800 44px var(--font-display);color:#0b1c34'}))"></div>
         <div class="d-country">${flag('pl')}POLSKA</div>
         <div class="d-name">${esc(r.name)}</div>
         <div class="d-loc">${esc(r.city)}, ${esc(r.region)} • ${esc(r.country)}</div>
@@ -214,7 +214,7 @@
       <div class="ov-grad"></div>
       <div class="live-badge"><i></i>NA ŻYWO</div>
       <div class="ov-info">
-        <div class="ov-logo"><img src="${esc(r.logo)}" alt="" onerror="this.remove()"></div>
+        <div class="ov-logo${r.logoFit === 'cover' ? ' fill' : ''}"><img src="${esc(r.logo)}" alt="" onerror="this.remove()"></div>
         <div><div class="ov-name">${esc(r.name)}</div><div class="ov-loc">${esc(r.city)} • ${fmtT(r.weather.temp)}°C</div></div>
       </div>
       <div class="ov-cond">
