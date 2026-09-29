@@ -1,0 +1,18 @@
+{
+  "videos": {
+    "kasina": {
+      "src": "C:/Users/Alek/Desktop/nowy_layout/preview/WEBC1_2024-12-26-11-50.h265.mp4",
+      "start": 0,
+      "duration": 20
+    },
+    "kotelnica": {
+      "src": "C:/Users/Alek/Desktop/nowy_layout/elementy/tlo-kotelnica-bialczanska.mp4",
+      "start": 0,
+      "duration": 20
+    }
+  },
+  "logos": {
+    "kasina": "C:/Users/Alek/Desktop/nowy_layout/preview/20.png",
+    "kotelnica": "C:/Users/Alek/Desktop/nowy_layout/preview/resortlogo-21.png"
+  }
+}
