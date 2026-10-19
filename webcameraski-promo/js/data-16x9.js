@@ -7,7 +7,7 @@ Object.assign(window.PROMO, {
 
   resorts: {
     r1: {
-      name: 'Master Ski',
+      name: 'Master-Ski',
       city: 'Tylicz', region: 'woj. małopolskie', country: 'Polska',
       logo: 'assets/masterski-logo.png', logoFit: 'cover',
       video: 'assets/masterski',          // nagranie WEBC1_2026-02-12-12-55
@@ -22,12 +22,14 @@ Object.assign(window.PROMO, {
           { label: 'Jutro', hi: -3, lo: -8, precip: 20, icon: 'cloud' },
         ],
       },
+      camsTotal: 7,
       cams: [
-        { title: 'Master Ski - widok na stok', live: true },
+        { title: 'MASTER SKI Tylicz', live: true },
+        { title: 'MASTER SKI Tylicz', placeholder: true },
       ],
     },
     r2: {
-      name: 'Kasprowy Wierch',
+      name: 'Kasprowy Wierch - PKL',
       city: 'Zakopane', region: 'woj. małopolskie', country: 'Polska',
       logo: 'assets/kasprowy-logo.png', logoFit: 'cover',
       video: 'assets/kasprowy',           // nagranie WEBC1_2025-03-19-09-25
@@ -46,9 +48,10 @@ Object.assign(window.PROMO, {
   },
 
   searchQuery: 'Master',
+  stats: { resorts: 111, open: 96, runs: 636 },
 
   marquee: [
-    ['Master Ski', 'Czarny Groń - Rzyki', 'Bania Ski & Fun', 'Baba Korbielów', 'Góra Żar Międzybrodzie'],
-    ['Kasprowy Wierch', 'Kasina Ski', 'Kotelnica Białczańska', 'Beskid Sport Arena', 'Bachledka Ski & Sun', 'Zieleniec'],
+    ['Master-Ski', 'Czarny Groń - Rzyki', 'Bania Ski & Fun', 'Beskid Sport Arena', 'Kasina SKI'],
+    ['Kasprowy Wierch - PKL', 'Kotelnica Białczańska', 'Bachledka Ski & Sun', 'Zieleniec Sport Arena'],
   ],
 });

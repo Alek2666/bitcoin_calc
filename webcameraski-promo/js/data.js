@@ -31,8 +31,8 @@ window.PROMO = {
 
   resorts: {
     r1: {                                // 1. ośrodek: wyszukiwanie, warunki, kamera na żywo
-      name: 'Kasina Ski',
-      city: 'Mszana Dolna', region: 'woj. małopolskie', country: 'Polska',
+      name: 'Kasina SKI',                // nazwy, miejscowości i liczby kamer jak w API aplikacji (19.10.2026)
+      city: 'Kasina Wielka', region: 'woj. małopolskie', country: 'Polska',
       logo: 'assets/kasina-logo.png',
       video: 'assets/kasina',            // szuka assets/kasina.webm, potem assets/kasina.mp4
       snow: 75, runs: 4, runsOpen: 4, lifts: 2, liftsOpen: 2,
@@ -47,8 +47,10 @@ window.PROMO = {
           { label: 'Jutro', hi: -3, lo: -10, precip: 0, icon: 'sun' },
         ],
       },
+      camsTotal: 3,
       cams: [
-        { title: 'Kasina Ski - widok na stok i dolną stację kolei', live: true },
+        { title: 'KASINA - ski dolna stacja wyciągu', live: true },
+        { title: 'KASINA - SKI górna stacja wyciągu', placeholder: true },
       ],
     },
     r2: {                                // 2. ośrodek: przesunięcie kamery, pogoda na stoku
@@ -88,12 +90,13 @@ window.PROMO = {
   ],
 
   // "W liczbach"
-  stats: { resorts: 110, open: 96, runs: 619 },
+  // resorts/runs: API aplikacji 19.10.2026; open (czynne) — przykładowa wartość zimowa (poza sezonem API ma 0)
+  stats: { resorts: 111, open: 96, runs: 636 },
 
   // Przesuwające się "chipy" z nazwami ośrodków pod telefonem w scenie z kamerą na żywo.
   // Zostaw tylko ośrodki, które faktycznie mają kamery w aplikacji.
   marquee: [
-    ['Kasina Ski', 'Czarny Groń - Rzyki', 'Bania Ski & Fun', 'Baba Korbielów', 'Góra Żar Międzybrodzie'],
-    ['Kotelnica Białczańska', 'Beskid Sport Arena', 'Bachledka Ski & Sun', 'Zieleniec'],
+    ['Kasina SKI', 'Czarny Groń - Rzyki', 'Bania Ski & Fun', 'Master-Ski', 'Beskid Sport Arena'],
+    ['Kotelnica Białczańska', 'Kasprowy Wierch - PKL', 'Bachledka Ski & Sun', 'Zieleniec Sport Arena'],
   ],
 };

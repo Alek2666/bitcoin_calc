@@ -311,6 +311,7 @@ body.render #stage { transform: none !important; }
 .cam-card { position: absolute; left: 20.4px; width: 352.5px; border-radius: 20px; background: var(--card); overflow: hidden; }
 .cam-img { position: relative; width: 352.5px; height: 198.2px; overflow: hidden; background: #2a3d58; }
 .cam-img canvas, .cam-img img, .cam-img video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.cam-img.skeleton { background: linear-gradient(100deg, #183459 20%, #21406b 45%, #183459 70%); }
 .cam-body { padding: 16px 16.5px 17px; font-weight: 700; font-size: 14.6px; letter-spacing: .45px; color: #b2c8e7; line-height: 20.2px; }
 .live-badge {
   position: absolute; left: 9.5px; top: 10.5px; height: 23.5px; padding: 0 9px 0 8px; border-radius: 8px; background: var(--red);

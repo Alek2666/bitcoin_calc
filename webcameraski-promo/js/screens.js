@@ -152,11 +152,12 @@
   function detailScreen(key) {
     const r = P.resorts[key];
     const w = r.weather;
+    // placeholder: kolejna kamera ośrodka w trakcie ładowania (bez obrazu — nie pokazujemy kadrów spoza sezonu)
     const cams = (r.cams || []).map((c, k) => `
       <div class="cam-card" style="top:${56 + k * 285.5}px">
-        <div class="cam-img"><canvas class="still" data-media="${key}" data-at="${r.stillAt}"></canvas>
+        ${c.placeholder ? '<div class="cam-img skeleton"></div>' : `<div class="cam-img"><canvas class="still" data-media="${key}" data-at="${r.stillAt}"></canvas>
           ${c.live ? '<div class="live-badge"><i></i>NA ŻYWO</div><div class="play-circ">' + ic('play', 24, '#1c2a3f') + '</div>' : ''}
-        </div>
+        </div>`}
         <div class="cam-body">${esc(c.title)}</div>
       </div>`).join('');
     const tabs = ['Informacje', 'Kamery', 'Trasy', 'Wyciągi', 'Mapa'];
@@ -200,7 +201,7 @@
           <div class="tl"></div><div class="ul" style="left:${TAB_X[0]}px;width:${TAB_W[0]}px"></div>
         </div>
         <div class="cams-pane" style="top:988.5px;opacity:0">
-          <div class="cams-title">Kamery (${(r.cams || []).length})</div>
+          <div class="cams-title">Kamery (${r.camsTotal ?? (r.cams || []).length})</div>
           ${cams}
         </div>
       </div><div class="d-statusbg"></div><div class="dim"></div></div>`;
