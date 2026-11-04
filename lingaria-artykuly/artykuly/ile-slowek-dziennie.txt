@@ -42,22 +42,22 @@ Każda karta z dziennej porcji nowych kosztuje cię wtedy 30 sekund na pierwsze 
 - 20 minut to około 15,
 - 30 minut to około 22.
 
-Zaokrąglij w dół. Limit łatwo podnieść później, a obniżać go po kilku dniach zaległości jest zniechęcające. Podnoś go najwcześniej wtedy, gdy kolejka powtórek przestanie rosnąć, czyli według naszego schematu po pięciu tygodniach. Dla skali: dziesięć nowych kart dziennie to około 300 kart w miesiącu.
+Wyniki zaokrąglaj w dół. Limit łatwo podnieść później, a obniżać go po kilku dniach zaległości jest zniechęcające. Podnoś go najwcześniej wtedy, gdy kolejka powtórek przestanie rosnąć, czyli według naszego schematu po pięciu tygodniach. Dla skali: dziesięć nowych kart dziennie to około 300 kart w miesiącu.
 
 :cta
 
-Przykładowe liczby się rozjadą, gdy karty są trudne. Abstrakcyjne słowa i zwroty, które mylą się z innymi, wracają częściej, niż mówi schemat. Jeśli jakaś karta ciągle wraca jako „nie pamiętam", często jest źle zrobiona: dopisz do niej zdanie z kontekstem albo rozbij na dwie prostsze. Kilka takich kart potrafi zjeść więcej czasu niż reszta talii.
+Przykładowe liczby się rozjadą, gdy karty są trudne. Abstrakcyjne słowa i zwroty, które mylą się z innymi, wracają częściej, niż mówi schemat. Jeśli jakaś karta ciągle wraca jako „nie pamiętam", często jest źle zrobiona: dopisz do niej zdanie z kontekstem albo rozbij na dwie prostsze. Kilka takich kart potrafi wyraźnie wydłużyć codzienną sesję.
 
 ## Co zrobić po przerwie
 
-Tydzień bez fiszek przy 10 nowych kartach dziennie to w naszym schemacie kolejka około 350 zaległych powtórek (7 dni po 50). Przerabianie jej na siłę w jeden wieczór łatwo kończy się tym, że drugi raz już nie wracasz. Lepiej tak:
+Tydzień bez fiszek przy 10 nowych kartach dziennie to w naszym schemacie kolejka około 350 zaległych powtórek (7 dni po 50, o ile wcześniej tempo było stałe). Przerabianie jej na siłę w jeden wieczór łatwo kończy się tym, że drugi raz już nie wracasz. Lepiej tak:
 
 1. Wstrzymaj nowe karty. Dopóki zaległości nie wrócą do zwykłej dziennej wielkości, dodawanie czegokolwiek tylko je powiększa.
 2. Rób zaległości porcjami, takimi, które mieszczą się w twoim zwykłym budżecie czasu. Jeśli aplikacja pozwala ustawić dzienny limit powtórek, ustaw go. Jeśli nie, zatrzymaj się sam, gdy czas się skończy.
 3. Nie karz się za zapomniane karty. Karta, której nie pamiętasz, dostaje odpowiedź „nie pamiętam", w typowej aplikacji wraca szybko i wchodzi z powrotem do harmonogramu.
 4. Gdy kolejka zbliży się do zwykłej, wróć do poprzedniego limitu nowych kart albo do połowy, jeśli czujesz, że jeszcze się chwiejesz.
 
-Przy dłuższej przerwie, na przykład po wakacjach, część kart będzie wyglądać jak zupełnie nowe. To normalne i nie znaczy, że wszystko zniknęło: te karty przejdziesz jeszcze raz, często szybciej niż za pierwszym razem, bo coś w głowie jeszcze zostało. Zaczynanie od zera wyrzuca to razem z całą dotychczasową pracą.
+Przy dłuższej przerwie, na przykład po wakacjach, część kart będzie wyglądać jak zupełnie nowe. To normalne i nie znaczy, że wszystko zniknęło: te karty przejdziesz jeszcze raz, często szybciej niż za pierwszym razem, bo coś w głowie jeszcze zostało. Usuwanie talii po przerwie nie ma więc sensu.
 
 :::quiz[id="slowka_q1" title="Sprawdź swój rachunek"]
 Pytanie: W przykładowym harmonogramie z artykułu (powtórki po 1, 3, 7, 16 i 35 dniach) ile powtórek dziennie przypada po pięciu tygodniach na każdą nową kartę dodawaną dziennie?
@@ -71,7 +71,7 @@ Pytanie: Co zrobić w pierwszej kolejności po tygodniu przerwy w fiszkach?
 - Usunąć talię i zacząć od zera.
 Wyjaśnienie: Nowe karty tylko powiększają kolejkę. Zaległości przerabia się po kawałku, a talię zostawia się nietkniętą.
 Pytanie: Dlaczego limit nowych kart lepiej ustawić niżej, niż się wydaje na początku?
-- Bo aplikacja i tak nie przyjmie więcej niż 10 kart.
+- Bo karty dodane w pierwszych dniach znikają z harmonogramu po tygodniu.
 - Bo nowe słowa pamięta się lepiej w małych ilościach, a w dużych w ogóle nie.
 - Bo liczba powtórek rośnie przez kilka tygodni, więc na początku za wysoki limit wygląda niewinnie. [correct]
 Wyjaśnienie: Kolejka powtórek buduje się powoli i pełny ciężar czujesz dopiero po kilku tygodniach (w przykładzie z artykułu po pięciu). Limit łatwo podnieść, trudno obniżyć bez poczucia porażki.

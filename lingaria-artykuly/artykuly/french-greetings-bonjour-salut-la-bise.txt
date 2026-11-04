@@ -27,7 +27,7 @@ When you walk into a small shop, a bakery or a café, you greet the person behin
 
 ## Tu or vous
 
-French has two words for "you", just like German *du* and *Sie*. *Vous* is for strangers, shop staff, officials and anyone older whom you do not know well. It also works for several people at once. *Tu* is for family, friends, children and, in many workplaces, colleagues, as well as anyone your own age in a relaxed setting.
+French has two words for "you", just like German *du* and *Sie*. *Vous* is for strangers, shop staff, officials and anyone older whom you do not know well. It is also the plural for everyone: to two friends you say *vous* as well. *Tu* is for family, friends, children and, in many workplaces, colleagues, as well as anyone your own age in a relaxed setting.
 
 The verbs change with the pronoun: *tu vas*, *vous allez*. A greeting for a stranger is *Comment allez-vous ?*, and for a friend *Ça va ?* or *Comment vas-tu ?*. If you want to switch, ask: *On se tutoie ?* ("Shall we use *tu*?"). The older or more senior person usually makes that suggestion.
 
@@ -39,7 +39,7 @@ The verbs change with the pronoun: *tu vas*, *vous allez*. A greeting for a stra
 
 ## La bise
 
-*La bise* is the greeting kiss on the cheek between friends, family and acquaintances. It is usually a light cheek-to-cheek touch with a kissing sound, not a kiss on the skin. The number of kisses depends on where you are: two is the most common, as in Paris. Other places go to three (around Marseille, for example) or even four, and a few stop at one, so watch what the other person does. You do not do it with strangers, with shop staff or in formal situations. For those, a handshake (*une poignée de main*) is the default.
+*La bise* is the greeting kiss on the cheek between friends, family and acquaintances. It is usually a light cheek-to-cheek touch with a kissing sound, not a kiss on the skin. The number of kisses depends on where you are: two is the most common, as in Paris. Other places go to three (around Marseille, for example) or even four, and a few stop at one, so watch what the other person does. You do not do it with strangers, with shop staff or in formal situations. At a formal first meeting a handshake (*une poignée de main*) is the default, and with shop staff you just say *bonjour*.
 
 If you meet a friend of a friend and you are not sure, wait for the other person to lean in, or ask: *On se fait la bise ?* In a workplace, some colleagues kiss each other every morning and others shake hands, so follow what your coworkers do.
 
@@ -47,7 +47,7 @@ If you meet a friend of a friend and you are not sure, wait for the other person
 
 ## The phrases, with sounds
 
-The pronunciation guides here use (n) for a nasal vowel, *zh* for the sound in "measure" and *ew* for the French *u*. French has no strong stress inside a word. The last syllable of a phrase is a little longer and higher, and that is what the capitals mark.
+The pronunciation guides here use (n) for a nasal vowel, *zh* for the sound in "measure" and *ew* for the French *u*. French has no strong stress inside a word. The last syllable of a phrase is a little longer, often with a change of pitch, and that is what the capitals mark.
 
 :frazy
 Bonjour | bo(n)-ZHOOR | Hello / Good morning | The first word in any shop, café or office, before any question. The (n) marks a nasal vowel: do not pronounce a real n.
@@ -66,7 +66,7 @@ Bonne soirée | bonn swah-RAY | Have a good evening | The evening version of bon
 
 ## A visit to the bakery
 
-Nobody in a French bakery mentions what they want until both sides have said hello. A whole visit sounds like this:
+In a French bakery the order comes only after both sides have said hello. A typical visit sounds like this:
 
 :::sluchanie[title="Listen to a bakery visit"]
 Bonjour, madame. | Hello, madam.

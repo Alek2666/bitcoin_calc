@@ -17,7 +17,7 @@ English lets you say "you" to a toddler and to a bank manager. German makes you 
 
 ## What changes
 
-The pronoun is only part of it. The verb changes too, and so does the word for "you" after the verb:
+The pronoun is only part of it. The verb changes too, and so does the form used for "to you" (*dir* or *Ihnen*):
 
 - *du kommst*, *Wie geht es dir?*: informal, to one person;
 - *Sie kommen*, *Wie geht es Ihnen?*: formal, to one person or to many;
@@ -31,15 +31,15 @@ The plural of *du* is *ihr*, and that one is easy to forget. With a group of fri
 
 ## Who gets du and who gets Sie
 
-You say *du* to family, friends, children and pets, to fellow students, to teammates in a sports club, and to most people your age at a party or in a bar. Online communities, apps and ads aimed at younger people also use *du*. IKEA's German advertising and website address customers with *du*, for example, although in the store itself you may still be addressed with *Sie*.
+You say *du* to family, friends, children and pets, to fellow students, to teammates in a sports club, and to most people your age at a party or in a bar. Online communities, apps and ads aimed at younger people also use *du*. IKEA's German website, for example, addresses customers with *du*.
 
 You say *Sie* to anyone you meet in a professional or service role: a shop assistant, a doctor, an official at a counter, a hotel receptionist, a customer on the phone. The same goes for adults you do not know, especially if they are clearly older than you. In writing, a formal email or letter opens with *Sehr geehrte Frau Schmidt* (Dear Ms Schmidt) or *Sehr geehrter Herr Müller*.
 
-The safe default for a learner is *Sie* with every adult stranger, until they use *du* first. Being too polite costs you very little. Being too casual with the wrong person can sound cheeky.
+The safe default for a learner is *Sie* with an adult stranger in a shop, an office or on the street, until they use *du* first. Being too polite costs you very little. Being too casual with the wrong person can sound cheeky.
 
 ## How someone offers you du
 
-You do not decide to switch by yourself. One person offers, and the other agrees. Traditional etiquette (the Knigge guidelines) says the offer goes from top to bottom: the older person to the younger one, the boss to an employee, and between colleagues of equal rank the one who has been there longer. Today this is a guideline rather than a strict rule, but it explains why you should wait.
+You do not decide to switch by yourself. One person offers, and the other agrees. Traditional etiquette (the Knigge guidelines) says the offer goes from top to bottom: the boss to an employee, even if the boss is younger, and between colleagues of equal rank the older one, or the one who has been there longer. Today this is a guideline rather than a strict rule, but it explains why you should wait.
 
 The usual offers sound like this:
 
@@ -64,7 +64,7 @@ Two hybrid forms are worth recognizing, even though you will not need to produce
 :frazy
 Wie heißen Sie? | vee HIGH-sen zee | What is your name? (formal) | Used with strangers, at the doctor's or in a shop. The verb matches "they" (heißen), and Sie keeps its capital S.
 Wie heißt du? | vee HIGHST doo | What's your name? (informal) | The du version: the verb ends in -t. Fits students, parties, clubs.
-Wie geht es Ihnen? | vee gait ess EE-nen | How are you? (formal) | Ihnen is the Sie version of "to you". It is capitalised in the middle of a sentence.
+Wie geht es Ihnen? | vee gait ess EE-nen | How are you? (formal) | Ihnen is the Sie version of "to you". It always has a capital I.
 Wie geht's dir? | vee GAITS deer | How are you? (informal) | Dir is the du version of "to you". Common with friends, classmates and family.
 Können Sie mir helfen? | KURN-en zee meer HEL-fen | Can you help me? | The right form for a shop assistant or a stranger in the street. Add "Entschuldigung," in front.
 Wollen wir uns duzen? | VOL-en veer oons DOOT-sen | Shall we use du? | The standard way to propose the switch. Usually the older or more senior person asks.
@@ -81,9 +81,9 @@ Adults say *du* to children without thinking about it. Somewhere in the teens th
 
 ## If you get it wrong
 
-Say *du* to someone who expected *Sie*, and they may answer with *Sie*, a polite hint. Switch back at once. A short *Entschuldigung* is enough. People rarely take offence at a learner, who is assumed to be still learning.
+Say *du* to someone who expected *Sie*, and they may answer with *Sie*, a polite hint. Switch back at once. A short *Entschuldigung* is enough. People rarely take offense at a learner, who is assumed to be still learning.
 
-Say *Sie* to a friend or a younger colleague and nothing bad happens. You sound distant, and you may hear *Wir können uns gern duzen* in return. Say yes.
+Say *Sie* to a friend or a younger colleague and nothing bad happens. You sound distant, and you may hear *Wir können uns gern duzen* in return. Accepting is the usual answer.
 
 :::quiz[id="sieoderdu_q1" title="Test your Sie and du"]
 Pytanie: You need help from a shop assistant you have never met. Which sentence fits best?
@@ -95,7 +95,7 @@ Pytanie: At work, who traditionally offers du first?
 - The newest employee.
 - The more senior or older person. [correct]
 - The person who is younger by a few years.
-Wyjaśnienie: Etiquette says the offer comes from the higher-ranking or older person, which is why newcomers wait for it.
+Wyjaśnienie: Etiquette says the offer comes from the higher-ranking person, or from the older one between equals, which is why newcomers wait for it.
 Pytanie: You are asking five close friends if they want to come to the cinema. Which sentence do you use?
 - Kommen Sie mit?
 - Kommst du mit?
