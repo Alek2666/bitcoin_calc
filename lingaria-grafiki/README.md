@@ -13,6 +13,9 @@ Wgrywasz je w Lingarii z konta w języku ucznia; aplikacja sama odczytuje słów
 - `probne/` – 13 obrazów próbnych (po ręcznej kontroli).
 - `seria-50/` – 50 obrazów: po 2 na każdy z 25 języków (tablica tematyczna + przeciwieństwa), 5–35 słówek na obraz,
   osiem języków w innym alfabecie ma nad słowem fonetykę w pisowni języka konta. Zestawienie: `manifest-seria-50.csv`.
+- `seria-40/` – seria 40 (różne style: brudne i czyste kartki, tablice, karteczki; plansze „pytanie + 3/6/7/15 zdań",
+  przeciwieństwa 8–20 słówek, tematy z fonetyką). **Wygenerowano tylko 7 z 40** – skończyły się kredyty konta Gemini (błąd 402).
+  Zestawienie i status każdego obrazu: `manifest-seria-40.csv`; treść wszystkich 40: `tresci/seria-40-tresci.json`.
 - `prompty/` – dokładne prompty użyte do generowania (model: gemini-3-pro-image, rozmiar 2K).
 
 ## Kontrola jakości

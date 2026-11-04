@@ -1,0 +1,41 @@
+nr,plik,id_tresci,rodzaj,liczba_pozycji,styl_nr,status
+1,seria-40/ANGIELSKI_NA_HISZPANSKI_weekend.jpg,b2-01,qa,6,1,"wygenerowany; bez kontroli OCR (brak kredytow), obejrzany recznie"
+2,seria-40/POLSKI_NA_HISZPANSKI_przeciwienstwa.jpg,b2-02,opp,14,2,wygenerowany; kontrola OCR: ok
+3,seria-40/NIEMIECKI_NA_FRANCUSKI_przedstawianie_sie.jpg,b2-03,qa,7,3,"wygenerowany; bez kontroli OCR (brak kredytow), obejrzany recznie"
+4,seria-40/HOLENDERSKI_NA_FRANCUSKI_targ.jpg,b2-04,words,18,4,"wygenerowany; bez kontroli OCR (brak kredytow), obejrzany recznie"
+5,seria-40/HISZPANSKI_NA_NIEMIECKI_sniadanie.jpg,b2-05,qa,15,5,"wygenerowany; bez kontroli OCR (brak kredytow), obejrzany recznie"
+6,,b2-06,opp,20,6,CZEKA - brak kredytow Gemini (402)
+7,,b2-07,words,22,7,CZEKA - brak kredytow Gemini (402)
+8,,b2-08,qa,3,8,CZEKA - brak kredytow Gemini (402)
+9,,b2-09,words,13,9,CZEKA - brak kredytow Gemini (402)
+10,,b2-10,qa,6,10,CZEKA - brak kredytow Gemini (402)
+11,,b2-11,words,30,11,CZEKA - brak kredytow Gemini (402)
+12,,b2-12,qa,7,12,CZEKA - brak kredytow Gemini (402)
+13,,b2-13,opp,10,13,CZEKA - brak kredytow Gemini (402)
+14,,b2-14,words,12,14,CZEKA - brak kredytow Gemini (402)
+15,seria-40/NIEMIECKI_NA_POLSKI_samopoczucie.jpg,b2-15,qa,6,15,"wygenerowany; bez kontroli OCR (brak kredytow), obejrzany recznie"
+16,,b2-16,words,9,16,CZEKA - brak kredytow Gemini (402)
+17,,b2-17,opp,8,17,CZEKA - brak kredytow Gemini (402)
+18,,b2-18,qa,3,18,CZEKA - brak kredytow Gemini (402)
+19,,b2-19,words,20,19,CZEKA - brak kredytow Gemini (402)
+20,,b2-20,qa,7,20,CZEKA - brak kredytow Gemini (402)
+21,seria-40/NIEMIECKI_NA_NORWESKI_pogoda_i_pory_roku.jpg,b2-21,words,11,21,"wygenerowany; bez kontroli OCR (brak kredytow), obejrzany recznie"
+22,,b2-22,opp,12,22,CZEKA - brak kredytow Gemini (402)
+23,,b2-23,qa,6,23,CZEKA - brak kredytow Gemini (402)
+24,,b2-24,words,16,24,CZEKA - brak kredytow Gemini (402)
+25,,b2-25,qa,7,25,CZEKA - brak kredytow Gemini (402)
+26,,b2-26,words,14,26,CZEKA - brak kredytow Gemini (402)
+27,,b2-27,opp,16,27,CZEKA - brak kredytow Gemini (402)
+28,,b2-28,words,12,28,CZEKA - brak kredytow Gemini (402)
+29,,b2-29,opp,10,29,CZEKA - brak kredytow Gemini (402)
+30,,b2-30,words,10,30,CZEKA - brak kredytow Gemini (402)
+31,,b2-31,qa,3,31,CZEKA - brak kredytow Gemini (402)
+32,,b2-32,words,8,32,CZEKA - brak kredytow Gemini (402)
+33,,b2-33,words,12,33,CZEKA - brak kredytow Gemini (402)
+34,,b2-34,qa,3,34,CZEKA - brak kredytow Gemini (402)
+35,,b2-35,opp,10,35,CZEKA - brak kredytow Gemini (402)
+36,,b2-36,words,14,36,CZEKA - brak kredytow Gemini (402)
+37,,b2-37,words,12,37,CZEKA - brak kredytow Gemini (402)
+38,,b2-38,opp,12,38,CZEKA - brak kredytow Gemini (402)
+39,,b2-39,words,10,39,CZEKA - brak kredytow Gemini (402)
+40,,b2-40,qa,3,40,CZEKA - brak kredytow Gemini (402)

@@ -1,0 +1,2640 @@
+[
+ {
+  "id": "b2-01",
+  "nat": "ANGIELSKI",
+  "tgt": "HISZPANSKI",
+  "kind": "qa",
+  "slug": "weekend",
+  "title": null,
+  "question": "¿Qué haces el fin de semana?",
+  "items": [
+   {
+    "w": "Los sábados juego al fútbol con mis amigos.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Voy al cine con mi familia.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Me levanto tarde y desayuno con calma.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Salgo a pasear por el parque.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Limpio la casa y cocino para mi familia.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Los domingos visito a mis abuelos.",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-02",
+  "nat": "POLSKI",
+  "tgt": "HISZPANSKI",
+  "kind": "opp",
+  "slug": "opuestos",
+  "title": "Los opuestos",
+  "question": null,
+  "items": [
+   {
+    "w": "grande",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "pequeño",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "caliente",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "frío",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "bueno",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "malo",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "nuevo",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "viejo",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "rápido",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "lento",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "largo",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "corto",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "pesado",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "ligero",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-03",
+  "nat": "NIEMIECKI",
+  "tgt": "FRANCUSKI",
+  "kind": "qa",
+  "slug": "presentation",
+  "title": null,
+  "question": "Peux-tu te présenter ?",
+  "items": [
+   {
+    "w": "Je m'appelle Marie et j'ai vingt ans.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "J'habite à Lyon avec ma famille.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Je suis étudiant en informatique.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "J'ai vingt-cinq ans et je suis professeur.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "J'aime jouer au tennis et lire des livres.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Je viens d'Espagne, mais j'habite à Paris.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Moi, c'est Paul, et je travaille dans une banque.",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-04",
+  "nat": "HOLENDERSKI",
+  "tgt": "FRANCUSKI",
+  "kind": "words",
+  "slug": "marche",
+  "title": "Au marché",
+  "question": null,
+  "items": [
+   {
+    "w": "la pomme",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "la banane",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "l'orange",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "la tomate",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "la carotte",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "la pomme de terre",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "l'oignon",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "la salade",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "la fraise",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "le fromage",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "le pain",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "le lait",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "l'œuf",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "le poisson",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "le poulet",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "le panier",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "le sac",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "le prix",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-05",
+  "nat": "HISZPANSKI",
+  "tgt": "NIEMIECKI",
+  "kind": "qa",
+  "slug": "fruehstueck",
+  "title": null,
+  "question": "Was isst du zum Frühstück?",
+  "items": [
+   {
+    "w": "Ich esse ein Brötchen mit Marmelade.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Zum Frühstück esse ich Müsli mit Milch.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Ich trinke Kaffee und esse ein Brot mit Käse.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Ich esse jeden Morgen ein Ei.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Ich nehme einen Joghurt mit Obst.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Am Wochenende esse ich Pfannkuchen.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Ich esse nur eine Banane und trinke Tee.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Ich esse Toast mit Butter und Honig.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Meistens esse ich Cornflakes.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Ich frühstücke Brot mit Wurst und Käse.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Ich trinke Orangensaft und esse ein Croissant.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Bei uns gibt es zum Frühstück Rührei mit Speck.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Ich esse gern Haferbrei mit Äpfeln.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Morgens esse ich nichts, ich trinke nur Kaffee.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Ich esse eine Scheibe Brot mit Schinken und trinke Kakao.",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-06",
+  "nat": "POLSKI",
+  "tgt": "NIEMIECKI",
+  "kind": "opp",
+  "slug": "gegensaetze",
+  "title": "Gegensätze",
+  "question": null,
+  "items": [
+   {
+    "w": "groß",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "klein",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "heiß",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "kalt",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "gut",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "schlecht",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "neu",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "alt",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "schnell",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "langsam",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "lang",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "kurz",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "schwer",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "leicht",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "glücklich",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "traurig",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "offen",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "geschlossen",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "voll",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "leer",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-07",
+  "nat": "ANGIELSKI",
+  "tgt": "WLOSKI",
+  "kind": "words",
+  "slug": "ristorante",
+  "title": "Al ristorante",
+  "question": null,
+  "items": [
+   {
+    "w": "il menu",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "il cameriere",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "la cameriera",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "il tavolo",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "la sedia",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "il piatto",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "il bicchiere",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "la forchetta",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "il coltello",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "il cucchiaio",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "il tovagliolo",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "la bottiglia",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "l'acqua",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "il vino",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "la birra",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "la pizza",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "la pasta",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "l'antipasto",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "il dolce",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "il caffè",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "il conto",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "la mancia",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-08",
+  "nat": "FRANCUSKI",
+  "tgt": "WLOSKI",
+  "kind": "qa",
+  "slug": "meteo",
+  "title": null,
+  "question": "Che tempo fa oggi?",
+  "items": [
+   {
+    "w": "Oggi c'è il sole e fa caldo.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Oggi piove e fa freddo.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Oggi il cielo è nuvoloso e c'è vento.",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-09",
+  "nat": "HISZPANSKI",
+  "tgt": "PORTUGALSKI",
+  "kind": "words",
+  "slug": "corpo",
+  "title": "O corpo",
+  "question": null,
+  "items": [
+   {
+    "w": "a cabeça",
+    "gloss": "a human head",
+    "ph": null
+   },
+   {
+    "w": "o cabelo",
+    "gloss": "a head of hair",
+    "ph": null
+   },
+   {
+    "w": "o olho",
+    "gloss": "an eye",
+    "ph": null
+   },
+   {
+    "w": "a orelha",
+    "gloss": "an ear",
+    "ph": null
+   },
+   {
+    "w": "o nariz",
+    "gloss": "a nose",
+    "ph": null
+   },
+   {
+    "w": "a boca",
+    "gloss": "a mouth",
+    "ph": null
+   },
+   {
+    "w": "o dente",
+    "gloss": "a tooth",
+    "ph": null
+   },
+   {
+    "w": "o pescoço",
+    "gloss": "a neck",
+    "ph": null
+   },
+   {
+    "w": "o braço",
+    "gloss": "an arm",
+    "ph": null
+   },
+   {
+    "w": "a mão",
+    "gloss": "a hand",
+    "ph": null
+   },
+   {
+    "w": "a perna",
+    "gloss": "a leg",
+    "ph": null
+   },
+   {
+    "w": "o joelho",
+    "gloss": "a knee",
+    "ph": null
+   },
+   {
+    "w": "o pé",
+    "gloss": "a foot",
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-10",
+  "nat": "TURECKI",
+  "tgt": "PORTUGALSKI",
+  "kind": "qa",
+  "slug": "tempo_livre",
+  "title": null,
+  "question": "O que gostas de fazer no teu tempo livre?",
+  "items": [
+   {
+    "w": "Gosto de ler livros e ouvir música.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Gosto de jogar futebol com os meus amigos.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "No meu tempo livre, vejo filmes em casa.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Gosto de cozinhar e de passear no parque.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Eu gosto muito de nadar na piscina.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Gosto de viajar e de tirar fotografias.",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-11",
+  "nat": "POLSKI",
+  "tgt": "ANGIELSKI",
+  "kind": "words",
+  "slug": "verbs",
+  "title": "Everyday verbs",
+  "question": null,
+  "items": [
+   {
+    "w": "eat",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "drink",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "sleep",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "walk",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "run",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "read",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "write",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "speak",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "listen",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "watch",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "work",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "study",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "play",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "cook",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "buy",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "sell",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "open",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "close",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "give",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "take",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "come",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "go",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "sit",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "stand",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "wash",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "clean",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "learn",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "help",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "wait",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "live",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-12",
+  "nat": "NIEMIECKI",
+  "tgt": "ANGIELSKI",
+  "kind": "qa",
+  "slug": "job",
+  "title": null,
+  "question": "What do you do for a living?",
+  "items": [
+   {
+    "w": "I am a teacher at a primary school.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "I work as a nurse in a hospital.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "I work in a bank.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "I am a cook in a small restaurant.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "I am a bus driver.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "I work in an office and use a computer every day.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "I have my own small shop.",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-13",
+  "nat": "SZWEDZKI",
+  "tgt": "HOLENDERSKI",
+  "kind": "opp",
+  "slug": "tegenstellingen",
+  "title": "Tegenstellingen",
+  "question": null,
+  "items": [
+   {
+    "w": "groot",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "klein",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "heet",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "koud",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "goed",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "slecht",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "nieuw",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "oud",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "snel",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "langzaam",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-14",
+  "nat": "ANGIELSKI",
+  "tgt": "POLSKI",
+  "kind": "words",
+  "slug": "shop",
+  "title": "W sklepie",
+  "question": null,
+  "items": [
+   {
+    "w": "sklep",
+    "gloss": "a shop",
+    "ph": null
+   },
+   {
+    "w": "kasa",
+    "gloss": "a cash register",
+    "ph": null
+   },
+   {
+    "w": "koszyk",
+    "gloss": "a shopping basket",
+    "ph": null
+   },
+   {
+    "w": "wózek",
+    "gloss": "a shopping trolley",
+    "ph": null
+   },
+   {
+    "w": "cena",
+    "gloss": "a price tag",
+    "ph": null
+   },
+   {
+    "w": "moneta",
+    "gloss": "a coin",
+    "ph": null
+   },
+   {
+    "w": "portfel",
+    "gloss": "a wallet",
+    "ph": null
+   },
+   {
+    "w": "torba",
+    "gloss": "a shopping bag",
+    "ph": null
+   },
+   {
+    "w": "paragon",
+    "gloss": "a receipt",
+    "ph": null
+   },
+   {
+    "w": "sprzedawca",
+    "gloss": "a shop assistant",
+    "ph": null
+   },
+   {
+    "w": "klient",
+    "gloss": "a customer",
+    "ph": null
+   },
+   {
+    "w": "półka",
+    "gloss": "a shelf",
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-15",
+  "nat": "NIEMIECKI",
+  "tgt": "POLSKI",
+  "kind": "qa",
+  "slug": "feelings",
+  "title": null,
+  "question": "Jak się dzisiaj czujesz?",
+  "items": [
+   {
+    "w": "Czuję się dobrze, dziękuję.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Dzisiaj czuję się świetnie!",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Jestem trochę zmęczony.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Nie czuję się najlepiej.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Mam dużo energii.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Czuję się tak sobie.",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-16",
+  "nat": "ANGIELSKI",
+  "tgt": "CZESKI",
+  "kind": "words",
+  "slug": "school",
+  "title": "Škola",
+  "question": null,
+  "items": [
+   {
+    "w": "škola",
+    "gloss": "a school building",
+    "ph": null
+   },
+   {
+    "w": "třída",
+    "gloss": "a classroom",
+    "ph": null
+   },
+   {
+    "w": "knihovna",
+    "gloss": "a library",
+    "ph": null
+   },
+   {
+    "w": "tabule",
+    "gloss": "a blackboard",
+    "ph": null
+   },
+   {
+    "w": "lavice",
+    "gloss": "a school desk",
+    "ph": null
+   },
+   {
+    "w": "kniha",
+    "gloss": "a book",
+    "ph": null
+   },
+   {
+    "w": "sešit",
+    "gloss": "an exercise book",
+    "ph": null
+   },
+   {
+    "w": "tužka",
+    "gloss": "a pencil",
+    "ph": null
+   },
+   {
+    "w": "batoh",
+    "gloss": "a school bag",
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-17",
+  "nat": "POLSKI",
+  "tgt": "CZESKI",
+  "kind": "opp",
+  "slug": "opposites",
+  "title": "Protiklady",
+  "question": null,
+  "items": [
+   {
+    "w": "velký",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "malý",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "horký",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "studený",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "dobrý",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "špatný",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "nový",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "starý",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-18",
+  "nat": "ANGIELSKI",
+  "tgt": "CHORWACKI",
+  "kind": "qa",
+  "slug": "origin",
+  "title": null,
+  "question": "Odakle si?",
+  "items": [
+   {
+    "w": "Ja sam iz Hrvatske.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Dolazim iz Poljske.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Moja obitelj je iz Splita.",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-19",
+  "nat": "WLOSKI",
+  "tgt": "SLOWACKI",
+  "kind": "words",
+  "slug": "numbers",
+  "title": "Čísla",
+  "question": null,
+  "items": [
+   {
+    "w": "jeden",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "dva",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "tri",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "štyri",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "päť",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "šesť",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "sedem",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "osem",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "deväť",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "desať",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "jedenásť",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "dvanásť",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "trinásť",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "štrnásť",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "pätnásť",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "šestnásť",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "sedemnásť",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "osemnásť",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "devätnásť",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "dvadsať",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-20",
+  "nat": "ANGIELSKI",
+  "tgt": "SZWEDZKI",
+  "kind": "qa",
+  "slug": "winter",
+  "title": null,
+  "question": "Vad gör du på vintern?",
+  "items": [
+   {
+    "w": "Jag åker skidor.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Jag åker skridskor på sjön.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Jag bygger en snögubbe.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Jag dricker varm choklad.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Jag leker i snön.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Jag stannar hemma och läser en bok.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Jag åker pulka med mina vänner.",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-21",
+  "nat": "NIEMIECKI",
+  "tgt": "NORWESKI",
+  "kind": "words",
+  "slug": "weather",
+  "title": "Vær og årstider",
+  "question": null,
+  "items": [
+   {
+    "w": "sol",
+    "gloss": "the sun",
+    "ph": null
+   },
+   {
+    "w": "regn",
+    "gloss": "rain",
+    "ph": null
+   },
+   {
+    "w": "snø",
+    "gloss": "snow",
+    "ph": null
+   },
+   {
+    "w": "vind",
+    "gloss": "wind",
+    "ph": null
+   },
+   {
+    "w": "sky",
+    "gloss": "a cloud",
+    "ph": null
+   },
+   {
+    "w": "tåke",
+    "gloss": "fog",
+    "ph": null
+   },
+   {
+    "w": "vår",
+    "gloss": "spring flowers",
+    "ph": null
+   },
+   {
+    "w": "sommer",
+    "gloss": "summer beach",
+    "ph": null
+   },
+   {
+    "w": "høst",
+    "gloss": "autumn leaves",
+    "ph": null
+   },
+   {
+    "w": "vinter",
+    "gloss": "winter landscape",
+    "ph": null
+   },
+   {
+    "w": "regnbue",
+    "gloss": "a rainbow",
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-22",
+  "nat": "ANGIELSKI",
+  "tgt": "DUNSKI",
+  "kind": "opp",
+  "slug": "opposites",
+  "title": "Modsætninger",
+  "question": null,
+  "items": [
+   {
+    "w": "stor",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "lille",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "varm",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "kold",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "god",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "dårlig",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "ny",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "gammel",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "hurtig",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "langsom",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "lang",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "kort",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-23",
+  "nat": "SZWEDZKI",
+  "tgt": "FINSKI",
+  "kind": "qa",
+  "slug": "favourite_food",
+  "title": null,
+  "question": "Mikä on lempiruokasi?",
+  "items": [
+   {
+    "w": "Lempiruokani on pizza.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Rakastan spagettia.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Pidän eniten lihapullista.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Lempiruokani on kalakeitto.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Syön mielelläni perunaa ja kalaa.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Pidän kanasta ja riisistä.",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-24",
+  "nat": "ANGIELSKI",
+  "tgt": "RUMUNSKI",
+  "kind": "words",
+  "slug": "house",
+  "title": "În casă",
+  "question": null,
+  "items": [
+   {
+    "w": "casă",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "cameră",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "bucătărie",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "baie",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "dormitor",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "sufragerie",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "hol",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "masă",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "scaun",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "pat",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "canapea",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "dulap",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "fereastră",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "ușă",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "lampă",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "oglindă",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-25",
+  "nat": "NIEMIECKI",
+  "tgt": "TURECKI",
+  "kind": "qa",
+  "slug": "market",
+  "title": null,
+  "question": "Bu kaç lira?",
+  "items": [
+   {
+    "w": "Bu on lira.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Kilosu yirmi lira.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Tanesi beş lira.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Hepsi elli lira.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Yarım kilosu on iki lira.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "Fiyatı on beş lira.",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "İki kilosu otuz lira.",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-26",
+  "nat": "ANGIELSKI",
+  "tgt": "TURECKI",
+  "kind": "words",
+  "slug": "clothes",
+  "title": "Giysiler",
+  "question": null,
+  "items": [
+   {
+    "w": "gömlek",
+    "gloss": "a shirt",
+    "ph": null
+   },
+   {
+    "w": "tişört",
+    "gloss": "a T-shirt",
+    "ph": null
+   },
+   {
+    "w": "pantolon",
+    "gloss": "trousers",
+    "ph": null
+   },
+   {
+    "w": "etek",
+    "gloss": "a skirt",
+    "ph": null
+   },
+   {
+    "w": "elbise",
+    "gloss": "a dress",
+    "ph": null
+   },
+   {
+    "w": "ceket",
+    "gloss": "a jacket",
+    "ph": null
+   },
+   {
+    "w": "mont",
+    "gloss": "a winter coat",
+    "ph": null
+   },
+   {
+    "w": "kazak",
+    "gloss": "a knitted sweater",
+    "ph": null
+   },
+   {
+    "w": "ayakkabı",
+    "gloss": "a shoe",
+    "ph": null
+   },
+   {
+    "w": "çorap",
+    "gloss": "a sock",
+    "ph": null
+   },
+   {
+    "w": "şapka",
+    "gloss": "a hat",
+    "ph": null
+   },
+   {
+    "w": "eldiven",
+    "gloss": "a glove",
+    "ph": null
+   },
+   {
+    "w": "atkı",
+    "gloss": "a scarf",
+    "ph": null
+   },
+   {
+    "w": "kemer",
+    "gloss": "a belt",
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-27",
+  "nat": "POLSKI",
+  "tgt": "TURECKI",
+  "kind": "opp",
+  "slug": "opposites",
+  "title": "Zıt anlamlılar",
+  "question": null,
+  "items": [
+   {
+    "w": "büyük",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "küçük",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "sıcak",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "soğuk",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "iyi",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "kötü",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "yeni",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "eski",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "hızlı",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "yavaş",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "uzun",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "kısa",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "ağır",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "hafif",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "mutlu",
+    "gloss": null,
+    "ph": null
+   },
+   {
+    "w": "üzgün",
+    "gloss": null,
+    "ph": null
+   }
+  ]
+ },
+ {
+  "id": "b2-28",
+  "nat": "ANGIELSKI",
+  "tgt": "ROSYJSKI",
+  "kind": "words",
+  "slug": "city",
+  "title": "В городе",
+  "question": null,
+  "question_ph": null,
+  "items": [
+   {
+    "w": "магазин",
+    "gloss": "a shop",
+    "ph": "mah-gah-ZEEN"
+   },
+   {
+    "w": "школа",
+    "gloss": "a school building",
+    "ph": "SHKOH-lah"
+   },
+   {
+    "w": "больница",
+    "gloss": "a hospital",
+    "ph": "bahl-NEE-tsah"
+   },
+   {
+    "w": "парк",
+    "gloss": "a park",
+    "ph": "PARK"
+   },
+   {
+    "w": "банк",
+    "gloss": "a bank",
+    "ph": "BAHNK"
+   },
+   {
+    "w": "кафе",
+    "gloss": "a cafe",
+    "ph": "kah-FEH"
+   },
+   {
+    "w": "аптека",
+    "gloss": "a pharmacy",
+    "ph": "ahp-TEH-kah"
+   },
+   {
+    "w": "вокзал",
+    "gloss": "a train station",
+    "ph": "vahk-ZAHL"
+   },
+   {
+    "w": "почта",
+    "gloss": "a post office",
+    "ph": "POHCH-tah"
+   },
+   {
+    "w": "библиотека",
+    "gloss": "a library",
+    "ph": "bee-blee-ah-TEH-kah"
+   },
+   {
+    "w": "ресторан",
+    "gloss": "a restaurant",
+    "ph": "rehs-tah-RAHN"
+   },
+   {
+    "w": "музей",
+    "gloss": "a museum",
+    "ph": "moo-ZAY"
+   }
+  ]
+ },
+ {
+  "id": "b2-29",
+  "nat": "NIEMIECKI",
+  "tgt": "ROSYJSKI",
+  "kind": "opp",
+  "slug": "opposites",
+  "title": "Противоположности",
+  "question": null,
+  "question_ph": null,
+  "items": [
+   {
+    "w": "большой",
+    "gloss": null,
+    "ph": "bal-SCHOJ"
+   },
+   {
+    "w": "маленький",
+    "gloss": null,
+    "ph": "MA-lin-kij"
+   },
+   {
+    "w": "горячий",
+    "gloss": null,
+    "ph": "ga-RJA-tschij"
+   },
+   {
+    "w": "холодный",
+    "gloss": null,
+    "ph": "cha-LOD-nij"
+   },
+   {
+    "w": "хороший",
+    "gloss": null,
+    "ph": "cha-RO-schij"
+   },
+   {
+    "w": "плохой",
+    "gloss": null,
+    "ph": "pla-CHOJ"
+   },
+   {
+    "w": "новый",
+    "gloss": null,
+    "ph": "NO-wij"
+   },
+   {
+    "w": "старый",
+    "gloss": null,
+    "ph": "ss-TA-rij"
+   },
+   {
+    "w": "быстрый",
+    "gloss": null,
+    "ph": "BIS-trij"
+   },
+   {
+    "w": "медленный",
+    "gloss": null,
+    "ph": "MJED-lin-nij"
+   }
+  ]
+ },
+ {
+  "id": "b2-30",
+  "nat": "POLSKI",
+  "tgt": "UKRAINSKI",
+  "kind": "words",
+  "slug": "home",
+  "title": "Вдома",
+  "question": null,
+  "question_ph": null,
+  "items": [
+   {
+    "w": "кухня",
+    "gloss": "a kitchen",
+    "ph": "kuchnia"
+   },
+   {
+    "w": "спальня",
+    "gloss": "a bedroom",
+    "ph": "spalnia"
+   },
+   {
+    "w": "вітальня",
+    "gloss": "a living room",
+    "ph": "witalnia"
+   },
+   {
+    "w": "коридор",
+    "gloss": "a hallway",
+    "ph": "korydor"
+   },
+   {
+    "w": "стіл",
+    "gloss": "a table",
+    "ph": "stil"
+   },
+   {
+    "w": "стілець",
+    "gloss": "a chair",
+    "ph": "stilec"
+   },
+   {
+    "w": "ліжко",
+    "gloss": "a bed",
+    "ph": "liżko"
+   },
+   {
+    "w": "диван",
+    "gloss": "a sofa",
+    "ph": "dywan"
+   },
+   {
+    "w": "шафа",
+    "gloss": "a wardrobe",
+    "ph": "szafa"
+   },
+   {
+    "w": "лампа",
+    "gloss": "a lamp",
+    "ph": "lampa"
+   }
+  ]
+ },
+ {
+  "id": "b2-31",
+  "nat": "ANGIELSKI",
+  "tgt": "UKRAINSKI",
+  "kind": "qa",
+  "slug": "how_are_you",
+  "title": null,
+  "question": "Як справи?",
+  "question_ph": "yahk SPRAH-vih",
+  "items": [
+   {
+    "w": "Добре, дякую.",
+    "gloss": null,
+    "ph": "DOH-breh, DYAH-koo-yoo."
+   },
+   {
+    "w": "У мене все добре.",
+    "gloss": null,
+    "ph": "oo MEH-neh vseh DOH-breh."
+   },
+   {
+    "w": "Непогано.",
+    "gloss": null,
+    "ph": "neh-poh-HAH-noh."
+   }
+  ]
+ },
+ {
+  "id": "b2-32",
+  "nat": "ANGIELSKI",
+  "tgt": "GRECKI",
+  "kind": "words",
+  "slug": "greetings",
+  "title": "Χαιρετισμοί",
+  "question": null,
+  "question_ph": null,
+  "items": [
+   {
+    "w": "γεια σου",
+    "gloss": "a person waving hello",
+    "ph": "YAH-soo"
+   },
+   {
+    "w": "αντίο",
+    "gloss": "a person waving goodbye",
+    "ph": "ahn-DEE-oh"
+   },
+   {
+    "w": "παρακαλώ",
+    "gloss": "a polite person holding out a hand, saying please",
+    "ph": "pah-rah-kah-LOH"
+   },
+   {
+    "w": "ευχαριστώ",
+    "gloss": "a thank-you card with a heart",
+    "ph": "ef-hah-ree-STOH"
+   },
+   {
+    "w": "ναι",
+    "gloss": "a green check mark",
+    "ph": "NEH"
+   },
+   {
+    "w": "όχι",
+    "gloss": "a red cross mark",
+    "ph": "OH-hee"
+   },
+   {
+    "w": "συγγνώμη",
+    "gloss": "an apologizing person with a hand on the chest",
+    "ph": "seeg-NOH-mee"
+   },
+   {
+    "w": "καλημέρα",
+    "gloss": "a sun rising next to a window",
+    "ph": "kah-lee-MEH-rah"
+   }
+  ]
+ },
+ {
+  "id": "b2-33",
+  "nat": "ANGIELSKI",
+  "tgt": "JAPONSKI",
+  "kind": "words",
+  "slug": "school",
+  "title": "学校",
+  "question": null,
+  "question_ph": null,
+  "items": [
+   {
+    "w": "きょうしつ",
+    "gloss": "a classroom",
+    "ph": "kyoh-shee-tsoo"
+   },
+   {
+    "w": "としょかん",
+    "gloss": "a library",
+    "ph": "toh-shoh-kahn"
+   },
+   {
+    "w": "プール",
+    "gloss": "a swimming pool",
+    "ph": "poo-roo"
+   },
+   {
+    "w": "えんぴつ",
+    "gloss": "a pencil",
+    "ph": "en-pee-tsoo"
+   },
+   {
+    "w": "ノート",
+    "gloss": "a notebook",
+    "ph": "noh-toh"
+   },
+   {
+    "w": "ほん",
+    "gloss": "a book",
+    "ph": "hohn"
+   },
+   {
+    "w": "かばん",
+    "gloss": "a school bag",
+    "ph": "kah-bahn"
+   },
+   {
+    "w": "つくえ",
+    "gloss": "a desk",
+    "ph": "tsoo-koo-eh"
+   },
+   {
+    "w": "いす",
+    "gloss": "a chair",
+    "ph": "ee-soo"
+   },
+   {
+    "w": "こくばん",
+    "gloss": "a blackboard",
+    "ph": "koh-koo-bahn"
+   },
+   {
+    "w": "はさみ",
+    "gloss": "a pair of scissors",
+    "ph": "hah-sah-mee"
+   },
+   {
+    "w": "じしょ",
+    "gloss": "a dictionary",
+    "ph": "jee-shoh"
+   }
+  ]
+ },
+ {
+  "id": "b2-34",
+  "nat": "POLSKI",
+  "tgt": "JAPONSKI",
+  "kind": "qa",
+  "slug": "likes",
+  "title": null,
+  "question": "なにがすきですか。",
+  "question_ph": "nani ga suki des ka",
+  "items": [
+   {
+    "w": "ねこがすきです。",
+    "gloss": null,
+    "ph": "neko ga suki des."
+   },
+   {
+    "w": "わたしはりんごがすきです。",
+    "gloss": null,
+    "ph": "watasi wa ringo ga suki des."
+   },
+   {
+    "w": "おんがくがだいすきです。",
+    "gloss": null,
+    "ph": "ongaku ga daisuki des."
+   }
+  ]
+ },
+ {
+  "id": "b2-35",
+  "nat": "ANGIELSKI",
+  "tgt": "CHINSKI",
+  "kind": "opp",
+  "slug": "opposites",
+  "title": "反义词",
+  "question": null,
+  "question_ph": null,
+  "items": [
+   {
+    "w": "大",
+    "gloss": null,
+    "ph": "dah"
+   },
+   {
+    "w": "小",
+    "gloss": null,
+    "ph": "shyow"
+   },
+   {
+    "w": "热",
+    "gloss": null,
+    "ph": "ruh"
+   },
+   {
+    "w": "冷",
+    "gloss": null,
+    "ph": "lung"
+   },
+   {
+    "w": "好",
+    "gloss": null,
+    "ph": "how"
+   },
+   {
+    "w": "坏",
+    "gloss": null,
+    "ph": "hwye"
+   },
+   {
+    "w": "新",
+    "gloss": null,
+    "ph": "sheen"
+   },
+   {
+    "w": "旧",
+    "gloss": null,
+    "ph": "jyoh"
+   },
+   {
+    "w": "快",
+    "gloss": null,
+    "ph": "kwye"
+   },
+   {
+    "w": "慢",
+    "gloss": null,
+    "ph": "mahn"
+   }
+  ]
+ },
+ {
+  "id": "b2-36",
+  "nat": "NIEMIECKI",
+  "tgt": "CHINSKI",
+  "kind": "words",
+  "slug": "food_drink",
+  "title": "食物和饮料",
+  "question": null,
+  "question_ph": null,
+  "items": [
+   {
+    "w": "米饭",
+    "gloss": "a bowl of rice",
+    "ph": "mi-fan"
+   },
+   {
+    "w": "面条",
+    "gloss": "a bowl of noodles",
+    "ph": "mjen-tjau"
+   },
+   {
+    "w": "面包",
+    "gloss": "a loaf of bread",
+    "ph": "mjen-bau"
+   },
+   {
+    "w": "鸡蛋",
+    "gloss": "an egg",
+    "ph": "dschi-dan"
+   },
+   {
+    "w": "苹果",
+    "gloss": "an apple",
+    "ph": "ping-guo"
+   },
+   {
+    "w": "香蕉",
+    "gloss": "a banana",
+    "ph": "schiang-dschiau"
+   },
+   {
+    "w": "牛奶",
+    "gloss": "a glass of milk",
+    "ph": "njou-nai"
+   },
+   {
+    "w": "水",
+    "gloss": "a glass of water",
+    "ph": "schwei"
+   },
+   {
+    "w": "茶",
+    "gloss": "a cup of tea",
+    "ph": "tscha"
+   },
+   {
+    "w": "咖啡",
+    "gloss": "a cup of coffee",
+    "ph": "ka-fei"
+   },
+   {
+    "w": "鱼",
+    "gloss": "a fish",
+    "ph": "jü"
+   },
+   {
+    "w": "肉",
+    "gloss": "a piece of meat",
+    "ph": "rou"
+   },
+   {
+    "w": "蔬菜",
+    "gloss": "some vegetables",
+    "ph": "schu-zai"
+   },
+   {
+    "w": "果汁",
+    "gloss": "a glass of juice",
+    "ph": "guo-dschi"
+   }
+  ]
+ },
+ {
+  "id": "b2-37",
+  "nat": "HISZPANSKI",
+  "tgt": "KOREANSKI",
+  "kind": "words",
+  "slug": "verbs",
+  "title": "동사",
+  "question": null,
+  "question_ph": null,
+  "items": [
+   {
+    "w": "먹다",
+    "gloss": "a person eating",
+    "ph": "mokta"
+   },
+   {
+    "w": "마시다",
+    "gloss": "a person drinking water",
+    "ph": "mashida"
+   },
+   {
+    "w": "자다",
+    "gloss": "a person sleeping in bed",
+    "ph": "chada"
+   },
+   {
+    "w": "가다",
+    "gloss": "a person walking away",
+    "ph": "gada"
+   },
+   {
+    "w": "오다",
+    "gloss": "a person arriving",
+    "ph": "oda"
+   },
+   {
+    "w": "보다",
+    "gloss": "a person watching TV",
+    "ph": "boda"
+   },
+   {
+    "w": "읽다",
+    "gloss": "a person reading a book",
+    "ph": "ikta"
+   },
+   {
+    "w": "쓰다",
+    "gloss": "a person writing with a pen",
+    "ph": "suda"
+   },
+   {
+    "w": "듣다",
+    "gloss": "a person listening with headphones",
+    "ph": "dutta"
+   },
+   {
+    "w": "사다",
+    "gloss": "a person buying in a shop",
+    "ph": "sada"
+   },
+   {
+    "w": "말하다",
+    "gloss": "a person speaking",
+    "ph": "marada"
+   },
+   {
+    "w": "공부하다",
+    "gloss": "a person studying at a desk",
+    "ph": "gongbuada"
+   }
+  ]
+ },
+ {
+  "id": "b2-38",
+  "nat": "ANGIELSKI",
+  "tgt": "KOREANSKI",
+  "kind": "opp",
+  "slug": "opposites",
+  "title": "반대말",
+  "question": null,
+  "question_ph": null,
+  "items": [
+   {
+    "w": "크다",
+    "gloss": null,
+    "ph": "keu-dah"
+   },
+   {
+    "w": "작다",
+    "gloss": null,
+    "ph": "jak-tah"
+   },
+   {
+    "w": "뜨겁다",
+    "gloss": null,
+    "ph": "tteu-guhp-tah"
+   },
+   {
+    "w": "차갑다",
+    "gloss": null,
+    "ph": "chah-gahp-tah"
+   },
+   {
+    "w": "좋다",
+    "gloss": null,
+    "ph": "joh-tah"
+   },
+   {
+    "w": "나쁘다",
+    "gloss": null,
+    "ph": "nahp-peu-dah"
+   },
+   {
+    "w": "새롭다",
+    "gloss": null,
+    "ph": "seh-rohp-tah"
+   },
+   {
+    "w": "오래되다",
+    "gloss": null,
+    "ph": "oh-reh-dweh-dah"
+   },
+   {
+    "w": "빠르다",
+    "gloss": null,
+    "ph": "ppah-reu-dah"
+   },
+   {
+    "w": "느리다",
+    "gloss": null,
+    "ph": "neu-ree-dah"
+   },
+   {
+    "w": "길다",
+    "gloss": null,
+    "ph": "gil-dah"
+   },
+   {
+    "w": "짧다",
+    "gloss": null,
+    "ph": "jjal-tah"
+   }
+  ]
+ },
+ {
+  "id": "b2-39",
+  "nat": "ANGIELSKI",
+  "tgt": "ARABSKI",
+  "kind": "words",
+  "slug": "family",
+  "title": "العائلة",
+  "question": null,
+  "question_ph": null,
+  "items": [
+   {
+    "w": "أب",
+    "gloss": "a father",
+    "ph": "ab"
+   },
+   {
+    "w": "أم",
+    "gloss": "a mother",
+    "ph": "umm"
+   },
+   {
+    "w": "أخ",
+    "gloss": "a brother",
+    "ph": "akh"
+   },
+   {
+    "w": "أخت",
+    "gloss": "a sister",
+    "ph": "ukht"
+   },
+   {
+    "w": "جد",
+    "gloss": "a grandfather",
+    "ph": "jadd"
+   },
+   {
+    "w": "جدة",
+    "gloss": "a grandmother",
+    "ph": "JAD-dah"
+   },
+   {
+    "w": "ابن",
+    "gloss": "a son",
+    "ph": "ibn"
+   },
+   {
+    "w": "ابنة",
+    "gloss": "a daughter",
+    "ph": "IB-nah"
+   },
+   {
+    "w": "عم",
+    "gloss": "an uncle",
+    "ph": "amm"
+   },
+   {
+    "w": "عمة",
+    "gloss": "an aunt",
+    "ph": "AM-mah"
+   }
+  ]
+ },
+ {
+  "id": "b2-40",
+  "nat": "ANGIELSKI",
+  "tgt": "HINDI",
+  "kind": "qa",
+  "slug": "name",
+  "title": null,
+  "question": "आपका नाम क्या है?",
+  "question_ph": "AHP-kah NAHM kyah hay?",
+  "items": [
+   {
+    "w": "मेरा नाम राज है।",
+    "gloss": null,
+    "ph": "MAY-rah NAHM RAHJ hay."
+   },
+   {
+    "w": "मैं राज हूँ।",
+    "gloss": null,
+    "ph": "main RAHJ hoon."
+   },
+   {
+    "w": "मुझे राज कहते हैं।",
+    "gloss": null,
+    "ph": "moo-JAY RAHJ KAH-tay hain."
+   }
+  ]
+ }
+]
