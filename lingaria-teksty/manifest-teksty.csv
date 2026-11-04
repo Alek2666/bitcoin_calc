@@ -1,0 +1,151 @@
+nr,plik,jezyk_interfejsu,jezyk_nauki,poziom_cefr,kategoria,temat_en,linie_tresci,znaki
+001,POLSKI_ANGIELSKI_moj_tydzien.txt,POLSKI,ANGIELSKI,A1,codzienne,a normal week of a student: daily routine,13,534
+002,FINSKI_ANGIELSKI_na_lotnisku_i_w_samolocie.txt,FINSKI,ANGIELSKI,A2,podroze,at the airport and on the plane,10,612
+003,ROSYJSKI_ANGIELSKI_rozmowa_o_prace.txt,ROSYJSKI,ANGIELSKI,A2,praca,a first job interview,12,686
+004,WLOSKI_ANGIELSKI_lokalne_swieto.txt,WLOSKI,ANGIELSKI,B1,kultura,a traditional local festival,18,1469
+005,NIEMIECKI_ANGIELSKI_zwrocony_portfel.txt,NIEMIECKI,ANGIELSKI,B1,opowiesci,a lost wallet that is returned,12,1030
+006,HOLENDERSKI_ANGIELSKI_list_do_przyjaciela.txt,HOLENDERSKI,ANGIELSKI,B2,listy_i_opisy,a letter to a friend about a new town,28,2451
+007,FINSKI_NIEMIECKI_niedzielny_obiad.txt,FINSKI,NIEMIECKI,A2,codzienne,a family dinner on Sunday,10,598
+008,WLOSKI_NIEMIECKI_podroz_pociagiem.txt,WLOSKI,NIEMIECKI,A2,podroze,a train journey across the country,13,803
+009,ANGIELSKI_NIEMIECKI_pierwszy_dzien_w_pracy.txt,ANGIELSKI,NIEMIECKI,B1,praca,the first day at a new job,14,1152
+010,POLSKI_NIEMIECKI_dzien_targowy.txt,POLSKI,NIEMIECKI,B1,kultura,market day in the town square,20,1791
+011,KOREANSKI_NIEMIECKI_dwoje_nieznajomych_w_pociagu.txt,KOREANSKI,NIEMIECKI,B2,opowiesci,two strangers talking on a train (mostly dialogue),25,2325
+012,ROSYJSKI_NIEMIECKI_pamietnik_z_wakacji.txt,ROSYJSKI,NIEMIECKI,A1,listy_i_opisy,a diary entry from a holiday,10,440
+013,ANGIELSKI_HOLENDERSKI_ranek_w_kawiarni.txt,ANGIELSKI,HOLENDERSKI,A2,codzienne,a morning in a small cafe,16,968
+014,CHORWACKI_HOLENDERSKI_w_hotelu.txt,CHORWACKI,HOLENDERSKI,B1,podroze,checking in at a hotel,19,1553
+015,HISZPANSKI_HOLENDERSKI_zmiana_kariery.txt,HISZPANSKI,HOLENDERSKI,B1,praca,a career change from an office to a kitchen,19,1606
+016,JAPONSKI_HOLENDERSKI_niedzielna_msza_w_kosciele.txt,JAPONSKI,HOLENDERSKI,B2,kultura,a Sunday visit to an old church (or the place of worship that fits the culture),24,2460
+017,DUNSKI_HOLENDERSKI_niespodziewana_wizyta.txt,DUNSKI,HOLENDERSKI,A1,opowiesci,a surprise visit from an old friend,13,487
+018,POLSKI_HOLENDERSKI_mail_z_rezerwacja.txt,POLSKI,HOLENDERSKI,A2,listy_i_opisy,an email booking a trip,16,739
+019,POLSKI_HISZPANSKI_zakupy_ubrania.txt,POLSKI,HISZPANSKI,B1,codzienne,shopping for clothes with a friend,18,1425
+020,ANGIELSKI_HISZPANSKI_zgubieni_w_miescie.txt,ANGIELSKI,HISZPANSKI,B1,podroze,getting lost in a new city and asking for directions,15,1204
+021,SLOWACKI_HISZPANSKI_praca_z_domu.txt,SLOWACKI,HISZPANSKI,B2,praca,working from home,24,2477
+022,RUMUNSKI_HISZPANSKI_wesele_w_rodzinie.txt,RUMUNSKI,HISZPANSKI,A1,kultura,a wedding in the family,10,439
+023,ARABSKI_HISZPANSKI_rybak_i_morze.txt,ARABSKI,HISZPANSKI,A2,opowiesci,a fisherman and the sea (a short tale),12,684
+024,NIEMIECKI_HISZPANSKI_wywiad_z_piekarzem.txt,NIEMIECKI,HISZPANSKI,A2,listy_i_opisy,an interview with a baker,16,1024
+025,WLOSKI_PORTUGALSKI_w_aptece.txt,WLOSKI,PORTUGALSKI,B1,codzienne,a visit to the pharmacy with a cold,21,1650
+026,FINSKI_PORTUGALSKI_tydzien_nad_morzem.txt,FINSKI,PORTUGALSKI,B2,podroze,a week at the seaside,17,1748
+027,HINDI_PORTUGALSKI_dzien_pielegniarki.txt,HINDI,PORTUGALSKI,A1,praca,a day in the life of a nurse,13,537
+028,GRECKI_PORTUGALSKI_tradycje_swiateczne.txt,GRECKI,PORTUGALSKI,A2,kultura,Christmas or winter holiday traditions,13,775
+029,POLSKI_PORTUGALSKI_sprytny_lis.txt,POLSKI,PORTUGALSKI,A2,opowiesci,the clever fox (a fable),12,662
+030,ANGIELSKI_PORTUGALSKI_moje_ulubione_miejsce.txt,ANGIELSKI,PORTUGALSKI,B1,listy_i_opisy,a description of my favourite place in the city,17,1510
+031,CHORWACKI_FRANCUSKI_nowe_mieszkanie.txt,CHORWACKI,FRANCUSKI,B2,codzienne,moving into a new flat,26,2675
+032,POLSKI_FRANCUSKI_wycieczka_w_gory.txt,POLSKI,FRANCUSKI,A1,podroze,a hike in the mountains,12,567
+033,CHINSKI_FRANCUSKI_otwarcie_piekarni.txt,CHINSKI,FRANCUSKI,A2,praca,opening a small bakery,14,854
+034,DUNSKI_FRANCUSKI_wieczor_z_muzyka_ludowa.txt,DUNSKI,FRANCUSKI,A2,kultura,a folk music evening,11,657
+035,ANGIELSKI_FRANCUSKI_mala_uprzejmosc.txt,ANGIELSKI,FRANCUSKI,B1,opowiesci,a small kindness that changes someone's day,19,1779
+036,PORTUGALSKI_FRANCUSKI_moj_najlepszy_przyjaciel.txt,PORTUGALSKI,FRANCUSKI,B1,listy_i_opisy,my best friend (a description),15,1356
+037,ANGIELSKI_WLOSKI_deszczowy_dzien.txt,ANGIELSKI,WLOSKI,A1,codzienne,a rainy day at home,11,458
+038,HISZPANSKI_WLOSKI_rejs_promem.txt,HISZPANSKI,WLOSKI,A2,podroze,a ferry trip,13,786
+039,SLOWACKI_WLOSKI_praktyki_studenckie.txt,SLOWACKI,WLOSKI,A2,praca,a student internship,13,652
+040,POLSKI_WLOSKI_mecz_pilki_noznej.txt,POLSKI,WLOSKI,B1,kultura,a football match in the city,21,1671
+041,NORWESKI_WLOSKI_chlopiec_i_pies.txt,NORWESKI,WLOSKI,B1,opowiesci,a boy and a stray dog,13,1121
+042,ARABSKI_WLOSKI_rozmowa_telefoniczna.txt,ARABSKI,WLOSKI,B2,listy_i_opisy,a phone conversation making plans,22,2182
+043,ANGIELSKI_RUMUNSKI_gotowanie_z_babcia.txt,ANGIELSKI,RUMUNSKI,A2,codzienne,cooking a traditional dish with grandmother,16,966
+044,HINDI_RUMUNSKI_wyjazd_samochodem.txt,HINDI,RUMUNSKI,A2,podroze,a road trip with friends,16,941
+045,CZESKI_RUMUNSKI_rok_rolnika.txt,CZESKI,RUMUNSKI,B1,praca,a farmer's year,17,1319
+046,POLSKI_RUMUNSKI_wizyta_w_muzeum.txt,POLSKI,RUMUNSKI,B1,kultura,a school visit to a museum,17,1600
+047,SZWEDZKI_RUMUNSKI_milosc_w_ksiegarni.txt,SZWEDZKI,RUMUNSKI,B2,opowiesci,a gentle love story in a bookshop,28,2935
+048,GRECKI_RUMUNSKI_cztery_pory_roku.txt,GRECKI,RUMUNSKI,A1,listy_i_opisy,the four seasons in my country,12,455
+049,CHINSKI_SZWEDZKI_urodziny_dziecka.txt,CHINSKI,SZWEDZKI,A2,codzienne,a birthday party for a child,14,707
+050,TURECKI_SZWEDZKI_weekend_w_stolicy.txt,TURECKI,SZWEDZKI,B1,podroze,a weekend in the capital city,18,1337
+051,POLSKI_SZWEDZKI_nauczycielka_i_klasa.txt,POLSKI,SZWEDZKI,B1,praca,a teacher and her class,19,1499
+052,PORTUGALSKI_SZWEDZKI_potrawy_narodowe.txt,PORTUGALSKI,SZWEDZKI,B2,kultura,national dishes and how people eat them,18,2081
+053,UKRAINSKI_SZWEDZKI_stara_fotografia.txt,UKRAINSKI,SZWEDZKI,A1,opowiesci,an old photograph found in a drawer,14,551
+054,ANGIELSKI_SZWEDZKI_dom_moich_marzen.txt,ANGIELSKI,SZWEDZKI,A2,listy_i_opisy,my dream house,15,772
+055,ROSYJSKI_NORWESKI_kot_sasiadki.txt,ROSYJSKI,NORWESKI,B1,codzienne,the neighbour's cat,15,1217
+056,ANGIELSKI_NORWESKI_biwak_nad_jeziorem.txt,ANGIELSKI,NORWESKI,B1,podroze,camping by a lake,19,1658
+057,SZWEDZKI_NORWESKI_dzien_kierowcy_autobusu.txt,SZWEDZKI,NORWESKI,B2,praca,a bus driver's day,20,1948
+058,KOREANSKI_NORWESKI_dozynki_i_zbiory.txt,KOREANSKI,NORWESKI,A1,kultura,a village harvest celebration,13,470
+059,POLSKI_NORWESKI_dziewczynka_ktora_kochala_deszcz.txt,POLSKI,NORWESKI,A2,opowiesci,the girl who loved the rain,13,704
+060,HISZPANSKI_NORWESKI_dziennik_pogody.txt,HISZPANSKI,NORWESKI,A2,listy_i_opisy,a week of weather in a diary,14,773
+061,RUMUNSKI_DUNSKI_u_fryzjera.txt,RUMUNSKI,DUNSKI,B1,codzienne,at the hairdresser,18,1255
+062,POLSKI_DUNSKI_zgubiony_bagaz.txt,POLSKI,DUNSKI,B2,podroze,lost luggage at the airport,24,2354
+063,HOLENDERSKI_DUNSKI_tydzien_programisty.txt,HOLENDERSKI,DUNSKI,A1,praca,a software developer's week,13,448
+064,JAPONSKI_DUNSKI_nocny_street_food.txt,JAPONSKI,DUNSKI,A2,kultura,a street food night,14,818
+065,ANGIELSKI_DUNSKI_magiczny_rower.txt,ANGIELSKI,DUNSKI,A2,opowiesci,a magic bicycle (children's tale),10,569
+066,CZESKI_DUNSKI_moja_rodzina.txt,CZESKI,DUNSKI,B1,listy_i_opisy,describing my family,15,1135
+067,WLOSKI_FINSKI_na_basenie.txt,WLOSKI,FINSKI,B2,codzienne,a day at the swimming pool,18,2169
+068,TURECKI_FINSKI_nocny_autobus.txt,TURECKI,FINSKI,A1,podroze,a night bus journey,12,499
+069,NIEMIECKI_FINSKI_nieudane_spotkanie.txt,NIEMIECKI,FINSKI,A2,praca,a work meeting that goes wrong,11,892
+070,POLSKI_FINSKI_legenda_o_rzece.txt,POLSKI,FINSKI,A2,kultura,a local legend about a river,10,735
+071,ANGIELSKI_FINSKI_piekarz_i_krol.txt,ANGIELSKI,FINSKI,B1,opowiesci,the baker and the king (a short tale),18,1971
+072,UKRAINSKI_FINSKI_pocztowka_znad_morza.txt,UKRAINSKI,FINSKI,B1,listy_i_opisy,a postcard from the seaside,17,1479
+073,DUNSKI_TURECKI_naprawa_roweru.txt,DUNSKI,TURECKI,A1,codzienne,fixing a bicycle,11,489
+074,ROSYJSKI_TURECKI_rezerwacja_mieszkania.txt,ROSYJSKI,TURECKI,A2,podroze,booking a holiday flat,10,590
+075,POLSKI_TURECKI_awans_i_nowy_zespol.txt,POLSKI,TURECKI,A2,praca,a promotion and a new team,10,581
+076,ANGIELSKI_TURECKI_jarmark_rekodziela.txt,ANGIELSKI,TURECKI,B1,kultura,a craft fair with handmade things,16,1571
+077,FRANCUSKI_TURECKI_mapa_skarbu_na_strychu.txt,FRANCUSKI,TURECKI,B1,opowiesci,a treasure map found in the attic,22,1905
+078,KOREANSKI_TURECKI_moje_hobby.txt,KOREANSKI,TURECKI,B2,listy_i_opisy,my hobbies and free time,22,2425
+079,RUMUNSKI_POLSKI_pierwszy_dzien_wiosny.txt,RUMUNSKI,POLSKI,A2,codzienne,the first warm day of spring in the garden,13,748
+080,CHINSKI_POLSKI_wizyta_w_wiosce.txt,CHINSKI,POLSKI,A2,podroze,a visit to a small village,14,634
+081,ANGIELSKI_POLSKI_kelner_w_restauracji.txt,ANGIELSKI,POLSKI,B1,praca,a waiter in a busy restaurant,17,1585
+082,NIEMIECKI_POLSKI_sylwester_w_miescie.txt,NIEMIECKI,POLSKI,B1,kultura,New Year's Eve in the city,16,1191
+083,TURECKI_POLSKI_zolw_ktory_chcial_zobaczyc_morze.txt,TURECKI,POLSKI,B2,opowiesci,a tortoise who wanted to see the sea,23,2698
+084,UKRAINSKI_POLSKI_moje_ulubione_jedzenie.txt,UKRAINSKI,POLSKI,A1,listy_i_opisy,my favourite food and why,12,432
+085,ARABSKI_CZESKI_u_dentysty.txt,ARABSKI,CZESKI,A2,codzienne,a visit to the dentist,13,725
+086,ANGIELSKI_CZESKI_zwiedzanie_zamku.txt,ANGIELSKI,CZESKI,B1,podroze,a visit to a famous castle,16,1347
+087,NIEMIECKI_CZESKI_mlody_inzynier_na_budowie.txt,NIEMIECKI,CZESKI,B1,praca,a young engineer on a building site,20,1626
+088,SLOWACKI_CZESKI_zakonczenie_roku.txt,SLOWACKI,CZESKI,B2,kultura,the end-of-school-year ceremony,21,2166
+089,WLOSKI_CZESKI_historia_dziadka.txt,WLOSKI,CZESKI,A1,opowiesci,a grandfather tells about his first job,12,483
+090,POLSKI_CZESKI_prosty_przepis.txt,POLSKI,CZESKI,A2,listy_i_opisy,a simple recipe: how to make a dish,15,801
+091,HINDI_SLOWACKI_lista_zakupow.txt,HINDI,SLOWACKI,B1,codzienne,at the supermarket with a shopping list,17,1458
+092,GRECKI_SLOWACKI_pierwszy_raz_w_metrze.txt,GRECKI,SLOWACKI,B1,podroze,taking the metro for the first time,15,1206
+093,DUNSKI_SLOWACKI_sprzedawca_i_klient.txt,DUNSKI,SLOWACKI,B2,praca,a shop assistant and a difficult customer,21,1888
+094,FRANCUSKI_SLOWACKI_karnawalowy_pochod.txt,FRANCUSKI,SLOWACKI,A1,kultura,a carnival or festival parade,11,392
+095,POLSKI_SLOWACKI_wioska_bez_mostu.txt,POLSKI,SLOWACKI,A2,opowiesci,a village that lost its bridge,10,620
+096,ANGIELSKI_SLOWACKI_zwierze_ktore_kocham.txt,ANGIELSKI,SLOWACKI,A2,listy_i_opisy,an animal I love,11,552
+097,ANGIELSKI_CHORWACKI_wieczor_z_ksiazka.txt,ANGIELSKI,CHORWACKI,B1,codzienne,a quiet evening with a book and tea,14,1177
+098,NORWESKI_CHORWACKI_wizyta_u_rodziny.txt,NORWESKI,CHORWACKI,B2,podroze,visiting relatives in another country,25,2541
+099,POLSKI_CHORWACKI_dzien_przewodnika.txt,POLSKI,CHORWACKI,A1,praca,a tourist guide's day,10,464
+100,PORTUGALSKI_CHORWACKI_ksiegarnia_na_rogu.txt,PORTUGALSKI,CHORWACKI,A2,kultura,the old bookshop on the corner,12,824
+101,SLOWACKI_CHORWACKI_wieczor_bez_pradu.txt,SLOWACKI,CHORWACKI,A2,opowiesci,the evening the lights went out,16,859
+102,CHINSKI_CHORWACKI_wiadomosc_do_nowego_sasiada.txt,CHINSKI,CHORWACKI,B1,listy_i_opisy,a message to a new neighbour,20,1623
+103,ARABSKI_ROSYJSKI_sniadanie_dla_rodziny.txt,ARABSKI,ROSYJSKI,B2,codzienne,preparing breakfast for the whole family,20,2019
+104,ANGIELSKI_ROSYJSKI_spozniony_pociag.txt,ANGIELSKI,ROSYJSKI,A1,podroze,a missed train and an unexpected evening,13,591
+105,CZESKI_ROSYJSKI_malarz_na_jarmarku.txt,CZESKI,ROSYJSKI,A2,praca,an artist selling paintings at a fair,15,907
+106,HISZPANSKI_ROSYJSKI_kino_pod_gwiazdami.txt,HISZPANSKI,ROSYJSKI,A2,kultura,an open-air cinema evening,10,598
+107,POLSKI_ROSYJSKI_gadajacy_kot_w_szkole.txt,POLSKI,ROSYJSKI,B1,opowiesci,a talking cat visits a school (children's tale),16,1440
+108,SZWEDZKI_ROSYJSKI_jak_ucze_sie_jezykow.txt,SZWEDZKI,ROSYJSKI,B1,listy_i_opisy,how I learn languages,20,2017
+109,TURECKI_UKRAINSKI_poranny_bieg.txt,TURECKI,UKRAINSKI,A1,codzienne,a morning run in the park,12,459
+110,POLSKI_UKRAINSKI_wynajem_samochodu.txt,POLSKI,UKRAINSKI,A2,podroze,renting a car,10,608
+111,RUMUNSKI_UKRAINSKI_listonosz_w_miasteczku.txt,RUMUNSKI,UKRAINSKI,A2,praca,a postman in a small town,11,751
+112,HINDI_UKRAINSKI_wystawa_strojow_ludowych.txt,HINDI,UKRAINSKI,B1,kultura,an exhibition of traditional costumes,13,1341
+113,GRECKI_UKRAINSKI_nieporozumienie_w_restauracji.txt,GRECKI,UKRAINSKI,B1,opowiesci,a funny misunderstanding in a restaurant (dialogue),15,1034
+114,ANGIELSKI_UKRAINSKI_dzien_ktorego_nie_zapomne.txt,ANGIELSKI,UKRAINSKI,B2,listy_i_opisy,a day I will never forget,20,1893
+115,CHINSKI_GRECKI_nowy_telefon.txt,CHINSKI,GRECKI,A2,codzienne,buying a new mobile phone,12,715
+116,ANGIELSKI_GRECKI_dzien_z_przewodnikiem.txt,ANGIELSKI,GRECKI,A2,podroze,a sightseeing day with a guide,16,923
+117,POLSKI_GRECKI_lekarz_na_dyzurze.txt,POLSKI,GRECKI,B1,praca,a doctor on night duty,14,1276
+118,ROSYJSKI_GRECKI_rytual_kawy_lub_herbaty.txt,ROSYJSKI,GRECKI,B1,kultura,the coffee or tea ritual of the country,20,1668
+119,PORTUGALSKI_GRECKI_zagubione_dziecko_na_jarmarku.txt,PORTUGALSKI,GRECKI,B2,opowiesci,a lost child found at a fair,20,2106
+120,FINSKI_GRECKI_spacer_jesienia.txt,FINSKI,GRECKI,A1,listy_i_opisy,a walk in the park in autumn,9,386
+121,KOREANSKI_ARABSKI_album_ze_zdjeciami.txt,KOREANSKI,ARABSKI,A2,codzienne,a family photo album evening,10,537
+122,POLSKI_ARABSKI_wycieczka_na_wies.txt,POLSKI,ARABSKI,B1,podroze,a birthday trip to the countryside,16,1036
+123,SZWEDZKI_ARABSKI_warsztat_mechanika.txt,SZWEDZKI,ARABSKI,B1,praca,a car mechanic's workshop,16,1062
+124,HISZPANSKI_ARABSKI_wiosenne_swieto_i_zwyczaje.txt,HISZPANSKI,ARABSKI,B2,kultura,a spring holiday and its customs,17,1400
+125,CHORWACKI_ARABSKI_parasol_ktory_wracal.txt,CHORWACKI,ARABSKI,A1,opowiesci,the umbrella that always came back,12,439
+126,ANGIELSKI_ARABSKI_przewodnik_po_moim_miescie.txt,ANGIELSKI,ARABSKI,A2,listy_i_opisy,my city: a short guide for visitors,15,858
+127,HOLENDERSKI_JAPONSKI_zgubiony_klucz.txt,HOLENDERSKI,JAPONSKI,B1,codzienne,a lost key and a helpful neighbour,14,590
+128,TURECKI_JAPONSKI_zimowy_wyjazd.txt,TURECKI,JAPONSKI,B1,podroze,a winter trip to the snow,16,599
+129,ANGIELSKI_JAPONSKI_recepcjonistka_w_hotelu.txt,ANGIELSKI,JAPONSKI,B2,praca,a hotel receptionist,25,1120
+130,ARABSKI_JAPONSKI_popularna_gra_lub_sport.txt,ARABSKI,JAPONSKI,A1,kultura,a popular local game or sport,12,250
+131,RUMUNSKI_JAPONSKI_najlepszy_prezent_nauczyciela.txt,RUMUNSKI,JAPONSKI,A2,opowiesci,the best gift a teacher ever received,12,418
+132,POLSKI_JAPONSKI_zdrowe_nawyki.txt,POLSKI,JAPONSKI,A2,listy_i_opisy,"healthy habits: sleep, food and sport",16,390
+133,FINSKI_KOREANSKI_niespodzianka_dla_przyjaciela.txt,FINSKI,KOREANSKI,B1,codzienne,planning a surprise for a friend,16,671
+134,NIEMIECKI_KOREANSKI_student_w_nowym_kraju.txt,NIEMIECKI,KOREANSKI,B2,podroze,arriving in a new country as a student,25,1213
+135,ANGIELSKI_KOREANSKI_tlumacz_freelancer.txt,ANGIELSKI,KOREANSKI,A1,praca,a freelance translator,12,185
+136,ROSYJSKI_KOREANSKI_wieza_zegarowa.txt,ROSYJSKI,KOREANSKI,A2,kultura,the historic clock tower of a town,14,465
+137,POLSKI_KOREANSKI_ostatni_autobus.txt,POLSKI,KOREANSKI,A2,opowiesci,the last bus home,14,464
+138,WLOSKI_KOREANSKI_weekend_u_mnie.txt,WLOSKI,KOREANSKI,B1,listy_i_opisy,what I do at the weekend,19,714
+139,ANGIELSKI_CHINSKI_czekanie_na_paczke.txt,ANGIELSKI,CHINSKI,B2,codzienne,waiting for a parcel delivery,17,583
+140,JAPONSKI_CHINSKI_kasa_biletowa.txt,JAPONSKI,CHINSKI,A1,podroze,at the ticket office looking for the right platform,10,136
+141,CHORWACKI_CHINSKI_podanie_o_prace_mailem.txt,CHORWACKI,CHINSKI,A2,praca,applying for a job by email,12,219
+142,FRANCUSKI_CHINSKI_koncert_w_parku.txt,FRANCUSKI,CHINSKI,A2,kultura,a music concert in the park,10,225
+143,POLSKI_CHINSKI_list_sprzed_dwudziestu_lat.txt,POLSKI,CHINSKI,B1,opowiesci,a letter that arrived twenty years late,14,416
+144,DUNSKI_CHINSKI_koledzy_z_pracy_i_szkoly.txt,DUNSKI,CHINSKI,B1,listy_i_opisy,my colleagues or classmates,14,418
+145,ANGIELSKI_HINDI_porzadki_w_domu.txt,ANGIELSKI,HINDI,A1,codzienne,spring cleaning at home,11,423
+146,NORWESKI_HINDI_spacer_nad_rzeka.txt,NORWESKI,HINDI,A2,podroze,a walk along a river in a foreign town,14,757
+147,HOLENDERSKI_HINDI_rybak_o_swicie.txt,HOLENDERSKI,HINDI,A2,praca,a fisherman at dawn,17,815
+148,ARABSKI_HINDI_koniec_lata_w_rodzinie.txt,ARABSKI,HINDI,B1,kultura,a family tradition at the end of summer,16,1201
+149,SLOWACKI_HINDI_kto_zjadl_ciasto.txt,SLOWACKI,HINDI,B1,opowiesci,a small mystery: who ate the cake?,16,1148
+150,POLSKI_HINDI_podziekowanie_dla_nauczyciela.txt,POLSKI,HINDI,B2,listy_i_opisy,a thank-you letter to a teacher,20,1374

@@ -1,0 +1,19 @@
+De compras en las rebajas
+ESCENA 1 – Lucía e Inés entran en una tienda de ropa del centro
+LUCÍA: Necesito una chaqueta nueva, porque la que tengo ya está muy vieja.
+INÉS: Pues has venido en el mejor momento, que casi todo está rebajado.
+LUCÍA: Mira esta chaqueta verde, creo que es justo lo que busco.
+INÉS: Pruébatela, pero antes mira la etiqueta para ver qué talla es.
+LUCÍA: Es la talla 38, la de siempre, así que me la pruebo ahora mismo.
+INÉS: Mmm, te queda un poco grande, sobre todo en los hombros, ¿no crees?
+LUCÍA: Sí, las tallas de esta marca salen grandes. Perdone, ¿tienen esta chaqueta en la 36?
+DEPENDIENTA: Aquí tiene la 36, y este modelo también lo tenemos en gris y en negro.
+LUCÍA: Gracias. Ahora sí, esta me queda mucho mejor que la anterior, ¿no te parece?
+INÉS: Te sienta de maravilla, y además el verde te favorece muchísimo.
+LUCÍA: No encuentro el precio por ningún lado, ¿cuánto cuesta esta chaqueta?
+DEPENDIENTA: Costaba noventa euros, pero con el treinta por ciento de descuento son sesenta y tres.
+LUCÍA: Me parece un buen precio, porque el año pasado pagué casi cien euros por una peor.
+INÉS: Yo que tú me la llevaría ahora, antes de que se acabe esa talla.
+LUCÍA: Tienes razón, me la llevo. Pero luego te toca a ti, que querías unos vaqueros.
+INÉS: Vale, pero antes quiero que me invites a un café para celebrar tu compra.
+LUCÍA: ¡Trato hecho! Después de merendar seguimos buscando tus vaqueros.

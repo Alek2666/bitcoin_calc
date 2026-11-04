@@ -1,0 +1,14 @@
+U zubaře
+SCÉNA 1 – V zubní ordinaci
+JANA: Dobrý den, mám objednáno na desátou hodinu.
+ZUBAŘKA: Dobrý den, paní Svobodová, pojďte dál a posaďte se.
+JANA: Včera večer mě tak bolel zub, že jsem nemohla spát.
+ZUBAŘKA: Otevřete ústa, prosím, a řekněte mi, kde přesně to bolí.
+JANA: Tady, vlevo nahoře. Au, to bolí!
+ZUBAŘKA: Vidím to, máte tam kaz, proto vás zub tak bolí.
+ZUBAŘKA: Zub vyčistím a dám vám plombu, nejdřív ale dostanete injekci.
+JANA: Bude to dlouho trvat? Odpoledne musím jít do práce.
+ZUBAŘKA: Asi půl hodiny, potom ale dvě hodiny nejezte a nepijte nic horkého.
+JANA: Rozumím, děkuji. A kdy mám přijít na kontrolu?
+ZUBAŘKA: Za půl roku, objednejte se prosím u sestřičky na recepci.
+JANA: Děkuji vám, na shledanou.

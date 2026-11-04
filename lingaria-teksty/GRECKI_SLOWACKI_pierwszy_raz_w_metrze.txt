@@ -1,0 +1,16 @@
+Prvýkrát v metre
+SCÉNA 1 – Dominika je na návšteve u Katky v Prahe, pri automate na lístky v metre
+DOMINIKA: Katka, na Slovensku metro nie je, takže som ešte nikdy nejazdila metrom a trochu sa bojím.
+KATKA: Nemusíš sa báť, je to jednoduchšie, ako to vyzerá, len si najprv musíme kúpiť lístky v automate.
+DOMINIKA: A aký lístok potrebujeme, keď chceme jazdiť po meste celé popoludnie?
+KATKA: Kúpime si lístok na dvadsaťštyri hodín, lebo dnes budeme cestovať viackrát a nebudeme si musieť kupovať ďalšie.
+SCÉNA 2 – Na eskalátoroch a na nástupišti
+DOMINIKA: Páni, tieto eskalátory sú naozaj dlhé a idú strašne rýchlo!
+KATKA: Áno, a nezabudni, že vpravo sa stojí a vľavo sa chodí.
+DOMINIKA: Dobre, stojím vpravo, ale ktorou linkou vlastne pôjdeme?
+KATKA: Nastúpime na zelenú linku A a vystúpime v stanici Staroměstská, takže nemusíme nikde prestupovať.
+DOMINIKA: Pozri, vlak už prichádza! Môžeme hneď nastúpiť?
+KATKA: Počkaj, najprv nechaj vystúpiť ľudí a až potom nastúp.
+DOMINIKA: Rozumiem, a ten hlas z reproduktora hovorí po česky, že sa dvere zatvárajú.
+KATKA: Presne tak, a od stanice Staroměstská je to už len kúsok do historického centra.
+DOMINIKA: Ani som nečakala, že bude metro také rýchle a čisté.

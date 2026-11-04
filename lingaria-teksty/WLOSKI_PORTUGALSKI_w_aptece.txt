@@ -1,0 +1,22 @@
+Na farmácia do bairro
+CENA 1 – Beatriz entra numa farmácia do bairro numa manhã fria
+FARMACÊUTICO: Bom dia! Em que posso ajudar?
+BEATRIZ: Bom dia, acho que peguei um resfriado. Estou com o nariz entupido e com dor de garganta.
+FARMACÊUTICO: Você também está com febre ou com tosse?
+BEATRIZ: Ontem à noite tive um pouco de febre e uma tosse leve, mas hoje a febre já passou.
+FARMACÊUTICO: Isso é normal nos primeiros dias, mas é importante descansar bastante.
+BEATRIZ: Eu sei, mas tenho muito trabalho esta semana e não posso faltar.
+FARMACÊUTICO: Entendo, então vou indicar um remédio que não dá sono.
+BEATRIZ: Ótimo, porque preciso dirigir todos os dias para chegar ao trabalho.
+FARMACÊUTICO: Você toma este comprimido de oito em oito horas, sempre depois de comer.
+BEATRIZ: E para a garganta, tem alguma coisa que ajude?
+FARMACÊUTICO: Estas pastilhas de mel e limão ajudam bastante, e você pode deixar uma dissolver na boca a cada três horas.
+BEATRIZ: Minha tosse piora à noite, então talvez eu também precise de um xarope.
+FARMACÊUTICO: Por enquanto as pastilhas devem bastar, mas se a tosse durar mais de uma semana, procure um médico.
+BEATRIZ: Está bem, então vou levar só o comprimido e as pastilhas.
+FARMACÊUTICO: Beba bastante água, tome chá quente e tente dormir cedo.
+BEATRIZ: Pode deixar, vou seguir as dicas. Quanto fica tudo junto?
+FARMACÊUTICO: Fica quarenta e dois reais e cinquenta, e você pode pagar no cartão ou em dinheiro.
+BEATRIZ: Vou pagar no cartão de débito, por favor, porque hoje não trouxe dinheiro.
+FARMACÊUTICO: Certo, pode passar o cartão aqui. Quer o CPF na nota?
+BEATRIZ: Não precisa, obrigada. E obrigada pela ajuda!

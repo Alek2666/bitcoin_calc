@@ -1,0 +1,22 @@
+Reklamácia
+SCÉNA 1 – V obchode s oblečením, krátko pred zatvorením
+PÁN KOVÁČ: Dobrý večer, chcem vrátiť túto bundu, lebo sa mi po dvoch týždňoch pokazil zips.
+SILVIA: Dobrý večer, rada vám pomôžem, len mi najprv ukážte bundu a účtenku, prosím.
+PÁN KOVÁČ: Účtenku som dávno vyhodil, veď kto by si odkladal každý papierik!
+SILVIA: Chápem, že vás to hnevá, ale bez dokladu je to zložitejšie. Platili ste kartou alebo v hotovosti?
+PÁN KOVÁČ: Kartou, samozrejme, kto dnes nosí hotovosť? A nehovorte mi, že sa s tým nedá nič robiť!
+SILVIA: Ak ste platili kartou, nájdem vašu platbu v systéme. Stačí mi približný dátum nákupu.
+PÁN KOVÁČ: Bolo to v utorok pred dvoma týždňami. A keby ste sa trochu poponáhľali, mohol by som konečne ísť domov.
+SILVIA: Chvíľku strpenia... Áno, vidím vašu platbu z utorka, bunda stála deväťdesiat eur.
+PÁN KOVÁČ: Vidíte, že som nežartoval! Takže mi hneď vrátite peniaze a bude pokoj.
+SILVIA: Navrhujem vám radšej výmenu za nový kus alebo opravu zipsu. Ak vám nevyhovuje ani to, poradím sa s vedúcou predajne.
+PÁN KOVÁČ: Výmena mi nepomôže, lebo aj druhá bunda môže mať rovnakú chybu. A ja nemám čas behať sem každý týždeň!
+SILVIA: Máte pravdu, to sa môže stať. Preto si novú bundu spolu skontrolujeme ešte pred výmenou.
+PÁN KOVÁČ: No dobre, ale ak sa zips pokazí aj tentoraz, urobím tu poriadny rozruch, to vám sľubujem.
+SILVIA: Dohodnuté. Keby sa čokoľvek stalo, zavolajte priamo mne, číslo vám napíšem na vizitku.
+SCÉNA 2 – O desať minút neskôr
+SILVIA: Tu je vaša nová bunda. Zips som vyskúšala trikrát, takže by mal vydržať veľmi dlho.
+PÁN KOVÁČ: Ďakujem vám a ospravedlňujem sa, že som na vás zvýšil hlas. Mal som dnes veľmi ťažký deň.
+SILVIA: To je v poriadku, naozaj sa nehnevám. Každý z nás má občas taký deň.
+PÁN KOVÁČ: Takú trpezlivosť by som si prial mať aj ja. A účtenku si nabudúce odložím, sľubujem.
+SILVIA: To by nám obom ušetrilo nervy. Pekný večer!

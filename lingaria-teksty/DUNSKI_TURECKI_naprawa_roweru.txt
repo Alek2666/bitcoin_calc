@@ -1,0 +1,12 @@
+Bisiklet tamircisinde
+SAHNE 1 – Küçük bir bisiklet tamircisi
+EMRE: Günaydın usta! Bisikletim bozuk.
+HASAN: Günaydın! Sorun ne?
+EMRE: Ön lastik patlak, ayrıca fren de çalışmıyor.
+HASAN: Bir bakayım. Evet, lastikte büyük bir delik var.
+EMRE: Tamir eder misiniz lütfen?
+HASAN: Tabii, lastiğe ve frene bakarım. Yarım saat yeter.
+EMRE: Çok güzel! Kaç lira tutar?
+HASAN: Yüz elli lira.
+EMRE: Tamam. Ben yandaki kafede çay içiyorum.
+HASAN: Güzel. Yarım saat sonra gelin, bisikletiniz hazır olur.

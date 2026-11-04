@@ -1,0 +1,19 @@
+Hos frisøren
+SCENE 1 – I frisørsalonen
+JESPER: Hej og velkommen! Har du bestilt tid?
+LONE: Ja, jeg hedder Lone Andersen, og jeg har tid klokken ti.
+JESPER: Perfekt. Tag plads, så vasker vi først dit hår. Hvad skal det være i dag?
+LONE: Jeg begynder i et nyt job på mandag, så jeg vil gerne have en ny frisure.
+JESPER: Dit hår er ret langt lige nu. Hvor kort vil du have det?
+LONE: Øh, jeg tror, jeg vil have det til skuldrene, men jeg er lidt nervøs.
+JESPER: Det forstår jeg godt. Sidste år blev mit eget hår klippet alt for kort, og det tog et halvt år at vokse ud.
+LONE: Så du ved, hvordan det er! Du må endelig ikke klippe for meget af.
+JESPER: Det lover jeg. Hvad siger du til lidt pandehår, så det ser mere moderne ud?
+LONE: Hm, jeg har aldrig haft pandehår før, men jeg vil gerne prøve.
+SCENE 2 – En halv time senere
+JESPER: Så er vi færdige. Se dig i spejlet, og sig, hvad du synes.
+LONE: Wow, det ser meget bedre ud, end jeg havde forventet!
+JESPER: Det glæder mig. Det bliver fire hundrede og halvtreds kroner, tak.
+LONE: Kan jeg betale med kort? Og skal jeg give drikkepenge?
+JESPER: Du kan godt betale med kort, men drikkepenge behøver du ikke give her i Danmark.
+LONE: Så får du et stort smil i stedet, og jeg kommer gerne igen om to måneder.

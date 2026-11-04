@@ -1,0 +1,20 @@
+Inchecken in Utrecht
+SCÈNE 1 – Aan de receptie van een klein hotel in Utrecht
+LAURA: Goedenavond, ik heb een kamer gereserveerd voor drie nachten, op naam van De Wit.
+SANDER: Welkom, mevrouw De Wit! Ja, ik zie het al: een tweepersoonskamer met uitzicht op de gracht.
+LAURA: Wat fijn! Mijn man zoekt nog een parkeerplaats, want we komen met de auto uit Groningen.
+SANDER: Dan zal hij even moeten zoeken, want wij hebben helaas geen eigen parkeerplaats.
+LAURA: Dat is niet erg, maar is er in de buurt een parkeergarage die de hele nacht open is?
+SANDER: Jazeker, aan het eind van de straat is er een, en onze gasten krijgen daar een gunstige prijs.
+LAURA: Prima, dat is handig om te weten. Hoe laat is het ontbijt eigenlijk?
+SANDER: Het ontbijtbuffet is van zeven tot tien uur, en in het weekend tot elf uur.
+LAURA: Mooi, want ik slaap graag uit als ik op vakantie ben.
+SANDER: Dat begrijp ik helemaal. Mag ik uw paspoort of identiteitskaart even zien?
+LAURA: Natuurlijk, alstublieft. Moet ik nu al betalen, of kan dat bij het uitchecken?
+SANDER: Dat kan bij het uitchecken, en u moet de kamer uiterlijk om elf uur verlaten.
+LAURA: Is er een lift? Mijn koffer is nogal zwaar.
+SANDER: Jazeker, links achter u. Het is kamer 204, op de tweede verdieping.
+LAURA: Is er ook wifi op de kamer? Ik moet vanavond nog even e-mailen.
+SANDER: Ja, het wachtwoord staat op uw sleutelkaart. Heeft u verder nog vragen?
+LAURA: Nee hoor, dank u wel. Mijn man komt zo, kunt u hem de weg naar de kamer wijzen?
+SANDER: Natuurlijk, dat doe ik graag. Een fijn verblijf gewenst!
