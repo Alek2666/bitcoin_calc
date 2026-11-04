@@ -4,8 +4,9 @@ Zdjęcia-plansze ze słówkami (styl: zdjęcia odręcznych notatek, kartek, tabl
 Wgrywasz je w Lingarii z konta w języku ucznia; aplikacja sama odczytuje słówka i tłumaczy.
 
 ## Nazwy plików
-`{JĘZYK_NAUKI}_NA_{JĘZYK_UCZNIA}_{temat}[_fonetyka].jpg`
-- `ANGIELSKI_NA_POLSKI_kuchnia.jpg` = słowa angielskie dla Polaka.
+`{KONTO}_NA_{SŁOWA}_{temat}[_fonetyka].jpg`
+- Czytaj od lewej: logujesz się na koncie w pierwszym języku i wgrywasz słowa w drugim.
+- `HISZPANSKI_NA_NIEMIECKI_owoce.jpg` = konto hiszpańskie, wgrywasz niemieckie słowa.
 - `_fonetyka` = nad każdym słowem jest wymowa zapisana „po uczniowsku" (pisownia języka ucznia).
 
 ## Foldery

@@ -1,90 +1,90 @@
 [
   {
-    "plik": "probne/WLOSKI_NA_ANGIELSKI_warzywa.jpg",
+    "plik": "probne/ANGIELSKI_NA_WLOSKI_warzywa.jpg",
     "model": "gemini-3-pro-image",
     "proporcje": "3:4",
     "imageSize": "2K",
     "prompt": "Candid, slightly imperfect smartphone photo of a real, physical, handmade item, soft natural window light, mildly uneven lighting and soft shadows, slight perspective, nothing perfectly straight, real paper texture. Strictly NOT a glossy digital illustration, NOT a 3D render, NOT airbrushed, NOT perfectly symmetric or perfectly aligned; allow small human imperfections such as uneven spacing, slightly wobbly lines and tiny smudges. No watermark, no logo, no brand names, no social media handles. The ONLY text visible is the exact text listed below, spelled exactly as given (keep every accent, umlaut and special character); no other words, numbers or captions anywhere, including on objects. Lettering must stay neat, large and easy to read. A hand-printed risograph poster on cream paper lying on a wooden table. Three spot-ink colors only (tomato red, leaf green, mustard yellow) with slight misregistration and speckled ink grain. Title at the top in hand-lettered capitals: \"Al mercato\". Nine simple, bold, slightly naive vegetable drawings in a loose uneven grid, each with its name underneath in hand-lettered capitals. Labels, exactly: \"POMODORO\", \"CAROTA\", \"CIPOLLA\", \"PATATA\", \"PEPERONE\", \"MELANZANA\", \"ZUCCHINA\", \"AGLIO\", \"LATTUGA\"."
   },
   {
-    "plik": "probne/ANGIELSKI_NA_POLSKI_kuchnia.jpg",
+    "plik": "probne/POLSKI_NA_ANGIELSKI_kuchnia.jpg",
     "model": "gemini-3-pro-image",
     "proporcje": "4:5",
     "imageSize": "2K",
     "prompt": "Candid, slightly imperfect smartphone photo of a real, physical, handmade item, soft natural window light, mildly uneven lighting and soft shadows, slight perspective, nothing perfectly straight, real paper texture. Strictly NOT a glossy digital illustration, NOT a 3D render, NOT airbrushed, NOT perfectly symmetric or perfectly aligned; allow small human imperfections such as uneven spacing, slightly wobbly lines and tiny smudges. No watermark, no logo, no brand names, no social media handles. The ONLY text visible is the exact text listed below, spelled exactly as given (keep every accent, umlaut and special character); no other words, numbers or captions anywhere, including on objects. Lettering must stay neat, large and easy to read. A page of a school sketchbook drawn in pencil and colored pencil, photographed from above on a desk with a pencil lying at the edge. A rough, charming sketch of a kitchen corner with visible pencil guide lines. Title at the top written with a marker: \"In the kitchen\". Ten items are labelled with handwritten ballpoint-pen labels and small arrows; every label appears exactly ONCE. Labels, exactly: \"fridge\", \"stove\", \"sink\", \"kettle\", \"frying pan\", \"cupboard\", \"knife\", \"spoon\", \"plate\", \"table\". Draw only these ten objects clearly. Exactly ten labels in total, one per object, and NO object is ever labelled twice: the stove (hob with oven) is labelled once, the spoon is labelled once."
   },
   {
-    "plik": "probne/HISZPANSKI_NA_NIEMIECKI_owoce.jpg",
+    "plik": "probne/NIEMIECKI_NA_HISZPANSKI_owoce.jpg",
     "model": "gemini-3-pro-image",
     "proporcje": "1:1",
     "imageSize": "2K",
     "prompt": "Candid, slightly imperfect smartphone photo of a real, physical, handmade item, soft natural window light, mildly uneven lighting and soft shadows, slight perspective, nothing perfectly straight, real paper texture. Strictly NOT a glossy digital illustration, NOT a 3D render, NOT airbrushed, NOT perfectly symmetric or perfectly aligned; allow small human imperfections such as uneven spacing, slightly wobbly lines and tiny smudges. No watermark, no logo, no brand names, no social media handles. The ONLY text visible is the exact text listed below, spelled exactly as given (keep every accent, umlaut and special character); no other words, numbers or captions anywhere, including on objects. Lettering must stay neat, large and easy to read. Top-down photo of ten hand-made index cards (flashcards) scattered on a wooden table at different angles, a few overlapping, soft light from a window. Each card has a simple marker-and-colored-pencil doodle of one fruit and its Spanish name in neat marker capitals. Labels, exactly: \"MANZANA\", \"PLÁTANO\", \"NARANJA\", \"FRESA\", \"UVA\", \"SANDÍA\", \"LIMÓN\", \"PERA\", \"PIÑA\", \"CEREZA\". No title."
   },
   {
-    "plik": "probne/NIEMIECKI_NA_POLSKI_ubrania.jpg",
+    "plik": "probne/POLSKI_NA_NIEMIECKI_ubrania.jpg",
     "model": "gemini-3-pro-image",
     "proporcje": "4:5",
     "imageSize": "2K",
     "prompt": "Candid, slightly imperfect smartphone photo of a real, physical, handmade item, soft natural window light, mildly uneven lighting and soft shadows, slight perspective, nothing perfectly straight, real paper texture. Strictly NOT a glossy digital illustration, NOT a 3D render, NOT airbrushed, NOT perfectly symmetric or perfectly aligned; allow small human imperfections such as uneven spacing, slightly wobbly lines and tiny smudges. No watermark, no logo, no brand names, no social media handles. The ONLY text visible is the exact text listed below, spelled exactly as given (keep every accent, umlaut and special character); no other words, numbers or captions anywhere, including on objects. Lettering must stay neat, large and easy to read. A photo of a classroom whiteboard with slight glare and faint ghosts of erased writing. Colorful dry-erase-marker drawings of ten clothing items with black marker labels. Title at the top in blue marker: \"Kleidung\". Layout: 2 columns by 5 rows; each label is written to the right of its drawing on ONE single line, never broken across lines and never hyphenated. Labels, exactly: \"die Hose\", \"das Hemd\", \"die Jacke\", \"die Mütze\", \"die Schuhe\", \"die Socken\", \"das Kleid\", \"der Schal\", \"die Handschuhe\", \"der Rock\"."
   },
   {
-    "plik": "probne/FRANCUSKI_NA_HISZPANSKI_kawiarnia.jpg",
+    "plik": "probne/HISZPANSKI_NA_FRANCUSKI_kawiarnia.jpg",
     "model": "gemini-3-pro-image",
     "proporcje": "2:3",
     "imageSize": "2K",
     "prompt": "Candid, slightly imperfect smartphone photo of a real, physical, handmade item, soft natural window light, mildly uneven lighting and soft shadows, slight perspective, nothing perfectly straight, real paper texture. Strictly NOT a glossy digital illustration, NOT a 3D render, NOT airbrushed, NOT perfectly symmetric or perfectly aligned; allow small human imperfections such as uneven spacing, slightly wobbly lines and tiny smudges. No watermark, no logo, no brand names, no social media handles. The ONLY text visible is the exact text listed below, spelled exactly as given (keep every accent, umlaut and special character); no other words, numbers or captions anywhere, including on objects. Lettering must stay neat, large and easy to read. A printed vintage-style café menu card on cream card stock with slightly curled corners and a couple of faint coffee stains, photographed lying on a marble café table, the edge of a small espresso cup just visible at the border. Title at the top: \"Au café\". Ten items listed in two columns, each with a tiny ink drawing and its name on ONE line in a simple serif font. Items, exactly: \"un café\", \"un thé\", \"un croissant\", \"une baguette\", \"un jus d'orange\", \"du lait\", \"du sucre\", \"un gâteau\", \"un chocolat chaud\", \"de l'eau\". The milk is drawn as a small glass jug, not a carton. There is no writing, letters or numbers on any drawing or object, and the espresso cup in the corner is plain white."
   },
   {
-    "plik": "probne/PORTUGALSKI_NA_ANGIELSKI_zwierzeta.jpg",
+    "plik": "probne/ANGIELSKI_NA_PORTUGALSKI_zwierzeta.jpg",
     "model": "gemini-3-pro-image",
     "proporcje": "3:4",
     "imageSize": "2K",
     "prompt": "Candid, slightly imperfect smartphone photo of a real, physical, handmade item, soft natural window light, mildly uneven lighting and soft shadows, slight perspective, nothing perfectly straight, real paper texture. Strictly NOT a glossy digital illustration, NOT a 3D render, NOT airbrushed, NOT perfectly symmetric or perfectly aligned; allow small human imperfections such as uneven spacing, slightly wobbly lines and tiny smudges. No watermark, no logo, no brand names, no social media handles. The ONLY text visible is the exact text listed below, spelled exactly as given (keep every accent, umlaut and special character); no other words, numbers or captions anywhere, including on objects. Lettering must stay neat, large and easy to read. A classroom bulletin-board display made of real construction-paper cutouts, photographed on a wall at a slight angle: ten animals cut out by hand with slightly uneven scissor edges and glued on colored sheets, a bit of tape visible. Names written on white paper strips with a black marker in neat lowercase. Title made of cut paper letters: \"Animais\". Labels, exactly: \"gato\", \"cachorro\", \"pássaro\", \"peixe\", \"cavalo\", \"vaca\", \"porco\", \"coelho\", \"tartaruga\", \"macaco\"."
   },
   {
-    "plik": "probne/JAPONSKI_NA_POLSKI_jedzenie.jpg",
+    "plik": "probne/POLSKI_NA_JAPONSKI_jedzenie.jpg",
     "model": "gemini-3-pro-image",
     "proporcje": "3:4",
     "imageSize": "2K",
     "prompt": "Candid, slightly imperfect smartphone photo of a real, physical, handmade item, soft natural window light, mildly uneven lighting and soft shadows, slight perspective, nothing perfectly straight, real paper texture. Strictly NOT a glossy digital illustration, NOT a 3D render, NOT airbrushed, NOT perfectly symmetric or perfectly aligned; allow small human imperfections such as uneven spacing, slightly wobbly lines and tiny smudges. No watermark, no logo, no brand names, no social media handles. The ONLY text visible is the exact text listed below, spelled exactly as given (keep every accent, umlaut and special character); no other words, numbers or captions anywhere, including on objects. Lettering must stay neat, large and easy to read. A student's lined notebook page photographed on a desk: food doodles drawn with colored pencils and felt-tip pens, a little messy, small eraser smudges and faint pencil guide lines still visible, one strip of washi tape on a corner, minimal decoration and no dense doodle border. Title at the top: \"たべもの\". Ten foods, each with its name next to it in clear handwritten kana. Labels, exactly: \"ごはん\", \"パン\", \"たまご\", \"さかな\", \"にく\", \"やさい\", \"くだもの\", \"おにぎり\", \"すし\", \"ラーメン\". Plain lined notebook paper with absolutely no printed header, no 'Date' field and no printed text of any kind."
   },
   {
-    "plik": "probne/TURECKI_NA_NIEMIECKI_cialo.jpg",
+    "plik": "probne/NIEMIECKI_NA_TURECKI_cialo.jpg",
     "model": "gemini-3-pro-image",
     "proporcje": "4:5",
     "imageSize": "2K",
     "prompt": "Candid, slightly imperfect smartphone photo of a real, physical, handmade item, soft natural window light, mildly uneven lighting and soft shadows, slight perspective, nothing perfectly straight, real paper texture. Strictly NOT a glossy digital illustration, NOT a 3D render, NOT airbrushed, NOT perfectly symmetric or perfectly aligned; allow small human imperfections such as uneven spacing, slightly wobbly lines and tiny smudges. No watermark, no logo, no brand names, no social media handles. The ONLY text visible is the exact text listed below, spelled exactly as given (keep every accent, umlaut and special character); no other words, numbers or captions anywhere, including on objects. Lettering must stay neat, large and easy to read. A photocopied textbook worksheet (black outlines on white paper) showing a child's body, colored in with colored pencils by a pupil, not perfectly inside the lines, photographed on a school desk with a pencil beside it. Ten body parts connected by thin lines to labels typed in a simple round textbook font. Title at the top: \"Vücut\". Labels, exactly: \"baş\", \"saç\", \"göz\", \"kulak\", \"burun\", \"ağız\", \"el\", \"kol\", \"bacak\", \"ayak\". The child in the drawing is clearly dressed in a simple t-shirt and shorts, colored in with colored pencils."
   },
   {
-    "plik": "probne/KOREANSKI_NA_POLSKI_transport.jpg",
+    "plik": "probne/POLSKI_NA_KOREANSKI_transport.jpg",
     "model": "gemini-3-pro-image",
     "proporcje": "3:4",
     "imageSize": "2K",
     "prompt": "Candid, slightly imperfect smartphone photo of a real, physical, handmade item, soft natural window light, mildly uneven lighting and soft shadows, slight perspective, nothing perfectly straight, real paper texture. Strictly NOT a glossy digital illustration, NOT a 3D render, NOT airbrushed, NOT perfectly symmetric or perfectly aligned; allow small human imperfections such as uneven spacing, slightly wobbly lines and tiny smudges. No watermark, no logo, no brand names, no social media handles. The ONLY text visible is the exact text listed below, spelled exactly as given (keep every accent, umlaut and special character); no other words, numbers or captions anywhere, including on objects. Lettering must stay neat, large and easy to read. A Korean student's study notebook page in the 'studygram' style, photographed on a desk, with pastel highlighters, a strip of washi tape and a pen. Eight simple hand-drawn vehicle doodles in pen and marker, each with its Korean name written next to it in neat handwriting. Title at the top: \"교통\". No Latin letters or numbers anywhere, including on the vehicles. Labels, exactly: \"버스\", \"기차\", \"지하철\", \"택시\", \"자전거\", \"비행기\", \"배\", \"오토바이\". There are no books, pen cases or any objects with printed text anywhere in the frame; the taxi is a plain yellow car with a blank roof light and a blank plate; pens and highlighters carry no printed text."
   },
   {
-    "plik": "probne/ROSYJSKI_NA_NIEMIECKI_pogoda.jpg",
+    "plik": "probne/NIEMIECKI_NA_ROSYJSKI_pogoda.jpg",
     "model": "gemini-3-pro-image",
     "proporcje": "4:5",
     "imageSize": "2K",
     "prompt": "Candid, slightly imperfect smartphone photo of a real, physical, handmade item, soft natural window light, mildly uneven lighting and soft shadows, slight perspective, nothing perfectly straight, real paper texture. Strictly NOT a glossy digital illustration, NOT a 3D render, NOT airbrushed, NOT perfectly symmetric or perfectly aligned; allow small human imperfections such as uneven spacing, slightly wobbly lines and tiny smudges. No watermark, no logo, no brand names, no social media handles. The ONLY text visible is the exact text listed below, spelled exactly as given (keep every accent, umlaut and special character); no other words, numbers or captions anywhere, including on objects. Lettering must stay neat, large and easy to read. A hand-made quiz card drawn by a teacher on white cardboard with felt-tip markers, photographed on a table. Question at the top in bold marker block letters: \"Какая сегодня погода?\". In the middle a naive marker drawing of a child in a yellow raincoat holding an umbrella in the rain. At the bottom three options written in marker block letters, each on its own line: \"А) Идёт дождь\", \"Б) Светит солнце\", \"В) Идёт снег\". Keep the Cyrillic exact."
   },
   {
-    "plik": "probne/ROSYJSKI_NA_ANGIELSKI_przeciwienstwa_fonetyka.jpg",
+    "plik": "probne/ANGIELSKI_NA_ROSYJSKI_przeciwienstwa_fonetyka.jpg",
     "model": "gemini-3-pro-image",
     "proporcje": "1:1",
     "imageSize": "2K",
     "prompt": "Candid, slightly imperfect smartphone photo of a real, physical, handmade item, soft natural window light, mildly uneven lighting and soft shadows, slight perspective, nothing perfectly straight, real paper texture. Strictly NOT a glossy digital illustration, NOT a 3D render, NOT airbrushed; allow small human imperfections. No watermark, no logo, no brand names. The ONLY text visible is the exact text listed below, spelled exactly as given (keep every accent and special character); no other words, numbers or captions anywhere, including on objects or on the paper itself. Where a pronunciation guide is listed, it is written in small neat letters DIRECTLY ABOVE its word, and the word is written large below it. Lettering must stay neat and easy to read. Six hand-made index cards laid out in three rows of two on a wooden table, each row showing a pair of opposites. Every card has a small marker doodle of the idea, the Russian word in large neat Cyrillic marker letters, and above it a small English-style pronunciation guide (stressed syllable in capitals). Cards, exactly (guide above / word below): \"bal-SHOY\" / \"большой\"; \"MA-len-kiy\" / \"маленький\"; \"ga-RYA-chiy\" / \"горячий\"; \"kha-LOD-niy\" / \"холодный\"; \"kha-RO-shiy\" / \"хороший\"; \"pla-KHOY\" / \"плохой\". Doodles: a big and a small elephant, a steaming cup and an ice cube, a smiling and a frowning face."
   },
   {
-    "plik": "probne/CHINSKI_NA_POLSKI_przeciwienstwa_fonetyka.jpg",
+    "plik": "probne/POLSKI_NA_CHINSKI_przeciwienstwa_fonetyka.jpg",
     "model": "gemini-3-pro-image",
     "proporcje": "3:4",
     "imageSize": "2K",
     "prompt": "Candid, slightly imperfect smartphone photo of a real, physical, handmade item, soft natural window light, mildly uneven lighting and soft shadows, slight perspective, nothing perfectly straight, real paper texture. Strictly NOT a glossy digital illustration, NOT a 3D render, NOT airbrushed; allow small human imperfections. No watermark, no logo, no brand names. The ONLY text visible is the exact text listed below, spelled exactly as given (keep every accent and special character); no other words, numbers or captions anywhere, including on objects or on the paper itself. Where a pronunciation guide is listed, it is written in small neat letters DIRECTLY ABOVE its word, and the word is written large below it. Lettering must stay neat and easy to read. A lined notebook page photographed on a desk, with a strip of washi tape at the top corner. Title at the top in neat brush-pen strokes: \"反义词\". Three rows, each a pair of opposites with a tiny doodle: each Chinese character is written very large in black brush pen, with a small Polish-style pronunciation guide directly above it. Entries, exactly (guide above / character below): \"da\" / \"大\"; \"śiao\" / \"小\"; \"rze\" / \"热\"; \"leng\" / \"冷\"; \"chao\" / \"好\"; \"chuaj\" / \"坏\". Doodles: elephant and mouse, sun and ice cube, thumbs up and thumbs down."
   },
   {
-    "plik": "probne/JAPONSKI_NA_NIEMIECKI_przeciwienstwa_fonetyka.jpg",
+    "plik": "probne/NIEMIECKI_NA_JAPONSKI_przeciwienstwa_fonetyka.jpg",
     "model": "gemini-3-pro-image",
     "proporcje": "4:5",
     "imageSize": "2K",
