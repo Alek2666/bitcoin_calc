@@ -16,23 +16,23 @@ zdjecie_pomysl: Duas pessoas à mesa de um restaurante, uma delas segurando o ca
 
 Uma brasileira que diz «estoy embarazada» para contar que ficou constrangida acaba de anunciar uma gravidez. E se um espanhol disser que o seu bolo está «exquisito», ele está elogiando.
 
-Espanhol e português têm tanto vocabulário em comum que o erro nasce da confiança: a palavra espanhola existe, é corriqueira e quer dizer outra coisa. O pior caso é quando a frase continua fazendo sentido: «estoy embarazada» e «está exquisito» passam sem estranhamento, e quem ouve entende o que a palavra significa em espanhol, não o que você queria dizer. Já com «polvo» ou «cena» o contexto costuma desfazer a dúvida.
+Espanhol e português têm tanto vocabulário em comum que o erro nasce da confiança: a palavra espanhola existe, é corriqueira e quer dizer outra coisa. O pior caso é quando a frase continua fazendo sentido: «estoy embarazada» e «está exquisito» passam sem estranhamento, e quem ouve entende o que a palavra significa em espanhol, não o que você queria dizer. Já com «polvo» (pó, não o bicho) ou «cena» (jantar, não a cena de um filme) o contexto costuma desfazer a dúvida.
 
 ## Doze pares para decorar
 
 :frazy
-exquisito | es-ki-SSI-to | delicioso, requintado | É um elogio: «esta tarta está exquisita» é «esta torta está uma delícia». Estranho, em espanhol, é «raro» ou «extraño».
+exquisito | es-ki-SSI-to | delicioso, requintado | É um elogio: «esta tarta está exquisita» é «esta torta está uma delícia». O «esquisito» português (estranho) é «raro» ou «extraño» em espanhol.
 embarazada | em-ba-ra-SSA-da | grávida | «Estoy embarazada» anuncia uma gravidez. Constrangida é «avergonzada».
 el apellido | el a-pe-YI-do | o sobrenome | O apelido de brincadeira é «el apodo». Em Portugal «apelido» também é sobrenome, então lá o par não engana.
 la cena | la SSE-na | o jantar | Cena de filme é «escena».
 la salsa | la SAL-sa | o molho | A erva que no Brasil se chama «salsa» é «el perejil» em espanhol.
-el vaso | el BA-sso | o copo | «Un vaso de agua» é um copo de água. Vaso de planta é «maceta» e vaso de flores, «jarrón».
+el vaso | el BA-sso | o copo | «Un vaso de agua» é um copo de água. Vaso de planta é «maceta» e vaso de flores, «florero» ou «jarrón».
 el polvo | el POL-bo | o pó, a poeira | O bicho de oito braços é «el pulpo». Cuidado com a expressão «echar un polvo»: é gíria para «transar».
-largo | LAR-go | comprido, longo | Largo de largura é «ancho». «Una calle larga» é uma rua comprida.
-la oficina | la o-fi-SSI-na | o escritório | A oficina mecânica é «el taller».
+largo | LAR-go | comprido, longo | O «largo» português (de largura) é «ancho» em espanhol. «Una calle larga» é uma rua comprida.
+la oficina | la o-fi-SSI-na | o escritório | A oficina mecânica é «el taller». «Escritorio» costuma ser a escrivaninha, a mesa de trabalho.
 pronto | PRON-to | logo, em breve | «Hasta pronto» é «até breve». O «pronto, acabou» brasileiro é «listo» ou «ya está».
 tirar | ti-RAR | jogar, atirar, puxar | «Tirar la basura» é jogar o lixo fora. Tirar do bolso é «sacar» e tirar a roupa é «quitarse la ropa».
-pegar | pe-GAR | bater, colar | «Pegar» é bater ou colar um selo, não agarrar. Para pegar o ônibus, «tomar el autobús».
+pegar | pe-GAR | bater, colar | «Pegar» é bater ou colar, nunca apanhar ou segurar. Para pegar o ônibus, «tomar el autobús».
 :koniec
 
 :cwiczenie fiszki
@@ -47,14 +47,14 @@ Na Espanha, «coger el autobús» é totalmente corriqueiro. Em vários países 
 
 ## Três armadilhas de pronúncia
 
-A primeira é o «t» e o «d» antes de «e» e «i». Em boa parte do Brasil eles viram «tch» e «dj», mas em espanhol ficam limpos: «tarde» é «TAR-de», não «TAR-dji», e «tirar» é «ti-RAR».
+A primeira é o «t» e o «d» antes de «e» e «i». Em boa parte do Brasil eles viram «tch» e «dj», mas em espanhol ficam limpos, com o t e o d secos: «tarde» é «TAR-de» (e final como «e», não «TAR-dji») e «tirar» é «ti-RAR» (nada de «tchi»).
 
-A segunda é o «s» entre vogais. Em português ele soa como «z» (casa, vaso). Em espanhol continua sendo /s/, então «casa» e «vaso» soam como se fossem escritas com «ss».
+A segunda é o «s» entre vogais. Em português ele soa como «z» (casa, vaso). Em espanhol continua sendo o «s» de «sapo», então «casa» e «vaso» soam como se fossem escritas com «ss».
 
-A terceira é o «j» e o «g» antes de «e» e «i». Eles soam como um «rr» áspero, parecido com o de «carro» em boa parte do Brasil, nunca como o «j» de «já»: «rojo» é «RRO-rro», «gente» é «RREN-te». Além disso, o «e» e o «o» no fim da palavra não viram «i» e «u», e o «v» tem som de «b».
+A terceira é o «j» e o «g» antes de «e» e «i». Eles soam como um «rr» áspero, parecido com o de «carro» em boa parte do Brasil, nunca como o «j» de «já»: «rojo» é «RRO-rro», «gente» é «RREN-te». Duas coisas a mais: o «e» e o «o» no fim da palavra não viram «i» e «u» (o «o» final de «vaso» é «o», não «u»), e o «v» tem som de «b».
 
 :uwaga
-Na pronúncia figurada, as maiúsculas marcam a sílaba tônica, «ss» é sempre o som de /s/ e «rr» é o som do «r» de «carro». A pronúncia figurada segue o espanhol da América Latina. Na maior parte da Espanha, «z» e «c» antes de «e» e «i» soam como o «th» do inglês «think».
+Na pronúncia figurada, as maiúsculas marcam a sílaba tônica, «ss» é sempre o «s» de «sapo», «rr» é o som do «r» de «carro», e «ti», «di», «te» e «de» pedem t e d secos, sem «tch» nem «dj». A pronúncia figurada segue o espanhol da América Latina. Na maior parte da Espanha, «z» e «c» antes de «e» e «i» soam como o «th» do inglês «think».
 :koniec
 
 ## Um jantar para ler

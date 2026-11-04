@@ -12,7 +12,7 @@ jezyk_docelowy: pl
 jezyk_tekstu: cs
 zdjecie_pomysl: Pult s pečivem v polské pekárně s cedulkou „chleb“
 ---
-Polské slovo sklep znamená obchod, české sklep znamená místnost pod domem. Když vám polská kamarádka napíše „Idę do sklepu“, nechce jít pro brambory, jde nakupovat. Polština je pro Čecha snadná natolik, že většinu slov odhadne. Potíž je v několika slovech, která odhadnout nejde, a ve zvucích, které čeština nemá.
+Polské slovo sklep znamená obchod, české sklep znamená místnost pod domem. Když vám polská kamarádka napíše „Idę do sklepu“, nejde do sklepa pro brambory, jde nakupovat. Čech odhadne spoustu polských slov. Potíž je v těch, která odhadnout nejde, a ve zvucích, které čeština nemá.
 
 Výslovnost píšu českým pravopisem a přízvuk velkými písmeny.
 
@@ -26,7 +26,7 @@ Základní potraviny se skoro neliší: chleb (chléb), mleko (mléko), masło (
 - Písmeno ł. Čte se jako anglické w ve slově water. Čeština nic takového nemá, nejblíž je druhá část dvojhlásky ve slově auto. V přepisu píšu ł jako w: mało se čte MA-wo. Půl se píše pół a čte se „puw“, protože ó je prostě u.
 - Nosovky ą a ę. Před p a b se čtou jako om a em, před t, d, k a g jako on a en: mąka je MON-ka, dziękuję je džen-KU-je. Na konci slova se ę čte jako obyčejné e (proszę je PRO-še), kdežto ą si nosovku drží a zní jako naše ou (kartą je KAR-tou).
 - Skupina rz. Čte se jako ž, nikdy jako české ř. Rzeka je ŽE-ka. Za neznělým p se rz ohlušuje a zní jako š, takže „omlouvám se“ je przepraszam, čtěte pše-PRA-šam. Podobně sz je š, cz je č, dz je dz a dż je dž.
-- Měkké hlásky. Písmena ś, ć, ź a ń (a skupiny si, ci, zi, ni před samohláskou) jsou měkčí varianty š, č, ž a ň. Čech je obvykle čte jako obyčejné š, č, ž, ň a Polák mu rozumí, ale slyšet ten rozdíl se vyplatí.
+- Měkké hlásky. Písmena ś, ć, ź, dź a ń (a skupiny si, ci, zi, dzi, ni před samohláskou) jsou měkčí varianty š, č, ž, dž a ň. Čech je obvykle čte jako obyčejné š, č, ž, dž, ň a Polák mu většinou rozumí, ale slyšet ten rozdíl se vyplatí.
 - Písmeno h. Čte se stejně jako ch, takže herbata (čaj) je cher-BA-ta. České znělé „h“ polština nemá.
 - Délka samohlásek. Polština dlouhé samohlásky nemá. Mleko se čte krátce, ne „mléko“, a dlouhé „á“ nebo „í“ prostě nehledejte.
 
@@ -47,7 +47,7 @@ Polské szukać (hledat) se čte „šukat“, což je v češtině vulgární s
 
 Poláci si v obchodě vykají jinak než my. Místo „vy“ říkají „pan“ nebo „pani“ a sloveso dávají do třetí osoby: Czy chce pani paragon? Česky bychom řekli „Chcete účtenku?“. Při vstupu se zdraví dzień dobry a při odchodu do widzenia, jako u nás.
 
-V Polsku se platí ve zlotých (zł) a grošech, ne v eurech. U pultu s uzeninami se stejně jako u nás často nakupuje na deka. Spisovná polština říká deka, běžně se ale slyší deko: poproszę dwadzieścia deko szynki, dvacet deka šunky. A pozor na neděli. V Polsku platí zákaz nedělního obchodu: většina obchodů je v neděli zavřená a obchodních nedělí (niedziele handlowe) je jen několik za rok. Výjimky mají například čerpací stanice a lékárny.
+V Polsku se platí ve zlotých (zł) a grošech, ne v eurech. U pultu s uzeninami se stejně jako u nás často nakupuje na deka. Polsky se řekne deko: poproszę dwadzieścia deko szynki, dvacet deka šunky. A pozor na neděli. V Polsku platí zákaz nedělního obchodu: většina obchodů je v neděli zavřená a obchodních nedělí (niedziele handlowe) je jen několik za rok. Výjimky mají například čerpací stanice a lékárny.
 
 :cta
 
@@ -70,9 +70,9 @@ Smacznego! | smač-NE-go | Dobrou chuť! | Říká se před jídlem a často ho 
 
 :cwiczenie fiszki
 
-## V pekárně
+## V obchodě
 
-:::sluchanie[title="Poslechněte si dialog v pekárně"]
+:::sluchanie[title="Poslechněte si dialog v obchodě"]
 Dzień dobry. W czym mogę pomóc? | Dobrý den. S čím mohu pomoci?
 Dzień dobry. Poproszę chleb i pół kilo truskawek. | Dobrý den. Poprosím chléb a půl kila jahod.
 Proszę bardzo. Coś jeszcze? | Prosím. Ještě něco?

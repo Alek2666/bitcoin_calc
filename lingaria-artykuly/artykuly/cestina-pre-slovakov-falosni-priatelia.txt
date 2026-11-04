@@ -1,5 +1,5 @@
 tytul: Čeština pre Slovákov: falošní priatelia, pozdravy a nákup v českom obchode
-opis: Slováci rozumejú češtine takmer všetko, ale horký, kapusta či syrový znamenajú v Česku niečo iné. Pozdravy, nákup a výslovnosť ř, ě a ů slovenským pravopisom.
+opis: Slováci rozumejú češtine väčšinou bez učenia, ale horký, kapusta či syrový znamenajú v Česku niečo iné. Pozdravy, nákup a výslovnosť ř, ě a ů slovenským pravopisom.
 data: 2026-11-04
 zaktualizowano: 2026-11-04
 status: szkic
@@ -20,10 +20,9 @@ Výslovnosť píšem slovenským pravopisom a prízvuk veľkými písmenami. Pr�
 
 České ou je slovenské ú: mouka a múka, louka a lúka, koupit a kúpiť. České é zodpovedá často slovenskému ie: mléko a mlieko, chléb a chlieb. České ů zodpovedá často slovenskému ô: kůň a kôň, stůl a stôl, nůž a nôž. Slovenské ľ v češtine nenájdete, je tam obyčajné l: koľko je kolik, ľudia sú lidé. A infinitív končí na -t, nie na -ť: kupovat, nie kupovať.
 
-## Falošní priatelia v obchode
+## Falošní priatelia
 
 Najzradnejšie sú slová, ktoré vyzerajú rovnako a znamenajú niečo iné, lebo im Slovák verí.
-
 - České horký je slovenské horúci: horký čaj je horúci čaj. Slovenské horký (trpký) je po česky hořký. Preto je hořká čokoláda tmavá tabuľka a horká čokoláda nápoj.
 - České kapusta (hlávková alebo kučeravá) je po slovensky kel. Slovenskú kapustu volajú Česi zelí.
 - České syrový znamená surový: syrové maso, syrové vejce. To, čo súvisí so syrom, je po česky sýrový, s dlhým ý.
@@ -33,7 +32,7 @@ Najzradnejšie sú slová, ktoré vyzerajú rovnako a znamenajú niečo iné, le
 - České pivnice je hostinec s pivom. Slovenská pivnica pod domom je po česky sklep.
 
 :uwaga
-Sloveso spraviť počujete na Slovensku na každom kroku, od „spravím to“ po „spravil si to dobre“. Česi to však často pochopia ako „opravím to“ alebo „opravil jsi to dobře“. V češtine radšej používajte udělat.
+Sloveso spraviť počujete na Slovensku na každom kroku, od „spravím to“ po „spravil si to dobre“. V češtine povedzte „udělám to“, „udělal jsem to dobře“. Spravit si nechajte pre skutočnú opravu.
 :koniec
 
 ## Výslovnosť: ř, ě, ů a dlhé samohlásky

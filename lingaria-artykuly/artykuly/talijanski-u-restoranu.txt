@@ -34,7 +34,7 @@ Z se u talijanskom čita kao ts ili dz, ovisno o riječi: pizza je PIT-ca, grazi
 
 ## Coperto, servizio i račun
 
-Coperto je fiksan iznos po osobi, bez obzira na to što naručite. Državni zakon ga ne zabranjuje niti ograničava, ali iznos mora biti jasno naveden na jelovniku ili cjeniku, a ako nije, stavku možete osporiti. U regiji Lazio, kojoj pripada i Rim, regionalni zakon iz 2006. (br. 21) izričito zabranjuje dodatne troškove za coperto. Račun tamo ipak nije uvijek bez dodataka: lokali često naplaćuju kruh ili uslugu. Servizio je naknada za posluživanje i, kao i coperto, treba biti istaknut. Provjerite jelovnik prije narudžbe, a ako niste sigurni, pitajte: Quanto costa il coperto?
+Coperto je fiksan iznos po osobi, bez obzira na to što naručite. Državni zakon ga ne zabranjuje niti ograničava, ali iznos mora biti jasno naveden na jelovniku ili cjeniku, a ako nije, stavku možete osporiti. U regiji Lazio, kojoj pripada i Rim, regionalni zakon iz 2006. (br. 21) izričito zabranjuje dodatne troškove za coperto. Račun tamo ipak nije uvijek bez dodataka: lokali često umjesto coperta naplaćuju "pane e servizio", to jest kruh i uslugu. Servizio je naknada za posluživanje i, kao i coperto, treba biti istaknut. Provjerite jelovnik prije narudžbe, a ako niste sigurni, pitajte: Quanto costa il coperto?
 
 Napojnica u Italiji nije obveza. Često se račun samo zaokruži ili se na stolu ostavi nekoliko eura. Račun konobar neće donijeti sam od sebe, jer bi to moglo djelovati kao da vas požuruje. Tražite ga riječima Il conto, per favore.
 
@@ -46,8 +46,8 @@ Kod narudžbe pomaže znati kako se talijanski obrok slaže. Antipasto je predje
 
 :frazy
 Buonasera, un tavolo per due, per favore. | bvo-na-SE-ra, un TA-vo-lo per DU-e per fa-VO-re | Dobra večer, stol za dvoje, molim. | Buonasera se kaže već u kasno poslijepodne, ne tek kad padne mrak.
-Ho prenotato a nome di Horvat. | o pre-no-TA-to a NO-me di HOR-vat | Rezervirao sam na ime Horvat. | H u riječi ho je nijemo. Prenotato nema roda, pa isto kažu i muškarac i žena.
-Che cosa ci consiglia? | ke KO-za či kon-SI-lja | Što nam preporučujete? | Consiglia je uljudan oblik (Lei). Gli čita se lj.
+Ho prenotato a nome di Horvat. | o pre-no-TA-to a NO-me di HOR-vat | Rezervirao sam na ime Horvat. | H u riječi ho je nijemo. Rečenica je ista za muškarca i za ženu.
+Che cosa ci consiglia? | ke KO-za či kon-SI-lja | Što nam preporučujete? | Consiglia je uljudan oblik, kao naše "Vi", ali s glagolom u 3. licu jednine (to je Lei). Gli čita se lj.
 Prendo il risotto ai funghi. | PREN-do il ri-ZOT-to ai FUN-gi | Uzet ću rižoto s gljivama. | Prendo, doslovno "uzimam", najčešći je način narudžbe. Gh ispred i daje g.
 Acqua naturale, per favore. | AK-kva na-tu-RA-le per fa-VO-re | Negaziranu vodu, molim. | Alternativa je acqua frizzante, gazirana. Voda se u pravilu naplaćuje.
 Quanto costa il coperto? | KVAN-to KO-sta il ko-PER-to | Koliko košta coperto? | Pitajte prije narudžbe, ako ga ne vidite na jelovniku.
@@ -72,6 +72,8 @@ Oggi abbiamo un ottimo risotto ai funghi. | Danas imamo izvrstan rižoto s gljiv
 Perfetto, prendo quello. | Odlično, uzimam to.
 Da bere? | Za piće?
 Acqua naturale, per favore. | Negaziranu vodu, molim.
+Tutto bene? | Je li sve u redu?
+Sì, grazie, era tutto ottimo. | Da, hvala, sve je bilo izvrsno.
 Il conto, per favore. | Račun, molim.
 Ecco il conto. Nel totale c'è anche il coperto. | Izvolite račun. U ukupnom iznosu je i coperto.
 :::

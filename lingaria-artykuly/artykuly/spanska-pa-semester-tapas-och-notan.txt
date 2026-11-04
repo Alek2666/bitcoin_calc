@@ -12,17 +12,17 @@ jezyk_docelowy: es
 jezyk_tekstu: sv
 zdjecie_pomysl: en bardisk med små tallrikar, en caña och en tandpetare i en pintxo
 ---
-Den som beställer med "Quiero una cerveza" i en spansk bar blir förstådd. Men spanjorerna själva säger oftare "¿Me pones una caña?", ungefär "kan du sätta fram en liten fatöl åt mig?". "Quiero" (jag vill ha) är inte fel, men "me pones" är det du hör vid en spansk bardisk. Det är en av skillnaderna mellan skolspanska och barspanska.
+Den som beställer med "Quiero una cerveza" i en spansk bar blir förstådd. Men spanjorerna själva säger ofta "¿Me pones una caña?", ungefär "kan du sätta fram en liten fatöl åt mig?". "Quiero" (jag vill ha) är inte fel, men "me pones" är det du hör vid en spansk bardisk. Det är en av skillnaderna mellan skolspanska och barspanska.
 
 :uwaga
-Så läser du uttalet. Betonad stavelse står med versaler. Jag skriver spanskt o som å (por blir pår) och spanskt u som o (una blir O-na), eftersom svenskt u låter annorlunda. Spanskt v och b är samma ljud, ett mjukt b, så båda skrivs b (favor blir fa-BÅR). K före e och i är ett vanligt k, inte tj-ljud som i svenskans "kedja" (qué blir ke, med hårt k). J, och g före e och i, är ett kraftigt h-ljud. Ll låter som svenskt j och ñ som nj. "th" som i engelskans thing hörs i Spanien på z och på c före e och i (gracias blir GRA-thias). I Latinamerika blir det s.
+Så läser du uttalet. Betonad stavelse står med versaler. Jag skriver spanskt o som å (por blir pår) och spanskt u som o (una blir O-na), eftersom svenskt u låter annorlunda. Spanskt v och b är samma ljud, ett mjukt b, så båda skrivs b (favor blir fa-BÅR). K före e och i läser du som hårt k, inte som tj-ljudet i svenskans "kedja" (qué blir ke). W läser du som engelskt w, inte som svenskt v (buenas blir BWE-nas). Ordet de läser du de, inte som svenskans "dom". J, och g före e och i, är ett kraftigt h-ljud. Ll låter som svenskt j och ñ som nj. "th" som i engelskans thing hörs i Spanien på z och på c före e och i (gracias blir GRA-thias). I Latinamerika blir det s.
 :koniec
 
 ## Tapa, ración, pincho: vad är skillnaden?
 
-En tapa är en liten portion. En ración är en hel portion att dela, och en media ración är en halv. Ett pincho (pintxo i Baskien) är en tapa på ett spett eller en brödbit. I barer i San Sebastián ligger de kalla pintxos ofta framme på disken. Du tar själv, och på många ställen räknar personalen ihop notan efter antalet tandpetare eller spett som blivit kvar. Ibland säger man själv hur många man ätit, och en del barer vill ha betalt direkt, så fråga om du är osäker.
+En tapa är en liten portion. En ración är en hel portion att dela, och en media ración är en halv. Ett pincho (pintxo i Baskien) är en tapa på ett spett eller en brödbit. I barer i San Sebastián ligger de kalla pintxos ofta framme på disken. Du tar själv, och på en del ställen räknar personalen ihop notan efter antalet tandpetare eller spett som blivit kvar. Metoden varierar: ibland säger man själv hur många man ätit, och en del barer vill ha betalt direkt, så fråga om du är osäker.
 
-I Granada följer en gratis tapa med drycken på de flesta ställen, enligt Granadas officiella turistsajt. Det är också vanligt i León, främst i kvarteren kring Barrio Húmedo. På många andra håll är tapas inte gratis, så titta på menyn innan du beställer en hel omgång.
+I Granada följer en gratis tapa med drycken på många barer, men inte på alla. Det är också vanligt i León, främst i kvarteren kring Barrio Húmedo. På många andra håll är tapas inte gratis, så titta på menyn innan du beställer en hel omgång.
 
 Vanliga tapas är patatas bravas (stekt potatis med kryddig sås, och såsen skiljer sig från bar till bar), croquetas, jamón och pimientos de Padrón, små gröna stekta paprikor. Om dem säger man "unos pican y otros no": vissa är starka och andra inte. Tortilla är i Spanien en potatisomelett, inte ett tunt plattbröd av majs eller vete som i Mexiko. Om den ska ha lök (con cebolla) eller inte (sin cebolla) är en klassisk stridsfråga.
 
@@ -32,9 +32,9 @@ I många barer står du vid disken (la barra) och fångar personalens blick. Du 
 
 Spanskan delar upp vårt "tack" i två. "Por favor" säger du när du ber om något, "gracias" när du får det.
 
-En caña är ett litet glas fatöl, och storleken varierar något mellan regioner. Un tinto de verano är rött vin blandat med läsk och is, en sommardryck. Una clara är öl med läsk. Ofta ber du om notan först när du är klar, och på en del småbarer betalar du direkt vid disken.
+En caña är ett litet glas fatöl, och storleken varierar något mellan regioner. Un tinto de verano är rött vin blandat med läsk och is, en sommardryck. Una clara är öl med läsk.
 
-Spanjorerna äter lunch sent, vanligen mellan ett och fyra, och middag från nio. Restaurangernas kök öppnar därför för middag oftast först mellan åtta och nio. Priset kan också vara högre på terrassen (la terraza) än vid disken. Då ska det stå på prislistan, så titta på den innan du sätter dig.
+Spanjorerna äter lunch sent, oftast mellan två och fyra, och middag från nio. Restaurangernas kök öppnar därför för middag oftast först mellan halv nio och nio. Priset kan också vara högre på terrassen (la terraza) än vid disken. Då ska det stå på prislistan, så titta på den innan du sätter dig.
 
 :cta
 
@@ -51,16 +51,16 @@ Claro. Aquí tienes. | Visst. Varsågod.
 
 ## Notan
 
-Notan kommer sällan av sig själv. Du fångar personalens blick och ber om den: "La cuenta, por favor." Vid bardisken säger många "¿Me cobras?", ungefär "kan du ta betalt av mig?", eller "Perdona, ¿cuánto es?" (hur mycket blir det?). Ett tecken med handen, som om du skrev i luften, förstås också. Dricks är ingen skyldighet, och många lämnar småmynt eller rundar upp.
+Notan kommer sällan av sig själv. Du fångar personalens blick och ber om den: "La cuenta, por favor." Vid bardisken säger många "¿Me cobras?", ungefär "kan du ta betalt av mig?", eller "Perdona, ¿cuánto es?" (hur mycket blir det?). Ett tecken med handen, som om du skrev i luften, förstås också. På en del småbarer betalar du direkt vid disken. Dricks är ingen skyldighet, och många lämnar småmynt eller rundar upp.
 
 ## Tolv fraser till bardisken
 
 :frazy
 Hola, buenas tardes | Å-la, BWE-nas TAR-des | Hej, god eftermiddag | Hola har ingen uttalad h. "Buenas" ensamt räcker när du kliver in. "Buenas tardes" säger man från lunchtid tills det blir mörkt, sedan blir det "buenas noches".
-Una mesa para dos, por favor | O-na ME-sa PA-ra dås, pår fa-BÅR | Ett bord för två, tack | "Por favor" är "tack" när du ber om något. "Gracias" säger du när du får det.
+Una mesa para dos, por favor | O-na ME-sa PA-ra dås, pår fa-BÅR | Ett bord för två, tack | Vid disken behövs inget bord, frasen är till för matsalen eller terrassen.
 ¿Me pones una caña? | me PÅ-nes O-na KA-nja | Kan jag få en caña? | Det vanliga sättet att beställa i en spansk bar. Bokstavligen "kan du sätta en åt mig?". En caña är ett litet glas fatöl.
 Un tinto de verano, por favor | on TIN-tå de be-RA-nå, pår fa-BÅR | Ett tinto de verano, tack | Rött vin blandat med läsk och is. Una clara är öl med läsk.
-¿Qué tapas tenéis? | ke TA-pas te-NEIS | Vilka tapas har ni? | "Tenéis" är "ni" i informell mening (flera personer), och i Spanien frågar man så när man talar till baren som helhet. Till en enda person blir det "¿Qué tapas tienes?".
+¿Qué tapas tenéis? | ke TA-pas te-NEIS | Vilka tapas har ni? | "Tenéis" är "ni" till flera personer, och i Spanien frågar man så när man talar till hela baren. Till en enda person blir det "¿Qué tapas tienes?".
 Una ración de patatas bravas | O-na ra-THJÅN de pa-TA-tas BRA-bas | En portion patatas bravas | Ración är en hel portion att dela, media ración en halv. Sås och styrka skiljer sig från bar till bar.
 Para mí, una tortilla | PA-ra mi, O-na tår-TI-ja | För mig, en tortilla | I Spanien är det en potatisomelett. Fråga gärna om den är con cebolla (med lök) eller sin cebolla.
 Pimientos de Padrón | pi-MJEN-tås de pa-DRÅN | Padrónpaprikor | "Unos pican y otros no": vissa är starka, andra inte.
@@ -81,9 +81,9 @@ Pytanie: Vad betyder "Perdona, ¿me cobras?" i en bar?
 - Kan jag få en tapa?
 - Har ni ett bord ledigt?
 Wyjaśnienie: "¿Me cobras?" är bar-varianten av att be om notan. "Perdona" fångar personalens uppmärksamhet.
-Pytanie: Hur räknas notan ofta ihop för pintxos i barer i San Sebastián?
+Pytanie: Hur kan notan för pintxos räknas ihop i en bar i San Sebastián?
 - Efter vikten på tallriken
 - Efter antalet tandpetare eller spett som blivit kvar [correct]
 - Med ett fast pris per person
-Wyjaśnienie: Pintxos ligger på disken och personalen räknar ofta tandpetarna eller spetten som blivit kvar. Ibland säger man själv hur många man ätit, och en del barer vill ha betalt direkt.
+Wyjaśnienie: Pintxos ligger på disken och på en del ställen räknar personalen tandpetarna eller spetten som blivit kvar. Ibland säger man själv hur många man ätit, och en del barer vill ha betalt direkt.
 :::

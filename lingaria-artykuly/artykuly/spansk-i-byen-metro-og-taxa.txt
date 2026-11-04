@@ -18,7 +18,7 @@ På en spansk metroperron står der ikke, hvor du skal hen. Der står, hvor toge
 
 Stavelsen med store bogstaver har trykket. Spansk har ét tryk pr. ord, og det er det, der får dig til at lyde spansk: ME-tro, ikke me-TRO. Resten er nogle få regler.
 
-- c før e og i samt z lyder som th i engelsk "thin": *sencillo* er sen-THI-jo. I Sydspanien og Latinamerika siger man s.
+- c før e og i samt z lyder som th i engelsk "thin": *sencillo* er sen-THI-jo. I dele af Sydspanien og i Latinamerika siger man s.
 - j, og g før e og i, lyder som ch i tysk "Bach". Jeg skriver det kh: *tarjeta* er tar-KHE-ta. ch lyder som tsj: *derecha* er de-RE-tsja.
 - ll lyder som j i det meste af Spanien: *billete* er bi-JE-te. ñ lyder som nj, og h er stum.
 - u foran en anden vokal lyder som et kort v: *cuánto* er KVAN-to. Efter q er u stumt: *quería* er ke-RI-a.
@@ -36,13 +36,13 @@ Billet hedder *billete* i Spanien og *boleto* i blandt andet Mexico og Argentina
 
 ## Taxa: grønt lys, fast pris og drikkepenge
 
-Danskere siger taxa, spaniere siger *taxi*, udtalt TAK-si, og chaufføren er en *taxista*. I Madrid er taxierne hvide med en rød diagonal stribe på fordørene. I Barcelona er de sorte og gule. I begge byer betyder grønt lys på taget, at bilen er ledig. I Madrid er et skilt med *libre* bag forruden også påbudt, i Barcelona står der ofte *lliure* på catalansk. Er lyset slukket, er bilen optaget. Du kan række hånden ud eller gå til en *parada de taxis*, en holdeplads.
+Danskere siger taxa, spaniere siger *taxi*, udtalt TAK-si, og chaufføren er en *taxista*. I Madrid er taxierne hvide med en rød diagonal stribe på fordørene. I Barcelona er de sorte og gule. I begge byer betyder grønt lys på taget, at bilen er ledig. I Madrid sidder der desuden et skilt med *libre* bag forruden, i Barcelona ofte *lliure* på catalansk. Er lyset ikke tændt, er bilen normalt optaget. Du kan række hånden ud eller gå til en *parada de taxis*, en holdeplads.
 
-Mellem Madrids lufthavn og området inden for ringvejen M-30 gælder en fast pris døgnet rundt, så du slipper for at gætte på taxameteret. Beløbet fastsætter kommunen, og det ændrer sig fra år til år, så slå den aktuelle takst op, før du rejser. Andre ture kører efter taxameter, så spørg, hvad det cirka kommer til at koste, før du stiger ind. Drikkepenge er ikke obligatoriske, og nogle runder bare op.
+Mellem Madrids lufthavn og området inden for ringvejen M-30 gælder en fast pris døgnet rundt, så du slipper for at gætte på taxameteret. Beløbet fastsættes af myndighederne og ændrer sig fra tid til anden, så slå den aktuelle takst op, før du rejser. Andre ture kører efter taxameter, så spørg, hvad det cirka kommer til at koste, før du stiger ind. Drikkepenge er ikke obligatoriske, og nogle runder bare op.
 
 ## Spørg om vej og forstå svaret
 
-Begynd med *Perdone* til ældre og fremmede eller *Perdona* til folk på din egen alder, og kom så til sagen. Svaret kommer ofte i én lang strøm, så lyt efter tre ting: retningen, ordenstallet og afstanden. Retningen er *a la derecha* (til højre), *a la izquierda* (til venstre) eller *todo recto* (lige ud). Ordenstallet siger, hvilken sidegade du skal tage: *la primera*, *la segunda*. Afstanden får du ofte i gåminutter: *a diez minutos andando*, ti minutter til fods.
+Begynd med *Perdone* (høflig form, *usted*) til ældre og fremmede eller *Perdona* (uformel form, *tú*, svarer til "du") til folk på din egen alder, og kom så til sagen. Svaret kommer ofte i én lang strøm, så lyt efter tre ting: retningen, ordenstallet og afstanden. Retningen er *a la derecha* (til højre), *a la izquierda* (til venstre) eller *todo recto* (lige ud). Ordenstallet siger, hvilken sidegade du skal tage: *la primera*, *la segunda*. Afstanden får du ofte i gåminutter: *a diez minutos andando*, ti minutter til fods.
 
 Forstår du ikke et ord, så sig *Más despacio, por favor* (mas des-PA-thjo, por fa-BOR): langsommere, tak. Adresser skrives med gadetypen først: *calle* (gade), *plaza* (plads), *avenida*, *paseo* (promenade). En *glorieta* er en rundkørsel, et *semáforo* er et lyskryds, og en *esquina* er et gadehjørne.
 
@@ -51,7 +51,7 @@ Forstår du ikke et ord, så sig *Más despacio, por favor* (mas des-PA-thjo, po
 ## Tolv sætninger til metro, taxa og vej
 
 :frazy
-Perdone, ¿dónde está la estación de metro? | per-DO-ne, DON-de es-TA la es-ta-THJON de ME-tro | Undskyld, hvor er metrostationen? | Perdone til fremmede og ældre, perdona til jævnaldrende. Stationen hedder estación, mens parada er et stoppested for bus og taxa.
+Perdone, ¿dónde está la estación de metro? | per-DO-ne, DON-de es-TA la es-ta-THJON de ME-tro | Undskyld, hvor er metrostationen? | Perdone er den høflige form, perdona den uformelle. Stationen hedder estación, mens parada er et stoppested for bus og taxa.
 Un billete sencillo, por favor. | un bi-JE-te sen-THI-jo, por fa-BOR | En enkeltbillet, tak. | Automaten lægger den på Tarjeta Multi, hvis du ikke betaler med kort ved drejekorset. I Latinamerika hedder billetten boleto.
 Quería recargar mi tarjeta, por favor. | ke-RI-a re-kar-GAR mi tar-KHE-ta, por fa-BOR | Jeg ville gerne lade mit kort op, tak. | Quería (egentlig "jeg ville") er den almindelige høflige indledning ved en skranke. Quiero er også korrekt, men lyder mere direkte.
 ¿Qué línea va al aeropuerto? | ke LI-ne-a ba al a-e-ro-PVER-to | Hvilken linje kører til lufthavnen? | Spørg ved kortet eller en medpassager. Til lufthavnens metrostationer kræver en enkeltbillet i Madrid et tillæg.
@@ -59,9 +59,9 @@ Quería recargar mi tarjeta, por favor. | ke-RI-a re-kar-GAR mi tar-KHE-ta, por 
 ¿Tengo que hacer transbordo? | TEN-go ke a-THER trans-BOR-do | Skal jeg skifte? | Svaret lyder fx Sí, en Sol (ja, i Sol), og så ved du, hvor du skal stige af.
 ¿Qué salida es para Gran Vía? | ke sa-LI-da es PA-ra gran BI-a | Hvilken udgang er til Gran Vía? | Store stationer har mange udgange med gadenavne på skiltene. Spørg efter gaden, ikke efter stationen.
 ¿Está libre? | es-TA LI-bre | Er den ledig? | Sig det ved en parada de taxis eller gennem det åbne vindue. Grønt lys på taget betyder det samme.
-Al aeropuerto, por favor. | al a-e-ro-PVER-to, por fa-BOR | Til lufthavnen, tak. | Til og fra Madrids lufthavn gælder en fast pris inden for ringvejen M-30, så du behøver hverken at spørge om prisen eller sige mere. Slå den aktuelle takst op på forhånd.
+Al aeropuerto, por favor. | al a-e-ro-PVER-to, por fa-BOR | Til lufthavnen, tak. | Til og fra Madrids lufthavn gælder en fast pris inden for ringvejen M-30, så du ikke behøver at spørge om prisen. Slå den aktuelle takst op på forhånd.
 ¿Cuánto va a costar, más o menos? | KVAN-to ba a kos-TAR, mas o ME-nos | Hvad kommer det cirka til at koste? | Spørg, før du stiger ind, hvis turen ikke er til fast pris. Más o menos betyder "mere eller mindre".
-Pare aquí, por favor. | PA-re a-KI, por fa-BOR | Stop her, tak. | Pare er befalingsformen til usted, den høflige tiltaleform, og er helt normal over for en chauffør.
+Pare aquí, por favor. | PA-re a-KI, por fa-BOR | Stop her, tak. | Pare er befalingsformen i den høflige form (usted) og er helt normal over for en chauffør.
 Todo recto y luego la segunda a la derecha. | TO-do REK-to i LVE-go la se-GUN-da a la de-RE-tsja | Lige ud og så anden gade til højre. | Sådan lyder svaret, når du har spurgt efter vej. Det vigtigste er at forstå det, ikke at sige det.
 :koniec
 
@@ -76,7 +76,8 @@ A la estación de Atocha, por favor. | Til Atocha station, tak.
 ¿Cuánto va a costar, más o menos? | Hvad kommer det cirka til at koste?
 Unos doce euros, depende del tráfico. | Omkring tolv euro, det afhænger af trafikken.
 Pare aquí, por favor. | Stop her, tak.
-Son once con cuarenta. Quédese con el cambio. | Det bliver elleve euro og fyrre cent. Behold byttepengene.
+Son once con cuarenta. | Det bliver elleve euro og fyrre cent.
+Tenga, doce. Quédese con el cambio. | Værsgo, tolv. Behold byttepengene.
 :::
 
 :::quiz[id="spansk_byen_q1" title="Hvad husker du?"]

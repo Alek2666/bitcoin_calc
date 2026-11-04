@@ -12,10 +12,10 @@ jezyk_docelowy: en
 jezyk_tekstu: it
 zdjecie_pomysl: una scrivania con laptop aperto su una casella di posta e una tazza di caffè
 ---
-Un'email di lavoro in italiano vive di formule: «Gentile Dottor Rossi», «In allegato Le invio», «Resto in attesa di un Suo riscontro», «Distinti saluti». Tradotte parola per parola in inglese diventano frasi che un madrelingua non scriverebbe. L'email inglese tende a essere più corta e più diretta, e il grado di formalità dipende da poche scelte precise: come apri, quanto ammorbidisci la richiesta e come chiudi.
+Un'email di lavoro in italiano vive di formule: «Gentile Dottor Rossi», «In allegato Le invio», «Resto in attesa di un Suo riscontro», «Distinti saluti». Tradotte parola per parola in inglese diventano frasi che un madrelingua non scriverebbe. Le formule inglesi sono in genere più brevi, e il grado di formalità dipende da poche scelte precise: come apri, quanto ammorbidisci la richiesta e come chiudi.
 
 :uwaga
-Come leggere la pronuncia. L'accento è in maiuscolo. «th» si dice con la lingua tra i denti, non come «s» o «d», e «dh» è la stessa «th» sonora di «the». La «h» si soffia (in italiano è muta). «tch» suona come la «ci» di «ciao», «dj» come la «g» di «giro», «sci» come in «scena», «iu» è «you». Dove vedi «ei» o «ai» la voce scivola da una vocale all'altra.
+Come leggere la pronuncia. La sillaba accentata è in maiuscolo. «dh» è la «th» di «the»: lingua tra i denti, con la voce, né «d» né «z». La «h» si soffia (in italiano è muta). «tch» suona come la «ci» di «ciao», «dj» come la «g» di «giro», «sci» come in «scena», «iu» è «you», e «u» davanti a una vocale vale «w» (uel è «well»). Dove vedi «ei», «ai» o «ou» la voce scivola da una vocale all'altra.
 :koniec
 
 ## Come aprire: Dear, Hi o Hello
@@ -26,7 +26,7 @@ Qui scatta una trappola tipica degli italiani. In Italia «dottore» spetta a ch
 
 Se non conosci il nome, la forma classica è «Dear Sir or Madam,». «To whom it may concern» suona freddo e impersonale, quindi se puoi cerca il nome sul sito dell'azienda.
 
-Quando l'altro ti risponde con «Hi» e firma con il nome, passa a «Hi Laura,». La regola pratica è rispecchiare il livello di chi ti scrive. «Dear Laura,» sta a metà strada. Il «Buongiorno» italiano non ha un posto fisso nell'email inglese: «Good morning» funziona solo se sai quando verrà letta, mentre «Hello» va bene a qualsiasi ora.
+Quando l'altro ti risponde con «Hi» e firma con il nome, passa a «Hi Laura,». La regola pratica è rispecchiare il livello di chi ti scrive. «Dear Laura,» sta a metà strada. Per il «Buongiorno» italiano non c'è un equivalente fisso: «Good morning» funziona solo se sai quando verrà letta, mentre «Hello» va bene a qualsiasi ora.
 
 L'oggetto («Subject») è breve e dice che cosa serve: «Invoice 2043: payment date» si legge in un secondo.
 
@@ -45,13 +45,13 @@ L'inglese non ha un «Lei», quindi la cortesia passa dai verbi. Stessa richiest
 - «Could you please send me the figures?» Il livello sicuro per quasi tutto.
 - «I was wondering if you could send me the figures.» Per un favore, o quando la persona non ti deve niente. Simile: «Would you mind sending me the figures?», dove dopo «mind» il verbo va in -ing.
 
-Le scadenze creano un altro errore frequente. «Entro venerdì» è «by Friday». «Until Friday» significa «fino a venerdì»: «I'm away until Friday» dice che torni venerdì. Per «il prima possibile» c'è «as soon as possible», o «ASAP» tra colleghi, ma a un cliente può sembrare una pretesa. «When you have a chance» o «by the end of the week» sono più morbidi.
+Le scadenze creano un altro errore frequente. «Entro venerdì» è «by Friday». «Until Friday» significa «fino a venerdì»: «I'm away until Friday» vuol dire «sono via fino a venerdì», cioè indica una durata e non una scadenza. Per «il prima possibile» c'è «as soon as possible», o «ASAP» tra colleghi, ma a un cliente può sembrare una pretesa. «When you have a chance» o «by the end of the week» sono più morbidi.
 
 :cta
 
 ## Come chiudere
 
-Prima della firma c'è di solito una riga che invita alla risposta: «I look forward to hearing from you.» Dopo «look forward to» il verbo è in -ing, perché qui «to» è una preposizione e non fa parte dell'infinito. In alternativa, «Please let me know if you have any questions.» al posto di «Resto a disposizione». «Don't hesitate to contact me» è più formale e si incontra ovunque.
+Prima della firma c'è di solito una riga che invita alla risposta: «I look forward to hearing from you.» Dopo «look forward to» il verbo è in -ing, perché qui «to» è una preposizione e non fa parte dell'infinito. In alternativa, «Please let me know if you have any questions.» al posto di «Resto a disposizione». «Don't hesitate to contact me» è più formale e molto comune.
 
 Poi la formula di saluto:
 
@@ -64,14 +64,14 @@ Poi la formula di saluto:
 Due falsi amici che compaiono spesso nelle email. «Actually» significa «in realtà», non «attualmente» (che è «currently»). «Eventually» significa «alla fine, prima o poi», non «eventualmente» (che è «if necessary» o «possibly»). «I'll send it eventually» dice a un collega che lo manderai prima o poi.
 :koniec
 
-:::smart-czytanie[title="Un'email completa, riga per riga"]
+:::smart-czytanie[title="Un'email completa da leggere con il dizionario"]
 Subject: [Invoice|fattura|wymowa: IN-vois] 2043: payment date
 Dear Ms Clarke,
 I hope you are [well|bene|wymowa: uel].
 I am writing to ask when we can expect [payment|pagamento|wymowa: PEI-ment] of invoice 2043.
 I have [attached|allegato|wymowa: a-TATCHT] a copy for your [records|archivi|wymowa: RE-cordz].
 Could you please let me know [by|entro|wymowa: bai] Friday?
-I look forward to [hearing|avere notizie|wymowa: HI-ring] from you.
+I look forward to [hearing|sentire|wymowa: HI-ring] from you.
 Kind regards,
 Marco Bianchi
 :::
@@ -79,13 +79,13 @@ Marco Bianchi
 ## Undici formule da tenere a portata di mano
 
 :frazy
-Dear Mr Taylor, | dir MI-ster TEI-ler | Gentile Signor Taylor, | Titolo e cognome, mai il nome di battesimo. «Mr» si legge «mister» e nell'inglese britannico si scrive senza punto.
+Dear Mr Taylor, | dir MI-ster TEI-ler | Gentile Signor Taylor, | Titolo e cognome, non il solo nome di battesimo. «Mr» si legge «mister» e nell'inglese britannico si scrive senza punto.
 Dear Ms Clarke, | dir MIZ clark | Gentile Signora Clarke, | «Ms» non dice se la donna è sposata: è la scelta sicura quando non sai che cosa preferisce.
 Hi Laura, | hai LO-ra | Ciao Laura, | Solo se l'altro ha già scritto «Hi» e firma con il nome. Prima è meglio «Dear».
 I am writing to ask about… | ai em RAI-ting tu ask a-BAUT | Le scrivo per avere informazioni su… | Apre la prima email. Dopo «to» va un verbo, dopo «about» il tema. In una risposta si salta.
-Could you please send me…? | cud iu pliz send mi | Potrebbe inviarmi…? | «Could» è il livello sicuro, mentre «Send me…» da solo suona come un ordine.
+Could you please send me…? | cud iu pliz SEND mi | Potrebbe inviarmi…? | «Could» è il livello sicuro, mentre «Send me…» da solo suona come un ordine.
 Please find attached the report. | pliz faind a-TATCHT dhe ri-PORT | In allegato trova il report. | «Allegato» è «attached». Tra colleghi è più naturale «I've attached the report».
-I would appreciate your reply by Friday. | ai ud a-PRI-sci-eit ior ri-PLAI bai FRAI-dei | Gradirei una risposta entro venerdì. | «By» è «entro», «until» è «fino a». Con «until Friday» avresti scritto «fino a venerdì», e la scadenza sparisce.
+I would appreciate your reply by Friday. | ai ud a-PRI-sci-eit ior ri-PLAI bai FRAI-dei | Gradirei una risposta entro venerdì. | «By» è «entro», «until» è «fino a»: con «until Friday» indichi una durata e non più una scadenza.
 Apologies for the delay in replying. | a-PO-lo-djiz for dhe di-LEI in ri-PLAI-ing | Mi scuso per il ritardo nella risposta. | Dopo «delay in» il verbo va in -ing. «Sorry for the delay» è la versione meno formale.
 I look forward to hearing from you. | ai luk FO-ued tu HI-ring from iu | Resto in attesa di una Sua risposta. | Dopo «look forward to» si usa il gerundio, perché qui «to» è una preposizione.
 Please let me know if you have any questions. | pliz let mi nou if iu hav E-ni KUES-tchenz | Mi faccia sapere se ha domande. | Il modo normale di dire «resto a disposizione».
