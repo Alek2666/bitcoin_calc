@@ -14,7 +14,7 @@ zdjecie_pomysl: Zwei Kolleginnen mit Bechern in einer Büroküche, im Hintergrun
 ---
 ## Warum »Send me the file« anders ankommt, als du es meinst
 
-Im deutschen Büro genügt »Schick mir bitte die Datei«. Wörtlich übertragen, also »Send me the file, please«, kann dieselbe Bitte auf Englisch schnell schroff wirken, besonders in einer Mail an jemanden, den du kaum kennst. Viele englischsprachige Kollegen verpacken Bitten lieber in eine Frage mit Modalverb, auch unter Leuten auf gleicher Ebene. Das ist eine Tendenz und keine Vorschrift, aber mit der Frageform liegst du fast immer richtig.
+Im deutschen Büro genügt »Schick mir bitte die Datei«. Wörtlich übertragen, also »Send me the file, please«, kann dieselbe Bitte auf Englisch etwas schroff wirken, besonders in einer Mail an jemanden, den du kaum kennst. Viele englischsprachige Kollegen verpacken Bitten lieber in eine Frage mit Modalverb, auch unter Leuten auf gleicher Ebene. Das ist eine Tendenz und keine Vorschrift, aber mit der Frageform liegst du fast immer richtig.
 
 ## Drei Stufen, um höflich zu bitten
 
@@ -25,7 +25,7 @@ Eine Stufe weicher ist »Would you mind ...?«, gern bei Kleinigkeiten, die den 
 Die dritte Stufe ist »I was wondering if you could ...«. Die Vergangenheitsform macht die Bitte weicher, gemeint ist trotzdem das Jetzt. Sie passt zu größeren Bitten, etwa wenn jemand für dich eine halbe Stunde freischaufeln soll.
 
 :uwaga
-Die Antwort-Falle bei »Would you mind ...?«: »mind« heißt hier »stören«. Wenn du zustimmen willst, sagst du »Not at all« oder »Of course not«, denn gefragt ist, ob es dich stört. Ein bloßes »Yes« kann als »ja, es stört mich« verstanden werden. Muttersprachler antworten im Alltag auch oft mit »Sure« oder »No problem«, besonders in den USA. Im Gespräch rettet dich der Tonfall, in einer Mail bleibt ein einzelnes »Yes« zweideutig.
+Die Antwort-Falle bei »Would you mind ...?«: »mind« heißt hier »stören«. Wenn du die Bitte gern erfüllst, sagst du »Not at all« oder »Of course not«, denn gefragt ist, ob es dich stört. Ein bloßes »Yes« kann als »ja, es stört mich« verstanden werden. Muttersprachler antworten im Alltag auch oft mit »Sure« oder »No problem«. Im Gespräch rettet dich der Tonfall, in einer Mail bleibt ein einzelnes »Yes« zweideutig.
 :koniec
 
 Eine zweite Falle steckt im deutschen »bis«. »By Friday« heißt: spätestens am Freitag. »Until Friday« beschreibt einen Zeitraum, zum Beispiel »I'm away until Friday«. Für eine Frist brauchst du deshalb »by«.
@@ -34,7 +34,7 @@ Eine zweite Falle steckt im deutschen »bis«. »By Friday« heißt: spätestens
 
 Der Small Talk findet dort statt, wo Kaffee und Tee gemacht werden: in britischen Büros oft »the kitchen«, in amerikanischen eher »the break room«. »How are you?« und »How's it going?« sind meist eine Begrüßung und keine Erkundigung nach deinem Befinden. Üblich ist eine kurze Antwort: »Good, thanks. You?« Die Gegenfrage gehört in der Regel dazu, sonst klingt die Antwort wie ein Schlusspunkt.
 
-Viele Briten untertreiben gern. Ein »Not bad« oder »Can't complain« auf »How are you?« heißt deshalb oft einfach »ganz gut«, und »not bad« über deine Arbeit kann schon ein echtes Lob sein. Der Tonfall entscheidet.
+Viele Briten untertreiben gern. Ein »Not bad« oder »Can't complain« auf »How are you?« heißt deshalb oft einfach »ganz gut«, und »not bad« über deine Arbeit kann schon ein echtes Lob sein.
 
 Montags fragt man »Did you have a good weekend?« oder »How was your weekend?«, freitags »Any plans for the weekend?«. Dazu kommen der Weg zur Arbeit, das Wetter und der Urlaub. Gehalt, Politik und Religion gelten unter Kollegen oft als heikel und bleiben am Automaten meist draußen. Wie streng das gehandhabt wird, hängt vom Team ab.
 
@@ -46,26 +46,26 @@ In vielen britischen Büros kocht einer für mehrere, die sogenannte »tea round
 
 :frazy
 Could you send me the file by Friday? | kud ju SEND mi dhe FAIL bai FRAI-dej | Könntest du mir die Datei bis Freitag schicken? | Die Standardbitte unter Kollegen. »By« setzt eine Frist: spätestens am Freitag. »Until« würde einen Zeitraum meinen.
-Would you mind closing the door? | wud ju MAIND KLOU-sing dhe DOR | Würde es dich stören, die Tür zu schließen? | Nach »mind« folgt die -ing-Form. Zustimmen heißt »Not at all«.
+Would you mind closing the door? | wud ju MAIND KLOU-sing dhe DOR | Würde es dich stören, die Tür zu schließen? | Nach »mind« folgt die -ing-Form. Wer die Bitte gern erfüllt, antwortet »Not at all«.
 I was wondering if you could take a look at this. | ai woz WAN-de-ring if ju kud TEJK e LUK et dhis | Ich wollte fragen, ob du dir das mal ansehen könntest. | Die weichste Stufe, für größere Bitten. Die Vergangenheit macht es höflicher, gemeint ist jetzt.
 How was your weekend? | hau woz jor WIIK-end | Wie war dein Wochenende? | Die Montagsfrage am Kaffeeautomaten. Freitags passt »Any plans for the weekend?«.
-Not bad, thanks. And you? | not BÄD thänks änd JU | Nicht schlecht, danke. Und dir? | In Großbritannien kann »not bad« schon ein Lob sein. Die Gegenfrage gehört dazu.
+Not bad, thanks. And you? | nott BÄD thänks änd JU | Nicht schlecht, danke. Und dir? | Heißt meist einfach »ganz gut«. In Großbritannien kann »not bad« auch ein echtes Lob sein. Die Gegenfrage gehört dazu.
 Do you fancy a cuppa? | du ju FÄN-si e KAP-e | Hast du Lust auf einen Tee? | Britisch und informell. »Cuppa« ist die Kurzform von »cup of tea«.
 Shall we get started? | schäl wi get STAA-tid | Fangen wir an? | Typische Eröffnung eines Meetings, von der Gastgeberin oder vom Moderator.
-Sorry, could you say that again? | SO-ri, kud ju SEJ dhät e-GEJN | Entschuldigung, kannst du das wiederholen? | Völlig normal, auch am Telefon. Ein einfaches »What?« wirkt dagegen eher schroff.
+Sorry, could you say that again? | SORR-i, kud ju SEJ dhät e-GEJN | Entschuldigung, kannst du das wiederholen? | Völlig normal, auch am Telefon. Ein einfaches »What?« wirkt dagegen eher schroff.
 Can I just jump in here? | kän ai dschast DSCHAMP in HIR | Darf ich kurz einhaken? | So unterbrichst du höflich. »Just« macht die Unterbrechung kleiner.
 Let's take this offline. | lets TEJK dhis of-LAIN | Das klären wir außerhalb des Meetings. | Gemeint ist: nicht vor allen, sondern später in kleiner Runde. Betont wird »offline« auf der zweiten Silbe.
-I'll get back to you on that. | ail get BÄK tu ju on dhät | Dazu melde ich mich bei dir. | Wörtlich »ich komme auf dich zurück«. Gemeint ist: Ich antworte später.
+I'll get back to you on that. | ail get BÄK tu ju on dhät | Dazu melde ich mich bei dir. | Wörtlich »ich komme zu dir zurück«. Gemeint ist: Ich antworte später.
 You're on mute. | jor on MJUT | Du bist stumm geschaltet. | Der Satz fällt in Videocalls ständig. Bei schlechter Verbindung sagt man »You're breaking up«.
 :koniec
 
 :cwiczenie fiszki
 
+:cta
+
 :uwaga
 So liest du die Aussprache: Großbuchstaben sind betonte Silben, geschrieben ist die britische Aussprache. »w« sprichst du mit gerundeten Lippen wie ein kurzes u, nicht wie das deutsche w. »th« ist stimmlos, die Zungenspitze liegt zwischen den Zähnen. »dh« ist dieselbe Zungenstellung mit Stimme, so in »dhe« und »dhis«. »ä« ist ein offenes e wie in »Käse«. »ai« klingt wie das deutsche »ei« in »Eis«. »ej« ist ein e, das zu einem kurzen i gleitet (take, Friday), »ou« ein o, das zu einem kurzen u gleitet (closing). Doppelte Vokale wie in »WIIK-end« sind lang.
 :koniec
-
-:cta
 
 ## Meetings: starten, einhaken, vertagen
 
@@ -77,13 +77,13 @@ In Videocalls kommen zwei Sätze ständig vor: »Can everyone hear me?« zum Sta
 
 ## Wörter, die im Büro schiefgehen
 
-Einige englische Wörter sehen deutsch aus und meinen etwas anderes.
+Einige englische Wörter sehen deutsch aus und meinen etwas anderes. Beim letzten Punkt ist es umgekehrt: »Beamer« und »Handy« klingen englisch, sind aber im Deutschen entstanden.
 
 - »actually« heißt eigentlich oder tatsächlich, nicht aktuell. »Aktuell« ist »current« oder »currently«.
 - »eventually« heißt schließlich oder irgendwann, nicht eventuell. »Eventuell« ist »possibly« oder »perhaps«.
 - »sensible« heißt vernünftig, nicht sensibel. »Sensibel« ist »sensitive«.
 - »become« heißt werden, nicht bekommen. »Bekommen« ist »get« oder »receive«.
-- »Beamer« sagt kein englischer Muttersprachler, der Projektor heißt »projector«. »Handy« ist im Englischen ein Adjektiv für praktisch, das Telefon ist »mobile« (britisch) oder »cell phone« (amerikanisch).
+- Den Projektor nennt man »projector«, mit »Beamer« rechnet dort kaum jemand. »Handy« ist im Englischen ein Adjektiv für praktisch, das Telefon ist »mobile« (britisch) oder »cell phone« (amerikanisch).
 
 ## Ein Gespräch zum Mitlesen
 

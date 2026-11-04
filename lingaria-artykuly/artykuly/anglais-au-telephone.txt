@@ -20,7 +20,7 @@ Comment lire la prononciation. La syllabe accentuée est en majuscules. « th »
 
 ## Décrocher et se présenter
 
-En français, on décroche avec « Allô » ou en donnant son nom. En anglais, on dit « Hello », et pour se présenter « This is » suivi du nom : « Hello, this is Claire Martin. » « I am Claire Martin » est un calque du français : on vous comprendra, mais ce n'est pas la formule habituelle au téléphone. Si vous demandez quelqu'un et que c'est justement lui qui a décroché, il répond simplement « Speaking. »
+En français, on décroche avec « Allô » ou en donnant son nom. En anglais, on dit « Hello », et pour se présenter « This is » suivi du nom : « Hello, this is Claire Martin. » « I'm Claire Martin » s'entend aussi, mais « this is » reste la formule la plus courante pour s'annoncer au téléphone. « I am Claire Martin » vient tout seul à un francophone (« je suis ») : on vous comprendra, mais ça sonne comme une traduction mot à mot. Si vous demandez quelqu'un et que c'est justement lui qui a décroché, il répond simplement « Speaking. »
 
 Pour demander quelqu'un, la formule sûre est « Could I speak to… ? ». « Can I » passe aussi, mais « could » adoucit la demande. Si la personne est absente, vous entendrez : « I'm afraid he's not available at the moment. Can I take a message? » Le mot à retenir est « available » : il couvre à la fois « absent » et « occupé », donc inutile de savoir lequel des deux.
 
@@ -28,7 +28,7 @@ Quand on vous fait patienter, c'est « Could you hold the line? » (entre collè
 
 ## Épeler son nom
 
-Le nom de famille est le vrai test, et il se joue sur les voyelles de l'alphabet anglais. Trois groupes de lettres provoquent presque toutes les erreurs.
+Le nom de famille est le vrai test, et il se joue sur les voyelles de l'alphabet anglais. Trois groupes de lettres posent le plus de problèmes aux francophones.
 
 - « E » se dit « i » et « I » se dit « aï ». Quelqu'un qui épelle « Pierre » dit donc : pi, aï, i, ar, ar, i.
 - « G » se dit « dji » et « J » se dit « djéï ».
@@ -40,9 +40,9 @@ Pour départager deux lettres proches comme B et D, les anglophones ajoutent un 
 
 ## Prendre rendez-vous
 
-Le piège tient en un verbe. En anglais on ne « prend » pas un rendez-vous : on le fait (« make an appointment ») ou on le réserve (« book an appointment »). « Take an appointment » est un autre calque du français, compris mais peu naturel. De son côté, « rendezvous » existe en anglais mais désigne plutôt un point de rencontre, parfois galant. Pour le dentiste, le garage ou un entretien d'embauche, le mot est « appointment ».
+Le piège tient en un verbe. En anglais on ne « prend » pas un rendez-vous : on le fait (« make an appointment ») ou on le réserve (« book an appointment »). « Take an appointment » est lui aussi une traduction mot à mot : compris, mais peu naturel. De son côté, « rendezvous » existe en anglais mais désigne plutôt un point de rencontre, parfois galant. Pour le dentiste, le garage ou le coiffeur, le mot est « appointment » (un entretien d'embauche se dit « interview »).
 
-Les jours prennent « on » et les heures « at » : on Thursday, at ten. À l'oral, on ne dit pas « quatorze heures » mais « two in the afternoon » ou « two p.m. », et 14 h 30 devient « half past two ». Pour proposer un créneau : « Would Thursday at ten work for you? »
+Les jours prennent « on » et les heures « at » : on Thursday, at ten. À l'oral, l'anglais n'utilise pas les 24 heures : 14 h se dit « two in the afternoon » ou « two p.m. », et 14 h 30 « half past two ». Pour proposer un créneau : « Would Thursday at ten work for you? »
 
 Pour refuser, on adoucit : « I'm afraid I can't make Thursday. Would Friday be possible? » Le « I'm afraid » n'exprime aucune peur, c'est l'équivalent de « malheureusement », et « make Thursday » veut dire « être disponible jeudi ».
 
@@ -62,12 +62,13 @@ M, A, R, T, I, N. | M, A, R, T, I, N.
 Thank you. Would Thursday at ten work for you? | Merci. Jeudi à dix heures, ça vous irait ?
 I'm afraid I can't make Thursday. Would Friday be possible? | Malheureusement je ne peux pas jeudi. Vendredi, c'est possible ?
 Friday at half past two is free. | Vendredi à quatorze heures trente, c'est libre.
-Let me just read that back: Friday at half past two. | Je répète pour vérifier : vendredi à 14 h 30.
+Perfect. Let me just read that back: Friday at half past two. | Parfait. Je répète pour vérifier : vendredi à 14 h 30.
+That's right. See you on Friday. | C'est bien ça. À vendredi.
 :::
 
 ## Rappeler plus tard
 
-En français, « rappeler » couvre deux situations : on rappelle parce qu'on n'a pas eu la personne, ou parce qu'elle vous l'a demandé. L'anglais emploie « call back » pour les deux : « I'll call back later », « Could you ask her to call me back? ». Si on vous propose de transmettre un message, vous pouvez dire : « Could you tell him that Claire Martin called? »
+« Rappeler » se dit « call back », que ce soit vous qui rappelez (« I'll call back later ») ou l'autre qui doit le faire (« Could you ask her to call me back? »). Si on vous propose de transmettre un message, vous pouvez dire : « Could you tell him that Claire Martin called? »
 
 :uwaga
 « Recall » ne veut pas dire « rappeler quelqu'un ». En anglais, « to recall » signifie se souvenir de quelque chose ou retirer un produit défectueux de la vente. Au téléphone, on dit « call back », ou « ring back » au Royaume-Uni.
@@ -76,9 +77,9 @@ En français, « rappeler » couvre deux situations : on rappelle parce qu'on n'
 ## Huit phrases à garder pour l'appel
 
 :frazy
-Hello, this is Claire Martin. | hè-LÔ, dhis iz klèr MAR-tinn | Allô, c'est Claire Martin. | On dit « this is », pas « I am » : « I am Claire » passe pour une traduction mot à mot.
-Could I speak to Mr Wilson, please? | koud aï spik tou MIS-teur OUIL-seunn, pliz | Pourrais-je parler à M. Wilson, s'il vous plaît ? | « Mr » se lit « mister » et s'écrit sans point en anglais britannique (avec un point en américain).
-Could you hold the line, please? | koud iou hôld dhe laïn, pliz | Pouvez-vous patienter, s'il vous plaît ? | Équivalent de « ne quittez pas ». Entre collègues on entend plutôt « Hold on a moment ».
+Hello, this is Claire Martin. | hè-LÔ, dhis iz klèr MAR-tinn | Allô, c'est Claire Martin. | Au téléphone on s'annonce le plus souvent avec « this is ». « I am Claire » se comprend, mais sonne comme une traduction de « je suis ».
+Could I speak to Mr Wilson, please? | koud aï spik tou MIS-teur OUIL-seunn, pliz | Pourrais-je parler à M. Wilson, s'il vous plaît ? | Formule polie pour demander quelqu'un par son nom. « Mr » se lit « mister » et s'écrit sans point en anglais britannique (avec un point en américain).
+Could you hold the line, please? | koud iou hôld dheu laïn, pliz | Pouvez-vous patienter, s'il vous plaît ? | Équivalent de « ne quittez pas ». Entre collègues on entend plutôt « Hold on a moment ».
 I'd like to make an appointment. | aïd laïk tou méïk ann eu-POÏNT-meunt | Je voudrais prendre rendez-vous. | On « make » ou on « book » un rendez-vous, on ne le « take » pas.
 Would Thursday at ten work for you? | woud THEURZ-dé att tèn weurk for iou | Jeudi à dix heures, ça vous irait ? | « Work for you » veut dire « vous convient ». Le « th » de « Thursday » se fait la langue entre les dents.
 I'm afraid I can't make Thursday. | aïm eu-FRÉÏD aï kannt méïk THEURZ-dé | Malheureusement, je ne peux pas jeudi. | « I'm afraid » adoucit un refus. « Make Thursday » signifie « être libre jeudi ».
@@ -91,7 +92,7 @@ Pytanie: Comment se présente-t-on au téléphone en anglais ?
 - Hello, this is Claire Martin. [correct]
 - Hello, I am Claire Martin at the phone.
 - Hello, here Claire Martin.
-Wyjaśnienie: On dit « this is » suivi du nom. « I am… » est un calque du français que les anglophones ne disent pas au téléphone.
+Wyjaśnienie: On s'annonce avec « this is » suivi du nom. « I am… » se comprend, mais sonne comme une traduction mot à mot du français.
 Pytanie: Quelle lettre se dit « djéï » ?
 - G
 - J [correct]
@@ -101,5 +102,5 @@ Pytanie: Comment demande-t-on un rendez-vous ?
 - I'd like to take an appointment.
 - I'd like to make an appointment. [correct]
 - I'd like to do an appointment.
-Wyjaśnienie: On « make » ou on « book » un appointment. « Take an appointment » est un calque du français.
+Wyjaśnienie: On « make » ou on « book » un appointment. « Take an appointment » est une traduction mot à mot du français.
 :::

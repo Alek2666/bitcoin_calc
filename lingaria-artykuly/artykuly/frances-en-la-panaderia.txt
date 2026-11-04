@@ -16,7 +16,7 @@ zdjecie_pomysl: Mostrador de una boulangerie con baguettes en un cesto y croissa
 
 Puedes decir «une baguette, s'il vous plaît» con una pronunciación impecable y aun así sonar seco, si antes no has dicho «bonjour». En una panadería francesa se entra saludando, se pide y se sale despidiéndose.
 
-Al entrar: «Bonjour», y «madame» o «monsieur» si te diriges a quien atiende. Al salir: «Au revoir, bonne journée». Si te contestan «Vous aussi», es un «igualmente». Al caer la tarde el saludo pasa a ser «bonsoir» y la despedida «bonne soirée». Con el personal de la tienda se usa normalmente «vous», no «tu».
+Al entrar: «Bonjour», y «madame» o «monsieur» si te diriges a quien atiende. Al salir: «Au revoir, bonne journée». Si te desean «Bonne journée», contestas «Vous aussi», que es un «igualmente». Al caer la tarde el saludo pasa a ser «bonsoir» y la despedida «bonne soirée». Con el personal de la tienda se usa normalmente «vous» (usted), no «tu».
 
 ## Cómo se pide
 
@@ -26,7 +26,9 @@ Cuando ya has pedido algo, el vendedor suele preguntar si quieres algo más. No 
 
 ## Baguette, tradition y bien cuite
 
-En el mostrador suele haber dos tipos de baguette: la normal y la «baguette tradition». La segunda tiene una definición legal. Según el decreto de 1993 sobre el «pain de tradition française», se hace con harina de trigo, agua y sal, fermentada con levadura, masa madre o ambas, sin aditivos y sin congelar en ningún momento. En la práctica los clientes piden también «une tradition» a secas. Si te gusta la corteza más oscura, añade «bien cuite»; para una más clara, «pas trop cuite».
+En el mostrador suele haber dos tipos de baguette: la normal y la «baguette tradition». La segunda tiene una definición legal. Según el decreto de 1993 sobre el «pain de tradition française», se hace con harina de trigo, agua y sal, fermentada con levadura, masa madre o ambas, sin aditivos y sin congelar en ningún momento (se admiten pequeñas cantidades de harina de haba, de soja y de malta). En la práctica los clientes piden también «une tradition» a secas. Si te gusta la corteza más oscura, añade «bien cuite»; para una más clara, «pas trop cuite».
+
+El 30 de noviembre de 2022 la UNESCO inscribió en su lista del patrimonio cultural inmaterial «el saber hacer artesanal y la cultura del pan baguette».
 
 Con el pain au chocolat hay una diferencia regional. En el suroeste de Francia, en Toulouse o Burdeos, la misma pieza se llama «chocolatine».
 
@@ -48,17 +50,15 @@ Vous aussi ! | vu-zo-si | ¡Igualmente! | Respuesta a «Bonne journée». La «s
 
 :cwiczenie fiszki
 
-:uwaga
-El francés no tiene acento de palabra como el español, por eso la pronunciación figurada va sin mayúsculas: todas las sílabas pesan casi igual y solo la última de cada grupo se alarga un poco. Entre paréntesis va la «n» o «m» que no se pronuncia, solo nasaliza la vocal: «bo(n)-zhur», «pe(n)». «ü» es una i con los labios redondeados como para decir u, y «ö» es una e con los labios redondeados. «zh» suena como la «y» de «yo» pronunciada con roce, parecida a la «ll» de Buenos Aires. La «r» francesa se hace al fondo de la garganta, como una jota suave. Las consonantes finales suelen ser mudas («petit», «trop», «beaucoup»), salvo cuando se enlazan con la palabra siguiente.
-:koniec
-
 :cta
+
+:uwaga
+El francés no tiene acento de palabra como el español, por eso la pronunciación figurada va sin mayúsculas: todas las sílabas pesan casi igual y solo la última de cada grupo se alarga un poco. Entre paréntesis va la «n» o «m» que no se pronuncia, solo nasaliza la vocal: «bo(n)-zhur», «pe(n)». «ü» es una i con los labios redondeados como para decir u, y «ö» es una e con los labios redondeados. «sh» se lee como en el inglés «show», y «zh» es esa misma consonante con voz, parecida a la «ll» de Buenos Aires. La «r» francesa se hace al fondo de la garganta, como una jota suave. Las consonantes finales suelen ser mudas («petit», «trop», «beaucoup»), salvo cuando se enlazan con la palabra siguiente.
+:koniec
 
 ## Qué es una boulangerie y qué no
 
-La palabra «boulangerie» está protegida por una ley del 25 de mayo de 1998. Solo puede llamarse así el negocio donde el panadero amasa, da forma, fermenta y hornea el pan en el propio local donde lo vende. Un punto de cocción que solo hornea masa o panes hechos en otra parte no puede usar el nombre.
-
-El 30 de noviembre de 2022 la UNESCO inscribió en su lista del patrimonio cultural inmaterial «el saber hacer artesanal y la cultura del pan baguette».
+La palabra «boulangerie» está protegida por una ley del 25 de mayo de 1998. Solo puede llamarse así el negocio donde el panadero amasa, da forma, fermenta y hornea el pan en el propio local donde lo vende. Un punto de cocción que solo hornea masa o panes hechos en otra parte no puede usar el nombre. Por eso, si el cartel dice «boulangerie», el pan se ha hecho en esa misma tienda.
 
 :::quiz[id="panaderia_q1" title="Comprueba lo que recuerdas"]
 Pytanie: ¿Qué dices al entrar en una boulangerie?
