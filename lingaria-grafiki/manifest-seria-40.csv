@@ -1,41 +1,41 @@
-nr,plik,id_tresci,rodzaj,liczba_pozycji,styl_nr,status
-1,seria-40/ANGIELSKI_NA_HISZPANSKI_weekend.jpg,b2-01,qa,6,1,"wygenerowany; bez kontroli OCR (brak kredytow), obejrzany recznie"
-2,seria-40/POLSKI_NA_HISZPANSKI_przeciwienstwa.jpg,b2-02,opp,14,2,wygenerowany; kontrola OCR: ok
-3,seria-40/NIEMIECKI_NA_FRANCUSKI_przedstawianie_sie.jpg,b2-03,qa,7,3,"wygenerowany; bez kontroli OCR (brak kredytow), obejrzany recznie"
-4,seria-40/HOLENDERSKI_NA_FRANCUSKI_targ.jpg,b2-04,words,18,4,"wygenerowany; bez kontroli OCR (brak kredytow), obejrzany recznie"
-5,seria-40/HISZPANSKI_NA_NIEMIECKI_sniadanie.jpg,b2-05,qa,15,5,"wygenerowany; bez kontroli OCR (brak kredytow), obejrzany recznie"
-6,,b2-06,opp,20,6,CZEKA - brak kredytow Gemini (402)
-7,,b2-07,words,22,7,CZEKA - brak kredytow Gemini (402)
-8,,b2-08,qa,3,8,CZEKA - brak kredytow Gemini (402)
-9,,b2-09,words,13,9,CZEKA - brak kredytow Gemini (402)
-10,,b2-10,qa,6,10,CZEKA - brak kredytow Gemini (402)
-11,,b2-11,words,30,11,CZEKA - brak kredytow Gemini (402)
-12,,b2-12,qa,7,12,CZEKA - brak kredytow Gemini (402)
-13,,b2-13,opp,10,13,CZEKA - brak kredytow Gemini (402)
-14,,b2-14,words,12,14,CZEKA - brak kredytow Gemini (402)
-15,seria-40/NIEMIECKI_NA_POLSKI_samopoczucie.jpg,b2-15,qa,6,15,"wygenerowany; bez kontroli OCR (brak kredytow), obejrzany recznie"
-16,,b2-16,words,9,16,CZEKA - brak kredytow Gemini (402)
-17,,b2-17,opp,8,17,CZEKA - brak kredytow Gemini (402)
-18,,b2-18,qa,3,18,CZEKA - brak kredytow Gemini (402)
-19,,b2-19,words,20,19,CZEKA - brak kredytow Gemini (402)
-20,,b2-20,qa,7,20,CZEKA - brak kredytow Gemini (402)
-21,seria-40/NIEMIECKI_NA_NORWESKI_pogoda_i_pory_roku.jpg,b2-21,words,11,21,"wygenerowany; bez kontroli OCR (brak kredytow), obejrzany recznie"
-22,,b2-22,opp,12,22,CZEKA - brak kredytow Gemini (402)
-23,,b2-23,qa,6,23,CZEKA - brak kredytow Gemini (402)
-24,,b2-24,words,16,24,CZEKA - brak kredytow Gemini (402)
-25,,b2-25,qa,7,25,CZEKA - brak kredytow Gemini (402)
-26,,b2-26,words,14,26,CZEKA - brak kredytow Gemini (402)
-27,,b2-27,opp,16,27,CZEKA - brak kredytow Gemini (402)
-28,,b2-28,words,12,28,CZEKA - brak kredytow Gemini (402)
-29,,b2-29,opp,10,29,CZEKA - brak kredytow Gemini (402)
-30,,b2-30,words,10,30,CZEKA - brak kredytow Gemini (402)
-31,,b2-31,qa,3,31,CZEKA - brak kredytow Gemini (402)
-32,,b2-32,words,8,32,CZEKA - brak kredytow Gemini (402)
-33,,b2-33,words,12,33,CZEKA - brak kredytow Gemini (402)
-34,,b2-34,qa,3,34,CZEKA - brak kredytow Gemini (402)
-35,,b2-35,opp,10,35,CZEKA - brak kredytow Gemini (402)
-36,,b2-36,words,14,36,CZEKA - brak kredytow Gemini (402)
-37,,b2-37,words,12,37,CZEKA - brak kredytow Gemini (402)
-38,,b2-38,opp,12,38,CZEKA - brak kredytow Gemini (402)
-39,,b2-39,words,10,39,CZEKA - brak kredytow Gemini (402)
-40,,b2-40,qa,3,40,CZEKA - brak kredytow Gemini (402)
+nr,plik,id_tresci,rodzaj,liczba_pozycji,styl_nr,fonetyka,kontrola_ocr,liczba_generowan
+1,seria-40/ANGIELSKI_NA_HISZPANSKI_weekend.jpg,b2-01,qa,6,1,nie,ok,4
+2,seria-40/POLSKI_NA_HISZPANSKI_przeciwienstwa.jpg,b2-02,opp,14,2,nie,ok,1
+3,seria-40/NIEMIECKI_NA_FRANCUSKI_przedstawianie_sie.jpg,b2-03,qa,7,3,nie,ok,4
+4,seria-40/HOLENDERSKI_NA_FRANCUSKI_targ.jpg,b2-04,words,18,4,nie,ok,4
+5,seria-40/HISZPANSKI_NA_NIEMIECKI_sniadanie.jpg,b2-05,qa,15,5,nie,ok,4
+6,seria-40/POLSKI_NA_NIEMIECKI_przeciwienstwa.jpg,b2-06,opp,20,6,nie,ok,1
+7,seria-40/ANGIELSKI_NA_WLOSKI_restauracja.jpg,b2-07,words,22,7,nie,ok,1
+8,seria-40/FRANCUSKI_NA_WLOSKI_pogoda.jpg,b2-08,qa,3,8,nie,ok,1
+9,seria-40/HISZPANSKI_NA_PORTUGALSKI_cialo.jpg,b2-09,words,13,9,nie,ok,1
+10,seria-40/TURECKI_NA_PORTUGALSKI_czas_wolny.jpg,b2-10,qa,6,10,nie,ok,1
+11,seria-40/POLSKI_NA_ANGIELSKI_czasowniki.jpg,b2-11,words,30,11,nie,ok,1
+12,seria-40/NIEMIECKI_NA_ANGIELSKI_praca.jpg,b2-12,qa,7,12,nie,ok,1
+13,seria-40/SZWEDZKI_NA_HOLENDERSKI_przeciwienstwa.jpg,b2-13,opp,10,13,nie,ok,1
+14,seria-40/ANGIELSKI_NA_POLSKI_sklep.jpg,b2-14,words,12,14,nie,ok,2
+15,seria-40/NIEMIECKI_NA_POLSKI_samopoczucie.jpg,b2-15,qa,6,15,nie,ok,4
+16,seria-40/ANGIELSKI_NA_CZESKI_szkola.jpg,b2-16,words,9,16,nie,do sprawdzenia (nr 16: tytul i slowo to ten sam wyraz - fałszywy alarm),3
+17,seria-40/POLSKI_NA_CZESKI_przeciwienstwa.jpg,b2-17,opp,8,17,nie,ok,1
+18,seria-40/ANGIELSKI_NA_CHORWACKI_skad_jestes.jpg,b2-18,qa,3,18,nie,ok,1
+19,seria-40/WLOSKI_NA_SLOWACKI_liczby.jpg,b2-19,words,20,19,nie,ok,1
+20,seria-40/ANGIELSKI_NA_SZWEDZKI_zima.jpg,b2-20,qa,7,20,nie,ok,1
+21,seria-40/NIEMIECKI_NA_NORWESKI_pogoda_i_pory_roku.jpg,b2-21,words,11,21,nie,ok,4
+22,seria-40/ANGIELSKI_NA_DUNSKI_przeciwienstwa.jpg,b2-22,opp,12,22,nie,ok,1
+23,seria-40/SZWEDZKI_NA_FINSKI_ulubione_jedzenie.jpg,b2-23,qa,6,23,nie,ok,1
+24,seria-40/ANGIELSKI_NA_RUMUNSKI_dom.jpg,b2-24,words,16,24,nie,ok,1
+25,seria-40/NIEMIECKI_NA_TURECKI_targ.jpg,b2-25,qa,7,25,nie,ok,1
+26,seria-40/ANGIELSKI_NA_TURECKI_ubrania.jpg,b2-26,words,14,26,nie,ok,1
+27,seria-40/POLSKI_NA_TURECKI_przeciwienstwa.jpg,b2-27,opp,16,27,nie,ok,1
+28,seria-40/ANGIELSKI_NA_ROSYJSKI_miasto_fonetyka.jpg,b2-28,words,12,28,tak,ok,2
+29,seria-40/NIEMIECKI_NA_ROSYJSKI_przeciwienstwa_fonetyka.jpg,b2-29,opp,10,29,tak,ok,2
+30,seria-40/POLSKI_NA_UKRAINSKI_dom_fonetyka.jpg,b2-30,words,10,30,tak,ok,2
+31,seria-40/ANGIELSKI_NA_UKRAINSKI_jak_sie_masz_fonetyka.jpg,b2-31,qa,3,31,tak,ok,1
+32,seria-40/ANGIELSKI_NA_GRECKI_powitania_fonetyka.jpg,b2-32,words,8,32,tak,ok,1
+33,seria-40/ANGIELSKI_NA_JAPONSKI_szkola_fonetyka.jpg,b2-33,words,12,33,tak,ok,2
+34,seria-40/POLSKI_NA_JAPONSKI_co_lubisz_fonetyka.jpg,b2-34,qa,3,34,tak,ok,1
+35,seria-40/ANGIELSKI_NA_CHINSKI_przeciwienstwa_fonetyka.jpg,b2-35,opp,10,35,tak,ok,1
+36,seria-40/NIEMIECKI_NA_CHINSKI_jedzenie_i_picie_fonetyka.jpg,b2-36,words,14,36,tak,ok,1
+37,seria-40/HISZPANSKI_NA_KOREANSKI_czasowniki_fonetyka.jpg,b2-37,words,12,37,tak,ok,2
+38,seria-40/ANGIELSKI_NA_KOREANSKI_przeciwienstwa_fonetyka.jpg,b2-38,opp,12,38,tak,ok,1
+39,seria-40/ANGIELSKI_NA_ARABSKI_rodzina_fonetyka.jpg,b2-39,words,10,39,tak,ok,1
+40,seria-40/ANGIELSKI_NA_HINDI_jak_masz_na_imie_fonetyka.jpg,b2-40,qa,3,40,tak,ok,1
