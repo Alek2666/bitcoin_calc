@@ -1,0 +1,294 @@
+{
+  "klucz": "lingaria_supermarket_a1",
+  "tytul": "Zakupy w supermarkecie",
+  "opis": "Szukasz mleka, chleba i owoców w supermarkecie. Pytasz pracownicę o drogę i cenę, odpowiadasz na pytanie o torbę i płacisz przy kasie.",
+  "cefr": "A1",
+  "ikona": "fi-rr-shopping-cart",
+  "glos": "auto:feminine",
+  "role": {
+    "bot": "Pracownica sklepu",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "mleko",
+    "chleb",
+    "owoce",
+    "torba",
+    "kasa",
+    "paragon",
+    "kartą",
+    "gotówką"
+  ],
+  "luki": [
+    "owoce",
+    "torba"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "a1",
+    "zakupy",
+    "supermarket",
+    "jedzenie",
+    "kasa",
+    "ceny"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "op1",
+    "wezly": {
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Jesteś w dużym supermarkecie. Chcesz kupić mleko, chleb i owoce, ale nie wiesz, gdzie one są. Obok półki stoi pracownica sklepu w zielonym fartuchu.",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Zapytaj pracownicę, gdzie jest mleko",
+        "wzor": "Przepraszam, gdzie jest mleko?",
+        "blad": "Słucham? Czego szukasz?",
+        "dalej": "q1"
+      },
+      "q1": {
+        "kto": "ai",
+        "tekst": "Mleko jest w lodówce po prawej stronie. Szukasz jeszcze czegoś?",
+        "instrukcja": "Powiedz, co jeszcze chcesz kupić",
+        "blad": "Hm, nie rozumiem. Chleb czy owoce?",
+        "galezie": [
+          {
+            "intencja": "chleb",
+            "wzor": "Tak, szukam chleba.",
+            "dalej": "a2"
+          },
+          {
+            "intencja": "owoce",
+            "wzor": "Tak, szukam owoców.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "czekolada",
+            "wzor": "Tak! Potrzebuję dużo czekolady!",
+            "dalej": "a4",
+            "ukryta": true
+          }
+        ]
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "Chleb jest przy wejściu, koło piekarni. Dziś jest bardzo świeży.",
+        "dalej": "u2"
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Owoce są po lewej stronie. Dziś są ładne jabłka i banany.",
+        "dalej": "u2"
+      },
+      "a4": {
+        "kto": "ai",
+        "tekst": "Ha, czekolada jest przy kasie! Ale najpierw weź coś zdrowego, na przykład jabłko.",
+        "dalej": "u2"
+      },
+      "u2": {
+        "kto": "uczen",
+        "instrukcja": "Zapytaj o cenę",
+        "wzor": "Przepraszam, ile to kosztuje?",
+        "blad": "Nie dosłyszałam. O co pytasz?",
+        "dalej": "q2"
+      },
+      "q2": {
+        "kto": "ai",
+        "tekst": "To kosztuje cztery euro. Bierzesz?",
+        "instrukcja": "Powiedz, czy bierzesz",
+        "blad": "Przepraszam? Bierzesz to czy nie?",
+        "galezie": [
+          {
+            "intencja": "biore",
+            "wzor": "Tak, biorę.",
+            "dalej": "op2"
+          },
+          {
+            "intencja": "drogo",
+            "wzor": "To za drogo, dziękuję.",
+            "dalej": "fin2"
+          }
+        ]
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Masz już zakupy i idziesz do kasy. Pracownica sklepu pomaga teraz przy kasie, bo w sklepie jest dużo ludzi.",
+        "dalej": "q3"
+      },
+      "q3": {
+        "kto": "ai",
+        "tekst": "Dzień dobry. Chcesz torbę?",
+        "instrukcja": "Powiedz, czy chcesz torbę",
+        "blad": "Wybacz, nie usłyszałam. Chcesz torbę, tak czy nie?",
+        "galezie": [
+          {
+            "intencja": "tak",
+            "wzor": "Tak, poproszę torbę.",
+            "dalej": "a6"
+          },
+          {
+            "intencja": "nie",
+            "wzor": "Nie, mam swoją torbę.",
+            "dalej": "a7"
+          }
+        ]
+      },
+      "a6": {
+        "kto": "ai",
+        "tekst": "Proszę, to papierowa torba. Razem dwanaście euro.",
+        "dalej": "q4"
+      },
+      "a7": {
+        "kto": "ai",
+        "tekst": "Świetnie, to dobry pomysł. Razem dwanaście euro.",
+        "dalej": "q4"
+      },
+      "q4": {
+        "kto": "ai",
+        "tekst": "Płacisz kartą czy gotówką?",
+        "instrukcja": "Powiedz, jak płacisz",
+        "blad": "Jak płacisz? Kartą czy gotówką?",
+        "galezie": [
+          {
+            "intencja": "karta",
+            "wzor": "Płacę kartą.",
+            "dalej": "a8"
+          },
+          {
+            "intencja": "gotowka",
+            "wzor": "Płacę gotówką.",
+            "dalej": "a8"
+          }
+        ]
+      },
+      "a8": {
+        "kto": "ai",
+        "tekst": "Dziękuję! Oto twój paragon. A co dziś zjesz na kolację?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Powiedz, co dziś zjesz na kolację",
+        "kryteria": "co zjesz na kolację, 1 lub 2 zdania",
+        "wzor": "Dziś zjem zupę z chlebem i owoce.",
+        "blad": "Przepraszam, pytałam, co zjesz na kolację.",
+        "dalej": "a9"
+      },
+      "a9": {
+        "kto": "ai",
+        "tekst": "Brzmi smacznie! Miłego wieczoru.",
+        "dalej": "op3"
+      },
+      "op3": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: kończąc zakupy, powiedz krótko „dziękuję” i „do widzenia”. To zawsze brzmi miło.",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Dziękuję za pomoc. Do widzenia!",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Nie ma za co! Smacznej kolacji i do zobaczenia!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Rozumiem. Po prawej stronie są tańsze produkty. Rozejrzyj się jeszcze po sklepie. Miłych zakupów!"
+      }
+    },
+    "uklad": {
+      "op1": {
+        "x": 0,
+        "y": 0
+      },
+      "u1": {
+        "x": 0,
+        "y": 170
+      },
+      "q1": {
+        "x": 0,
+        "y": 340
+      },
+      "a2": {
+        "x": -280,
+        "y": 510
+      },
+      "a3": {
+        "x": 0,
+        "y": 510
+      },
+      "a4": {
+        "x": 280,
+        "y": 510
+      },
+      "u2": {
+        "x": 0,
+        "y": 680
+      },
+      "q2": {
+        "x": 0,
+        "y": 850
+      },
+      "op2": {
+        "x": -140,
+        "y": 1020
+      },
+      "fin2": {
+        "x": 140,
+        "y": 1020
+      },
+      "q3": {
+        "x": 0,
+        "y": 1190
+      },
+      "a6": {
+        "x": -140,
+        "y": 1360
+      },
+      "a7": {
+        "x": 140,
+        "y": 1360
+      },
+      "q4": {
+        "x": 0,
+        "y": 1530
+      },
+      "a8": {
+        "x": 0,
+        "y": 1700
+      },
+      "sw1": {
+        "x": 0,
+        "y": 1870
+      },
+      "a9": {
+        "x": 0,
+        "y": 2040
+      },
+      "op3": {
+        "x": 0,
+        "y": 2210
+      },
+      "p1": {
+        "x": 0,
+        "y": 2380
+      },
+      "fin1": {
+        "x": 0,
+        "y": 2550
+      }
+    }
+  }
+}

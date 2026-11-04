@@ -1,0 +1,221 @@
+{
+  "start": "op1",
+  "wezly": {
+    "op1": {
+      "kto": "ai",
+      "opis": true,
+      "tekst": "Po podróży autobusem okazuje się, że nie ma przy tobie torby. Idziesz do biura rzeczy znalezionych na dworcu. Za biurkiem siedzi pracownik z segregatorem pełnym formularzy.",
+      "dalej": "u1"
+    },
+    "u1": {
+      "kto": "uczen",
+      "instrukcja": "Powiedz, że zginęła twoja torba",
+      "wzor": "Dzień dobry. Zginęła mi torba i chcę ją zgłosić.",
+      "blad": "Słucham? Co dokładnie się stało?",
+      "dalej": "s1"
+    },
+    "s1": {
+      "kto": "ai",
+      "tekst": "Przykro mi to słyszeć, ale na pewno spróbujemy ją znaleźć. Gdzie i kiedy torba zniknęła?",
+      "instrukcja": "Powiedz, gdzie i kiedy zniknęła torba",
+      "blad": "Hm, gdzie i o której zniknęła ta torba?",
+      "galezie": [
+        {
+          "intencja": "autobus",
+          "wzor": "Chyba została w autobusie numer dwanaście, około ósmej rano.",
+          "dalej": "s2"
+        },
+        {
+          "intencja": "peron",
+          "wzor": "Została na ławce na drugim peronie, jakąś godzinę temu.",
+          "dalej": "s2"
+        },
+        {
+          "intencja": "nie_wiem",
+          "wzor": "Nie wiem dokładnie, ale to było gdzieś na dworcu.",
+          "dalej": "a_nie"
+        },
+        {
+          "intencja": "spacer",
+          "wzor": "Moja torba poszła sama na spacer.",
+          "dalej": "a_zart",
+          "ukryta": true
+        }
+      ]
+    },
+    "a_nie": {
+      "kto": "ai",
+      "tekst": "Nic nie szkodzi, sprawdzimy wszystkie miejsca na dworcu.",
+      "dalej": "s2"
+    },
+    "a_zart": {
+      "kto": "ai",
+      "tekst": "Mam nadzieję, że wróci z tego spaceru przed zamknięciem biura. Zapiszę, że zginęła gdzieś na dworcu, a teraz ją opiszmy.",
+      "dalej": "s2"
+    },
+    "s2": {
+      "kto": "ai",
+      "tekst": "Dobrze, zapisuję. Teraz opis: jak wygląda ta torba? Podaj kolor i wielkość.",
+      "instrukcja": "Opisz kolor i wielkość torby",
+      "blad": "Jeszcze raz, proszę: jaki kolor ma torba i jakiej jest wielkości?",
+      "galezie": [
+        {
+          "intencja": "plecak",
+          "wzor": "To średni czarny plecak z zieloną kieszenią na przodzie.",
+          "dalej": "a3"
+        },
+        {
+          "intencja": "podrozna",
+          "wzor": "To duża szara torba podróżna z paskiem na ramię.",
+          "dalej": "a3"
+        },
+        {
+          "intencja": "torebka",
+          "wzor": "To brązowa torebka na ramię, całkiem duża, ze złotym zamkiem.",
+          "dalej": "a3"
+        }
+      ]
+    },
+    "a3": {
+      "kto": "ai",
+      "tekst": "Dziękuję za dokładny opis, to na pewno pomoże w poszukiwaniach. A co było w środku? Wymień trzy lub cztery rzeczy i powiedz, która jest najważniejsza.",
+      "dalej": "sw1"
+    },
+    "sw1": {
+      "kto": "uczen",
+      "swobodna": true,
+      "instrukcja": "Opowiedz, co było w środku",
+      "kryteria": "trzy lub cztery rzeczy i ta najważniejsza, 2 zdania",
+      "wzor": "Jest tam portfel, ładowarka, książka i klucze do domu. Najważniejsze są klucze, bo bez nich nie wejdę do mieszkania.",
+      "blad": "Przepraszam, pytałem, co było w torbie.",
+      "dalej": "op2"
+    },
+    "op2": {
+      "kto": "ai",
+      "opis": true,
+      "jezyk_ucznia": true,
+      "tekst": "Dobra rada: przy zgłaszaniu zguby podaj cztery rzeczy: gdzie, kiedy, jak wygląda i co jest w środku. Ta lista przydaje się w każdym kraju.",
+      "dalej": "a4"
+    },
+    "a4": {
+      "kto": "ai",
+      "tekst": "Świetnie, wpisuję wszystko do formularza. Na koniec zgłoszenia warto powiedzieć jedno zdanie: „Proszę o kontakt, jeśli ktoś ją znajdzie.”",
+      "dalej": "p1"
+    },
+    "p1": {
+      "kto": "uczen",
+      "na_pamiec": true,
+      "wzor": "Proszę o kontakt, jeśli ktoś ją znajdzie.",
+      "dalej": "s3"
+    },
+    "s3": {
+      "kto": "ai",
+      "tekst": "Oczywiście, damy znać. Jak mamy się z tobą skontaktować, telefonem czy mailem?",
+      "instrukcja": "Wybierz sposób kontaktu",
+      "blad": "Jeszcze raz: telefonem czy mailem?",
+      "galezie": [
+        {
+          "intencja": "telefon",
+          "wzor": "Proszę dzwonić na mój numer telefonu, odbieram o każdej porze.",
+          "dalej": "a6"
+        },
+        {
+          "intencja": "mail",
+          "wzor": "Wolę kontakt mailem, bo często nie odbieram telefonu.",
+          "dalej": "a6"
+        },
+        {
+          "intencja": "jutro",
+          "wzor": "Zadzwonię do biura jutro rano i zapytam o torbę.",
+          "dalej": "a7"
+        }
+      ]
+    },
+    "a6": {
+      "kto": "ai",
+      "tekst": "Zapisane. Numer zgłoszenia to czterdzieści dwa. Zapamiętaj go, bo będzie potrzebny przy odbiorze.",
+      "dalej": "fin1"
+    },
+    "a7": {
+      "kto": "ai",
+      "tekst": "Dobrze. Pamiętaj tylko o numerze zgłoszenia: czterdzieści dwa. Podaj go, kiedy zadzwonisz. Jutro rano będę wiedział więcej.",
+      "dalej": "fin2"
+    },
+    "fin1": {
+      "kto": "ai",
+      "koniec": true,
+      "tekst": "Wszystko zgłoszone. Jeśli torba się znajdzie, od razu dam ci znać. Trzymam kciuki!"
+    },
+    "fin2": {
+      "kto": "ai",
+      "koniec": true,
+      "tekst": "Do usłyszenia jutro. Miejmy nadzieję, że torba czeka już na ciebie."
+    }
+  },
+  "uklad": {
+    "op1": {
+      "x": 0,
+      "y": 0
+    },
+    "u1": {
+      "x": 0,
+      "y": 170
+    },
+    "s1": {
+      "x": 0,
+      "y": 340
+    },
+    "s2": {
+      "x": -280,
+      "y": 510
+    },
+    "a_nie": {
+      "x": 0,
+      "y": 510
+    },
+    "a_zart": {
+      "x": 280,
+      "y": 510
+    },
+    "a3": {
+      "x": 0,
+      "y": 680
+    },
+    "sw1": {
+      "x": 0,
+      "y": 850
+    },
+    "op2": {
+      "x": 0,
+      "y": 1020
+    },
+    "a4": {
+      "x": 0,
+      "y": 1190
+    },
+    "p1": {
+      "x": 0,
+      "y": 1360
+    },
+    "s3": {
+      "x": 0,
+      "y": 1530
+    },
+    "a6": {
+      "x": -140,
+      "y": 1700
+    },
+    "a7": {
+      "x": 140,
+      "y": 1700
+    },
+    "fin1": {
+      "x": -140,
+      "y": 1870
+    },
+    "fin2": {
+      "x": 140,
+      "y": 1870
+    }
+  }
+}

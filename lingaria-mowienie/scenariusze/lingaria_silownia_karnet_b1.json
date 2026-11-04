@@ -1,0 +1,285 @@
+{
+  "klucz": "lingaria_silownia_karnet_b1",
+  "tytul": "Karnet na siłownię",
+  "opis": "Pytasz w klubie fitness o karnet. Wybierasz między karnetem miesięcznym i rocznym, mówisz, kiedy chcesz ćwiczyć, pytasz o zajęcia grupowe i próbny trening oraz dowiadujesz się, jak można wypowiedzieć umowę.",
+  "cefr": "B1",
+  "ikona": "fi-rr-comment",
+  "glos": "auto:feminine",
+  "role": {
+    "bot": "Recepcjonistka klubu fitness",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "karnet",
+    "siłownia",
+    "zajęcia grupowe",
+    "trening",
+    "umowa",
+    "wypowiedzieć",
+    "kondycja",
+    "zapisać się"
+  ],
+  "luki": [
+    "karnet",
+    "umowa",
+    "kondycja"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "b1",
+    "silownia",
+    "karnet",
+    "sport",
+    "trening",
+    "umowa"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "a1",
+    "wezly": {
+      "a1": {
+        "kto": "ai",
+        "tekst": "Cześć! Widzę, że się rozglądasz. Mogę ci w czymś pomóc?",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Powiedz, że chcesz zapytać o karnet",
+        "wzor": "Cześć. Chcę zapytać o karnet na siłownię.",
+        "blad": "Przepraszam, nie dosłyszałam. O co chcesz zapytać?",
+        "dalej": "s1"
+      },
+      "s1": {
+        "kto": "ai",
+        "tekst": "Świetnie! Mamy karnet miesięczny i roczny. Roczny wychodzi taniej w przeliczeniu na miesiąc. Który cię interesuje?",
+        "instrukcja": "Wybierz rodzaj karnetu",
+        "blad": "Hm, miesięczny czy roczny?",
+        "galezie": [
+          {
+            "intencja": "miesieczny",
+            "wzor": "Wolę miesięczny, bo jeszcze nie wiem, jak często będę ćwiczyć.",
+            "dalej": "op1"
+          },
+          {
+            "intencja": "roczny",
+            "wzor": "Roczny brzmi dobrze, skoro wychodzi taniej.",
+            "dalej": "op1"
+          },
+          {
+            "intencja": "probny",
+            "wzor": "Czy mogę najpierw przyjść na próbny trening?",
+            "dalej": "a_probny"
+          },
+          {
+            "intencja": "kot",
+            "wzor": "Czy macie karnet dla mojego kota? Lubi biegać po bieżni.",
+            "dalej": "a_kot",
+            "ukryta": true
+          }
+        ]
+      },
+      "a_probny": {
+        "kto": "ai",
+        "tekst": "Oczywiście! Pierwszy trening jest bezpłatny, więc z wyborem karnetu możesz jeszcze poczekać. Wystarczy umówić się na konkretny dzień.",
+        "dalej": "op1"
+      },
+      "a_kot": {
+        "kto": "ai",
+        "tekst": "Ha! Kot na bieżni to widok, którego jeszcze u nas nie było. Niestety regulamin nie pozwala wprowadzać zwierząt. Chodź, pokażę ci klub.",
+        "dalej": "op1"
+      },
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Recepcjonistka prowadzi cię przez klub. Za szklaną ścianą ktoś ćwiczy jogę, a w głębi stoją rzędy bieżni i ciężarków.",
+        "dalej": "s2"
+      },
+      "s2": {
+        "kto": "ai",
+        "tekst": "Klub jest otwarty od szóstej rano do dwudziestej drugiej. Kiedy zwykle chcesz ćwiczyć?",
+        "instrukcja": "Powiedz, kiedy chcesz ćwiczyć",
+        "blad": "Przepraszam, rano, wieczorem czy w weekend?",
+        "galezie": [
+          {
+            "intencja": "rano",
+            "wzor": "Najczęściej rano, przed pracą.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "wieczor",
+            "wzor": "Zwykle wieczorem, po pracy.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "weekend",
+            "wzor": "Głównie w weekendy, bo w tygodniu mam mało czasu.",
+            "dalej": "a3"
+          }
+        ]
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Dobrze wiedzieć. W godzinach szczytu na sali bywa tłoczno, więc warto spróbować zajęć grupowych, bo mają stałe godziny. Mamy jogę, pilates i trening obwodowy.",
+        "dalej": "u2"
+      },
+      "u2": {
+        "kto": "uczen",
+        "instrukcja": "Zapytaj, czy zajęcia są w cenie karnetu",
+        "wzor": "Czy zajęcia grupowe są wliczone w cenę karnetu?",
+        "blad": "Słucham? O co dokładnie pytasz?",
+        "dalej": "a4"
+      },
+      "a4": {
+        "kto": "ai",
+        "tekst": "Tak, wszystkie zajęcia są wliczone. Trzeba się tylko zapisać w aplikacji, bo miejsca szybko się kończą.",
+        "dalej": "s3"
+      },
+      "s3": {
+        "kto": "ai",
+        "tekst": "Teraz umowa. Karnet można wypowiedzieć z miesięcznym wyprzedzeniem, na piśmie. Czy te warunki ci odpowiadają?",
+        "instrukcja": "Powiedz, co sądzisz o warunkach umowy",
+        "blad": "Nie dosłyszałam. Czy warunki umowy ci odpowiadają?",
+        "galezie": [
+          {
+            "intencja": "ok",
+            "wzor": "Tak, to dla mnie w porządku. Chcę zapisać się od przyszłego tygodnia.",
+            "dalej": "a5"
+          },
+          {
+            "intencja": "przeprowadzka",
+            "wzor": "Czy mogę zrezygnować szybciej, jeśli się przeprowadzę?",
+            "dalej": "a6"
+          },
+          {
+            "intencja": "zastanowie",
+            "wzor": "Muszę to jeszcze przemyśleć. Wrócę w tym tygodniu.",
+            "dalej": "a7"
+          }
+        ]
+      },
+      "a6": {
+        "kto": "ai",
+        "tekst": "W takim przypadku wystarczy przynieść potwierdzenie nowego adresu. Wtedy umowa kończy się bez dodatkowych opłat, więc możesz się spokojnie zapisać.",
+        "dalej": "a5"
+      },
+      "a7": {
+        "kto": "ai",
+        "tekst": "Jasne, to ważna decyzja. Weź ulotkę z cennikiem i wróć, kiedy się zdecydujesz.",
+        "dalej": "fin2"
+      },
+      "a5": {
+        "kto": "ai",
+        "tekst": "Dobrze, w takim razie przygotuję umowę. Zanim ją wydrukuję, powiedz mi o swoim celu. Chcesz poprawić kondycję, schudnąć czy zbudować mięśnie? I jak często planujesz ćwiczyć?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Opowiedz o swoim celu treningowym",
+        "kryteria": "jaki masz cel i jak często chcesz ćwiczyć, 2 zdania",
+        "wzor": "Chcę poprawić kondycję, bo dużo siedzę przy komputerze. Zacznę od dwóch treningów w tygodniu.",
+        "blad": "Przepraszam, pytałam, jaki masz cel treningowy.",
+        "dalej": "a8"
+      },
+      "a8": {
+        "kto": "ai",
+        "tekst": "Świetny plan! Najważniejsza jest regularność, więc nawet kilka treningów w tygodniu da efekty. Umowa jest już wydrukowana, ale nie musisz jej podpisywać od razu.",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Czy mogę zabrać umowę do domu i przeczytać ją spokojnie?",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Oczywiście! Weź umowę i przeczytaj ją na spokojnie. Do zobaczenia na siłowni!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Nie ma pośpiechu. Do zobaczenia w tym tygodniu!"
+      }
+    },
+    "uklad": {
+      "a1": {
+        "x": 0,
+        "y": 0
+      },
+      "u1": {
+        "x": 0,
+        "y": 170
+      },
+      "s1": {
+        "x": 0,
+        "y": 340
+      },
+      "op1": {
+        "x": -280,
+        "y": 510
+      },
+      "a_probny": {
+        "x": 0,
+        "y": 510
+      },
+      "a_kot": {
+        "x": 280,
+        "y": 510
+      },
+      "s2": {
+        "x": 0,
+        "y": 680
+      },
+      "a3": {
+        "x": 0,
+        "y": 850
+      },
+      "u2": {
+        "x": 0,
+        "y": 1020
+      },
+      "a4": {
+        "x": 0,
+        "y": 1190
+      },
+      "s3": {
+        "x": 0,
+        "y": 1360
+      },
+      "a5": {
+        "x": -280,
+        "y": 1530
+      },
+      "a6": {
+        "x": 0,
+        "y": 1530
+      },
+      "a7": {
+        "x": 280,
+        "y": 1530
+      },
+      "sw1": {
+        "x": -140,
+        "y": 1700
+      },
+      "fin2": {
+        "x": 140,
+        "y": 1700
+      },
+      "a8": {
+        "x": 0,
+        "y": 1870
+      },
+      "p1": {
+        "x": 0,
+        "y": 2040
+      },
+      "fin1": {
+        "x": 0,
+        "y": 2210
+      }
+    }
+  }
+}

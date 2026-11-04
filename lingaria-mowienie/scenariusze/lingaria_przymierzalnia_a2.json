@@ -1,0 +1,274 @@
+{
+  "klucz": "lingaria_przymierzalnia_a2",
+  "tytul": "Ubrania w przymierzalni",
+  "opis": "Przymierzasz kurtkę w sklepie z ubraniami. Mówisz, że jest za duża lub za mała, prosisz o inny rozmiar albo kolor i decydujesz, czy ją kupić.",
+  "cefr": "A2",
+  "ikona": "fi-rr-shopping-cart",
+  "glos": "auto:masculine",
+  "role": {
+    "bot": "Sprzedawca",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "kurtka",
+    "przymierzalnia",
+    "rozmiar",
+    "przymierzyć",
+    "za duża",
+    "za mała",
+    "lustro",
+    "kupić"
+  ],
+  "luki": [
+    "rozmiar",
+    "przymierzyć"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "a2",
+    "ubrania",
+    "sklep",
+    "zakupy",
+    "rozmiar",
+    "kurtka"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "op1",
+    "wezly": {
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Jesteś w sklepie z ubraniami. Podoba ci się ciemnozielona kurtka, która wisi przy wejściu. Podchodzi sprzedawca.",
+        "dalej": "a1"
+      },
+      "a1": {
+        "kto": "ai",
+        "tekst": "Cześć! Widzę, że ta kurtka ci się podoba. Mogę w czymś pomóc?",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Zapytaj, czy możesz ją przymierzyć",
+        "wzor": "Cześć. Czy mogę przymierzyć tę kurtkę?",
+        "blad": "Przepraszam, nie dosłyszałem. Co chcesz przymierzyć?",
+        "dalej": "a2"
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "Jasne! Przymierzalnia jest po lewej stronie. Jaki rozmiar nosisz?",
+        "dalej": "u2"
+      },
+      "u2": {
+        "kto": "uczen",
+        "instrukcja": "Powiedz, jaki rozmiar nosisz",
+        "wzor": "Zwykle noszę rozmiar M.",
+        "blad": "Słucham? Jaki rozmiar?",
+        "dalej": "op2"
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Sprzedawca przynosi kurtkę w twoim rozmiarze. Idziesz do przymierzalni, zakładasz ją i oglądasz się w lustrze.",
+        "dalej": "s2"
+      },
+      "s2": {
+        "kto": "ai",
+        "tekst": "I jak? Dobrze leży ta kurtka?",
+        "instrukcja": "Powiedz, jak leży kurtka",
+        "blad": "Przepraszam, leży dobrze czy źle?",
+        "galezie": [
+          {
+            "intencja": "duza",
+            "wzor": "Jest za duża. Czy macie mniejszy rozmiar?",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "mala",
+            "wzor": "Jest za mała. Czy macie większy rozmiar?",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "kolor",
+            "wzor": "Rozmiar jest dobry, ale zastanawiam się nad innym kolorem.",
+            "dalej": "a3"
+          }
+        ]
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Nie ma problemu, zaraz sprawdzę w magazynie. Gdy będę szukał, możesz zapytać o kolor. To pytanie przyda się w każdym sklepie: Czy macie ten model w innym kolorze?",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Czy macie ten model w innym kolorze?",
+        "dalej": "s3"
+      },
+      "s3": {
+        "kto": "ai",
+        "tekst": "Tak, mamy tę kurtkę jeszcze w czarnym i granatowym kolorze. Który przynieść?",
+        "instrukcja": "Wybierz kolor kurtki",
+        "blad": "Przepraszam, czarny czy granatowy?",
+        "galezie": [
+          {
+            "intencja": "czarny",
+            "wzor": "Poproszę czarną kurtkę.",
+            "dalej": "op_nowa"
+          },
+          {
+            "intencja": "granatowy",
+            "wzor": "Poproszę granatową kurtkę.",
+            "dalej": "op_nowa"
+          },
+          {
+            "intencja": "zielony",
+            "wzor": "Chyba jednak wolę zielony kolor.",
+            "dalej": "op_nowa"
+          }
+        ]
+      },
+      "op_nowa": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Po chwili sprzedawca wraca z kurtką w odpowiednim rozmiarze i w wybranym kolorze. Zakładasz ją i wychodzisz z przymierzalni przed lustro.",
+        "dalej": "s4"
+      },
+      "s4": {
+        "kto": "ai",
+        "tekst": "Ta kurtka leży na tobie idealnie. Wyglądasz w niej świetnie! Chcesz ją kupić?",
+        "instrukcja": "Zdecyduj, czy kupujesz kurtkę",
+        "blad": "Przepraszam, kupujesz tę kurtkę czy nie?",
+        "galezie": [
+          {
+            "intencja": "tak",
+            "wzor": "Tak, biorę tę kurtkę.",
+            "dalej": "a_sw"
+          },
+          {
+            "intencja": "nie",
+            "wzor": "Dziękuję, ale jednak jej nie biorę.",
+            "dalej": "fin2"
+          },
+          {
+            "intencja": "jablka",
+            "wzor": "Biorę ją, ale czy mogę zapłacić jabłkami?",
+            "dalej": "a_jablka",
+            "ukryta": true
+          }
+        ]
+      },
+      "a_jablka": {
+        "kto": "ai",
+        "tekst": "Ha! Jabłko chętnie zjem na przerwie, ale przy kasie przyjmujemy tylko karty i gotówkę.",
+        "dalej": "a_sw"
+      },
+      "a_sw": {
+        "kto": "ai",
+        "tekst": "Dobry wybór! Ta kurtka jest ciepła i nie przemaka. Kiedy będziesz ją nosić?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Powiedz, kiedy będziesz nosić tę kurtkę",
+        "kryteria": "kiedy i gdzie będziesz nosić kurtkę, 1 lub 2 zdania",
+        "wzor": "Będę ją nosić w pracy i na spacerach w weekendy. Jest idealna na jesień.",
+        "blad": "Przepraszam, pytałem, kiedy będziesz nosić tę kurtkę.",
+        "dalej": "op3"
+      },
+      "op3": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: przymierzając kurtkę, sprawdź trzy rzeczy: długość rękawów, wygodę w ramionach i to, czy możesz swobodnie ruszać rękami. Warto to zrobić przed zakupem.",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Świetnie! Zapłacisz przy kasie, a ja zdejmę metkę. Dziękuję i noś ją na zdrowie!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Rozumiem, nie ma sprawy. Kurtka poczeka na kogoś innego. Zapraszam znowu!"
+      }
+    },
+    "uklad": {
+      "op1": {
+        "x": 0,
+        "y": 0
+      },
+      "a1": {
+        "x": 0,
+        "y": 170
+      },
+      "u1": {
+        "x": 0,
+        "y": 340
+      },
+      "a2": {
+        "x": 0,
+        "y": 510
+      },
+      "u2": {
+        "x": 0,
+        "y": 680
+      },
+      "op2": {
+        "x": 0,
+        "y": 850
+      },
+      "s2": {
+        "x": 0,
+        "y": 1020
+      },
+      "a3": {
+        "x": 0,
+        "y": 1190
+      },
+      "p1": {
+        "x": 0,
+        "y": 1360
+      },
+      "s3": {
+        "x": 0,
+        "y": 1530
+      },
+      "op_nowa": {
+        "x": 0,
+        "y": 1700
+      },
+      "s4": {
+        "x": 0,
+        "y": 1870
+      },
+      "a_sw": {
+        "x": -280,
+        "y": 2040
+      },
+      "fin2": {
+        "x": 0,
+        "y": 2040
+      },
+      "a_jablka": {
+        "x": 280,
+        "y": 2040
+      },
+      "sw1": {
+        "x": 0,
+        "y": 2210
+      },
+      "op3": {
+        "x": 0,
+        "y": 2380
+      },
+      "fin1": {
+        "x": 0,
+        "y": 2550
+      }
+    }
+  }
+}

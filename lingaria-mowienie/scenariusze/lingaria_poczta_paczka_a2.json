@@ -1,0 +1,288 @@
+{
+  "klucz": "lingaria_poczta_paczka_a2",
+  "tytul": "Wysyłamy paczkę",
+  "opis": "Wysyłasz paczkę za granicę. Mówisz, co jest w środku, wybierasz szybką lub zwykłą wysyłkę, podajesz adres odbiorcy i dostajesz potwierdzenie nadania.",
+  "cefr": "A2",
+  "ikona": "fi-rr-comment",
+  "glos": "auto:feminine",
+  "role": {
+    "bot": "Pracownica poczty",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "paczka",
+    "wysłać",
+    "waga",
+    "adres",
+    "odbiorca",
+    "szybka wysyłka",
+    "potwierdzenie nadania",
+    "numer do śledzenia"
+  ],
+  "luki": [
+    "paczka",
+    "adres"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "a2",
+    "poczta",
+    "paczka",
+    "wysylka",
+    "adres",
+    "uslugi"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "a1",
+    "wezly": {
+      "a1": {
+        "kto": "ai",
+        "tekst": "Dzień dobry! W czym mogę pomóc?",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Powiedz, że chcesz wysłać paczkę za granicę",
+        "wzor": "Dzień dobry. Chcę wysłać paczkę za granicę.",
+        "blad": "Przepraszam, nie dosłyszałam. Co chcesz wysłać?",
+        "dalej": "q1"
+      },
+      "q1": {
+        "kto": "ai",
+        "tekst": "Za granicę, dobrze. Co jest w środku?",
+        "instrukcja": "Powiedz, co jest w paczce",
+        "blad": "Przepraszam, co jest w paczce?",
+        "galezie": [
+          {
+            "intencja": "ksiazki",
+            "wzor": "W paczce są dwie książki.",
+            "dalej": "a2"
+          },
+          {
+            "intencja": "ubrania",
+            "wzor": "W środku są ubrania i szalik.",
+            "dalej": "a2"
+          },
+          {
+            "intencja": "prezent",
+            "wzor": "W paczce jest prezent urodzinowy.",
+            "dalej": "a2"
+          },
+          {
+            "intencja": "kot",
+            "wzor": "W paczce jest mój kot.",
+            "dalej": "a_kot",
+            "ukryta": true
+          }
+        ]
+      },
+      "a_kot": {
+        "kto": "ai",
+        "tekst": "Ha, ha! Kotów nie wysyłamy. Twój kot woli chyba zostać w domu.",
+        "dalej": "a2"
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "W porządku. Połóż paczkę na wadze, proszę. Waży dwa kilogramy, więc nie jest ciężka.",
+        "dalej": "q2"
+      },
+      "q2": {
+        "kto": "ai",
+        "tekst": "Mamy szybką wysyłkę i zwykłą. Szybka jest droższa, a zwykła tańsza. Którą wybierasz?",
+        "instrukcja": "Wybierz rodzaj wysyłki",
+        "blad": "Hm, szybką czy zwykłą?",
+        "galezie": [
+          {
+            "intencja": "szybka",
+            "wzor": "Poproszę szybką wysyłkę.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "zwykla",
+            "wzor": "Poproszę zwykłą wysyłkę. Jest tańsza.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "pomysle",
+            "wzor": "Muszę jeszcze o tym pomyśleć. Wrócę jutro.",
+            "dalej": "fin2"
+          }
+        ]
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Dobrze, zapisuję. Masz jakieś pytanie o wysyłkę?",
+        "dalej": "u2"
+      },
+      "u2": {
+        "kto": "uczen",
+        "instrukcja": "Zapytaj, ile dni idzie paczka",
+        "wzor": "Ile dni idzie paczka za granicę?",
+        "blad": "Słucham? Jakie masz pytanie?",
+        "dalej": "a4"
+      },
+      "a4": {
+        "kto": "ai",
+        "tekst": "Szybka paczka idzie trzy dni, a zwykła około tygodnia. Teraz potrzebuję adresu odbiorcy. Gdzie mam ją wysłać?",
+        "dalej": "op2"
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: na poczcie miej zawsze pod ręką dokładny adres odbiorcy i kod pocztowy. Wtedy wszystko idzie szybko.",
+        "dalej": "u3"
+      },
+      "u3": {
+        "kto": "uczen",
+        "instrukcja": "Podaj adres odbiorcy",
+        "wzor": "Adres odbiorcy to ulica Różana piętnaście.",
+        "blad": "Przepraszam, jaki to adres?",
+        "dalej": "q3"
+      },
+      "q3": {
+        "kto": "ai",
+        "tekst": "Dziękuję, zapisałam adres. Czy chcesz potwierdzenie nadania i numer do śledzenia paczki?",
+        "instrukcja": "Powiedz, czy chcesz potwierdzenie",
+        "blad": "Przepraszam, chcesz potwierdzenie i numer?",
+        "galezie": [
+          {
+            "intencja": "oba",
+            "wzor": "Tak, poproszę potwierdzenie i numer.",
+            "dalej": "a6"
+          },
+          {
+            "intencja": "tylko",
+            "wzor": "Poproszę tylko potwierdzenie nadania.",
+            "dalej": "a6"
+          },
+          {
+            "intencja": "jednorozec",
+            "wzor": "Poproszę też naklejkę z jednorożcem.",
+            "dalej": "a_jed",
+            "ukryta": true
+          }
+        ]
+      },
+      "a_jed": {
+        "kto": "ai",
+        "tekst": "Niestety nie mamy takiej naklejki, ale paczka i tak dojdzie bezpiecznie.",
+        "dalej": "a6"
+      },
+      "a6": {
+        "kto": "ai",
+        "tekst": "Proszę, oto potwierdzenie. Dziękuję! A tak z ciekawości: dla kogo jest ta paczka i dlaczego ją wysyłasz?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Powiedz, dla kogo jest paczka i dlaczego",
+        "kryteria": "dla kogo jest paczka i dlaczego ją wysyłasz, 2 zdania",
+        "wzor": "Paczka jest dla mojej siostry, która mieszka za granicą. Chcę jej zrobić miłą niespodziankę.",
+        "blad": "Przepraszam, pytałam, dla kogo jest ta paczka i dlaczego ją wysyłasz.",
+        "dalej": "a8"
+      },
+      "a8": {
+        "kto": "ai",
+        "tekst": "Bardzo miło! Zanim wyjdziesz, zapytaj mnie jeszcze o czas. Powiedz: Czy paczka na pewno dojdzie na czas?",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Czy paczka na pewno dojdzie na czas?",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Powinna dojść na czas. Zachowaj potwierdzenie nadania. Miłego dnia!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Rozumiem, nie ma pośpiechu. Zastanów się spokojnie i wróć, kiedy zdecydujesz. Do widzenia!"
+      }
+    },
+    "uklad": {
+      "a1": {
+        "x": 0,
+        "y": 0
+      },
+      "u1": {
+        "x": 0,
+        "y": 170
+      },
+      "q1": {
+        "x": 0,
+        "y": 340
+      },
+      "a2": {
+        "x": -140,
+        "y": 510
+      },
+      "a_kot": {
+        "x": 140,
+        "y": 510
+      },
+      "q2": {
+        "x": 0,
+        "y": 680
+      },
+      "a3": {
+        "x": -140,
+        "y": 850
+      },
+      "fin2": {
+        "x": 140,
+        "y": 850
+      },
+      "u2": {
+        "x": 0,
+        "y": 1020
+      },
+      "a4": {
+        "x": 0,
+        "y": 1190
+      },
+      "op2": {
+        "x": 0,
+        "y": 1360
+      },
+      "u3": {
+        "x": 0,
+        "y": 1530
+      },
+      "q3": {
+        "x": 0,
+        "y": 1700
+      },
+      "a6": {
+        "x": -140,
+        "y": 1870
+      },
+      "a_jed": {
+        "x": 140,
+        "y": 1870
+      },
+      "sw1": {
+        "x": 0,
+        "y": 2040
+      },
+      "a8": {
+        "x": 0,
+        "y": 2210
+      },
+      "p1": {
+        "x": 0,
+        "y": 2380
+      },
+      "fin1": {
+        "x": 0,
+        "y": 2550
+      }
+    }
+  }
+}

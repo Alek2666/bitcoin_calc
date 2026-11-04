@@ -1,0 +1,232 @@
+{
+  "start": "op1",
+  "wezly": {
+    "op1": {
+      "kto": "ai",
+      "opis": true,
+      "tekst": "Wchodzisz do dużej biblioteki miejskiej. W środku jest cicho i pachnie papierem. Przy ladzie siedzi uśmiechnięta bibliotekarka.",
+      "dalej": "s1"
+    },
+    "s1": {
+      "kto": "ai",
+      "tekst": "Dzień dobry! W czym mogę ci pomóc?",
+      "instrukcja": "Powiedz, w czym potrzebujesz pomocy",
+      "blad": "Przepraszam, nie dosłyszałam. Czego szukasz?",
+      "galezie": [
+        {
+          "intencja": "karta",
+          "wzor": "Chcę założyć kartę czytelnika.",
+          "dalej": "s2"
+        },
+        {
+          "intencja": "czytelnia",
+          "wzor": "Gdzie jest czytelnia?",
+          "dalej": "a_czyt"
+        },
+        {
+          "intencja": "spac",
+          "wzor": "Czy w bibliotece można spać?",
+          "dalej": "a_spac",
+          "ukryta": true
+        }
+      ]
+    },
+    "a_czyt": {
+      "kto": "ai",
+      "tekst": "Czytelnia jest na pierwszym piętrze. Tam możesz czytać na miejscu. Jeśli chcesz brać książki do domu, potrzebna jest karta czytelnika. Chętnie ci ją założę.",
+      "dalej": "s2"
+    },
+    "a_spac": {
+      "kto": "ai",
+      "tekst": "Ha! W czytelni czasem ktoś zaśnie nad książką, ale oficjalnie nie wolno. Lepiej załóżmy ci kartę czytelnika. W domu możesz czytać, a nawet spać z książką.",
+      "dalej": "s2"
+    },
+    "s2": {
+      "kto": "ai",
+      "tekst": "Do założenia karty potrzebny jest dokument ze zdjęciem. Masz go przy sobie?",
+      "instrukcja": "Powiedz, czy masz dokument",
+      "blad": "Nie dosłyszałam. Masz przy sobie jakiś dokument ze zdjęciem?",
+      "galezie": [
+        {
+          "intencja": "paszport",
+          "wzor": "Tak, mam paszport.",
+          "dalej": "a3"
+        },
+        {
+          "intencja": "prawo_jazdy",
+          "wzor": "Mam tylko prawo jazdy. Czy może być?",
+          "dalej": "a3"
+        },
+        {
+          "intencja": "brak",
+          "wzor": "Niestety, nie mam dziś żadnego dokumentu.",
+          "dalej": "fin2"
+        }
+      ]
+    },
+    "a3": {
+      "kto": "ai",
+      "tekst": "Dziękuję, ten dokument wystarczy. Oto twoja karta czytelnika. Możesz wypożyczyć pięć książek naraz. Wybierz je na półkach na drugim piętrze i przynieś do lady.",
+      "dalej": "op2"
+    },
+    "op2": {
+      "kto": "ai",
+      "opis": true,
+      "tekst": "Po chwili wracasz do lady z trzema książkami. Bibliotekarka bierze skaner i uśmiecha się.",
+      "dalej": "u1"
+    },
+    "u1": {
+      "kto": "uczen",
+      "instrukcja": "Powiedz, że chcesz wypożyczyć te książki",
+      "wzor": "Chcę wypożyczyć te trzy książki.",
+      "blad": "Przepraszam, co chcesz zrobić z tymi książkami?",
+      "dalej": "s4"
+    },
+    "s4": {
+      "kto": "ai",
+      "tekst": "Dobrze, zaraz je zeskanuję. Termin zwrotu mija za cztery tygodnie. Wiesz, co się stanie, gdy oddasz książkę za późno?",
+      "instrukcja": "Zareaguj na pytanie o spóźnienie",
+      "blad": "Przepraszam, wiesz, co się dzieje przy spóźnieniu?",
+      "galezie": [
+        {
+          "intencja": "niewiem",
+          "wzor": "Nie wiem. Co się wtedy dzieje?",
+          "dalej": "a_kara"
+        },
+        {
+          "intencja": "oplata",
+          "wzor": "Czy za spóźnienie trzeba zapłacić?",
+          "dalej": "a_kara"
+        },
+        {
+          "intencja": "zawsze",
+          "wzor": "Zawsze oddaję książki na czas.",
+          "dalej": "a_dobrze"
+        },
+        {
+          "intencja": "ucieczka",
+          "wzor": "Wtedy uciekam z książką za granicę.",
+          "dalej": "a_zart2",
+          "ukryta": true
+        }
+      ]
+    },
+    "a_kara": {
+      "kto": "ai",
+      "tekst": "Za każdy dzień spóźnienia płaci się małą opłatę. Dlatego warto zapisać sobie tę datę. A skoro mowa o książkach, jaka jest twoja ulubiona?",
+      "dalej": "sw1"
+    },
+    "a_dobrze": {
+      "kto": "ai",
+      "tekst": "Super! Takich czytelników lubimy najbardziej. A skoro mowa o książkach, jaka jest twoja ulubiona?",
+      "dalej": "sw1"
+    },
+    "a_zart2": {
+      "kto": "ai",
+      "tekst": "Ha! Książka pewnie chętnie zwiedzi świat, ale my wolimy, żeby wróciła tu na czas. A skoro mowa o książkach, jaka jest twoja ulubiona?",
+      "dalej": "sw1"
+    },
+    "sw1": {
+      "kto": "uczen",
+      "swobodna": true,
+      "instrukcja": "Opowiedz o swojej ulubionej książce",
+      "kryteria": "o czym jest książka i dlaczego ją lubisz, 2 zdania",
+      "wzor": "Lubię powieść o dalekiej podróży. Jest ciekawa i bardzo zabawna.",
+      "blad": "Przepraszam, pytałam o twoją ulubioną książkę.",
+      "dalej": "op3"
+    },
+    "op3": {
+      "kto": "ai",
+      "opis": true,
+      "jezyk_ucznia": true,
+      "tekst": "Wskazówka: w wielu miejscach można przedłużyć wypożyczenie, jeśli potrzebujesz więcej czasu na czytanie. Warto zapytać o to przed terminem zwrotu, a nie po nim.",
+      "dalej": "p1"
+    },
+    "p1": {
+      "kto": "uczen",
+      "na_pamiec": true,
+      "wzor": "Czy mogę przedłużyć wypożyczenie?",
+      "dalej": "fin1"
+    },
+    "fin1": {
+      "kto": "ai",
+      "koniec": true,
+      "tekst": "Tak, możesz przedłużyć je raz, o dwa tygodnie. Przyjemnego czytania!"
+    },
+    "fin2": {
+      "kto": "ai",
+      "koniec": true,
+      "tekst": "Rozumiem. Bez dokumentu nie mogę założyć karty. Przyjdź jutro, biblioteka jest otwarta do osiemnastej. Do zobaczenia!"
+    }
+  },
+  "uklad": {
+    "op1": {
+      "x": 0,
+      "y": 0
+    },
+    "s1": {
+      "x": 0,
+      "y": 170
+    },
+    "s2": {
+      "x": -280,
+      "y": 340
+    },
+    "a_czyt": {
+      "x": 0,
+      "y": 340
+    },
+    "a_spac": {
+      "x": 280,
+      "y": 340
+    },
+    "a3": {
+      "x": -140,
+      "y": 510
+    },
+    "fin2": {
+      "x": 140,
+      "y": 510
+    },
+    "op2": {
+      "x": 0,
+      "y": 680
+    },
+    "u1": {
+      "x": 0,
+      "y": 850
+    },
+    "s4": {
+      "x": 0,
+      "y": 1020
+    },
+    "a_kara": {
+      "x": -280,
+      "y": 1190
+    },
+    "a_dobrze": {
+      "x": 0,
+      "y": 1190
+    },
+    "a_zart2": {
+      "x": 280,
+      "y": 1190
+    },
+    "sw1": {
+      "x": 0,
+      "y": 1360
+    },
+    "op3": {
+      "x": 0,
+      "y": 1530
+    },
+    "p1": {
+      "x": 0,
+      "y": 1700
+    },
+    "fin1": {
+      "x": 0,
+      "y": 1870
+    }
+  }
+}

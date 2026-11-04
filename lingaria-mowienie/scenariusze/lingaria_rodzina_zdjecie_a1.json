@@ -1,0 +1,308 @@
+{
+  "klucz": "lingaria_rodzina_zdjecie_a1",
+  "tytul": "Rodzina na zdjęciu",
+  "opis": "Oglądasz z kolegą rodzinne zdjęcie. Mówisz, kto jest kim: mama, tata, rodzeństwo, babcia i pies. Potem pytasz kolegę o jego rodzinę i opowiadasz, co robisz w niedzielę z rodziną.",
+  "cefr": "A1",
+  "ikona": "fi-rr-comment",
+  "glos": "auto:masculine",
+  "role": {
+    "bot": "Kolega",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "rodzina",
+    "zdjęcie",
+    "mama",
+    "tata",
+    "rodzice",
+    "brat",
+    "siostra",
+    "babcia",
+    "pies",
+    "rodzeństwo"
+  ],
+  "luki": [
+    "rodzice",
+    "rodzeństwo"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "a1",
+    "rodzina",
+    "zdjecie",
+    "rodzenstwo",
+    "zwierzeta",
+    "weekend"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "op1",
+    "wezly": {
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Siedzisz z kolegą na kanapie. Pokazujesz mu na telefonie rodzinne zdjęcie. Kolega patrzy na ekran i się uśmiecha.",
+        "dalej": "q1"
+      },
+      "q1": {
+        "kto": "ai",
+        "tekst": "Ale fajne zdjęcie! Kim jest ta kobieta w żółtej sukience?",
+        "instrukcja": "Powiedz, kto to jest",
+        "blad": "Nie dosłyszałem. Kto to jest?",
+        "galezie": [
+          {
+            "intencja": "babcia",
+            "wzor": "To jest moja babcia.",
+            "dalej": "a1"
+          },
+          {
+            "intencja": "ciocia",
+            "wzor": "To jest moja ciocia.",
+            "dalej": "a1"
+          },
+          {
+            "intencja": "kolezanka",
+            "wzor": "To jest moja koleżanka.",
+            "dalej": "a1"
+          },
+          {
+            "intencja": "zart",
+            "wzor": "Nie wiem. Pierwszy raz ją widzę.",
+            "dalej": "a2",
+            "ukryta": true
+          }
+        ]
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "Ha, ha! Pierwszy raz? Ma takie same oczy jak ty!",
+        "dalej": "a1"
+      },
+      "a1": {
+        "kto": "ai",
+        "tekst": "Ma bardzo miły uśmiech. A kim są ci dwoje dorosłych z tyłu? Mama i tata to rodzice. Powiedz: To są moi rodzice.",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "To są moi rodzice.",
+        "dalej": "q2"
+      },
+      "q2": {
+        "kto": "ai",
+        "tekst": "Bardzo dobrze! Mają miłe twarze. Masz rodzeństwo?",
+        "instrukcja": "Powiedz, czy masz rodzeństwo",
+        "blad": "Przepraszam, masz brata albo siostrę?",
+        "galezie": [
+          {
+            "intencja": "brat",
+            "wzor": "Tak, mam brata.",
+            "dalej": "q3"
+          },
+          {
+            "intencja": "siostra",
+            "wzor": "Tak, mam siostrę.",
+            "dalej": "q3"
+          },
+          {
+            "intencja": "brak",
+            "wzor": "Nie, nie mam rodzeństwa.",
+            "dalej": "q3"
+          },
+          {
+            "intencja": "rybka",
+            "wzor": "Nie, ale mam złotą rybkę.",
+            "dalej": "a3",
+            "ukryta": true
+          }
+        ]
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Ha, ha! Złota rybka też jest w rodzinie.",
+        "dalej": "q3"
+      },
+      "q3": {
+        "kto": "ai",
+        "tekst": "Aha. A czyj jest ten duży pies na zdjęciu?",
+        "instrukcja": "Powiedz, czyj to pies",
+        "blad": "Słucham? Czyj to pies?",
+        "galezie": [
+          {
+            "intencja": "nasz",
+            "wzor": "To jest nasz pies.",
+            "dalej": "a4"
+          },
+          {
+            "intencja": "babci",
+            "wzor": "To jest pies mojej babci.",
+            "dalej": "a4"
+          },
+          {
+            "intencja": "cioci",
+            "wzor": "To jest pies mojej cioci.",
+            "dalej": "a4"
+          },
+          {
+            "intencja": "wilk",
+            "wzor": "To nie pies. To jest wilk.",
+            "dalej": "a5",
+            "ukryta": true
+          }
+        ]
+      },
+      "a5": {
+        "kto": "ai",
+        "tekst": "Wilk? Ha, ha! Jest bardzo grzeczny jak na wilka. Teraz ty zapytaj mnie o moją rodzinę.",
+        "dalej": "u1"
+      },
+      "a4": {
+        "kto": "ai",
+        "tekst": "Ładny pies! Lubię psy. Teraz ty zapytaj mnie o moją rodzinę.",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Zapytaj kolegę o jego rodzinę",
+        "wzor": "A ty? Masz dużą rodzinę?",
+        "blad": "Przepraszam, co mówisz?",
+        "dalej": "q4"
+      },
+      "q4": {
+        "kto": "ai",
+        "tekst": "Tak, mam dużą rodzinę! Mam mamę, tatę, babcię, dziadka i starszą siostrę. Siostra mieszka daleko. Chcesz zobaczyć jej zdjęcie?",
+        "instrukcja": "Powiedz, czy chcesz zobaczyć zdjęcie",
+        "blad": "Hm, chcesz zobaczyć zdjęcie czy nie?",
+        "galezie": [
+          {
+            "intencja": "tak",
+            "wzor": "Tak, bardzo chcę!",
+            "dalej": "a7"
+          },
+          {
+            "intencja": "nie",
+            "wzor": "Nie, dziękuję. Muszę już iść.",
+            "dalej": "fin2"
+          },
+          {
+            "intencja": "pies",
+            "wzor": "Czy ona też ma psa?",
+            "dalej": "a8",
+            "ukryta": true
+          }
+        ]
+      },
+      "a8": {
+        "kto": "ai",
+        "tekst": "Nie, ale ma dwa koty i jednego żółwia! Pokażę ci zdjęcie.",
+        "dalej": "a7"
+      },
+      "a7": {
+        "kto": "ai",
+        "tekst": "Proszę, to jest moja siostra. A teraz ja mam pytanie: co robisz w niedzielę z rodziną?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Opowiedz, co robisz w niedzielę z rodziną",
+        "kryteria": "co robisz w niedzielę z rodziną, 1 lub 2 proste zdania",
+        "wzor": "W niedzielę jemy obiad u babci. Potem idziemy na spacer z psem.",
+        "blad": "Przepraszam, pytałem, co robisz w niedzielę z rodziną.",
+        "dalej": "op2"
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: pokazując zdjęcie, wskazuj osoby palcem i mów krótko: „To jest” albo „To są”. Tyle wystarczy, żeby rozmowa się toczyła.",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Fajna rodzina! Dzięki za zdjęcia. Następnym razem ja przyniosę swoje."
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Jasne, nie ma sprawy. Pokażę ci to zdjęcie następnym razem. Do zobaczenia!"
+      }
+    },
+    "uklad": {
+      "op1": {
+        "x": 0,
+        "y": 0
+      },
+      "q1": {
+        "x": 0,
+        "y": 170
+      },
+      "a1": {
+        "x": -140,
+        "y": 340
+      },
+      "a2": {
+        "x": 140,
+        "y": 340
+      },
+      "p1": {
+        "x": 0,
+        "y": 510
+      },
+      "q2": {
+        "x": 0,
+        "y": 680
+      },
+      "q3": {
+        "x": -140,
+        "y": 850
+      },
+      "a3": {
+        "x": 140,
+        "y": 850
+      },
+      "a4": {
+        "x": -140,
+        "y": 1020
+      },
+      "a5": {
+        "x": 140,
+        "y": 1020
+      },
+      "u1": {
+        "x": 0,
+        "y": 1190
+      },
+      "q4": {
+        "x": 0,
+        "y": 1360
+      },
+      "a7": {
+        "x": -280,
+        "y": 1530
+      },
+      "fin2": {
+        "x": 0,
+        "y": 1530
+      },
+      "a8": {
+        "x": 280,
+        "y": 1530
+      },
+      "sw1": {
+        "x": 0,
+        "y": 1700
+      },
+      "op2": {
+        "x": 0,
+        "y": 1870
+      },
+      "fin1": {
+        "x": 0,
+        "y": 2040
+      }
+    }
+  }
+}

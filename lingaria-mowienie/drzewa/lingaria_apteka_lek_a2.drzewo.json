@@ -1,0 +1,250 @@
+{
+  "start": "op1",
+  "wezly": {
+    "op1": {
+      "kto": "ai",
+      "opis": true,
+      "tekst": "Boli cię głowa i masz katar, więc wchodzisz do apteki. Za ladą stoi farmaceutka w białym fartuchu.",
+      "dalej": "u1"
+    },
+    "u1": {
+      "kto": "uczen",
+      "instrukcja": "Powiedz, co cię boli i o co prosisz",
+      "wzor": "Dzień dobry. Boli mnie głowa i mam katar. Czy macie coś na to?",
+      "blad": "Przepraszam, nie dosłyszałam. Co się dzieje?",
+      "dalej": "q1"
+    },
+    "q1": {
+      "kto": "ai",
+      "tekst": "Ojej, współczuję. Od kiedy to trwa?",
+      "instrukcja": "Powiedz, od kiedy źle się czujesz",
+      "blad": "Przepraszam, od kiedy to trwa?",
+      "galezie": [
+        {
+          "intencja": "rano",
+          "wzor": "Od dzisiejszego ranka.",
+          "dalej": "q2"
+        },
+        {
+          "intencja": "dwa",
+          "wzor": "Już od dwóch dni.",
+          "dalej": "q2"
+        },
+        {
+          "intencja": "koncert",
+          "wzor": "Od wczoraj. Pewnie przez głośny koncert.",
+          "dalej": "a1",
+          "ukryta": true
+        }
+      ]
+    },
+    "a1": {
+      "kto": "ai",
+      "tekst": "Ha, ha! Głośna muzyka często męczy głowę.",
+      "dalej": "q2"
+    },
+    "q2": {
+      "kto": "ai",
+      "tekst": "Rozumiem. Czy masz też gorączkę?",
+      "instrukcja": "Powiedz, czy masz gorączkę",
+      "blad": "Masz gorączkę czy nie? Nie dosłyszałam.",
+      "galezie": [
+        {
+          "intencja": "nie",
+          "wzor": "Nie, nie mam gorączki.",
+          "dalej": "q3"
+        },
+        {
+          "intencja": "troche",
+          "wzor": "Trochę, chyba trzydzieści siedem i pięć.",
+          "dalej": "q3"
+        },
+        {
+          "intencja": "wysoka",
+          "wzor": "Tak, mam wysoką gorączkę i bardzo słabo się czuję.",
+          "dalej": "fin2"
+        }
+      ]
+    },
+    "q3": {
+      "kto": "ai",
+      "tekst": "Dobrze. Zanim coś wybiorę, zapytam: czy masz alergię na jakieś leki?",
+      "instrukcja": "Powiedz, czy masz alergię",
+      "blad": "Przepraszam, masz alergię na jakiś lek?",
+      "galezie": [
+        {
+          "intencja": "nie",
+          "wzor": "Nie, nie mam alergii.",
+          "dalej": "a3"
+        },
+        {
+          "intencja": "tak",
+          "wzor": "Tak, mam alergię na niektóre leki.",
+          "dalej": "a5"
+        },
+        {
+          "intencja": "szpinak",
+          "wzor": "Mam alergię tylko na szpinak.",
+          "dalej": "a2",
+          "ukryta": true
+        }
+      ]
+    },
+    "a2": {
+      "kto": "ai",
+      "tekst": "Ha, ha! W tabletkach nie ma szpinaku.",
+      "dalej": "a3"
+    },
+    "a5": {
+      "kto": "ai",
+      "tekst": "Dziękuję, że mówisz. Dobiorę więc tabletki, które są bezpieczne dla ciebie.",
+      "dalej": "a3"
+    },
+    "a3": {
+      "kto": "ai",
+      "tekst": "Mam dla ciebie odpowiednie tabletki na ból głowy i katar. Weź jedną tabletkę rano i jedną wieczorem, po jedzeniu. Powtórz, żebym wiedziała, że wszystko jest jasne.",
+      "dalej": "p1"
+    },
+    "p1": {
+      "kto": "uczen",
+      "na_pamiec": true,
+      "wzor": "Jedną tabletkę rano i jedną wieczorem, po jedzeniu.",
+      "dalej": "q4"
+    },
+    "q4": {
+      "kto": "ai",
+      "tekst": "Dokładnie tak. Przy przeziębieniu pomagają też witaminy i spray do gardła. Chcesz coś z tego?",
+      "instrukcja": "Powiedz, czego jeszcze chcesz",
+      "blad": "Witaminy, spray czy nic więcej?",
+      "galezie": [
+        {
+          "intencja": "witaminy",
+          "wzor": "Poproszę witaminy.",
+          "dalej": "a6"
+        },
+        {
+          "intencja": "spray",
+          "wzor": "Poproszę spray do gardła.",
+          "dalej": "a6"
+        },
+        {
+          "intencja": "nic",
+          "wzor": "Nie, dziękuję. Tylko tabletki.",
+          "dalej": "a6"
+        },
+        {
+          "intencja": "humor",
+          "wzor": "Czy macie coś na dobry humor?",
+          "dalej": "a4",
+          "ukryta": true
+        }
+      ]
+    },
+    "a4": {
+      "kto": "ai",
+      "tekst": "Dobry humor jest za darmo, wystarczy uśmiech!",
+      "dalej": "a6"
+    },
+    "a6": {
+      "kto": "ai",
+      "tekst": "Proszę, oto twoje zakupy. Odpoczywaj, a przy wysokiej gorączce idź do lekarza. A powiedz mi: co robisz, kiedy masz przeziębienie?",
+      "dalej": "sw1"
+    },
+    "sw1": {
+      "kto": "uczen",
+      "swobodna": true,
+      "instrukcja": "Opowiedz, co robisz, kiedy masz przeziębienie",
+      "kryteria": "co robisz, gdy masz przeziębienie, 2 zdania",
+      "wzor": "Piję ciepłą herbatę z miodem i zostaję w domu. Dużo śpię.",
+      "blad": "Przepraszam, pytałam, co robisz przy przeziębieniu.",
+      "dalej": "op2"
+    },
+    "op2": {
+      "kto": "ai",
+      "opis": true,
+      "jezyk_ucznia": true,
+      "tekst": "Wskazówka: w aptece opisz krótko, co cię boli i od kiedy. Powiedz też, czy masz alergię na leki. Dzięki temu dostaniesz bezpieczny lek.",
+      "dalej": "fin1"
+    },
+    "fin1": {
+      "kto": "ai",
+      "koniec": true,
+      "tekst": "Dziękuję za wizytę. Szybkiego powrotu do zdrowia!"
+    },
+    "fin2": {
+      "kto": "ai",
+      "koniec": true,
+      "tekst": "W takim razie lepiej idź dziś do lekarza. Przy wysokiej gorączce same tabletki z apteki nie wystarczą. Przychodnia jest zaraz obok. Szybkiego powrotu do zdrowia!"
+    }
+  },
+  "uklad": {
+    "op1": {
+      "x": 0,
+      "y": 0
+    },
+    "u1": {
+      "x": 0,
+      "y": 170
+    },
+    "q1": {
+      "x": 0,
+      "y": 340
+    },
+    "q2": {
+      "x": -140,
+      "y": 510
+    },
+    "a1": {
+      "x": 140,
+      "y": 510
+    },
+    "q3": {
+      "x": -140,
+      "y": 680
+    },
+    "fin2": {
+      "x": 140,
+      "y": 680
+    },
+    "a3": {
+      "x": -280,
+      "y": 850
+    },
+    "a5": {
+      "x": 0,
+      "y": 850
+    },
+    "a2": {
+      "x": 280,
+      "y": 850
+    },
+    "p1": {
+      "x": 0,
+      "y": 1020
+    },
+    "q4": {
+      "x": 0,
+      "y": 1190
+    },
+    "a6": {
+      "x": -140,
+      "y": 1360
+    },
+    "a4": {
+      "x": 140,
+      "y": 1360
+    },
+    "sw1": {
+      "x": 0,
+      "y": 1530
+    },
+    "op2": {
+      "x": 0,
+      "y": 1700
+    },
+    "fin1": {
+      "x": 0,
+      "y": 1870
+    }
+  }
+}

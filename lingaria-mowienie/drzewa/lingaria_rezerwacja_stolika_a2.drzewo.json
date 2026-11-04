@@ -1,0 +1,276 @@
+{
+  "start": "op1",
+  "wezly": {
+    "op1": {
+      "kto": "ai",
+      "opis": true,
+      "tekst": "Chcesz zarezerwować stolik w restauracji na sobotni wieczór. Wybierasz numer w telefonie. Po chwili ktoś odbiera.",
+      "dalej": "a1"
+    },
+    "a1": {
+      "kto": "ai",
+      "tekst": "Dzień dobry, restauracja. Słucham?",
+      "dalej": "u1"
+    },
+    "u1": {
+      "kto": "uczen",
+      "instrukcja": "Powiedz, że chcesz zarezerwować stolik",
+      "wzor": "Dzień dobry. Chcę zarezerwować stolik na sobotę.",
+      "blad": "Przepraszam, bardzo słabo słychać. Co chcesz zarezerwować?",
+      "dalej": "q1"
+    },
+    "q1": {
+      "kto": "ai",
+      "tekst": "Na sobotę, dobrze. Na którą godzinę?",
+      "instrukcja": "Powiedz, na którą godzinę",
+      "blad": "Nie dosłyszałam. Na którą?",
+      "galezie": [
+        {
+          "intencja": "osiemnasta",
+          "wzor": "Na osiemnastą, proszę.",
+          "dalej": "q2"
+        },
+        {
+          "intencja": "dwudziesta",
+          "wzor": "Na dwudziestą, proszę.",
+          "dalej": "a3"
+        },
+        {
+          "intencja": "noc",
+          "wzor": "Na dwunastą w nocy. Lubię późne kolacje!",
+          "dalej": "a_h1",
+          "ukryta": true
+        }
+      ]
+    },
+    "a_h1": {
+      "kto": "ai",
+      "tekst": "Ha, ha! O dwunastej w nocy kuchnia już śpi. Mamy za to wolny stolik o osiemnastej.",
+      "dalej": "q1b"
+    },
+    "a3": {
+      "kto": "ai",
+      "tekst": "Niestety o dwudziestej wszystkie stoliki są zajęte. Mamy jeszcze wolny stolik o osiemnastej.",
+      "dalej": "q1b"
+    },
+    "q1b": {
+      "kto": "ai",
+      "tekst": "Czy osiemnasta ci pasuje?",
+      "instrukcja": "Powiedz, czy osiemnasta ci pasuje",
+      "blad": "Słucham? Osiemnasta, tak czy nie?",
+      "galezie": [
+        {
+          "intencja": "tak",
+          "wzor": "Tak, osiemnasta będzie dobra.",
+          "dalej": "q2"
+        },
+        {
+          "intencja": "nie",
+          "wzor": "Niestety to za wcześnie. Zadzwonię w inny dzień.",
+          "dalej": "fin2"
+        }
+      ]
+    },
+    "q2": {
+      "kto": "ai",
+      "tekst": "Świetnie, zapisuję godzinę osiemnastą. Dla ilu osób?",
+      "instrukcja": "Powiedz, dla ilu osób",
+      "blad": "Przepraszam, dla ilu osób ma być stolik?",
+      "galezie": [
+        {
+          "intencja": "cztery",
+          "wzor": "Dla czterech osób.",
+          "dalej": "a4"
+        },
+        {
+          "intencja": "szesc",
+          "wzor": "Dla sześciu osób.",
+          "dalej": "a4"
+        },
+        {
+          "intencja": "duchy",
+          "wzor": "Dla mnie i dwunastu niewidzialnych przyjaciół.",
+          "dalej": "a_h2",
+          "ukryta": true
+        }
+      ]
+    },
+    "a_h2": {
+      "kto": "ai",
+      "tekst": "Ha, ha! Niewidzialni goście są najlepsi, bo nic nie jedzą. Zapiszę po prostu cztery osoby.",
+      "dalej": "a4"
+    },
+    "a4": {
+      "kto": "ai",
+      "tekst": "Dobrze. W sobotę wieczorem jest dużo gości, a wszyscy lubią stoliki przy oknie. Jeśli chcesz taki stolik, powiedz: Poproszę stolik przy oknie, jeśli to możliwe.",
+      "dalej": "p1"
+    },
+    "p1": {
+      "kto": "uczen",
+      "na_pamiec": true,
+      "wzor": "Poproszę stolik przy oknie, jeśli to możliwe.",
+      "dalej": "q3"
+    },
+    "q3": {
+      "kto": "ai",
+      "tekst": "Dobra wiadomość: jeden stolik przy oknie jest jeszcze wolny. Czy to jakaś specjalna okazja?",
+      "instrukcja": "Powiedz, czy to specjalna okazja",
+      "blad": "Przepraszam, czy to jakaś okazja?",
+      "galezie": [
+        {
+          "intencja": "urodziny",
+          "wzor": "Tak, to są urodziny mojej siostry.",
+          "dalej": "q4"
+        },
+        {
+          "intencja": "zwykla",
+          "wzor": "Nie, to zwykła kolacja z rodziną.",
+          "dalej": "a6"
+        }
+      ]
+    },
+    "q4": {
+      "kto": "ai",
+      "tekst": "Urodziny, super! Możemy przynieść mały tort ze świeczką. Chcecie tort?",
+      "instrukcja": "Powiedz, czy chcecie tort",
+      "blad": "Tort przynieść czy nie? Powtórz, proszę.",
+      "galezie": [
+        {
+          "intencja": "tak",
+          "wzor": "Tak, poproszę mały tort ze świeczką.",
+          "dalej": "a6"
+        },
+        {
+          "intencja": "nie",
+          "wzor": "Dziękuję, tort przyniesiemy sami.",
+          "dalej": "a6"
+        }
+      ]
+    },
+    "a6": {
+      "kto": "ai",
+      "tekst": "Dobrze, zapisałam wszystko: sobota, osiemnasta, stolik przy oknie. Masz do mnie jeszcze jakąś prośbę?",
+      "dalej": "u2"
+    },
+    "u2": {
+      "kto": "uczen",
+      "instrukcja": "Poproś o potwierdzenie rezerwacji",
+      "wzor": "Czy możecie potwierdzić rezerwację wiadomością?",
+      "blad": "Przepraszam, o co prosisz?",
+      "dalej": "a7"
+    },
+    "a7": {
+      "kto": "ai",
+      "tekst": "Oczywiście, wyślemy wiadomość zaraz po rozmowie. A powiedz mi jeszcze: co lubisz jeść w restauracji?",
+      "dalej": "sw1"
+    },
+    "sw1": {
+      "kto": "uczen",
+      "swobodna": true,
+      "instrukcja": "Opowiedz, co lubisz jeść w restauracji",
+      "kryteria": "co lubisz jeść w restauracji, 2 zdania",
+      "wzor": "Lubię zupę, makaron i dużo warzyw. Do picia wybieram wodę albo sok.",
+      "blad": "Przepraszam, pytałam, co lubisz jeść w restauracji.",
+      "dalej": "op2"
+    },
+    "op2": {
+      "kto": "ai",
+      "opis": true,
+      "jezyk_ucznia": true,
+      "tekst": "Wskazówka: rezerwując stolik, powiedz od razu trzy rzeczy: dzień, godzinę i liczbę osób. Wtedy rozmowa jest krótka i jasna.",
+      "dalej": "fin1"
+    },
+    "fin1": {
+      "kto": "ai",
+      "koniec": true,
+      "tekst": "Dziękujemy! Do zobaczenia w sobotę o osiemnastej. Czekamy na was!"
+    },
+    "fin2": {
+      "kto": "ai",
+      "koniec": true,
+      "tekst": "Rozumiem, szkoda. Zadzwoń w inny dzień, a na pewno coś znajdziemy. Do widzenia!"
+    }
+  },
+  "uklad": {
+    "op1": {
+      "x": 0,
+      "y": 0
+    },
+    "a1": {
+      "x": 0,
+      "y": 170
+    },
+    "u1": {
+      "x": 0,
+      "y": 340
+    },
+    "q1": {
+      "x": 0,
+      "y": 510
+    },
+    "q2": {
+      "x": -280,
+      "y": 680
+    },
+    "a3": {
+      "x": 0,
+      "y": 680
+    },
+    "a_h1": {
+      "x": 280,
+      "y": 680
+    },
+    "a4": {
+      "x": -280,
+      "y": 850
+    },
+    "a_h2": {
+      "x": 0,
+      "y": 850
+    },
+    "q1b": {
+      "x": 280,
+      "y": 850
+    },
+    "p1": {
+      "x": -140,
+      "y": 1020
+    },
+    "fin2": {
+      "x": 140,
+      "y": 1020
+    },
+    "q3": {
+      "x": 0,
+      "y": 1190
+    },
+    "q4": {
+      "x": -140,
+      "y": 1360
+    },
+    "a6": {
+      "x": 140,
+      "y": 1360
+    },
+    "u2": {
+      "x": 0,
+      "y": 1530
+    },
+    "a7": {
+      "x": 0,
+      "y": 1700
+    },
+    "sw1": {
+      "x": 0,
+      "y": 1870
+    },
+    "op2": {
+      "x": 0,
+      "y": 2040
+    },
+    "fin1": {
+      "x": 0,
+      "y": 2210
+    }
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "klucz": "lingaria_kino_bilety_a1",
+  "tytul": "Bilety do kina",
+  "opis": "Kupujesz bilety do kina na wieczorny seans. Wybierasz film, godzinę i miejsca, a potem pytasz o bar i zamawiasz coś do jedzenia lub picia.",
+  "cefr": "A1",
+  "ikona": "fi-rr-ticket",
+  "glos": "auto:masculine",
+  "role": {
+    "bot": "Kasjer w kinie",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "kino",
+    "bilet",
+    "seans",
+    "miejsce",
+    "z przodu",
+    "w środku",
+    "z tyłu",
+    "popcorn"
+  ],
+  "luki": [
+    "bilet",
+    "seans"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "a1",
+    "kino",
+    "bilety",
+    "film",
+    "miejsca",
+    "rozrywka"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "a1",
+    "wezly": {
+      "a1": {
+        "kto": "ai",
+        "tekst": "Dobry wieczór! Witamy w kinie. Zapraszam bliżej.",
+        "dalej": "q1"
+      },
+      "q1": {
+        "kto": "ai",
+        "tekst": "Dziś mamy komedię i film przygodowy. Który film wybierasz?",
+        "instrukcja": "Wybierz film",
+        "blad": "Przepraszam, nie dosłyszałem. Komedia czy film przygodowy?",
+        "galezie": [
+          {
+            "intencja": "komedia",
+            "wzor": "Wybieram komedię.",
+            "dalej": "q2"
+          },
+          {
+            "intencja": "przygoda",
+            "wzor": "Wybieram film przygodowy.",
+            "dalej": "q2"
+          },
+          {
+            "intencja": "smoki",
+            "wzor": "Czy macie film o smokach?",
+            "dalej": "a2",
+            "ukryta": true
+          }
+        ]
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "Ha, smoków dziś niestety nie mamy! Może innym razem.",
+        "dalej": "q1"
+      },
+      "q2": {
+        "kto": "ai",
+        "tekst": "Dobrze. Seans jest o osiemnastej albo o dwudziestej. Na którą godzinę chcesz bilety?",
+        "instrukcja": "Wybierz godzinę",
+        "blad": "Słucham? Na osiemnastą czy na dwudziestą?",
+        "galezie": [
+          {
+            "intencja": "osiemnasta",
+            "wzor": "Na osiemnastą, proszę.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "dwudziesta",
+            "wzor": "Na dwudziestą, proszę.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "jutro",
+            "wzor": "Niestety, to nie pasuje. Przyjdę jutro.",
+            "dalej": "fin2"
+          }
+        ]
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Świetnie. Ile biletów chcesz? Możesz powiedzieć tak: „Poproszę dwa bilety.”",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Poproszę dwa bilety.",
+        "dalej": "op2"
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: w kinie najlepsze miejsca są zwykle w środku. Z przodu ekran jest bardzo blisko, a z tyłu jest daleko.",
+        "dalej": "q3"
+      },
+      "q3": {
+        "kto": "ai",
+        "tekst": "Dwa bilety, dobrze. Gdzie chcesz siedzieć: z przodu, w środku czy z tyłu?",
+        "instrukcja": "Wybierz miejsca",
+        "blad": "Hm? Z przodu, w środku czy z tyłu?",
+        "galezie": [
+          {
+            "intencja": "przod",
+            "wzor": "Z przodu, proszę.",
+            "dalej": "a5"
+          },
+          {
+            "intencja": "srodek",
+            "wzor": "W środku, proszę.",
+            "dalej": "a5"
+          },
+          {
+            "intencja": "tyl",
+            "wzor": "Z tyłu, proszę.",
+            "dalej": "a5"
+          }
+        ]
+      },
+      "a5": {
+        "kto": "ai",
+        "tekst": "Dobrze, te miejsca są wolne. Oto twoje bilety.",
+        "dalej": "u2"
+      },
+      "u2": {
+        "kto": "uczen",
+        "instrukcja": "Zapytaj, czy w kinie jest bar",
+        "wzor": "Przepraszam, czy tu jest bar?",
+        "blad": "Nie rozumiem. O co pytasz?",
+        "dalej": "q4"
+      },
+      "q4": {
+        "kto": "ai",
+        "tekst": "Tak, bar jest zaraz obok. Chcesz coś do jedzenia albo do picia? Mamy popcorn, sok i wodę.",
+        "instrukcja": "Zamów coś albo podziękuj",
+        "blad": "Przepraszam? Popcorn, sok, woda, a może nic?",
+        "galezie": [
+          {
+            "intencja": "popcorn",
+            "wzor": "Poproszę popcorn.",
+            "dalej": "a6"
+          },
+          {
+            "intencja": "sok",
+            "wzor": "Poproszę sok.",
+            "dalej": "a6"
+          },
+          {
+            "intencja": "woda",
+            "wzor": "Poproszę wodę.",
+            "dalej": "a6"
+          },
+          {
+            "intencja": "nic",
+            "wzor": "Nie, dziękuję.",
+            "dalej": "a6"
+          }
+        ]
+      },
+      "a6": {
+        "kto": "ai",
+        "tekst": "W porządku! A powiedz, jakie filmy lubisz?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Powiedz, jakie filmy lubisz",
+        "kryteria": "jakie filmy lubisz, można dodać dlaczego, 1 lub 2 zdania",
+        "wzor": "Lubię komedie, bo są śmieszne.",
+        "blad": "Przepraszam, pytałem, jakie filmy lubisz.",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Super! Miłego seansu i dobrej zabawy!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Nie ma problemu. Jutro mamy te same filmy. Do zobaczenia!"
+      }
+    },
+    "uklad": {
+      "a1": {
+        "x": 0,
+        "y": 0
+      },
+      "q1": {
+        "x": 0,
+        "y": 170
+      },
+      "q2": {
+        "x": -140,
+        "y": 340
+      },
+      "a2": {
+        "x": 140,
+        "y": 340
+      },
+      "a3": {
+        "x": -140,
+        "y": 510
+      },
+      "fin2": {
+        "x": 140,
+        "y": 510
+      },
+      "p1": {
+        "x": 0,
+        "y": 680
+      },
+      "op2": {
+        "x": 0,
+        "y": 850
+      },
+      "q3": {
+        "x": 0,
+        "y": 1020
+      },
+      "a5": {
+        "x": 0,
+        "y": 1190
+      },
+      "u2": {
+        "x": 0,
+        "y": 1360
+      },
+      "q4": {
+        "x": 0,
+        "y": 1530
+      },
+      "a6": {
+        "x": 0,
+        "y": 1700
+      },
+      "sw1": {
+        "x": 0,
+        "y": 1870
+      },
+      "fin1": {
+        "x": 0,
+        "y": 2040
+      }
+    }
+  }
+}

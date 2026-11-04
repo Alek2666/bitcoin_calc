@@ -1,0 +1,300 @@
+{
+  "klucz": "lingaria_kurs_jezykowy_a2",
+  "tytul": "Zapis na kurs językowy",
+  "opis": "Zapisujesz się na wieczorny kurs angielskiego. Pracownik sekretariatu pyta o poziom grupy, dni i godziny zajęć, mówi o cenie i terminie startu oraz pyta, jak chcesz zapłacić.",
+  "cefr": "A2",
+  "ikona": "fi-rr-graduation-cap",
+  "glos": "auto:masculine",
+  "role": {
+    "bot": "Pracownik sekretariatu",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "kurs",
+    "poziom",
+    "grupa",
+    "zajęcia",
+    "cena",
+    "rata",
+    "przelew",
+    "zapisać się"
+  ],
+  "luki": [
+    "poziom",
+    "cena"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "a2",
+    "kurs",
+    "jezyk",
+    "zapisy",
+    "szkola",
+    "platnosc"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "a1",
+    "wezly": {
+      "a1": {
+        "kto": "ai",
+        "tekst": "Dzień dobry! Sekretariat szkoły językowej. W czym mogę ci pomóc?",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Powiedz, że chcesz zapisać się na kurs",
+        "wzor": "Dzień dobry. Chcę zapisać się na wieczorny kurs angielskiego.",
+        "blad": "Przepraszam, nie dosłyszałem. Na jaki kurs chcesz się zapisać?",
+        "dalej": "s1"
+      },
+      "s1": {
+        "kto": "ai",
+        "tekst": "Bardzo dobrze. Mamy grupy na trzech poziomach: dla początkujących, średnio zaawansowanych i zaawansowanych. Jaki poziom cię interesuje?",
+        "instrukcja": "Powiedz, jaki poziom wybierasz",
+        "blad": "Przepraszam, jaki poziom: początkujący czy średni?",
+        "galezie": [
+          {
+            "intencja": "poczatkujacy",
+            "wzor": "Szukam grupy dla początkujących.",
+            "dalej": "a2"
+          },
+          {
+            "intencja": "sredni",
+            "wzor": "Myślę o poziomie średnim.",
+            "dalej": "a2"
+          },
+          {
+            "intencja": "niewiem",
+            "wzor": "Nie wiem, jaki mam poziom.",
+            "dalej": "a_test"
+          },
+          {
+            "intencja": "zart",
+            "wzor": "Chcę znać angielski już od jutra.",
+            "dalej": "a_zart",
+            "ukryta": true
+          }
+        ]
+      },
+      "a_test": {
+        "kto": "ai",
+        "tekst": "Nie szkodzi. Przed pierwszą lekcją możesz zrobić krótki test. Na razie wpiszę cię do grupy dla początkujących.",
+        "dalej": "a2"
+      },
+      "a_zart": {
+        "kto": "ai",
+        "tekst": "Ha! Ja też chciałbym znać wszystkie języki od jutra. Niestety trzeba trochę poćwiczyć. Na początek wpiszę cię do grupy dla początkujących.",
+        "dalej": "a2"
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "Zajęcia w tej grupie są wieczorem, dwa razy w tygodniu. Zaczynają się o osiemnastej i trwają półtorej godziny.",
+        "dalej": "s2"
+      },
+      "s2": {
+        "kto": "ai",
+        "tekst": "Mamy dwie grupy. Jedna spotyka się w poniedziałki i środy, a druga we wtorki i czwartki. Którą wolisz?",
+        "instrukcja": "Wybierz dni zajęć",
+        "blad": "Przepraszam, poniedziałki i środy czy wtorki i czwartki?",
+        "galezie": [
+          {
+            "intencja": "pon_sr",
+            "wzor": "Wolę poniedziałki i środy.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "wt_czw",
+            "wzor": "Wolę wtorki i czwartki.",
+            "dalej": "a3"
+          }
+        ]
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Dobrze, w tej grupie są jeszcze wolne miejsca. Pewnie chcesz wiedzieć, ile to kosztuje. Zapytaj mnie tak: Ile kosztuje cały kurs?",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Ile kosztuje cały kurs?",
+        "dalej": "s3"
+      },
+      "s3": {
+        "kto": "ai",
+        "tekst": "Cały kurs trwa trzy miesiące i kosztuje dwieście pięćdziesiąt euro. Podręcznik jest w cenie. Co o tym myślisz?",
+        "instrukcja": "Powiedz, co sądzisz o cenie",
+        "blad": "Przepraszam, co sądzisz o cenie kursu?",
+        "galezie": [
+          {
+            "intencja": "ok",
+            "wzor": "To dobra cena. Zapisuję się.",
+            "dalej": "s_start"
+          },
+          {
+            "intencja": "raty",
+            "wzor": "Czy mogę zapłacić w ratach?",
+            "dalej": "a_raty"
+          },
+          {
+            "intencja": "drogo",
+            "wzor": "Niestety, to dla mnie za drogo.",
+            "dalej": "fin2"
+          }
+        ]
+      },
+      "a_raty": {
+        "kto": "ai",
+        "tekst": "Tak, możesz zapłacić w dwóch ratach. Pierwsza rata jest przy zapisie, a druga po miesiącu.",
+        "dalej": "s_start"
+      },
+      "s_start": {
+        "kto": "ai",
+        "tekst": "Kurs ma dwa terminy startu: w przyszłym tygodniu albo za miesiąc. Który termin ci pasuje?",
+        "instrukcja": "Wybierz początek kursu",
+        "blad": "Przepraszam, w przyszłym tygodniu czy za miesiąc?",
+        "galezie": [
+          {
+            "intencja": "tydzien",
+            "wzor": "Wolę zacząć w przyszłym tygodniu.",
+            "dalej": "s4"
+          },
+          {
+            "intencja": "miesiac",
+            "wzor": "Wolę zacząć za miesiąc.",
+            "dalej": "s4"
+          }
+        ]
+      },
+      "s4": {
+        "kto": "ai",
+        "tekst": "Dobrze, zapiszę ten termin. Jak chcesz zapłacić: kartą, gotówką czy przelewem?",
+        "instrukcja": "Powiedz, jak płacisz",
+        "blad": "Słucham? Kartą, gotówką czy przelewem?",
+        "galezie": [
+          {
+            "intencja": "karta",
+            "wzor": "Zapłacę kartą.",
+            "dalej": "a_sw"
+          },
+          {
+            "intencja": "gotowka",
+            "wzor": "Zapłacę gotówką.",
+            "dalej": "a_sw"
+          },
+          {
+            "intencja": "przelew",
+            "wzor": "Wolę zapłacić przelewem.",
+            "dalej": "a_sw"
+          }
+        ]
+      },
+      "a_sw": {
+        "kto": "ai",
+        "tekst": "Dobrze. Zanim wydrukuję umowę, mam jedno pytanie: po co uczysz się angielskiego?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Powiedz, po co uczysz się angielskiego",
+        "kryteria": "powód nauki angielskiego, 1 lub 2 zdania",
+        "wzor": "Uczę się angielskiego, bo chcę podróżować. Chcę swobodnie rozmawiać z ludźmi z innych krajów.",
+        "blad": "Przepraszam, pytałem, po co uczysz się angielskiego.",
+        "dalej": "op1"
+      },
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: zapisując się na kurs, warto zapytać o trzy rzeczy: kiedy zajęcia się zaczynają, ile kosztują i jak można zapłacić. Te pytania przydają się w każdej szkole.",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Dziękuję! Umowa jest gotowa do podpisu. Do zobaczenia na pierwszej lekcji!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Rozumiem. Możesz wziąć ulotkę z cenami i pomyśleć na spokojnie. Jeśli się zdecydujesz, wróć do nas. Miłego dnia!"
+      }
+    },
+    "uklad": {
+      "a1": {
+        "x": 0,
+        "y": 0
+      },
+      "u1": {
+        "x": 0,
+        "y": 170
+      },
+      "s1": {
+        "x": 0,
+        "y": 340
+      },
+      "a2": {
+        "x": -280,
+        "y": 510
+      },
+      "a_test": {
+        "x": 0,
+        "y": 510
+      },
+      "a_zart": {
+        "x": 280,
+        "y": 510
+      },
+      "s2": {
+        "x": 0,
+        "y": 680
+      },
+      "a3": {
+        "x": 0,
+        "y": 850
+      },
+      "p1": {
+        "x": 0,
+        "y": 1020
+      },
+      "s3": {
+        "x": 0,
+        "y": 1190
+      },
+      "s_start": {
+        "x": -280,
+        "y": 1360
+      },
+      "a_raty": {
+        "x": 0,
+        "y": 1360
+      },
+      "fin2": {
+        "x": 280,
+        "y": 1360
+      },
+      "s4": {
+        "x": 0,
+        "y": 1530
+      },
+      "a_sw": {
+        "x": 0,
+        "y": 1700
+      },
+      "sw1": {
+        "x": 0,
+        "y": 1870
+      },
+      "op1": {
+        "x": 0,
+        "y": 2040
+      },
+      "fin1": {
+        "x": 0,
+        "y": 2210
+      }
+    }
+  }
+}

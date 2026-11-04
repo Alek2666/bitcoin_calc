@@ -1,0 +1,280 @@
+{
+  "klucz": "lingaria_prezent_urodzinowy_a2",
+  "tytul": "Prezent na urodziny",
+  "opis": "Szukasz prezentu urodzinowego dla przyjaciółki w sklepie z upominkami. Opowiadasz, co ona lubi, mówisz, ile chcesz wydać, wybierasz kolor, prosisz o zapakowanie i kartkę z życzeniami.",
+  "cefr": "A2",
+  "ikona": "fi-rr-shopping-basket",
+  "glos": "auto:feminine",
+  "role": {
+    "bot": "Sprzedawczyni",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "prezent",
+    "urodziny",
+    "kubek",
+    "kolor",
+    "zapakować",
+    "kartka z życzeniami",
+    "kokarda",
+    "herbata"
+  ],
+  "luki": [
+    "prezent",
+    "zapakować"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "a2",
+    "prezent",
+    "urodziny",
+    "zakupy",
+    "sklep",
+    "zyczenia"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "s1",
+    "wezly": {
+      "s1": {
+        "kto": "ai",
+        "tekst": "Dzień dobry! Szukasz czegoś dla siebie czy na prezent?",
+        "instrukcja": "Powiedz, czego szukasz",
+        "blad": "Przepraszam, nie dosłyszałam. Szukasz prezentu?",
+        "galezie": [
+          {
+            "intencja": "prezent",
+            "wzor": "Szukam prezentu urodzinowego dla przyjaciółki.",
+            "dalej": "a2"
+          },
+          {
+            "intencja": "rozglad",
+            "wzor": "Dziękuję, tylko się rozglądam.",
+            "dalej": "fin2"
+          },
+          {
+            "intencja": "rybka",
+            "wzor": "Szukam prezentu dla mojej rybki.",
+            "dalej": "a_rybka",
+            "ukryta": true
+          }
+        ]
+      },
+      "a_rybka": {
+        "kto": "ai",
+        "tekst": "Dla rybki? Ha, dla niej mamy tylko ozdoby do akwarium! Ale chyba szukasz prezentu urodzinowego dla kogoś bliskiego.",
+        "dalej": "a2"
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "Chętnie pomogę! Opowiedz mi o tej osobie. Co lubi, jak spędza wolny czas?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Opowiedz, co lubi osoba, dla której kupujesz prezent",
+        "kryteria": "co lubi ta osoba i jak spędza wolny czas, 2 zdania",
+        "wzor": "Moja przyjaciółka lubi herbatę i czytanie. Często siedzi w domu z książką i dużym kubkiem herbaty.",
+        "blad": "Przepraszam, pytałam, co lubi ta osoba.",
+        "dalej": "s2"
+      },
+      "s2": {
+        "kto": "ai",
+        "tekst": "Dziękuję, to mi bardzo pomaga. Ile chcesz wydać na prezent?",
+        "instrukcja": "Powiedz, ile chcesz wydać",
+        "blad": "Słucham? Ile chcesz wydać na prezent?",
+        "galezie": [
+          {
+            "intencja": "malo",
+            "wzor": "Chcę coś niedrogiego.",
+            "dalej": "s3"
+          },
+          {
+            "intencja": "wiecej",
+            "wzor": "Mogę wydać trochę więcej, bo to bliska osoba.",
+            "dalej": "s3"
+          },
+          {
+            "intencja": "sklep",
+            "wzor": "Pieniądze nie grają roli, kupię cały sklep!",
+            "dalej": "a_sklep",
+            "ukryta": true
+          }
+        ]
+      },
+      "a_sklep": {
+        "kto": "ai",
+        "tekst": "Ha! Sklep nie jest na sprzedaż, ale chętnie sprzedam ci coś ładnego.",
+        "dalej": "s3"
+      },
+      "s3": {
+        "kto": "ai",
+        "tekst": "Mam pomysł, który zawsze się sprawdza: kubek w kwiaty i paczka dobrej herbaty. Kubek jest żółty, różowy albo biały. Który kolor wybierasz?",
+        "instrukcja": "Wybierz kolor kubka",
+        "blad": "Przepraszam, żółty, różowy czy biały?",
+        "galezie": [
+          {
+            "intencja": "zolty",
+            "wzor": "Wybieram żółty kubek.",
+            "dalej": "a5"
+          },
+          {
+            "intencja": "rozowy",
+            "wzor": "Wybieram różowy kubek.",
+            "dalej": "a5"
+          },
+          {
+            "intencja": "bialy",
+            "wzor": "Wolę biały kubek.",
+            "dalej": "a5"
+          }
+        ]
+      },
+      "a5": {
+        "kto": "ai",
+        "tekst": "Dobry wybór! Ten kubek mogę ładnie zapakować. Powiedz po prostu: Poproszę zapakować to na prezent.",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Poproszę zapakować to na prezent.",
+        "dalej": "a6"
+      },
+      "a6": {
+        "kto": "ai",
+        "tekst": "Oczywiście. Zapakuję kubek razem z herbatą w kolorowy papier i zawiążę kokardę.",
+        "dalej": "op1"
+      },
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: w wielu miejscach można zapytać, czy prezent da się zapakować i czy można go wymienić, jeśli się nie spodoba. Warto zapytać o to, zanim zapłacisz.",
+        "dalej": "s4"
+      },
+      "s4": {
+        "kto": "ai",
+        "tekst": "Chcesz do prezentu kartkę z życzeniami?",
+        "instrukcja": "Powiedz, czy chcesz kartkę",
+        "blad": "Przepraszam, chcesz kartkę z życzeniami?",
+        "galezie": [
+          {
+            "intencja": "tak",
+            "wzor": "Tak, poproszę kartkę z życzeniami.",
+            "dalej": "a_zyczenia"
+          },
+          {
+            "intencja": "nie",
+            "wzor": "Nie, dziękuję. Nie potrzebuję kartki.",
+            "dalej": "fin1"
+          },
+          {
+            "intencja": "kosmici",
+            "wzor": "Poproszę kartkę w języku kosmitów.",
+            "dalej": "a_kosmici",
+            "ukryta": true
+          }
+        ]
+      },
+      "a_zyczenia": {
+        "kto": "ai",
+        "tekst": "Z przyjemnością. Napiszę życzenia na kartce. Co mam napisać?",
+        "dalej": "u1"
+      },
+      "a_kosmici": {
+        "kto": "ai",
+        "tekst": "Ha! Kartek w języku kosmitów nie mamy, ale napiszę życzenia w zwykłym języku. Co mam napisać?",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Powiedz, co ma być na kartce",
+        "wzor": "Napisz: Wszystkiego najlepszego i dużo radości!",
+        "blad": "Przepraszam, nie dosłyszałam. Co mam napisać na kartce?",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Gotowe! Prezent jest ładnie zapakowany. Zapłacisz przy kasie. Miłego dnia i udanych urodzin!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Oczywiście, rozglądaj się spokojnie. Gdy będziesz potrzebować pomocy, jestem przy ladzie. Miłego dnia!"
+      }
+    },
+    "uklad": {
+      "s1": {
+        "x": 0,
+        "y": 0
+      },
+      "a2": {
+        "x": -280,
+        "y": 170
+      },
+      "fin2": {
+        "x": 0,
+        "y": 170
+      },
+      "a_rybka": {
+        "x": 280,
+        "y": 170
+      },
+      "sw1": {
+        "x": 0,
+        "y": 340
+      },
+      "s2": {
+        "x": 0,
+        "y": 510
+      },
+      "s3": {
+        "x": -140,
+        "y": 680
+      },
+      "a_sklep": {
+        "x": 140,
+        "y": 680
+      },
+      "a5": {
+        "x": 0,
+        "y": 850
+      },
+      "p1": {
+        "x": 0,
+        "y": 1020
+      },
+      "a6": {
+        "x": 0,
+        "y": 1190
+      },
+      "op1": {
+        "x": 0,
+        "y": 1360
+      },
+      "s4": {
+        "x": 0,
+        "y": 1530
+      },
+      "a_zyczenia": {
+        "x": -280,
+        "y": 1700
+      },
+      "fin1": {
+        "x": 0,
+        "y": 1700
+      },
+      "a_kosmici": {
+        "x": 280,
+        "y": 1700
+      },
+      "u1": {
+        "x": 0,
+        "y": 1870
+      }
+    }
+  }
+}

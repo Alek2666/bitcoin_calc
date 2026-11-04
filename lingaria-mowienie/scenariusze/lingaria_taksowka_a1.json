@@ -1,0 +1,282 @@
+{
+  "klucz": "lingaria_taksowka_a1",
+  "tytul": "Taksówką do hotelu",
+  "opis": "Wsiadasz do taksówki i jedziesz do hotelu. Podajesz nazwę hotelu, pytasz o czas i cenę, prosisz o zatrzymanie przy wejściu i płacisz.",
+  "cefr": "A1",
+  "ikona": "fi-rr-map-marker",
+  "glos": "auto:masculine",
+  "role": {
+    "bot": "Taksówkarz",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "taksówka",
+    "hotel",
+    "wejście",
+    "taksometr",
+    "zatrzymać się",
+    "jak długo",
+    "kartą",
+    "gotówką"
+  ],
+  "luki": [
+    "wejście",
+    "taksometr"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "a1",
+    "taksowka",
+    "hotel",
+    "transport",
+    "podroz",
+    "platnosc"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "op1",
+    "wezly": {
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Jest wieczór i trochę pada deszcz. Wsiadasz do taksówki przed dworcem. Taksówkarz uśmiecha się do ciebie.",
+        "dalej": "a1"
+      },
+      "a1": {
+        "kto": "ai",
+        "tekst": "Dobry wieczór! Dokąd jedziemy?",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Powiedz, dokąd jedziesz",
+        "wzor": "Dobry wieczór. Do hotelu Słoneczny, proszę.",
+        "blad": "Przepraszam, nie dosłyszałem. Dokąd jedziemy?",
+        "dalej": "q1"
+      },
+      "q1": {
+        "kto": "ai",
+        "tekst": "Hotel Słoneczny, dobrze. W samochodzie jest radio. Chcesz muzykę czy ciszę?",
+        "instrukcja": "Wybierz: muzyka czy cisza",
+        "blad": "Słucham? Muzykę czy ciszę?",
+        "galezie": [
+          {
+            "intencja": "muzyka",
+            "wzor": "Poproszę muzykę.",
+            "dalej": "a2"
+          },
+          {
+            "intencja": "cisza",
+            "wzor": "Wolę ciszę, dziękuję.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "taniec",
+            "wzor": "Poproszę muzykę do tańca!",
+            "dalej": "a4",
+            "ukryta": true
+          }
+        ]
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "Dobrze, włączam radio. To dobra muzyka na wieczór.",
+        "dalej": "u2"
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Dobrze, nie włączam radia. Jest cicho i spokojnie.",
+        "dalej": "u2"
+      },
+      "a4": {
+        "kto": "ai",
+        "tekst": "Ha, do tańca! Dobrze, włączam radio. Ale tańcz tylko na siedzeniu!",
+        "dalej": "u2"
+      },
+      "u2": {
+        "kto": "uczen",
+        "instrukcja": "Zapytaj, jak długo trwa jazda",
+        "wzor": "Jak długo to trwa?",
+        "blad": "Nie rozumiem. Co chcesz wiedzieć?",
+        "dalej": "a5"
+      },
+      "a5": {
+        "kto": "ai",
+        "tekst": "Jakieś dziesięć minut. Wieczorem na ulicach jest mały ruch.",
+        "dalej": "u3"
+      },
+      "u3": {
+        "kto": "uczen",
+        "instrukcja": "Zapytaj o cenę jazdy",
+        "wzor": "A ile to będzie kosztować?",
+        "blad": "Co mówisz? Pytasz o cenę?",
+        "dalej": "a6"
+      },
+      "a6": {
+        "kto": "ai",
+        "tekst": "Mniej więcej dwadzieścia pięć euro. Taksometr pokazuje dokładną cenę.",
+        "dalej": "op2"
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: w taksówce warto sprawdzić, czy taksometr jest włączony. Wtedy cena jest uczciwa.",
+        "dalej": "a7"
+      },
+      "a7": {
+        "kto": "ai",
+        "tekst": "Zobacz, to już twój hotel. Wejście jest po lewej stronie. Gdzie mam się zatrzymać? Możesz powiedzieć: „Zatrzymaj się przy wejściu, proszę.”",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Zatrzymaj się przy wejściu, proszę.",
+        "dalej": "q2"
+      },
+      "q2": {
+        "kto": "ai",
+        "tekst": "Jasne, zatrzymuję się przy wejściu. Jesteśmy na miejscu! To dwadzieścia pięć euro. Płacisz kartą czy gotówką?",
+        "instrukcja": "Powiedz, jak płacisz",
+        "blad": "Przepraszam? Kartą czy gotówką?",
+        "galezie": [
+          {
+            "intencja": "karta",
+            "wzor": "Płacę kartą.",
+            "dalej": "a8"
+          },
+          {
+            "intencja": "gotowka",
+            "wzor": "Płacę gotówką.",
+            "dalej": "a8"
+          }
+        ]
+      },
+      "a8": {
+        "kto": "ai",
+        "tekst": "Dziękuję bardzo! A zanim wysiądziesz, powiedz mi: co chcesz zobaczyć jutro w mieście?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Powiedz, co chcesz zobaczyć w mieście",
+        "kryteria": "co chcesz zobaczyć lub robić jutro w mieście, 1 lub 2 zdania",
+        "wzor": "Chcę zobaczyć stare miasto i zjeść coś dobrego.",
+        "blad": "Przepraszam, pytałem, co chcesz zobaczyć w mieście.",
+        "dalej": "q3"
+      },
+      "q3": {
+        "kto": "ai",
+        "tekst": "Brzmi świetnie! Chcesz, żebym przyjechał po ciebie jutro rano?",
+        "instrukcja": "Powiedz, czy chcesz taksówkę jutro",
+        "blad": "Słucham? Mam przyjechać jutro rano, tak czy nie?",
+        "galezie": [
+          {
+            "intencja": "tak",
+            "wzor": "Tak, jutro rano, proszę.",
+            "dalej": "fin1"
+          },
+          {
+            "intencja": "nie",
+            "wzor": "Nie, dziękuję. Pójdę pieszo.",
+            "dalej": "fin2"
+          }
+        ]
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Świetnie, będę o ósmej przed hotelem. Dobranoc!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Rozumiem, spacer to dobry pomysł. Dobranoc i miłego pobytu!"
+      }
+    },
+    "uklad": {
+      "op1": {
+        "x": 0,
+        "y": 0
+      },
+      "a1": {
+        "x": 0,
+        "y": 170
+      },
+      "u1": {
+        "x": 0,
+        "y": 340
+      },
+      "q1": {
+        "x": 0,
+        "y": 510
+      },
+      "a2": {
+        "x": -280,
+        "y": 680
+      },
+      "a3": {
+        "x": 0,
+        "y": 680
+      },
+      "a4": {
+        "x": 280,
+        "y": 680
+      },
+      "u2": {
+        "x": 0,
+        "y": 850
+      },
+      "a5": {
+        "x": 0,
+        "y": 1020
+      },
+      "u3": {
+        "x": 0,
+        "y": 1190
+      },
+      "a6": {
+        "x": 0,
+        "y": 1360
+      },
+      "op2": {
+        "x": 0,
+        "y": 1530
+      },
+      "a7": {
+        "x": 0,
+        "y": 1700
+      },
+      "p1": {
+        "x": 0,
+        "y": 1870
+      },
+      "q2": {
+        "x": 0,
+        "y": 2040
+      },
+      "a8": {
+        "x": 0,
+        "y": 2210
+      },
+      "sw1": {
+        "x": 0,
+        "y": 2380
+      },
+      "q3": {
+        "x": 0,
+        "y": 2550
+      },
+      "fin1": {
+        "x": -140,
+        "y": 2720
+      },
+      "fin2": {
+        "x": 140,
+        "y": 2720
+      }
+    }
+  }
+}

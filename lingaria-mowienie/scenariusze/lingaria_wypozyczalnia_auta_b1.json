@@ -1,0 +1,285 @@
+{
+  "klucz": "lingaria_wypozyczalnia_auta_b1",
+  "tytul": "Wynajem samochodu",
+  "opis": "Wynajmujesz samochód na kilka dni. Wybierasz rodzaj auta i ubezpieczenie, razem z pracownikiem sprawdzasz, czy auto ma rysy, poznajesz zasady dotyczące paliwa i ustalasz, kiedy oddasz auto.",
+  "cefr": "B1",
+  "ikona": "fi-rr-map-marker",
+  "glos": "auto:masculine",
+  "role": {
+    "bot": "Pracownik wypożyczalni",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "wynająć samochód",
+    "ubezpieczenie",
+    "pełny bak",
+    "kluczyki",
+    "rysa",
+    "protokół",
+    "kombi",
+    "oddać auto"
+  ],
+  "luki": [
+    "ubezpieczenie",
+    "protokół",
+    "kluczyki"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "b1",
+    "samochod",
+    "wynajem",
+    "podroz",
+    "ubezpieczenie",
+    "paliwo"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "op1",
+    "wezly": {
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Przyjeżdżasz do wypożyczalni samochodów. Chcesz wynająć auto na kilka dni, żeby pozwiedzać okolicę. Przy ladzie stoi pracownik w niebieskiej koszulce i przegląda papiery.",
+        "dalej": "a1"
+      },
+      "a1": {
+        "kto": "ai",
+        "tekst": "Dzień dobry! Witamy w wypożyczalni. W czym mogę pomóc?",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Powiedz, że chcesz wynająć samochód na kilka dni",
+        "wzor": "Dzień dobry. Chcę wynająć samochód na pięć dni.",
+        "blad": "Przepraszam, nie dosłyszałem. Na ile dni potrzebujesz auta?",
+        "dalej": "s1"
+      },
+      "s1": {
+        "kto": "ai",
+        "tekst": "Pięć dni, rozumiem. Jakie auto cię interesuje? Mamy małe miejskie, kompaktowe i duże kombi.",
+        "instrukcja": "Wybierz rodzaj samochodu",
+        "blad": "Przepraszam, małe, kompaktowe czy kombi?",
+        "galezie": [
+          {
+            "intencja": "male",
+            "wzor": "Wystarczy mi małe auto do jazdy po mieście.",
+            "dalej": "s2"
+          },
+          {
+            "intencja": "kompakt",
+            "wzor": "Wezmę kompaktowe, bo będzie wygodne na dłuższej trasie.",
+            "dalej": "s2"
+          },
+          {
+            "intencja": "kombi",
+            "wzor": "Potrzebuję kombi, bo zabieram dużo bagażu.",
+            "dalej": "s2"
+          },
+          {
+            "intencja": "latanie",
+            "wzor": "Czy któreś z tych aut umie też latać?",
+            "dalej": "a_zart",
+            "ukryta": true
+          }
+        ]
+      },
+      "a_zart": {
+        "kto": "ai",
+        "tekst": "Niestety nie, nasze auta tylko jeżdżą. Za to mają bardzo dobrą klimatyzację! Coś odpowiedniego dla ciebie wybierzemy na miejscu.",
+        "dalej": "s2"
+      },
+      "s2": {
+        "kto": "ai",
+        "tekst": "Przejdźmy do ubezpieczenia. Podstawowe jest w cenie, a pełne kosztuje trochę więcej, ale pokrywa prawie wszystkie szkody. Co wybierasz?",
+        "instrukcja": "Wybierz rodzaj ubezpieczenia",
+        "blad": "Nie dosłyszałem. Podstawowe czy pełne ubezpieczenie?",
+        "galezie": [
+          {
+            "intencja": "pelne",
+            "wzor": "Wezmę pełne ubezpieczenie, wolę mieć spokój.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "podstawowe",
+            "wzor": "Wystarczy mi podstawowe ubezpieczenie.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "drogo",
+            "wzor": "Całe wypożyczenie wychodzi dla mnie za drogo. Poszukam tańszej oferty.",
+            "dalej": "a_drogo"
+          }
+        ]
+      },
+      "a_drogo": {
+        "kto": "ai",
+        "tekst": "Rozumiem, to żaden problem. Jeśli zmienisz zdanie, wróć jeszcze dziś, a znajdziemy dla ciebie wolne auto.",
+        "dalej": "fin2"
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Dobrze, wpisuję ubezpieczenie do umowy. Zasada dotycząca paliwa jest prosta: dostajesz auto z pełnym bakiem i z pełnym bakiem je oddajesz. Jeśli oddasz auto z niepełnym bakiem, doliczymy opłatę za paliwo. Chodźmy teraz na parking.",
+        "dalej": "a4"
+      },
+      "a4": {
+        "kto": "ai",
+        "tekst": "Zanim ruszysz, obejrzyj auto dookoła. O, na lewych drzwiach jest rysa! Kiedy widzisz taką szkodę, powiedz od razu: „Proszę zapisać tę rysę w protokole.”",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Proszę zapisać tę rysę w protokole.",
+        "dalej": "a5"
+      },
+      "a5": {
+        "kto": "ai",
+        "tekst": "Dobrze, już zapisuję. Dzięki temu nie będzie sporu o szkody przy zwrocie. Wróćmy do biura.",
+        "dalej": "s3"
+      },
+      "s3": {
+        "kto": "ai",
+        "tekst": "Została jeszcze kwestia zwrotu. Biuro jest czynne do osiemnastej. Kiedy planujesz oddać auto?",
+        "instrukcja": "Powiedz, kiedy oddasz auto",
+        "blad": "Słucham? Kiedy oddajesz samochód?",
+        "galezie": [
+          {
+            "intencja": "rano",
+            "wzor": "Oddam auto w niedzielę rano, około dziewiątej.",
+            "dalej": "a6"
+          },
+          {
+            "intencja": "wieczor",
+            "wzor": "Oddam je w niedzielę wieczorem, po zamknięciu biura.",
+            "dalej": "a7"
+          },
+          {
+            "intencja": "przedluzenie",
+            "wzor": "Czy da się przedłużyć wynajem o jeden dzień?",
+            "dalej": "a8"
+          }
+        ]
+      },
+      "a7": {
+        "kto": "ai",
+        "tekst": "To żaden problem. Wrzuć kluczyki do skrzynki przy wejściu i zrób zdjęcie licznika oraz wskaźnika paliwa. Pamiętaj o pełnym baku.",
+        "dalej": "a6"
+      },
+      "a8": {
+        "kto": "ai",
+        "tekst": "Tak, auto jest wolne o dzień dłużej, więc dopiszę przedłużenie do umowy.",
+        "dalej": "a6"
+      },
+      "a6": {
+        "kto": "ai",
+        "tekst": "Wszystko jest gotowe. Zanim wręczę ci kluczyki, powiedz, dokąd jedziesz i co chcesz zobaczyć. Mogę polecić ładne trasy.",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Opowiedz, dokąd pojedziesz tym autem",
+        "kryteria": "dokąd jedziesz i co chcesz zobaczyć, 2 zdania",
+        "wzor": "Pojadę nad jezioro, a potem w góry. Chcę zobaczyć kilka małych miasteczek po drodze.",
+        "blad": "Przepraszam, pytałem, dokąd pojedziesz.",
+        "dalej": "op2"
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Mała rada: przy odbiorze każdego wynajętego auta zrób telefonem zdjęcia z każdej strony oraz zdjęcie licznika. To najszybszy dowód stanu auta, gdyby ktoś pytał o szkody.",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Proszę, oto kluczyki. Bezpiecznej drogi i miłej podróży!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Dziękujemy za wizytę. Do zobaczenia, gdy znów będziesz potrzebować auta!"
+      }
+    },
+    "uklad": {
+      "op1": {
+        "x": 0,
+        "y": 0
+      },
+      "a1": {
+        "x": 0,
+        "y": 170
+      },
+      "u1": {
+        "x": 0,
+        "y": 340
+      },
+      "s1": {
+        "x": 0,
+        "y": 510
+      },
+      "s2": {
+        "x": -140,
+        "y": 680
+      },
+      "a_zart": {
+        "x": 140,
+        "y": 680
+      },
+      "a3": {
+        "x": -140,
+        "y": 850
+      },
+      "a_drogo": {
+        "x": 140,
+        "y": 850
+      },
+      "a4": {
+        "x": -140,
+        "y": 1020
+      },
+      "fin2": {
+        "x": 140,
+        "y": 1020
+      },
+      "p1": {
+        "x": 0,
+        "y": 1190
+      },
+      "a5": {
+        "x": 0,
+        "y": 1360
+      },
+      "s3": {
+        "x": 0,
+        "y": 1530
+      },
+      "a6": {
+        "x": -280,
+        "y": 1700
+      },
+      "a7": {
+        "x": 0,
+        "y": 1700
+      },
+      "a8": {
+        "x": 280,
+        "y": 1700
+      },
+      "sw1": {
+        "x": 0,
+        "y": 1870
+      },
+      "op2": {
+        "x": 0,
+        "y": 2040
+      },
+      "fin1": {
+        "x": 0,
+        "y": 2210
+      }
+    }
+  }
+}

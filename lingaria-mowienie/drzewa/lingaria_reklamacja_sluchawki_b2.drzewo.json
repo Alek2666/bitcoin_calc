@@ -1,0 +1,276 @@
+{
+  "start": "op1",
+  "wezly": {
+    "op1": {
+      "kto": "ai",
+      "opis": true,
+      "tekst": "Wchodzisz do sklepu z elektroniką z pudełkiem w ręku. W środku są bezprzewodowe słuchawki, które po kilku tygodniach przestały działać. Za ladą stoi konsultantka i uśmiecha się do ciebie.",
+      "dalej": "s1"
+    },
+    "s1": {
+      "kto": "ai",
+      "tekst": "Dzień dobry! Widzę, że masz ze sobą pudełko, więc chyba coś poszło nie tak. W czym mogę pomóc?",
+      "instrukcja": "Opisz, co jest nie tak ze słuchawkami",
+      "blad": "Przepraszam, nie dosłyszałam. Co dokładnie dzieje się ze słuchawkami?",
+      "galezie": [
+        {
+          "intencja": "nie_dziala",
+          "wzor": "Prawa słuchawka w ogóle się nie włącza, choć jest w pełni naładowana, a lewa działa bez zarzutu.",
+          "dalej": "s2"
+        },
+        {
+          "intencja": "bateria",
+          "wzor": "Słuchawki rozładowują się już po dziesięciu minutach, a według opisu producenta powinny działać kilka godzin bez ładowania.",
+          "dalej": "s2"
+        },
+        {
+          "intencja": "trzeszczy",
+          "wzor": "W słuchawkach ciągle trzeszczy, a dźwięk co chwilę się urywa, więc nie da się normalnie słuchać muzyki ani rozmawiać.",
+          "dalej": "s2"
+        },
+        {
+          "intencja": "obrazily",
+          "wzor": "Chyba obraziły się na mnie i przestały grać, choć zawsze traktuję je z szacunkiem.",
+          "dalej": "a_zart",
+          "ukryta": true
+        }
+      ]
+    },
+    "a_zart": {
+      "kto": "ai",
+      "tekst": "Ha, słuchawki bywają kapryśne! Sprawdźmy, czy to naprawdę tylko urażona duma, czy może poważniejsza usterka.",
+      "dalej": "s2"
+    },
+    "s2": {
+      "kto": "ai",
+      "tekst": "Dziękuję za opis, to pomaga mi ocenić sytuację. Do rozpatrzenia reklamacji potrzebuję dwóch informacji: od kiedy masz te słuchawki i czy masz paragon?",
+      "instrukcja": "Powiedz, od kiedy masz słuchawki i czy masz paragon",
+      "blad": "Przepraszam, jak długo masz te słuchawki? I czy jest paragon?",
+      "galezie": [
+        {
+          "intencja": "paragon",
+          "wzor": "Mam je od trzech tygodni, więc jestem jeszcze na początku okresu gwarancyjnego. Paragon mam w telefonie i chętnie go pokażę.",
+          "dalej": "s3"
+        },
+        {
+          "intencja": "brak",
+          "wzor": "Mam je od około miesiąca. Paragonu niestety nie mam, ale mogę pokazać potwierdzenie płatności kartą, jeśli to wystarczy.",
+          "dalej": "a_brak"
+        },
+        {
+          "intencja": "pies",
+          "wzor": "Paragon zjadł mój pies, ale na szczęście słuchawki ocalały.",
+          "dalej": "a_pies",
+          "ukryta": true
+        }
+      ]
+    },
+    "a_brak": {
+      "kto": "ai",
+      "tekst": "Potwierdzenie płatności też wystarczy, o ile widać na nim datę zakupu i nazwę sklepu. Sprawdzę je od razu w naszym systemie.",
+      "dalej": "s3"
+    },
+    "a_pies": {
+      "kto": "ai",
+      "tekst": "Ha, takie historie słyszymy częściej, niż myślisz! Spokojnie, zakup da się znaleźć w systemie po numerze telefonu lub nazwisku, więc pies nie zepsuje ci reklamacji.",
+      "dalej": "s3"
+    },
+    "s3": {
+      "kto": "ai",
+      "tekst": "Wszystko się zgadza, więc mam dobrą wiadomość: gwarancja obejmuje taką usterkę. Mogę zaproponować naprawę albo wymianę na nowe słuchawki. Jeśli żadna z tych opcji ci nie odpowiada, powiedz, czego oczekujesz.",
+      "instrukcja": "Wybierz: naprawa, wymiana albo zwrot pieniędzy",
+      "blad": "Jeszcze raz, powoli: wolisz naprawę, wymianę, czy masz inne oczekiwania?",
+      "galezie": [
+        {
+          "intencja": "naprawa",
+          "wzor": "Wolę naprawę, ale tylko pod warunkiem, że potrwa najwyżej dwa tygodnie, bo słuchawki są mi potrzebne do pracy.",
+          "dalej": "a_nap"
+        },
+        {
+          "intencja": "wymiana",
+          "wzor": "Poproszę o wymianę na nowe, bo usterka pojawiła się już po kilku tygodniach i nie mam pewności, czy naprawa cokolwiek da.",
+          "dalej": "a_wym"
+        },
+        {
+          "intencja": "zwrot",
+          "wzor": "Chcę zwrot pieniędzy, bo po tak szybkiej awarii nie ufam już temu modelowi i nie chcę ryzykować kolejnej.",
+          "dalej": "s4"
+        }
+      ]
+    },
+    "a_nap": {
+      "kto": "ai",
+      "tekst": "Naprawa trwa zwykle od tygodnia do dwóch, więc twój warunek powinien być spełniony. Jeśli serwis będzie potrzebował więcej czasu, od razu do ciebie zadzwonię i wtedy wrócimy do tematu wymiany.",
+      "dalej": "a_ok"
+    },
+    "a_wym": {
+      "kto": "ai",
+      "tekst": "Rozumiem, po tak szybkiej awarii wymiana wydaje się rozsądna. Nowy egzemplarz mamy na magazynie, więc wymianę załatwimy jeszcze dziś, a uszkodzone słuchawki zostaną u nas.",
+      "dalej": "a_ok"
+    },
+    "s4": {
+      "kto": "ai",
+      "tekst": "Rozumiem twoje obawy, ale regulamin jest jasny: przy pierwszej reklamacji mogę zaproponować tylko naprawę lub wymianę. Zwrot pieniędzy wchodzi w grę dopiero wtedy, gdy naprawa się nie powiedzie. Jak chcesz postąpić?",
+      "instrukcja": "Zdecyduj, co robisz dalej",
+      "blad": "Hm, jak chcesz postąpić z reklamacją?",
+      "galezie": [
+        {
+          "intencja": "nalegam",
+          "wzor": "Rozumiem zasady, ale czy dałoby się zrobić wyjątek? Tak szybka awaria to chyba wada fabryczna, więc zwrot byłby najuczciwszym rozwiązaniem.",
+          "dalej": "a_kier"
+        },
+        {
+          "intencja": "wymiana",
+          "wzor": "W takim razie, skoro zwrot jest niemożliwy, wybieram wymianę na nowe słuchawki.",
+          "dalej": "a_wym"
+        },
+        {
+          "intencja": "pozniej",
+          "wzor": "Muszę to jeszcze spokojnie przemyśleć. Jeśli pozwolisz, wrócę jutro z pudełkiem i dokończymy formalności.",
+          "dalej": "a_odl"
+        }
+      ]
+    },
+    "a_kier": {
+      "kto": "ai",
+      "tekst": "Rozumiem, że to frustrujące, a twój argument o wadzie fabrycznej jest rozsądny. Przed chwilą zapytałam kierownika: zgodził się na natychmiastową wymianę, ale zwrot pieniędzy niestety nie wchodzi w grę.",
+      "dalej": "a_ok"
+    },
+    "a_odl": {
+      "kto": "ai",
+      "tekst": "Oczywiście, nie ma pośpiechu. Gwarancja jest ważna, więc nic się nie stanie, jeśli wrócisz jutro.",
+      "dalej": "fin2"
+    },
+    "a_ok": {
+      "kto": "ai",
+      "tekst": "Dobrze, zaraz wypełnię formularz reklamacyjny. Czy masz jeszcze jakieś pytania, zanim to zrobię?",
+      "dalej": "u2"
+    },
+    "u2": {
+      "kto": "uczen",
+      "instrukcja": "Zapytaj, czy trzeba za to dopłacić",
+      "wzor": "Czy za naprawę lub wymianę trzeba coś dopłacić, czy wszystko pokrywa gwarancja?",
+      "blad": "Przepraszam, nie zrozumiałam. Co chcesz wiedzieć?",
+      "dalej": "a_free"
+    },
+    "a_free": {
+      "kto": "ai",
+      "tekst": "Nie, wszystkie koszty pokrywa gwarancja, więc nic nie dopłacasz. Potrzebuję jeszcze krótkiego opisu do formularza: kiedy pojawiła się usterka i co się wtedy działo?",
+      "dalej": "sw1"
+    },
+    "sw1": {
+      "kto": "uczen",
+      "swobodna": true,
+      "instrukcja": "Opisz, kiedy pojawiła się usterka i co się wtedy działo",
+      "kryteria": "kiedy pojawiła się usterka i co się wtedy działo, 2 lub 3 zdania",
+      "wzor": "Pierwsze problemy pojawiły się w zeszłym tygodniu, podczas długiej rozmowy online. Dźwięk zaczął się urywać, a po kilku minutach słuchawki wyłączyły się całkiem i od tamtej pory działają tylko chwilę.",
+      "blad": "Przepraszam, pytałam, kiedy pojawiła się usterka i co się wtedy działo.",
+      "dalej": "op2"
+    },
+    "op2": {
+      "kto": "ai",
+      "opis": true,
+      "jezyk_ucznia": true,
+      "tekst": "Podpowiedź: po złożeniu reklamacji poproś o pisemne potwierdzenie i miej w telefonie zdjęcie paragonu oraz zdjęcie usterki. Spokojny, uprzejmy ton zwykle działa lepiej niż podniesiony głos.",
+      "dalej": "p1"
+    },
+    "p1": {
+      "kto": "uczen",
+      "na_pamiec": true,
+      "wzor": "Poproszę o pisemne potwierdzenie przyjęcia reklamacji.",
+      "dalej": "fin1"
+    },
+    "fin1": {
+      "kto": "ai",
+      "koniec": true,
+      "tekst": "Oczywiście, już je drukuję. Znajdziesz w nim wszystkie ustalenia, więc zachowaj je razem z dowodem zakupu. Dziękuję za cierpliwość i życzę miłego dnia!"
+    },
+    "fin2": {
+      "kto": "ai",
+      "koniec": true,
+      "tekst": "Do zobaczenia jutro! Przynieś pudełko i dowód zakupu, a wszystko załatwimy od ręki."
+    }
+  },
+  "uklad": {
+    "op1": {
+      "x": 0,
+      "y": 0
+    },
+    "s1": {
+      "x": 0,
+      "y": 170
+    },
+    "s2": {
+      "x": -140,
+      "y": 340
+    },
+    "a_zart": {
+      "x": 140,
+      "y": 340
+    },
+    "s3": {
+      "x": -280,
+      "y": 510
+    },
+    "a_brak": {
+      "x": 0,
+      "y": 510
+    },
+    "a_pies": {
+      "x": 280,
+      "y": 510
+    },
+    "a_nap": {
+      "x": -280,
+      "y": 680
+    },
+    "a_wym": {
+      "x": 0,
+      "y": 680
+    },
+    "s4": {
+      "x": 280,
+      "y": 680
+    },
+    "a_ok": {
+      "x": -280,
+      "y": 850
+    },
+    "a_kier": {
+      "x": 0,
+      "y": 850
+    },
+    "a_odl": {
+      "x": 280,
+      "y": 850
+    },
+    "u2": {
+      "x": -140,
+      "y": 1020
+    },
+    "fin2": {
+      "x": 140,
+      "y": 1020
+    },
+    "a_free": {
+      "x": 0,
+      "y": 1190
+    },
+    "sw1": {
+      "x": 0,
+      "y": 1360
+    },
+    "op2": {
+      "x": 0,
+      "y": 1530
+    },
+    "p1": {
+      "x": 0,
+      "y": 1700
+    },
+    "fin1": {
+      "x": 0,
+      "y": 1870
+    }
+  }
+}

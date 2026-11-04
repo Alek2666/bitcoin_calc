@@ -1,0 +1,322 @@
+{
+  "klucz": "lingaria_biuro_podrozy_b2",
+  "tytul": "Planowanie wycieczki w biurze podróży",
+  "opis": "Planujesz z doradcą dwutygodniowy urlop. Omawiasz budżet, rodzaj wypoczynku, termin, nocleg, atrakcje i ubezpieczenie, porównujesz dwie oferty i uzasadniasz swoją decyzję.",
+  "cefr": "B2",
+  "ikona": "fi-rr-plane",
+  "glos": "auto:masculine",
+  "role": {
+    "bot": "Doradca w biurze podróży",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "budżet",
+    "oferta",
+    "wyżywienie",
+    "termin",
+    "apartament",
+    "wycieczka",
+    "ubezpieczenie podróżne",
+    "nocleg"
+  ],
+  "luki": [
+    "budżet",
+    "oferta",
+    "ubezpieczenie podróżne"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "b2",
+    "podroz",
+    "urlop",
+    "biuro_podrozy",
+    "oferta",
+    "ubezpieczenie",
+    "budzet"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "s1",
+    "wezly": {
+      "s1": {
+        "kto": "ai",
+        "tekst": "Dzień dobry i zapraszam do stolika! Planujesz dwutygodniowy urlop, prawda? Zacznijmy od budżetu. Jak duży budżet mniej więcej możesz na niego przeznaczyć?",
+        "instrukcja": "Powiedz, jaki masz budżet na urlop",
+        "blad": "Hm, nie dosłyszałem. Jaki masz budżet na urlop?",
+        "galezie": [
+          {
+            "intencja": "maly",
+            "wzor": "Mój budżet jest raczej ograniczony, więc szukam czegoś niedrogiego, byle w rozsądnym standardzie.",
+            "dalej": "s2"
+          },
+          {
+            "intencja": "sredni",
+            "wzor": "Mam średni budżet. Wolę zapłacić trochę więcej, jeśli dzięki temu dostanę lepszą jakość i mniej niespodzianek.",
+            "dalej": "s2"
+          },
+          {
+            "intencja": "duzy",
+            "wzor": "Cena nie gra większej roli, liczy się dla mnie komfort, spokój i dobra lokalizacja.",
+            "dalej": "s2"
+          },
+          {
+            "intencja": "kanapka",
+            "wzor": "Mam budżet na jedną kanapkę i dużo optymizmu.",
+            "dalej": "a_zart",
+            "ukryta": true
+          }
+        ]
+      },
+      "a_zart": {
+        "kto": "ai",
+        "tekst": "Z takim optymizmem daleko zajdziemy! Zobaczmy, co da się zrobić w rozsądnym budżecie.",
+        "dalej": "s2"
+      },
+      "s2": {
+        "kto": "ai",
+        "tekst": "Dobrze, to pomoże mi dobrać oferty. Jaki rodzaj wypoczynku cię interesuje: morze, góry czy zwiedzanie miast?",
+        "instrukcja": "Wybierz rodzaj wypoczynku",
+        "blad": "Jeszcze raz, proszę: morze, góry czy miasta?",
+        "galezie": [
+          {
+            "intencja": "morze",
+            "wzor": "Marzę o wypoczynku nad morzem, z szeroką plażą i słońcem, bo po całym roku pracy potrzebuję porządnie odpocząć.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "gory",
+            "wzor": "Wolę góry, bo lubię długie wędrówki i świeże powietrze, a nie przepadam za tłumami na plaży.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "miasta",
+            "wzor": "Chcę zwiedzać miasta, muzea i małe uliczki, najlepiej tam, gdzie można dobrze zjeść i poznać lokalną kulturę.",
+            "dalej": "a3"
+          }
+        ]
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Dobry wybór, mam kilka ciekawych propozycji. Podaj mi jeszcze termin. Pamiętaj, że w szczycie sezonu ceny są wyższe, więc czasem warto trochę przesunąć wyjazd.",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Podaj termin i zapytaj o cenę",
+        "wzor": "Chcę jechać w lipcu na czternaście dni. Czy byłoby taniej, gdyby wyjazd zaczynał się tydzień później?",
+        "blad": "Przepraszam, kiedy chcesz jechać i na ile dni?",
+        "dalej": "a_term"
+      },
+      "a_term": {
+        "kto": "ai",
+        "tekst": "Tak, po dwudziestym lipca ceny zaczynają spadać, więc przesunięcie wyjazdu o tydzień się opłaca. Sprawdzam dwie oferty na taki późniejszy termin.",
+        "dalej": "op1"
+      },
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Doradca stuka w klawiaturę i odwraca ekran w twoją stronę. Widać dwie oferty obok siebie: pierwsza to hotel z pełnym wyżywieniem i wycieczkami w pakiecie, druga to apartament z kuchnią, bez wyżywienia, ale wyraźnie tańszy. Obie dotyczą wybranego przez ciebie rodzaju wypoczynku.",
+        "dalej": "op2"
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Warto wiedzieć: porównując oferty, patrz nie tylko na cenę, ale też na to, co jest w cenie. Sprawdź wyżywienie, transport i opłaty dodatkowe.",
+        "dalej": "s3"
+      },
+      "s3": {
+        "kto": "ai",
+        "tekst": "To dwie różne propozycje. Hotel jest wygodny i ma wszystko w cenie, a apartament jest tańszy i daje większą swobodę. Którą ofertę wybierasz?",
+        "instrukcja": "Porównaj oferty i wybierz jedną",
+        "blad": "Przepraszam, hotel czy apartament?",
+        "galezie": [
+          {
+            "intencja": "hotel",
+            "wzor": "Wybieram hotel, bo wolę nie martwić się o jedzenie ani o organizację wycieczek i mieć wszystko w cenie.",
+            "dalej": "s4"
+          },
+          {
+            "intencja": "apartament",
+            "wzor": "Wezmę apartament, bo lubię gotować i cenię swobodę, a zaoszczędzone pieniądze wolę wydać na lokalne atrakcje.",
+            "dalej": "s4"
+          },
+          {
+            "intencja": "drogie",
+            "wzor": "Obie oferty są dla mnie za drogie w stosunku do tego, co oferują. Poszukam jeszcze w internecie.",
+            "dalej": "a_wroc"
+          }
+        ]
+      },
+      "a_wroc": {
+        "kto": "ai",
+        "tekst": "Rozumiem, to duża decyzja, więc nie będę naciskał. Obie oferty są ważne do piątku, więc spokojnie porównaj je z innymi propozycjami.",
+        "dalej": "fin2"
+      },
+      "s4": {
+        "kto": "ai",
+        "tekst": "Dobrze, zapisuję wybraną ofertę w rezerwacji. Jak chcesz spędzać czas na miejscu: aktywnie, spokojnie czy zwiedzając?",
+        "instrukcja": "Powiedz, jak chcesz spędzać urlop",
+        "blad": "Jeszcze raz: aktywnie, spokojnie czy ze zwiedzaniem?",
+        "galezie": [
+          {
+            "intencja": "aktywnie",
+            "wzor": "Chcę spędzać urlop aktywnie: dużo wycieczek, rower albo pływanie, zależnie od tego, co będzie w okolicy.",
+            "dalej": "a6"
+          },
+          {
+            "intencja": "spokojnie",
+            "wzor": "Chcę przede wszystkim odpocząć: książka, spacery i dużo snu, bez planu na każdy dzień.",
+            "dalej": "a6"
+          },
+          {
+            "intencja": "zwiedzanie",
+            "wzor": "Najbardziej zależy mi na zwiedzaniu i lokalnej kuchni, nawet jeśli oznacza to wcześniejsze wstawanie.",
+            "dalej": "a6"
+          }
+        ]
+      },
+      "a6": {
+        "kto": "ai",
+        "tekst": "Świetnie, dobiorę do oferty odpowiednie wycieczki. Teraz ważna sprawa: ubezpieczenie podróżne. Najlepiej powiedz wprost: „Poproszę ubezpieczenie, które obejmuje koszty leczenia i utratę bagażu.”",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Poproszę ubezpieczenie, które obejmuje koszty leczenia i utratę bagażu.",
+        "dalej": "s5"
+      },
+      "s5": {
+        "kto": "ai",
+        "tekst": "Oczywiście. Mamy dwa ubezpieczenia: podstawowe i rozszerzone. Rozszerzone obejmuje też sporty i odwołanie wyjazdu, a podstawowe tylko leczenie i bagaż. Które wybierasz?",
+        "instrukcja": "Wybierz ubezpieczenie albo zadaj pytanie",
+        "blad": "Przepraszam, podstawowe czy rozszerzone?",
+        "galezie": [
+          {
+            "intencja": "rozszerzone",
+            "wzor": "Wezmę rozszerzone, bo wolę mieć szerszą ochronę, zwłaszcza że obejmuje też sporty.",
+            "dalej": "a7"
+          },
+          {
+            "intencja": "podstawowe",
+            "wzor": "Wystarczy mi podstawowe ubezpieczenie, bo wolę nie dopłacać za rzeczy, z których pewnie nie skorzystam.",
+            "dalej": "a7"
+          },
+          {
+            "intencja": "odwolanie",
+            "wzor": "Czy rozszerzone zwraca pieniądze, jeśli wyjazd trzeba będzie odwołać?",
+            "dalej": "a_odw"
+          }
+        ]
+      },
+      "a_odw": {
+        "kto": "ai",
+        "tekst": "Tak, jeśli odwołasz wyjazd z ważnego powodu, na przykład z powodu choroby, i przedstawisz zaświadczenie. Podstawowe tego nie obejmuje, więc skoro to dla ciebie ważne, dopisuję wariant rozszerzony.",
+        "dalej": "a7"
+      },
+      "a7": {
+        "kto": "ai",
+        "tekst": "Ubezpieczenie jest już dopisane do rezerwacji. Mamy komplet: termin, nocleg, wycieczki i ochronę. Zanim przygotuję umowę, powiedz, dlaczego wybierasz właśnie tę ofertę.",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Uzasadnij swój wybór oferty",
+        "kryteria": "powód wyboru: jeden argument i jeden przykład, 2 lub 3 zdania",
+        "wzor": "Wybieram tę ofertę, bo najlepiej pasuje do mojego budżetu i terminu. Poza tym lubię wiedzieć z góry, ile wydam, a ta propozycja jest przejrzysta i bez ukrytych opłat.",
+        "blad": "Przepraszam, pytałem, dlaczego wybierasz właśnie tę ofertę.",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Świetny wybór! Przygotuję umowę i wyślę ci ją mailem jeszcze dziś. Życzę wspaniałego urlopu!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Dziękuję za wizytę. W razie pytań możesz do mnie wrócić w każdej chwili."
+      }
+    },
+    "uklad": {
+      "s1": {
+        "x": 0,
+        "y": 0
+      },
+      "s2": {
+        "x": -140,
+        "y": 170
+      },
+      "a_zart": {
+        "x": 140,
+        "y": 170
+      },
+      "a3": {
+        "x": 0,
+        "y": 340
+      },
+      "u1": {
+        "x": 0,
+        "y": 510
+      },
+      "a_term": {
+        "x": 0,
+        "y": 680
+      },
+      "op1": {
+        "x": 0,
+        "y": 850
+      },
+      "op2": {
+        "x": 0,
+        "y": 1020
+      },
+      "s3": {
+        "x": 0,
+        "y": 1190
+      },
+      "s4": {
+        "x": -140,
+        "y": 1360
+      },
+      "a_wroc": {
+        "x": 140,
+        "y": 1360
+      },
+      "a6": {
+        "x": -140,
+        "y": 1530
+      },
+      "fin2": {
+        "x": 140,
+        "y": 1530
+      },
+      "p1": {
+        "x": 0,
+        "y": 1700
+      },
+      "s5": {
+        "x": 0,
+        "y": 1870
+      },
+      "a7": {
+        "x": -140,
+        "y": 2040
+      },
+      "a_odw": {
+        "x": 140,
+        "y": 2040
+      },
+      "sw1": {
+        "x": 0,
+        "y": 2210
+      },
+      "fin1": {
+        "x": 0,
+        "y": 2380
+      }
+    }
+  }
+}

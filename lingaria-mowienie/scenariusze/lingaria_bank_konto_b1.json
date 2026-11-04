@@ -1,0 +1,309 @@
+{
+  "klucz": "lingaria_bank_konto_b1",
+  "tytul": "Zakładanie konta w banku",
+  "opis": "Zakładasz konto osobiste w oddziale banku. Doradczyni wyjaśnia, jakie dokumenty są potrzebne, czym różnią się konta, jak działają karta i bankowość internetowa oraz jakie są opłaty i limity.",
+  "cefr": "B1",
+  "ikona": "fi-rr-briefcase",
+  "glos": "auto:feminine",
+  "role": {
+    "bot": "Doradczyni bankowa",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "konto osobiste",
+    "dokument tożsamości",
+    "karta płatnicza",
+    "bankowość internetowa",
+    "opłata",
+    "limit",
+    "przelew",
+    "umowa",
+    "bankomat"
+  ],
+  "luki": [
+    "konto osobiste",
+    "limit",
+    "opłata"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "b1",
+    "bank",
+    "konto",
+    "finanse",
+    "karta",
+    "dokumenty",
+    "formalnosci"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "a1",
+    "wezly": {
+      "a1": {
+        "kto": "ai",
+        "tekst": "Dzień dobry i zapraszam do biurka. Rozumiem, że chodzi o założenie konta osobistego.",
+        "dalej": "s1"
+      },
+      "s1": {
+        "kto": "ai",
+        "tekst": "Zacznijmy od formalności. Do założenia konta potrzebny jest dokument tożsamości i potwierdzenie adresu. Jakie z nich masz dzisiaj przy sobie?",
+        "instrukcja": "Powiedz, jakie dokumenty masz",
+        "blad": "Przepraszam, nie dosłyszałam. Jakie dokumenty masz przy sobie?",
+        "galezie": [
+          {
+            "intencja": "oba",
+            "wzor": "Mam paszport i umowę najmu mieszkania.",
+            "dalej": "a2"
+          },
+          {
+            "intencja": "brak_adresu",
+            "wzor": "Mam paszport, ale nie mam potwierdzenia adresu.",
+            "dalej": "a_adres"
+          },
+          {
+            "intencja": "pies",
+            "wzor": "Mam tylko zdjęcie mojego psa.",
+            "dalej": "a_pies",
+            "ukryta": true
+          }
+        ]
+      },
+      "a_adres": {
+        "kto": "ai",
+        "tekst": "To nie problem. Wystarczy oświadczenie o adresie, które można podpisać tutaj, w oddziale.",
+        "dalej": "a2"
+      },
+      "a_pies": {
+        "kto": "ai",
+        "tekst": "Pies na zdjęciu wygląda sympatycznie, ale bank potrzebuje oficjalnego dokumentu. Zakładam, że paszport jest jednak przy tobie. Adres można potwierdzić oświadczeniem w oddziale.",
+        "dalej": "a2"
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "Dobrze, przejdźmy do wyboru konta. Mamy konto podstawowe, bez miesięcznej opłaty, ale z ograniczoną liczbą darmowych przelewów, oraz konto rozszerzone z wyższą opłatą i dodatkowymi usługami.",
+        "dalej": "s2"
+      },
+      "s2": {
+        "kto": "ai",
+        "tekst": "Które z nich bardziej ci odpowiada i dlaczego?",
+        "instrukcja": "Wybierz konto i podaj powód",
+        "blad": "Przepraszam, które konto wybierasz?",
+        "galezie": [
+          {
+            "intencja": "podstawowe",
+            "wzor": "Wolę konto podstawowe, bo rzadko robię przelewy.",
+            "dalej": "s3"
+          },
+          {
+            "intencja": "rozszerzone",
+            "wzor": "Wybieram konto rozszerzone, bo często płacę za granicą.",
+            "dalej": "s3"
+          },
+          {
+            "intencja": "niewiem",
+            "wzor": "Nie wiem, które konto będzie lepsze.",
+            "dalej": "a_radza"
+          }
+        ]
+      },
+      "a_radza": {
+        "kto": "ai",
+        "tekst": "Jeśli przelewów zagranicznych jest niewiele, w zupełności wystarczy konto podstawowe. Na początek wpiszę je do umowy, a w razie potrzeby można je później zmienić na rozszerzone.",
+        "dalej": "s3"
+      },
+      "s3": {
+        "kto": "ai",
+        "tekst": "Dobrze. Do konta otrzymasz kartę płatniczą i dostęp do bankowości internetowej. Czy chcesz od razu włączyć aplikację w telefonie?",
+        "instrukcja": "Odpowiedz na pytanie o aplikację",
+        "blad": "Przepraszam, chcesz teraz włączyć aplikację?",
+        "galezie": [
+          {
+            "intencja": "tak",
+            "wzor": "Tak, chcę korzystać z aplikacji od pierwszego dnia.",
+            "dalej": "a4"
+          },
+          {
+            "intencja": "bezpieczenstwo",
+            "wzor": "Najpierw chcę poznać zasady bezpieczeństwa.",
+            "dalej": "a_bezp"
+          },
+          {
+            "intencja": "zakupy",
+            "wzor": "Czy aplikacja zrobi też za mnie zakupy?",
+            "dalej": "a_zakupy",
+            "ukryta": true
+          }
+        ]
+      },
+      "a_bezp": {
+        "kto": "ai",
+        "tekst": "To rozsądne. Warto pamiętać, że nigdy nie należy podawać nikomu kodu z wiadomości SMS, nawet jeśli ktoś twierdzi, że dzwoni z banku. Aplikację można włączyć później.",
+        "dalej": "a4"
+      },
+      "a_zakupy": {
+        "kto": "ai",
+        "tekst": "Niestety nie, ale aplikacja pokaże, na co wydaje się pieniądze w ciągu miesiąca. To już połowa sukcesu. Aplikację można włączyć po podpisaniu umowy.",
+        "dalej": "a4"
+      },
+      "a4": {
+        "kto": "ai",
+        "tekst": "Przejdźmy do limitów. Karta ma dzienny limit wypłat z bankomatu i dzienny limit płatności. Masz jakieś pytania?",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Zapytaj o limit wypłat z bankomatu",
+        "wzor": "Jaki jest dzienny limit wypłat z bankomatu i czy mogę go zmienić?",
+        "blad": "Przepraszam, o co dokładnie pytasz?",
+        "dalej": "s4"
+      },
+      "s4": {
+        "kto": "ai",
+        "tekst": "Limit jest dostosowany do codziennych wydatków, ale możesz go zmienić w aplikacji w każdej chwili. Warto też pamiętać o opłatach: za wypłaty z obcych bankomatów i przelewy zagraniczne bank pobiera prowizję. Czy to ci odpowiada?",
+        "instrukcja": "Powiedz, co sądzisz o opłatach",
+        "blad": "Przepraszam, czy te warunki ci odpowiadają?",
+        "galezie": [
+          {
+            "intencja": "ok",
+            "wzor": "Rozumiem zasady i akceptuję te opłaty.",
+            "dalej": "a_sw"
+          },
+          {
+            "intencja": "powtorz",
+            "wzor": "Czy możesz jeszcze raz wyjaśnić opłaty za granicą?",
+            "dalej": "a_powt"
+          },
+          {
+            "intencja": "przemysle",
+            "wzor": "Chcę to jeszcze spokojnie przemyśleć w domu.",
+            "dalej": "fin2"
+          }
+        ]
+      },
+      "a_powt": {
+        "kto": "ai",
+        "tekst": "Oczywiście. Przelewy w kraju są zwykle tanie, ale przelewy za granicę kosztują więcej, zwłaszcza w innej walucie. Pełna tabela opłat jest dołączona do umowy.",
+        "dalej": "a_sw"
+      },
+      "a_sw": {
+        "kto": "ai",
+        "tekst": "Dobrze. Zanim podpiszemy umowę, chciałabym zapytać, do czego głównie będzie służyć to konto: do rachunków, oszczędzania czy podróży?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Powiedz, do czego będziesz używać konta",
+        "kryteria": "do czego będzie służyć konto, 2 lub 3 zdania",
+        "wzor": "Na konto będzie przychodzić moja pensja, więc użyję go głównie do płacenia rachunków. Chcę też odkładać trochę pieniędzy na wakacje.",
+        "blad": "Przepraszam, pytałam, do czego będziesz używać konta.",
+        "dalej": "op1"
+      },
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: przed podpisaniem umowy w banku warto poprosić o kopię dokumentów i tabelę opłat. To zwykła, uprzejma prośba.",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Czy mogę dostać kopię umowy i tabelę opłat?",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Oczywiście, wydrukuję wszystko od razu. Witamy w naszym banku i życzę wygodnego korzystania z konta!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Rozumiem, to ważna decyzja. Możesz zabrać ze sobą broszurę z tabelą opłat i wrócić, kiedy zdecydujesz. Do zobaczenia!"
+      }
+    },
+    "uklad": {
+      "a1": {
+        "x": 0,
+        "y": 0
+      },
+      "s1": {
+        "x": 0,
+        "y": 170
+      },
+      "a2": {
+        "x": -280,
+        "y": 340
+      },
+      "a_adres": {
+        "x": 0,
+        "y": 340
+      },
+      "a_pies": {
+        "x": 280,
+        "y": 340
+      },
+      "s2": {
+        "x": 0,
+        "y": 510
+      },
+      "s3": {
+        "x": -140,
+        "y": 680
+      },
+      "a_radza": {
+        "x": 140,
+        "y": 680
+      },
+      "a4": {
+        "x": -280,
+        "y": 850
+      },
+      "a_bezp": {
+        "x": 0,
+        "y": 850
+      },
+      "a_zakupy": {
+        "x": 280,
+        "y": 850
+      },
+      "u1": {
+        "x": 0,
+        "y": 1020
+      },
+      "s4": {
+        "x": 0,
+        "y": 1190
+      },
+      "a_sw": {
+        "x": -280,
+        "y": 1360
+      },
+      "a_powt": {
+        "x": 0,
+        "y": 1360
+      },
+      "fin2": {
+        "x": 280,
+        "y": 1360
+      },
+      "sw1": {
+        "x": 0,
+        "y": 1530
+      },
+      "op1": {
+        "x": 0,
+        "y": 1700
+      },
+      "p1": {
+        "x": 0,
+        "y": 1870
+      },
+      "fin1": {
+        "x": 0,
+        "y": 2040
+      }
+    }
+  }
+}

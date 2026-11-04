@@ -1,0 +1,252 @@
+{
+  "klucz": "lingaria_autobus_miejski_a1",
+  "tytul": "Autobus miejski",
+  "opis": "Jedziesz autobusem do centrum miasta. Pytasz kierowczynię o kierunek, kupujesz bilet, pytasz, na którym przystanku wysiąść, i dziękujesz.",
+  "cefr": "A1",
+  "ikona": "fi-rr-train",
+  "glos": "auto:feminine",
+  "role": {
+    "bot": "Kierowczyni autobusu",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "autobus",
+    "przystanek",
+    "centrum",
+    "bilet",
+    "czytnik",
+    "wysiąść",
+    "rynek",
+    "kierowczyni"
+  ],
+  "luki": [
+    "bilet",
+    "przystanek"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "a1",
+    "autobus",
+    "transport",
+    "miasto",
+    "bilet",
+    "przystanek"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "op1",
+    "wezly": {
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Stoisz na przystanku w dużym mieście. Podjeżdża autobus numer dziesięć. Drzwi się otwierają, a przy kierownicy siedzi kierowczyni.",
+        "dalej": "q1"
+      },
+      "q1": {
+        "kto": "ai",
+        "tekst": "Dzień dobry! Dokąd jedziesz?",
+        "instrukcja": "Powiedz, dokąd jedziesz, i zapytaj o autobus",
+        "blad": "Nie dosłyszałam. Dokąd jedziesz?",
+        "galezie": [
+          {
+            "intencja": "centrum",
+            "wzor": "Jadę do centrum. Czy ten autobus tam jedzie?",
+            "dalej": "a2"
+          },
+          {
+            "intencja": "dworzec",
+            "wzor": "Jadę na dworzec. Czy ten autobus tam jedzie?",
+            "dalej": "fin2"
+          },
+          {
+            "intencja": "ksiezyc",
+            "wzor": "Jadę na księżyc!",
+            "dalej": "a3",
+            "ukryta": true
+          }
+        ]
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "Tak, ten autobus jedzie do centrum.",
+        "dalej": "q2"
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Ha, na księżyc jeździ tylko rakieta! Ale ten autobus jedzie do centrum.",
+        "dalej": "q2"
+      },
+      "q2": {
+        "kto": "ai",
+        "tekst": "Wsiadaj, proszę. Masz już bilet?",
+        "instrukcja": "Powiedz, czy masz bilet",
+        "blad": "Hm? Masz bilet czy nie?",
+        "galezie": [
+          {
+            "intencja": "nie",
+            "wzor": "Nie mam. Poproszę jeden bilet.",
+            "dalej": "a4"
+          },
+          {
+            "intencja": "tak",
+            "wzor": "Tak, mam bilet w telefonie.",
+            "dalej": "a5"
+          }
+        ]
+      },
+      "a4": {
+        "kto": "ai",
+        "tekst": "Dobrze, jeden bilet. Przyłóż kartę do czytnika. Gotowe, masz bilet!",
+        "dalej": "op2"
+      },
+      "a5": {
+        "kto": "ai",
+        "tekst": "Świetnie! Przyłóż telefon do czytnika. Dziękuję.",
+        "dalej": "op2"
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Autobus rusza. Stoisz blisko kierowczyni i patrzysz na miasto. Chcesz wiedzieć, gdzie masz wysiąść.",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Zapytaj, na którym przystanku wysiąść",
+        "wzor": "Przepraszam, na którym przystanku mam wysiąść?",
+        "blad": "Nie rozumiem. Co chcesz wiedzieć?",
+        "dalej": "q3"
+      },
+      "q3": {
+        "kto": "ai",
+        "tekst": "Wysiądź na przystanku Rynek. To szósty przystanek stąd. Chcesz, żebym ci powiedziała, kiedy wysiąść?",
+        "instrukcja": "Powiedz, czy chcesz pomocy",
+        "blad": "Słucham? Mam ci powiedzieć, tak czy nie?",
+        "galezie": [
+          {
+            "intencja": "tak",
+            "wzor": "Tak, bardzo proszę.",
+            "dalej": "op3"
+          },
+          {
+            "intencja": "nie",
+            "wzor": "Nie, dziękuję. Sprawdzę na ekranie.",
+            "dalej": "op3"
+          }
+        ]
+      },
+      "op3": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: nazwa następnego przystanku jest zwykle na ekranie i w głośniku. Patrz i słuchaj, to bardzo pomaga.",
+        "dalej": "a7"
+      },
+      "a7": {
+        "kto": "ai",
+        "tekst": "Dobrze. Zaraz będziesz w centrum. A powiedz, co chcesz tam robić?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Powiedz, co chcesz robić w centrum",
+        "kryteria": "co chcesz robić w centrum, 1 lub 2 zdania",
+        "wzor": "Chcę zobaczyć rynek i napić się kawy.",
+        "blad": "Przepraszam, pytałam, co chcesz robić w centrum.",
+        "dalej": "a8"
+      },
+      "a8": {
+        "kto": "ai",
+        "tekst": "Brzmi miło! Twój przystanek jest następny. Przygotuj się do wyjścia.",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Bardzo dziękuję, miłego dnia!",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Nie ma za co! Uważaj na stopień. Miłego dnia!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Niestety nie. Na dworzec jedzie autobus numer dwanaście. Przystanek jest za rogiem. Miłej podróży!"
+      }
+    },
+    "uklad": {
+      "op1": {
+        "x": 0,
+        "y": 0
+      },
+      "q1": {
+        "x": 0,
+        "y": 170
+      },
+      "a2": {
+        "x": -280,
+        "y": 340
+      },
+      "fin2": {
+        "x": 0,
+        "y": 340
+      },
+      "a3": {
+        "x": 280,
+        "y": 340
+      },
+      "q2": {
+        "x": 0,
+        "y": 510
+      },
+      "a4": {
+        "x": -140,
+        "y": 680
+      },
+      "a5": {
+        "x": 140,
+        "y": 680
+      },
+      "op2": {
+        "x": 0,
+        "y": 850
+      },
+      "u1": {
+        "x": 0,
+        "y": 1020
+      },
+      "q3": {
+        "x": 0,
+        "y": 1190
+      },
+      "op3": {
+        "x": 0,
+        "y": 1360
+      },
+      "a7": {
+        "x": 0,
+        "y": 1530
+      },
+      "sw1": {
+        "x": 0,
+        "y": 1700
+      },
+      "a8": {
+        "x": 0,
+        "y": 1870
+      },
+      "p1": {
+        "x": 0,
+        "y": 2040
+      },
+      "fin1": {
+        "x": 0,
+        "y": 2210
+      }
+    }
+  }
+}

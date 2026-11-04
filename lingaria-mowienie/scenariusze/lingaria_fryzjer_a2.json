@@ -1,0 +1,299 @@
+{
+  "klucz": "lingaria_fryzjer_a2",
+  "tytul": "U fryzjera",
+  "opis": "Idziesz do fryzjera. Mówisz, o ile skrócić włosy, czy chcesz je umyć, rozmawiasz o planach na weekend, oceniasz fryzurę w lustrze i płacisz przy kasie.",
+  "cefr": "A2",
+  "ikona": "fi-rr-comment",
+  "glos": "auto:masculine",
+  "role": {
+    "bot": "Fryzjer",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "fryzjer",
+    "włosy",
+    "krótko",
+    "umyć włosy",
+    "strzyżenie",
+    "lustro",
+    "fryzura",
+    "kasa",
+    "zapłacić"
+  ],
+  "luki": [
+    "strzyżenie",
+    "lustro"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "a2",
+    "fryzjer",
+    "wlosy",
+    "wyglad",
+    "uslugi",
+    "weekend"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "a1",
+    "wezly": {
+      "a1": {
+        "kto": "ai",
+        "tekst": "Dzień dobry! Siadaj, proszę. Co dziś robimy z twoimi włosami?",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Powiedz, że chcesz skrócić włosy",
+        "wzor": "Dzień dobry. Chcę skrócić włosy.",
+        "blad": "Przepraszam, nie dosłyszałem. Co robimy z włosami?",
+        "dalej": "a_ok"
+      },
+      "a_ok": {
+        "kto": "ai",
+        "tekst": "Jasne, skrócimy. Najpierw ustalmy długość.",
+        "dalej": "op3"
+      },
+      "op3": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: u fryzjera możesz pokazać palcami, ile centymetrów chcesz skrócić. Gest bardzo pomaga, gdy brakuje słów.",
+        "dalej": "q1"
+      },
+      "q1": {
+        "kto": "ai",
+        "tekst": "O ile mam skrócić włosy?",
+        "instrukcja": "Powiedz, o ile skrócić włosy",
+        "blad": "Przepraszam, o ile centymetrów skrócić?",
+        "galezie": [
+          {
+            "intencja": "troche",
+            "wzor": "Tylko trochę, o dwa centymetry.",
+            "dalej": "q2"
+          },
+          {
+            "intencja": "polowa",
+            "wzor": "Skróć o połowę, proszę.",
+            "dalej": "q2"
+          },
+          {
+            "intencja": "krotko",
+            "wzor": "Chcę, żeby było bardzo krótko.",
+            "dalej": "q2"
+          },
+          {
+            "intencja": "lew",
+            "wzor": "Zrób mi fryzurę jak u lwa.",
+            "dalej": "a2",
+            "ukryta": true
+          }
+        ]
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "Ha, ha! Grzywa jak u lwa to odważny pomysł. Zrobię coś trochę spokojniejszego.",
+        "dalej": "q2"
+      },
+      "q2": {
+        "kto": "ai",
+        "tekst": "Dobrze, rozumiem. Chcesz, żebym najpierw umył ci włosy?",
+        "instrukcja": "Powiedz, czy chcesz umyć włosy",
+        "blad": "Umyć ci włosy czy nie? Nie dosłyszałem.",
+        "galezie": [
+          {
+            "intencja": "tak",
+            "wzor": "Tak, poproszę o mycie włosów.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "nie",
+            "wzor": "Nie, dziękuję. Mam czyste włosy.",
+            "dalej": "a3"
+          }
+        ]
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Dobrze, zaczynamy. Strzyżenie trochę potrwa, więc możemy pogadać. Jakie masz plany na weekend?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Opowiedz o swoich planach na weekend",
+        "kryteria": "plany na weekend, 2 zdania",
+        "wzor": "W sobotę spotykam się z przyjaciółmi. W niedzielę odpoczywam w domu.",
+        "blad": "Przepraszam, pytałem o twoje plany na weekend.",
+        "dalej": "op2"
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Rozmawiacie jeszcze chwilę. Fryzjer kończy strzyżenie, suszy ci włosy i odwraca fotel w stronę dużego lustra. Patrzysz na swoją nową fryzurę.",
+        "dalej": "q3"
+      },
+      "q3": {
+        "kto": "ai",
+        "tekst": "Gotowe! Spójrz w lustro. Jak ci się podoba fryzura?",
+        "instrukcja": "Powiedz, co sądzisz o fryzurze",
+        "blad": "Podoba ci się fryzura? Powiedz, proszę.",
+        "galezie": [
+          {
+            "intencja": "podoba",
+            "wzor": "Bardzo mi się podoba. Dziękuję!",
+            "dalej": "a4"
+          },
+          {
+            "intencja": "krotko",
+            "wzor": "Chyba jest trochę za krótko.",
+            "dalej": "a5"
+          },
+          {
+            "intencja": "ja",
+            "wzor": "Czy to naprawdę ja?",
+            "dalej": "a6",
+            "ukryta": true
+          }
+        ]
+      },
+      "a6": {
+        "kto": "ai",
+        "tekst": "Ha, ha! Tak, to ty, tylko w lepszej wersji!",
+        "dalej": "a4"
+      },
+      "a4": {
+        "kto": "ai",
+        "tekst": "Cieszę się! Wyglądasz świetnie. Chodźmy do kasy.",
+        "dalej": "q4"
+      },
+      "a5": {
+        "kto": "ai",
+        "tekst": "Spokojnie, włosy szybko rosną. Za dwa tygodnie będzie idealnie. Chodźmy do kasy.",
+        "dalej": "q4"
+      },
+      "q4": {
+        "kto": "ai",
+        "tekst": "Jesteśmy przy kasie. Płacisz kartą czy gotówką?",
+        "instrukcja": "Powiedz, jak płacisz",
+        "blad": "Kartą czy gotówką? Nie dosłyszałem.",
+        "galezie": [
+          {
+            "intencja": "karta",
+            "wzor": "Zapłacę kartą.",
+            "dalej": "a7"
+          },
+          {
+            "intencja": "gotowka",
+            "wzor": "Zapłacę gotówką.",
+            "dalej": "a7"
+          },
+          {
+            "intencja": "portfel",
+            "wzor": "Mój portfel został w domu. Czy mogę zapłacić jutro?",
+            "dalej": "fin2"
+          }
+        ]
+      },
+      "a7": {
+        "kto": "ai",
+        "tekst": "Dziękuję! Oto paragon. Na pożegnanie powiedz: Dziękuję, do zobaczenia za miesiąc.",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Dziękuję, do zobaczenia za miesiąc.",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Do zobaczenia! Umów wizytę wcześniej, bo w sobotę zawsze jest dużo ludzi."
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Nie ma problemu. Wpadnij jutro, to zapłacisz. Dobrze pamiętam, kogo dziś strzygłem. Do zobaczenia!"
+      }
+    },
+    "uklad": {
+      "a1": {
+        "x": 0,
+        "y": 0
+      },
+      "u1": {
+        "x": 0,
+        "y": 170
+      },
+      "a_ok": {
+        "x": 0,
+        "y": 340
+      },
+      "op3": {
+        "x": 0,
+        "y": 510
+      },
+      "q1": {
+        "x": 0,
+        "y": 680
+      },
+      "q2": {
+        "x": -140,
+        "y": 850
+      },
+      "a2": {
+        "x": 140,
+        "y": 850
+      },
+      "a3": {
+        "x": 0,
+        "y": 1020
+      },
+      "sw1": {
+        "x": 0,
+        "y": 1190
+      },
+      "op2": {
+        "x": 0,
+        "y": 1360
+      },
+      "q3": {
+        "x": 0,
+        "y": 1530
+      },
+      "a4": {
+        "x": -280,
+        "y": 1700
+      },
+      "a5": {
+        "x": 0,
+        "y": 1700
+      },
+      "a6": {
+        "x": 280,
+        "y": 1700
+      },
+      "q4": {
+        "x": 0,
+        "y": 1870
+      },
+      "a7": {
+        "x": -140,
+        "y": 2040
+      },
+      "fin2": {
+        "x": 140,
+        "y": 2040
+      },
+      "p1": {
+        "x": 0,
+        "y": 2210
+      },
+      "fin1": {
+        "x": 0,
+        "y": 2380
+      }
+    }
+  }
+}
