@@ -25,20 +25,21 @@ jezyk_tekstu: zh
 - ü 是法语的 u，嘴唇圆起来，舌头的位置和发 i 一样，和拼音的 ü 相同。
 - ö 是 eu 的音，舌头的位置和发 ei（é）一样，嘴唇却要圆起来。
 - 鼻化元音：an 和 en 写成 ang，on 写成 ong，in 和 un 写成 an。发音时气从鼻子出来，舌尖不要顶上去。
-- v 要上齿轻咬下唇，带声。ai 是 è 的音，ei 是 é 的音。
+- v 要上齿轻咬下唇，带声。
+- ai 是法语 è 的音，嘴张得较开，接近拼音 ye（也）里的 e。ei 是法语 é 的音，嘴张得较小，嘴角向两边拉，不要像拼音 ei 那样往后滑。
 
 :frazy
-Bonjour ! | bong-ruh | 您好 | 进店的第一句话。不先打招呼就直接点单，在法国会显得失礼。傍晚以后换成 Bonsoir。
-Un café, s'il vous plaît. | an ka-fei, sil vu plai | 请给我一杯咖啡 | 在法国 un café 就是浓缩咖啡，量很小。s'il vous plaît 字面是“如果您愿意”，对服务员一律用 vous（您）。
-Je voudrais un café, s'il vous plaît. | re vu-dhai an ka-fei, sil vu plai | 我想要一杯咖啡 | je voudrais 是“我想要”，比直接说东西的名字更客气一点，在比较正式的咖啡馆和餐厅里常听到。后面接什么都行，换成 un thé 就是一杯茶。
+Bonjour ! | bong-ruh | 您好 | 进店的第一句话。不先打招呼就直接点单，在法国会显得失礼。傍晚以后换成 Bonsoir（bong-suah）。
+Un café, s'il vous plaît. | an ka-fei, sil vu plai | 请给我一杯咖啡 | 在法国 un café 就是浓缩咖啡，量很小。s'il vous plaît 字面是“如果您愿意”，对服务员最稳妥是用 vous（您）。
+Je voudrais un café, s'il vous plaît. | re vu-dhai an ka-fei, sil vu plai | 我想要一杯咖啡 | je voudrais 是“我想要”，比直接说东西的名字更客气一点，在比较正式的咖啡馆和餐厅里常听到。后面接什么都行，换成 un thé（an tei）就是一杯茶。
 Un café crème, s'il vous plaît. | an ka-fei khaim, sil vu plai | 请给我一杯奶咖 | 想喝加了奶的咖啡就这样点，巴黎人常简称 un crème。它通常是浓缩咖啡加热牛奶。
-Un croissant, s'il vous plaît. | an khua-sang, sil vu plai | 请给我一个可颂 | croissant 在中文里常叫牛角包或可颂。面包店和咖啡馆都这样说，先说 Bonjour。
-Un pain au chocolat, s'il vous plaît. | an pan o sho-ko-la, sil vu plai | 请给我一个巧克力面包 | 法国西南部不少人说 chocolatine，指的是同一种面包。
+Un croissant, s'il vous plaît. | an khua-sang, sil vu plai | 请给我一个可颂 | croissant 在中文里常叫牛角包或可颂。面包店和咖啡馆都这样说。词尾的 t 不发音，ant 读成鼻化的 ang。
+Un pain au chocolat, s'il vous plaît. | an pan o sho-ko-la, sil vu plai | 请给我一个巧克力面包 | 和可颂一样是酥皮的，里面夹巧克力条。法国西南部不少人说 chocolatine，指的是同一种面包。
 Sur place ou à emporter ? | sü-h plas u a ang-poh-tei | 在这里吃还是带走？ | 这是店员的问题，点完单就会听到。sur place 是在店里，à emporter 是带走。
 À emporter, s'il vous plaît. | a ang-poh-tei, sil vu plai | 请帮我带走 | 想坐下来慢慢喝，就回答 Sur place。
-Par carte, s'il vous plaît. | pah kaht, sil vu plai | 请刷卡 | 付款时说。个别小店不收卡，所以付款前问一句更稳妥。
+Par carte, s'il vous plaît. | pah kaht, sil vu plai | 请刷卡 | 付款时说。有的小店不收卡，付款前看一眼收银台有没有刷卡标志；拿不准就升调问一句 Par carte ?
 L'addition, s'il vous plaît. | la-di-siong, sil vu plai | 请结账 | 坐下来喝咖啡时，服务员一般不会主动把账单送来，要自己开口要。
-Merci, bonne journée ! | maih-si, bon ruh-nei | 谢谢，祝您今天愉快 | 离开时说。bonne 里的 on 不鼻化，读 bon，和 bonjour 里的 bong 不一样。对方多半回答 Vous aussi。
+Merci, bonne journée ! | maih-si, bon ruh-nei | 谢谢，祝您今天愉快 | 离开时说。bonne 里的 on 不鼻化，读 bon，和 bonjour 里的 bong 不一样。对方多半回答 Vous aussi。傍晚以后说 bonne soirée（bon sua-hei）。
 :koniec
 
 :cwiczenie fiszki
@@ -49,9 +50,9 @@ Merci, bonne journée ! | maih-si, bon ruh-nei | 谢谢，祝您今天愉快 | �
 
 ## 叫服务员和几个容易漏掉的发音
 
-想叫服务员，抬一下手，等对方看过来，再说 S'il vous plaît，或者叫一声 Monsieur、Madame。喊 Garçon 已经过时，听起来不太礼貌。
+想叫服务员，抬一下手，等对方看过来，再说 S'il vous plaît，或者叫一声 Monsieur（me-siö）、Madame（ma-dam）。喊 Garçon 已经过时，听起来不太礼貌。
 
-中国人学法语读音，最容易出错的是拼写和读音对不上，下面几条用上面的句子就能练：
+法语的拼写和读音常常对不上，下面几条用上面的句子就能练：
 
 - 词尾的辅音常常不发音。chocolat 和 croissant 的 t 不读，vous 的 s 不读，plaît 的 t 也不读。但 carte 里的 r 和 t 都要读，merci 里的 r 也要读。
 - ou 读成拼音的 u，如 bonjour、vous。单独的 u 才读 ü，如 sur。
@@ -62,11 +63,11 @@ Merci, bonne journée ! | maih-si, bon ruh-nei | 谢谢，祝您今天愉快 | �
 
 当地人常站在吧台，两口喝完一杯 un café。想喝别的，要换一种说法：
 
-- un allongé 是水加得更多的浓缩咖啡，杯子也大一点。
+- un allongé（an a-long-rei）是水加得更多的浓缩咖啡，杯子也大一点。
 - un café crème 是加了奶的，在巴黎也常说 un crème。
-- un noisette 是浓缩咖啡里只加一点点奶，颜色像榛子，noisette 就是榛子的意思。
+- un noisette（an nua-zait）是浓缩咖啡里只加一点点奶，颜色像榛子，noisette 就是榛子的意思。
 
-餐厅的菜单上还有一种 café gourmand，是一杯浓缩咖啡配上几样迷你甜点，不想吃一整份甜点的时候很合适。
+餐厅的菜单上还有一种 café gourmand（ka-fei guh-mang），是一杯浓缩咖啡配上几样迷你甜点，不想吃一整份甜点的时候很合适。
 
 :uwaga
 在餐厅里，咖啡一般在甜点之后才点，饭后喝的也多半是 un café，也就是浓缩咖啡。加奶的 café crème 更常在早上喝。
@@ -76,25 +77,26 @@ Merci, bonne journée ! | maih-si, bon ruh-nei | 谢谢，祝您今天愉快 | �
 
 法国的咖啡馆可以在吧台（au comptoir）、室内（en salle）和露台（en terrasse）收不同的价格，但这些价格必须明码标出，常见饮品的价目表要贴在店外和店内。所以同一杯咖啡，站在吧台喝一般最便宜，坐进室内和露台通常更贵。
 
-价目表上的价格是最终价格，如果含服务费，会写 service compris。小费不是必须给的，一般是结账时留一点零钱，数额随意。
+价目表上的价格是含税价，通常也含服务费，会注明 service compris（服务费已含）。小费不是必须给的，一般是结账时留一点零钱，数额随意。
 
 :cta
 
 ## 面包店里买可颂
 
-面包店（boulangerie）的流程更短：进门说 Bonjour，指着柜台里的东西说 Un croissant, s'il vous plaît。店员多半会问 Ce sera tout ?（se se-ha tu，就这些吗），你回答 Oui, c'est tout, merci（wi, sai tu, maih-si）就行。要两个就把数量放在前面：Deux croissants, s'il vous plaît（dö khua-sang, sil vu plai），deux 的 x 和 croissants 的 s 都不读。想买法棍就说 Une baguette, s'il vous plaît（ü-n ba-gait）。柜台上写着 tradition 的法棍，按法国 1993 年的法令，只能用小麦面粉、水、盐和酵母或酸面团来做，全程不能冷冻，也不能加添加剂（法令只允许加少量蚕豆粉、大豆粉和麦芽粉）。付完钱说一句 Merci, bonne journée，再走。
+面包店（boulangerie）的流程更短：进门说 Bonjour，指着柜台里的东西说 Un croissant, s'il vous plaît。店员多半会问 Ce sera tout ?（se se-ha tu，就这些吗），你回答 Oui, c'est tout, merci（wi, sai tu, maih-si）就行。要两个就把数量放在前面：Deux croissants, s'il vous plaît（dö khua-sang, sil vu plai），deux 的 x 和 croissants 的 s 都不读。想买法棍就说 Une baguette, s'il vous plaît（ün ba-gait）。付完钱说一句 Merci, bonne journée，再走。
 
-## 听一段点单和买单
+柜台上写着 tradition 的法棍受法令约束。按法国 1993 年的法令，它只能用小麦面粉、水、盐和酵母或酸面团来做，制作过程中不能冷冻。除了按面粉重量计最多 2% 的蚕豆粉、0.5% 的大豆粉和 0.3% 的麦芽粉，不能再加别的添加剂。
 
-:::sluchanie[title="在咖啡馆点单和买单"]
+## 听一段点单和付款
+
+:::sluchanie[title="在咖啡馆点单和付款"]
 Bonjour ! Vous désirez ? | 您好！您想点什么？
 Bonjour. Un café crème et un croissant, s'il vous plaît. | 您好。请给我一杯奶咖和一个可颂。
 Sur place ou à emporter ? | 在这里吃还是带走？
 Sur place. | 在这里吃。
 Très bien. Ce sera tout ? | 好的。就这些吗？
 Oui, c'est tout, merci. | 是的，就这些，谢谢。
-L'addition, s'il vous plaît. | 请结账。
-Voilà. Vous payez par carte ? | 给您。刷卡吗？
+Vous payez par carte ? | 您刷卡吗？
 Oui, par carte. | 是的，刷卡。
 Merci, bonne journée ! | 谢谢，祝您今天愉快！
 Vous aussi ! | 您也是！
