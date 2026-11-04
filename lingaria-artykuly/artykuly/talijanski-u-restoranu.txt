@@ -1,0 +1,98 @@
+tytul: Talijanski u restoranu: fraze za naručivanje, coperto i plaćanje računa
+opis: Što reći konobaru u Italiji: stol, narudžba, coperto, račun i zahvala, s izgovorom po hrvatskom pravopisu i zamkama koje najčešće čekaju Hrvate.
+data: 2026-11-04
+zaktualizowano: 2026-11-04
+status: szkic
+dzial: praktyka
+poziom: A1-A2
+autor:
+tagi: talijanski, restoran, coperto, fraze, izgovor
+powiazane:
+jezyk_docelowy: it
+jezyk_tekstu: hr
+zdjecie_pomysl: Stol u talijanskoj trattoriji s jelovnikom i košaricom kruha
+---
+Račun u talijanskom restoranu često sadrži stavku koju niste naručili: coperto, naknadu po osobi za stolnjak, pribor, a često i kruh. Iznos se razlikuje od lokala do lokala, obično je nekoliko eura po osobi, a mora biti jasno ispisan na jelovniku.
+
+Izgovor pišem hrvatskim pravopisom, a naglašeni slog velikim slovima. U talijanskom je naglasak najčešće na predzadnjem slogu.
+
+## Što vam je već poznato
+
+Pola jelovnika Hrvat već razumije. Pršut zvuči kao prosciutto, škampi su scampi, salata je insalata, a u Dalmaciji se tjestenina često zove pašta, baš kao pasta. Konoba ima bliske rođake: osteria i trattoria su tradicionalno skromniji lokali, često obiteljski vođeni, a ristorante je obično nešto svečaniji, iako se ta razlika danas često briše.
+
+Jedna je zamka. Bevanda je u Dalmaciji vino pomiješano s vodom, a u Italiji je bevanda bilo koje piće. Ako konobaru kažete "una bevanda", pitat će vas što točno želite.
+
+## Tri zamke u izgovoru
+
+Prva je slovo c. Hrvat ga čita kao c, a Talijan ispred e i i kao č. Zato je cena (večera) ČE-na, cinque (pet) ČIN-kve, a gelato dže-LA-to, jer se g ispred e i i čita kao dž. Isto vrijedi za "cin cin" (zdravica), koje se čita čin čin. Ch i gh ispred e i i čitaju se kao k i g: chianti je KJAN-ti, a spaghetti spa-GET-ti. Sc ispred e i i je š (pesce, riba, PEŠ-še), ali ispred a, o i u ostaje sk, pa su scampi SKAM-pi, a ne škampi. Sch ispred e čita se sk, pa je bruschetta bru-SKET-ta.
+
+Druga je gn i gl. Gn je nj (gnocchi je NJOK-ki), a gli je lj (tovaglia, stolnjak, je to-VA-lja). Treća zamka su udvojeni suglasnici. U talijanskom se dvostruki suglasnik izgovara dulje i mijenja značenje: sete je žeđ, sette je sedam. Ho sete znači žedan sam, a Siamo in sette znači sedmero nas je. U hrvatskom dvostruki suglasnik rijetko mijenja značenje, pa ga treba vježbati naglas.
+
+:uwaga
+Z se u talijanskom čita kao ts ili dz, ovisno o riječi: pizza je PIT-ca, grazie GRAT-cje. Hrvatski c odgovara glasu ts, pa ga slobodno koristite, samo nemojte čitati z kao u riječi "zebra".
+:koniec
+
+## Coperto, servizio i račun
+
+Coperto je fiksan iznos po osobi, bez obzira na to što naručite. Državni zakon ga ne zabranjuje niti ograničava, ali iznos mora biti jasno naveden na jelovniku ili cjeniku, a ako nije, stavku možete osporiti. U regiji Lazio, kojoj pripada i Rim, regionalni zakon iz 2006. (br. 21) izričito zabranjuje dodatne troškove za coperto. Račun tamo ipak nije uvijek bez dodataka: lokali često naplaćuju kruh ili uslugu. Servizio je naknada za posluživanje i, kao i coperto, treba biti istaknut. Provjerite jelovnik prije narudžbe, a ako niste sigurni, pitajte: Quanto costa il coperto?
+
+Napojnica u Italiji nije obveza. Često se račun samo zaokruži ili se na stolu ostavi nekoliko eura. Račun konobar neće donijeti sam od sebe, jer bi to moglo djelovati kao da vas požuruje. Tražite ga riječima Il conto, per favore.
+
+Kod narudžbe pomaže znati kako se talijanski obrok slaže. Antipasto je predjelo, primo je tjestenina, rižoto ili juha, a secondo meso ili riba. Prilog se zove contorno i naručuje se zasebno, dok secondo obično dolazi sam na tanjuru. Konobar će vas često pitati i Naturale o frizzante?, to jest negazirana ili gazirana voda. Voda se u pravilu naručuje u boci i naplaćuje.
+
+:cta
+
+## Dvanaest fraza za stol
+
+:frazy
+Buonasera, un tavolo per due, per favore. | bvo-na-SE-ra, un TA-vo-lo per DU-e per fa-VO-re | Dobra večer, stol za dvoje, molim. | Buonasera se kaže već u kasno poslijepodne, ne tek kad padne mrak.
+Ho prenotato a nome di Horvat. | o pre-no-TA-to a NO-me di HOR-vat | Rezervirao sam na ime Horvat. | H u riječi ho je nijemo. Prenotato nema roda, pa isto kažu i muškarac i žena.
+Che cosa ci consiglia? | ke KO-za či kon-SI-lja | Što nam preporučujete? | Consiglia je uljudan oblik (Lei). Gli čita se lj.
+Prendo il risotto ai funghi. | PREN-do il ri-ZOT-to ai FUN-gi | Uzet ću rižoto s gljivama. | Prendo, doslovno "uzimam", najčešći je način narudžbe. Gh ispred i daje g.
+Acqua naturale, per favore. | AK-kva na-tu-RA-le per fa-VO-re | Negaziranu vodu, molim. | Alternativa je acqua frizzante, gazirana. Voda se u pravilu naplaćuje.
+Quanto costa il coperto? | KVAN-to KO-sta il ko-PER-to | Koliko košta coperto? | Pitajte prije narudžbe, ako ga ne vidite na jelovniku.
+Il servizio è incluso? | il ser-VIT-cjo e in-KLU-zo | Je li usluga uključena? | Servizio je naknada za posluživanje, a ne napojnica. Zio se čita cjo, s dužim c.
+Il conto, per favore. | il KON-to per fa-VO-re | Račun, molim. | Konobar ga ne nosi sam od sebe. Tražite ga čim završite s kavom.
+Posso pagare con la carta? | POS-so pa-GA-re kon la KAR-ta | Mogu li platiti karticom? | Pitanje na kraju obroka. Posso ima dvostruko s, zadržite ga malo dulje.
+Grazie, era tutto ottimo. | GRAT-cje E-ra TUT-to OT-ti-mo | Hvala, sve je bilo izvrsno. | Kad konobar upita je li sve u redu, ovo je običan odgovor.
+Cin cin! | čin čin | Živjeli! | Pri nazdravljanju. C ispred i je č, ne c.
+Buon appetito! | bvon ap-pe-TI-to | Dobar tek! | Kažu ga svi za stolom, a odgovor je Grazie, altrettanto.
+:koniec
+
+:cwiczenie fiszki
+
+## Razgovor s konobarom
+
+:::sluchanie[title="Poslušajte razgovor u restoranu"]
+Buonasera. Avete prenotato? | Dobra večer. Jeste li rezervirali?
+Sì, a nome di Horvat, per due. | Da, na ime Horvat, za dvoje.
+Prego, da questa parte. | Izvolite, ovuda.
+Che cosa ci consiglia? | Što nam preporučujete?
+Oggi abbiamo un ottimo risotto ai funghi. | Danas imamo izvrstan rižoto s gljivama.
+Perfetto, prendo quello. | Odlično, uzimam to.
+Da bere? | Za piće?
+Acqua naturale, per favore. | Negaziranu vodu, molim.
+Il conto, per favore. | Račun, molim.
+Ecco il conto. Nel totale c'è anche il coperto. | Izvolite račun. U ukupnom iznosu je i coperto.
+:::
+
+:::quiz[id="talijanski_restoran_q1" title="Što ste zapamtili?"]
+Pytanie: Što je coperto?
+- Fiksna naknada po osobi za stolnjak i pribor. [correct]
+- Napojnica konobaru.
+- Predjelo koje dolazi besplatno.
+Wyjaśnienie: Coperto je iznos po osobi, različit od restorana do restorana. Mora biti ispisan na jelovniku.
+Pytanie: Kako se izgovara cena (večera)?
+- ČE-na. [correct]
+- CE-na.
+- KE-na.
+Wyjaśnienie: C ispred e i i čita se kao č. Isto vrijedi za cinque, ČIN-kve, i za cin cin.
+Pytanie: Što znači pitanje Naturale o frizzante?
+- Negazirana ili gazirana voda? [correct]
+- Domaće ili kupovno vino?
+- Tjestenina ili rižoto?
+Wyjaśnienie: Konobar pita kakvu vodu želite. Acqua naturale je negazirana, acqua frizzante je gazirana.
+:::
+
+:::modal-trigger[target="quiz" id="talijanski_restoran_q1" label="Provjerite znanje"]
+:::

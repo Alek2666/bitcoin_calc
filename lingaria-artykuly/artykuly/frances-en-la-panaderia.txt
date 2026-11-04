@@ -1,0 +1,82 @@
+tytul: Francés en la panadería: frases para pedir baguette, croissant y pain au chocolat
+opis: Frases en francés para la boulangerie: saludar, pedir baguette, croissant y pain au chocolat, pagar y despedirse, con pronunciación en ortografía española.
+data: 2026-11-04
+zaktualizowano: 2026-11-04
+status: szkic
+dzial: praktyka
+poziom: A1
+autor:
+tagi: francés, panadería, boulangerie, baguette, croissant
+powiazane: portugues-en-lisboa-cafe-y-pastel-de-nata
+jezyk_docelowy: fr
+jezyk_tekstu: es
+zdjecie_pomysl: Mostrador de una boulangerie con baguettes en un cesto y croissants en la vitrina
+---
+## En la boulangerie el pan viene después del saludo
+
+Puedes decir «une baguette, s'il vous plaît» con una pronunciación impecable y aun así sonar seco, si antes no has dicho «bonjour». En una panadería francesa se entra saludando, se pide y se sale despidiéndose.
+
+Al entrar: «Bonjour», y «madame» o «monsieur» si te diriges a quien atiende. Al salir: «Au revoir, bonne journée». Si te contestan «Vous aussi», es un «igualmente». Al caer la tarde el saludo pasa a ser «bonsoir» y la despedida «bonne soirée». Con el personal de la tienda se usa normalmente «vous», no «tu».
+
+## Cómo se pide
+
+Hay dos fórmulas muy corrientes: «Je voudrais...» (querría) y «Je vais prendre...» (voy a tomar, me llevo). Detrás van el artículo y el producto: «une baguette» (femenino), «un croissant» (masculino). Si son varios, se pone el número delante: «deux croissants», «trois pains au chocolat».
+
+Cuando ya has pedido algo, el vendedor suele preguntar si quieres algo más. No hay una fórmula única: se oyen «Et avec ceci ?» y «Ce sera tout ?» (a veces «Ça sera tout ?»). Para cerrar el pedido basta con «Oui, ce sera tout, merci».
+
+## Baguette, tradition y bien cuite
+
+En el mostrador suele haber dos tipos de baguette: la normal y la «baguette tradition». La segunda tiene una definición legal. Según el decreto de 1993 sobre el «pain de tradition française», se hace con harina de trigo, agua y sal, fermentada con levadura, masa madre o ambas, sin aditivos y sin congelar en ningún momento. En la práctica los clientes piden también «une tradition» a secas. Si te gusta la corteza más oscura, añade «bien cuite»; para una más clara, «pas trop cuite».
+
+Con el pain au chocolat hay una diferencia regional. En el suroeste de Francia, en Toulouse o Burdeos, la misma pieza se llama «chocolatine».
+
+## Once frases para el mostrador
+
+:frazy
+Bonjour, madame. | bo(n)-zhur, ma-dam | Buenos días, señora. | Primero se saluda y después se pide. Con un hombre, «Bonjour, monsieur» (me-siö).
+Je voudrais une baguette, s'il vous plaît. | zhe vu-dre ün ba-guet, sil vu ple | Querría una baguette, por favor. | La fórmula educada. En la tienda se trata de «vous».
+Une baguette tradition, bien cuite. | ün ba-guet tra-di-sio(n), bie(n) küit | Una baguette tradition, bien cocida. | Por decreto, el «pain de tradition française» no lleva aditivos ni se congela: harina de trigo, agua, sal y levadura o masa madre. «Bien cuite» pide una corteza más tostada.
+Un croissant, s'il vous plaît. | e(n) krua-sa(n), sil vu ple | Un croissant, por favor. | Para varios: «deux croissants». La «t» final no suena.
+Un pain au chocolat, s'il vous plaît. | e(n) pe(n) o sho-ko-la, sil vu ple | Un pain au chocolat (bollo relleno de chocolate), por favor. | Dos serían «deux pains au chocolat». En el suroeste de Francia le dicen «chocolatine».
+Et avec ceci ? | e a-vek se-si | ¿Algo más? (literalmente «¿Y con esto?») | Una de las preguntas habituales del vendedor cuando ya has pedido algo. Otra es «Ce sera tout ?».
+Ce sera tout, merci. | se sra tu, mer-si | Eso es todo, gracias. | Así cierras el pedido. «Sera» se oye casi como «sra».
+C'est combien ? | se ko(m)-bie(n) | ¿Cuánto es? | Para pagar. La «m» de «combien» solo nasaliza la vocal.
+Je peux payer par carte ? | zhe pö pe-ié par kart | ¿Puedo pagar con tarjeta? | Útil si no llevas efectivo. Aquí la «t» de «carte» sí suena.
+Au revoir, bonne journée ! | o re-vuar, bon zhur-né | Adiós, que tenga un buen día. | Al salir. «Bonne» lleva una «n» sonora, a diferencia de «bon».
+Vous aussi ! | vu-zo-si | ¡Igualmente! | Respuesta a «Bonne journée». La «s» de «vous» suena como «z» al unirse con «aussi».
+:koniec
+
+:cwiczenie fiszki
+
+:uwaga
+El francés no tiene acento de palabra como el español, por eso la pronunciación figurada va sin mayúsculas: todas las sílabas pesan casi igual y solo la última de cada grupo se alarga un poco. Entre paréntesis va la «n» o «m» que no se pronuncia, solo nasaliza la vocal: «bo(n)-zhur», «pe(n)». «ü» es una i con los labios redondeados como para decir u, y «ö» es una e con los labios redondeados. «zh» suena como la «y» de «yo» pronunciada con roce, parecida a la «ll» de Buenos Aires. La «r» francesa se hace al fondo de la garganta, como una jota suave. Las consonantes finales suelen ser mudas («petit», «trop», «beaucoup»), salvo cuando se enlazan con la palabra siguiente.
+:koniec
+
+:cta
+
+## Qué es una boulangerie y qué no
+
+La palabra «boulangerie» está protegida por una ley del 25 de mayo de 1998. Solo puede llamarse así el negocio donde el panadero amasa, da forma, fermenta y hornea el pan en el propio local donde lo vende. Un punto de cocción que solo hornea masa o panes hechos en otra parte no puede usar el nombre.
+
+El 30 de noviembre de 2022 la UNESCO inscribió en su lista del patrimonio cultural inmaterial «el saber hacer artesanal y la cultura del pan baguette».
+
+:::quiz[id="panaderia_q1" title="Comprueba lo que recuerdas"]
+Pytanie: ¿Qué dices al entrar en una boulangerie?
+- Bonjour, madame. [correct]
+- Au revoir, madame.
+- Je voudrais, madame.
+Wyjaśnienie: Primero se saluda con «bonjour»; el pedido viene después. «Au revoir» es la despedida.
+Pytanie: ¿Qué lleva por decreto una baguette tradition?
+- Harina, agua, sal y levadura o masa madre [correct]
+- Harina, agua, sal y aditivos
+- Harina, mantequilla y azúcar
+Wyjaśnienie: El decreto de 1993 prohíbe los aditivos y la congelación en el «pain de tradition française».
+Pytanie: En Toulouse un cliente pide una «chocolatine». ¿Qué le sirven?
+- Un pain au chocolat [correct]
+- Un chocolate caliente
+- Una tarta de chocolate
+Wyjaśnienie: En el suroeste de Francia «chocolatine» es el nombre regional del pain au chocolat.
+:::
+
+:::modal-trigger[target="quiz" id="panaderia_q1" label="Pon a prueba tu francés"]
+:::

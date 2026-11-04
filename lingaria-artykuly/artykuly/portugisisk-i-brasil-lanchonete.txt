@@ -1,0 +1,90 @@
+tytul: Portugisisk i Brasil: bestille på lanchonete og be om regningen
+opis: Brasiliansk portugisisk på lanchonete med uttale i norsk skrivemåte: bestille suco og pão de queijo, spørre om pris, betale og takke riktig som mann eller kvinne.
+data: 2026-11-04
+zaktualizowano: 2026-11-04
+status: szkic
+dzial: praktyka
+poziom: A1-A2
+autor:
+tagi: portugisisk, Brasil, lanchonete, bestille, regningen
+powiazane:
+jezyk_docelowy: pt
+jezyk_tekstu: no
+zdjecie_pomysl: en glassmonter med coxinhas og pão de queijo bak en disk
+---
+Lanchonete er stedet i Brasil der du spiser noe lite og raskt. Ordet kommer av lanche, en matbit eller et lett måltid. Du står gjerne ved en disk med en glassmonter full av salgados, salte snacks som coxinha (frityrstekt deig fylt med kylling) og pastel (friterte lommer med fyll), og bestiller det du peker på.
+
+:uwaga
+Slik leser du uttalen. Trykktung stavelse står med store bokstaver. Jeg skriver portugisisk o som å (por blir pår) og portugisisk u som o (suco blir SO-ko), siden norsk u høres annerledes ut. Nasal vokal markerer jeg med ã (ão er omtrent «au» sagt gjennom nesen, og quanto blir KVÃ-to) eller med ng etter vokalen: um blir ong, bom blir bång, sem blir seng og conta blir KÅNG-ta. K er alltid hard k, også foran i (aqui blir a-KI, ikke som norsk «kino»). I store deler av Brasil blir d og t foran i, og foran e på slutten av ord, til dj og tsj: dia er DJI-a og leite er LEI-tsji. Her høres dj som engelsk j i «jeans», med d-en på plass, ikke som norsk «djerv». R først i et ord og dobbelt rr høres omtrent som h (rio blir HI-o). J er som i fransk «je» (zj), lh er lj og nh er nj. L på slutten av en stavelse høres som u: pastel blir pas-TEU.
+:koniec
+
+## Suco, vitamina og pão de queijo
+
+Juice heter suco i Brasil. I Portugal heter det sumo. Fruktene er ofte ikke de samme som hjemme: suco de maracujá (pasjonsfrukt), de abacaxi (ananas) og de caju (frukten fra cashewnøttreet). Vil du ha uten sukker, sier du sem açúcar. Uten is er sem gelo.
+
+En vitamina har ingenting med vitamintabletter å gjøre. I Brasil er det frukt blendet med melk, for eksempel vitamina de banana.
+
+Pão de queijo er små osteboller fra Minas Gerais. Tradisjonelt lages de av polvilho, stivelse fra maniok, og ost, ikke av hvetemel. I São Paulo bestiller mange «pão na chapa e uma média» til frokost: brød stekt på plate med smør, og en média, som i São Paulo betyr kaffe med melk.
+
+## Bestille ved disken
+
+Det vanlige er «me dá um…» (gi meg en…) eller den mer høflige «eu queria um…» (jeg ville gjerne ha en…). Uformelt hører du også «me vê um…», for eksempel i bakeriene i São Paulo. Verbet betyr egentlig «se», men her fungerer det omtrent som «gi meg».
+
+Portugisisk deler vårt «takk» i to. «Por favor» sier du når du ber om noe, og «obrigado» eller «obrigada» når du får det. Her er det hvem som snakker som avgjør, ikke hvem du snakker med: en mann sier obrigado og en kvinne obrigada. Uformelt sier mange «valeu».
+
+Noen steder betaler du først ved kassen (caixa), andre steder får du en lapp (comanda) som du leverer ved kassen når du går. Se på hva de andre gjør, eller spør. Vil du ta maten med, sier du «pra viagem» eller «pra levar».
+
+:::sluchanie[title="På lanchonete"]
+Boa tarde! O que vai ser? | God ettermiddag! Hva skal det være?
+Oi! Eu queria um pão de queijo e um suco de maracujá. | Hei! Jeg ville gjerne ha en pão de queijo og en maracujájuice.
+Com ou sem açúcar? | Med eller uten sukker?
+Sem açúcar, por favor. | Uten sukker, takk.
+É pra comer aqui ou pra levar? | Skal du spise her eller ta med?
+Pra comer aqui. Quanto fica? | Her. Hvor mye blir det?
+Pode pagar no caixa. | Du kan betale i kassen.
+Aceita cartão? | Tar dere kort?
+Aceita, sim. | Ja, det gjør vi.
+Obrigada! | Takk!
+:::
+
+:cta
+
+## Regningen
+
+Regningen heter conta. Du ber om den med «a conta, por favor», eller spør «quanto fica?» (hvor mye blir det?). «Aceita cartão?» spør du om de tar kort. Ved kortbetaling kan du bli spurt «débito ou crédito?» (debet eller kreditt). Noen steder kan du også spørre «aceita Pix?». Pix er det brasilianske systemet for øyeblikkelige betalinger mellom bankkontoer. Blir du spurt hvordan du vil betale, svarer du «cartão» (kort) eller «dinheiro» (kontanter).
+
+På restaurant står det ofte et servicegebyr (taxa de serviço) på rundt 10 prosent på regningen. Forbrukerorganisasjonen Idec mener at gebyret er frivillig, så se etter det på regningen og spør hvis du er usikker.
+
+## Elleve fraser til disken
+
+:frazy
+Oi! Tudo bem? | OI, TO-do beng | Hei! Alt bra? | «Oi» er det vanlige uformelle «hei» i Brasil. På «tudo bem?» svarer du «tudo bem» eller «tudo, e você?».
+Bom dia | bång DJI-a | God morgen | «Bom dia» sier du om morgenen og fram mot lunsj, «boa tarde» utover ettermiddagen og «boa noite» om kvelden.
+Me dá um pão de queijo, por favor | mi DA ong pãu dji KEI-zjo, pår fa-VÅR | Gi meg en pão de queijo, takk | Slik bestiller man ved disken. Pão de queijo er osteboller av maniokkstivelse.
+Eu queria um suco de laranja, sem gelo | EU ke-RI-a ong SO-ko dji la-RÃ-zja, seng ZJE-lo | Jeg ville gjerne ha en appelsinjuice, uten is | «Queria» er den høflige formen. «Suco» er brasiliansk, i Portugal heter det «sumo».
+Uma vitamina de banana | O-ma vi-ta-MI-na dji ba-NÃ-na | En bananadrikk med melk | Frukt blendet med melk, omtrent som en smoothie.
+Uma coxinha e um pastel | O-ma ko-SJI-nja i ong pas-TEU | En coxinha og en pastel | Salgados, salte snacks fra glassmontren. Coxinha er deig fylt med kylling, pastel er en fritert lomme.
+É pra comer aqui ou pra levar? | æ pra ko-MER a-KI å pra le-VAR | Skal du spise her eller ta med? | Spørsmålet du får ved disken. «Pra viagem» betyr også «ta med».
+Quanto fica? | KVÃ-to FI-ka | Hvor mye blir det? | Det vanlige spørsmålet når du skal betale.
+Aceita cartão? | a-SEI-ta kar-TÃU | Tar dere kort? | Ão i cartão er nasal, omtrent «au» gjennom nesen.
+A conta, por favor | a KÅNG-ta, pår fa-VÅR | Regningen, takk | Den vanlige måten å be om regningen på, både på restaurant og i baren.
+Obrigado / Obrigada | o-bri-GA-do / o-bri-GA-da | Takk | Mannen sier obrigado og kvinnen obrigada, uansett hvem de takker.
+:koniec
+
+:::quiz[id="lanchonete_q1" title="Hva husker du?"]
+Pytanie: Hva betyr «suco» på brasiliansk portugisisk?
+- Juice [correct]
+- Suppe
+- Sukker
+Wyjaśnienie: «Suco» er juice i Brasil. I Portugal heter det «sumo», og «sem açúcar» betyr «uten sukker».
+Pytanie: Hvordan takker en kvinne i Brasil?
+- Obrigado.
+- Obrigada. [correct]
+- De nada.
+Wyjaśnienie: Det er den som snakker som bestemmer formen: en kvinne sier obrigada og en mann obrigado. «De nada» betyr «ingen årsak».
+Pytanie: Hva er pão de queijo tradisjonelt laget av?
+- Hvetemel og skinke
+- Ris og bønner
+- Maniokkstivelse (polvilho) og ost [correct]
+Wyjaśnienie: Osteballene fra Minas Gerais lages tradisjonelt av polvilho, stivelse fra maniok, og ost, ikke av hvetemel.
+:::

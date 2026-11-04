@@ -1,0 +1,90 @@
+tytul: Portugués en Lisboa: frases para pedir un café y un pastel de nata
+opis: Frases en portugués de Portugal para pedir una bica o un galão y un pastel de nata, con pronunciación en ortografía española y las trampas del oído hispano.
+data: 2026-11-04
+zaktualizowano: 2026-11-04
+status: szkic
+dzial: praktyka
+poziom: A1
+autor:
+tagi: portugués, Lisboa, café, pastel de nata, pronunciación
+powiazane: frances-en-la-panaderia
+jezyk_docelowy: pt
+jezyk_tekstu: es
+zdjecie_pomysl: Mostrador de una pastelaria de Lisboa con una bandeja de pastéis de nata y una taza de bica
+---
+## El portugués escrito se entiende, el hablado no tanto
+
+Si hablas español, el portugués escrito se lee casi solo. El hablado es otra cosa. En Lisboa «pastéis de nata» suena más o menos «pash-TEISH d' NA-ta», y el oído español busca en vano las vocales que han desaparecido. Para pedir un café y un bollo bastan diez frases, que se pueden ensayar antes del viaje.
+
+## Qué pedir y cómo se llama
+
+En Lisboa un café solo se pide como «uma bica»; en Oporto se dice «cimbalino». «Um café» vale en las dos ciudades. Para el café con leche los nombres y las medidas varían según el local. Un «galão» lleva más leche y suele servirse en vaso alto. La «meia de leite» es más o menos mitad café y mitad leche, y suele llegar en taza. El «abatanado» es un café largo, alargado con agua.
+
+«Por favor» vale en todas partes, pero en Portugal se oye mucho «se faz favor» (o «faz favor»), sobre todo para llamar la atención del camarero.
+
+El pastel de nata es el bollo más famoso de Lisboa. En plural se dice «pastéis de nata». Solo la Antiga Confeitaria de Belém, abierta en 1837, vende «pastéis de Belém»; en el resto de Lisboa son «pastéis de nata». Muchos clientes les echan canela y azúcar glas («canela» y «açúcar em pó»).
+
+## Diez frases para el mostrador
+
+:frazy
+Bom dia! | bon DI-a | ¡Buenos días! | Se dice al entrar. Después de comer se pasa a «boa tarde».
+Uma bica, se faz favor. | u-ma BI-ka, s' fash fa-VOR | Un café solo, por favor. | «Bica» es el café solo de Lisboa; en Oporto, «cimbalino». «Se faz favor» es el «por favor» más propio de Portugal.
+Um galão, por favor. | un ga-LAUN, pur fa-VOR | Un galão (café con mucha leche), por favor. | Lleva más leche que la «meia de leite», que es más o menos mitad y mitad.
+Um pastel de nata, por favor. | un pash-TEL d' NA-ta, pur fa-VOR | Un pastel de nata, por favor. | En singular «pastel», en plural «pastéis». «Por» sin acento suena casi «pur».
+Dois pastéis de nata, se faz favor. | doish pash-TEISH d' NA-ta, s' fash fa-VOR | Dos pastéis de nata, por favor. | Para pedir más, cambias el número y dejas el plural en «-éis».
+Com canela, por favor. | kon ka-NE-la, pur fa-VOR | Con canela, por favor. | Así lo toma mucha gente, con canela y azúcar glas (açúcar em pó).
+Tem pastéis de nata? | tein pash-TEISH d' NA-ta | ¿Tienen pastéis de nata? | «Tem» es «tiene»: a quien atiende le hablas con el verbo en tercera persona, sin pronombre. Se oye casi «tein», con la vocal por la nariz.
+Para comer aqui ou para levar? | pa-ra ku-MER a-KI o pa-ra l'-VAR | ¿Para tomar aquí o para llevar? | La pregunta del mostrador. Respondes «Para comer aqui» o «Para levar».
+Quanto é? | KUAN-tu E | ¿Cuánto es? | Para pagar. También se dice «A conta, se faz favor», la cuenta.
+Obrigado. / Obrigada. | u-bri-GA-du / u-bri-GA-da | Gracias. | Concuerda con quien habla: un hombre dice «obrigado», una mujer «obrigada».
+:koniec
+
+:cwiczenie fiszki
+
+:cta
+
+## Tres trampas para el oído hispano
+
+La primera son las vocales nasales: «pão», «não», «mãe», y también la «m» final de «bom», «um» o «tem». La vocal sale por la nariz y la consonante final casi no se cierra. «Pão» no se pronuncia «pan» ni «pa-on».
+
+La segunda son las vocales átonas. La «o» final suena «u» («obrigado» se oye «u-bri-GA-du») y la «e» sin acento casi desaparece, por eso «de» queda en un simple «d'».
+
+La tercera es la «s» al final de sílaba o de palabra. En «dois», «pastéis» o «cafés» suena como «sh».
+
+Y dos letras más que vigilar: la «j», igual que la «g» ante «e» o «i», suena como la «j» francesa y no como la jota española, y la «v» en el habla de Lisboa es una v de verdad, con los dientes sobre el labio inferior, no una b.
+
+:uwaga
+En la pronunciación figurada las mayúsculas marcan la sílaba tónica y las «n» tras vocal solo indican que la vocal es nasal, no que haya que cerrar la boca con una «n» española. «d'» es una «e» casi muda. La pronunciación es la del portugués de Portugal, la de Lisboa.
+:koniec
+
+## Cuatro falsos amigos
+
+Entre el portugués y el español hay muchísimas palabras parecidas, pero estas cuatro no significan lo mismo.
+
+- «esquisito» significa raro o extraño. Para decir que algo está rico, se dice «está delicioso» o «é uma delícia».
+- «polvo» es el pulpo. El polvo de la casa se dice «pó».
+- «presunto» es el jamón curado, y no un presunto sospechoso.
+- «cena» es una escena de película. La cena se dice «jantar».
+
+En una carta, el contexto aclara «polvo» y «presunto». Con «esquisito» no: «O pastel está esquisito» no es un cumplido.
+
+:::quiz[id="lisboa_q1" title="Comprueba lo que recuerdas"]
+Pytanie: ¿Cómo pides un café solo en Lisboa?
+- Uma bica, se faz favor. [correct]
+- Um galão, se faz favor.
+- Uma meia de leite, se faz favor.
+Wyjaśnienie: «Bica» es el café solo de Lisboa. El «galão» y la «meia de leite» son cafés con leche.
+Pytanie: Eres una mujer y das las gracias en una pastelaria. ¿Qué dices?
+- Obrigada. [correct]
+- Obrigado.
+- Obrigadas.
+Wyjaśnienie: «Obrigado» y «obrigada» concuerdan con quien habla, no con quien escucha.
+Pytanie: ¿Qué hay en el plato si pides «polvo»?
+- Pulpo [correct]
+- Jamón
+- Una escena de película
+Wyjaśnienie: «Polvo» es el pulpo. El jamón curado es «presunto» y la escena se dice «cena».
+:::
+
+:::modal-trigger[target="quiz" id="lisboa_q1" label="Pon a prueba tu portugués"]
+:::

@@ -1,0 +1,94 @@
+tytul: Ruotsi kaupassa ja kahvilassa: tilaa kahvi, kysy hinta ja maksa
+opis: Kahvin ja kanelbullen tilaaminen, hinnan kysyminen ja maksaminen ruotsiksi suomalaisittain kirjoitetulla ääntämyksellä. Mukana maksaa-sanan kaksi ruotsinkielistä vastinetta.
+data: 2026-11-04
+zaktualizowano: 2026-11-04
+status: szkic
+dzial: praktyka
+poziom: A1-A2
+autor:
+tagi: ruotsi, kahvila, kauppa, kanelbulle, maksaminen
+powiazane:
+jezyk_docelowy: sv
+jezyk_tekstu: fi
+zdjecie_pomysl: Kahvilan tiski, jolla kanelbulle-pullia ja kahvikannu
+---
+Ruotsin sanat tack (kiitos) ja tak (katto) eroavat vain yhden kirjaimen verran, ja juuri tämä ero on suomalaisen ensimmäinen ääntämisansa. Kun vokaalia seuraa kaksi konsonanttia (tai ck), vokaali on lyhyt ja konsonantti kuulostaa pitkältä: tack lausutaan ”takk”. Kun konsonantteja on yksi, vokaali on yleensä pitkä: tak on ”taak”. Suomessa kaksi samaa kirjainta tarkoittaa pitkää äännettä, ruotsissa kaksi konsonanttia kertoo ennen kaikkea sen, että vokaali on lyhyt. Tack on se sana, jonka sanot kahvilassa useimmin, joten se kannattaa opetella heti oikein.
+
+Ääntämys on kirjoitettu suomalaisittain ja noudattaa Ruotsin ruotsia. Suomenruotsi kuulostaa osittain erilaiselta: sana ursäkta (anteeksi) lausutaan Ruotsissa ”uu-SHEK-ta”, jossa rs kuulostaa sh-äänteeltä, ja Suomessa tavallisesti ”uur-SEK-ta”, jossa r ja s kuuluvat erikseen. Painotus on kummassakin toisella tavulla.
+
+## Kolme asiaa, jotka eroavat suomesta
+
+Ensimmäinen on vokaalin pituus, josta jo puhuttiin. Toinen on u. Ruotsin pitkä u on jotain suomen u:n ja y:n väliltä, eikä suomessa ole vastaavaa ääntä. Kirjoitan sen u:lla (duu), mutta ääni on etisempi kuin suomen u. Ruotsin y sen sijaan on lähes sama kuin suomen y, ja å on o.
+
+Kolmas on paino. Suomessa paino on aina ensimmäisellä tavulla, ruotsissa ei: be-TAA-la (maksaa), kon-TANT (käteinen), ursäkta. Isot kirjaimet ääntämyksessä näyttävät painollisen tavun. Lisäksi sanan lopusta putoaa usein konsonantti: jag (minä) kuuluu ”jaa”, vad (mitä) ”vaa” ja det (se) ”dee”.
+
+## Kahvilassa
+
+Fika tarkoittaa kahvitaukoa makean kanssa, ja sana toimii sekä verbinä että substantiivina. Tavallisin tilaus on Kan jag få en kaffe, tack? eli suunnilleen ”voinko saada kahvin”. Sanakirjoissa kaffe on ett-sana (kaffet), mutta Ruotsin kieli- ja kansanperinneinstituutin (Isof) kielineuvonta mainitsee en kaffe ja ett kaffe esimerkkinä sanoista, joiden suku vaihtelee. Annosta tilatessa en kaffe on tavallinen, ja sen voi ajatella lyhennykseksi sanoista en kopp kaffe.
+
+Kanelbulle on kanelilla maustettu pulla, jonka taikinassa on tavallisesti myös kardemummaa. Lähin suomalainen vastine on korvapuusti, ja Suomen ruotsinkieliset käyttävät siitä myös nimeä örfil. Påtår tarkoittaa jälkitäyttöä, melkein aina kahvin. Monessa ruotsalaisessa kahvilassa se kuuluu kahvin hintaan, ja hinnastossa lukee esimerkiksi påtår ingår. Jos et näe mainintaa, kysy Ingår påtår? eli kuuluuko jälkitäyttö hintaan. Jos kahvikannu on asiakkaiden ulottuvilla, se on usein merkki siitä, että saa kaataa itse, ja epävarmana voi aina kysyä.
+
+Tiskillä kysytään usein, syötkö paikan päällä: Äta här eller ta med? Vastaus on Här tai Ta med.
+
+:uwaga
+Suomen maksaa on ruotsissa kaksi sanaa. Kosta on ”maksaa” hinnasta puhuttaessa: Vad kostar det? Betala on ”maksaa” rahaa kassalle: Kan jag betala med kort? Jos sekoitat ne, kassa ymmärtää silti, mutta lause kuulostaa suomesta käännetyltä.
+:koniec
+
+## Kassalla
+
+Ruotsissa maksetaan kruunuilla (kronor), ei euroilla, ja hintalapussa lukee kr. Kassa kysyy yleensä Kort eller kontant?, kortilla vai käteisellä. Joissakin kahviloissa ja pienissä liikkeissä on kyltti kontantfri, jolloin käteistä ei oteta lainkaan, joten korttia kannattaa pitää mukana. Ruokakauppoja ja apteekkeja koskee kesällä 2026 voimaan tullut laki, joka velvoittaa ne pääsääntöisesti ottamaan käteistä vastaan, mutta kahvilaa se ei koske. Lopuksi kysytään Vill du ha kvitto? ja vastataan Ja, tack tai Nej, tack.
+
+Kun myyjä ojentaa kahvin tai vaihtorahan, hän sanoo usein Varsågod. Se tarkoittaa ”olkaa hyvä” ja toimii myös vastauksena kiitokseen. Anteeksi-sanoja on kaksi. Ursäkta on huomion hakemiseen tai tilan pyytämiseen ohi kulkiessa, förlåt sanotaan jälkikäteen, kun on tehnyt jotain väärin.
+
+:cta
+
+## Kaksitoista sanaa ja lausetta
+
+:frazy
+Hej! | hei | Hei! | Käy kaikille, myös myyjälle ja tuntemattomille. Kahdesti sanottuna (hej hej) se on myös hyvästi.
+Hej då! | hei DOO | Hei hei! / Näkemiin! | Tavallisin hyvästi. Kassalta lähtiessä sanotaan usein Tack, hej då.
+Ursäkta! | uu-SHEK-ta | Anteeksi! | Huomion hakemiseen ja ohi kulkiessa. Jälkikäteen sanotaan yleensä förlåt. Suomenruotsissa sana kuuluu tavallisesti uur-SEK-ta.
+Kan jag få en kaffe, tack? | kan jaa foo en KAF-fe, takk | Saisinko kahvin, kiitos? | Tavallisin kohtelias tilaustapa. Sanakirjoissa kaffe on ett-sana, mutta annosta tilatessa en kaffe on tavallinen.
+En kanelbulle också, tack. | en ka-NEEL-bul-le OK-so, takk | Ja kanelbulle myös, kiitos. | Ruotsin korvapuusti, kanelipulla. Paino on sanan kanel toisella tavulla. Sana också tarkoittaa ”myös” ja kuuluu ”OK-so”.
+Här eller ta med? | häär EL-ler taa meed | Tänne vai mukaan? | Kysymys kuuluu usein kokonaan Äta här eller ta med? Vastaa Här tai Ta med.
+Vad kostar det? | vaa KOS-tar dee | Mitä se maksaa? | Kosta tarkoittaa ”maksaa” hinnasta puhuttaessa. Rahan maksamiseen on toinen sana, betala.
+Kan jag betala med kort? | kan jaa be-TAA-la med kort | Voinko maksaa kortilla? | Paino on keskitavulla, be-TAA-la, ei ensimmäisellä kuten suomessa.
+Kort eller kontant? | kort EL-ler kon-TANT | Kortilla vai käteisellä? | Kassan kysymys. Kyltti kontantfri tarkoittaa, ettei käteistä oteta.
+Vill du ha kvitto? | vil duu haa KVIT-to | Haluatko kuitin? | Kysytään kassalla, vastaus on Ja, tack tai Nej, tack. Du-sanan u on se ruotsin oma u-ääni.
+Varsågod. | VAR-so-GUUD | Olkaa hyvä. | Sanotaan, kun ojennetaan jotain: kahvi, kuitti, vaihtoraha. Toimii myös vastauksena kiitokseen. Sanassa on kaksi painoa, ensimmäisellä ja viimeisellä tavulla.
+Tack så mycket. | takk soo MYK-ke | Kiitos paljon. | Mycket (paljon) kirjoitetaan ck:lla, joten y on lyhyt ja k pitkä: ”myk-ke”.
+:koniec
+
+:cwiczenie fiszki
+
+## Kahvilakeskustelu
+
+:::sluchanie[title="Kuuntele keskustelu kahvilassa"]
+Hej! Kan jag få en kaffe, tack? | Hei! Saisinko kahvin, kiitos?
+Javisst. Något mer? | Toki. Jotain muuta?
+En kanelbulle också, tack. | Kanelbulle myös, kiitos.
+Här eller ta med? | Tänne vai mukaan?
+Här, tack. | Tänne, kiitos.
+Det blir sextio kronor. | Se tekee kuusikymmentä kruunua.
+Kan jag betala med kort? | Voinko maksaa kortilla?
+Absolut. Varsågod. | Totta kai. Olkaa hyvä.
+Tack så mycket! Hej då! | Kiitos paljon! Hei hei!
+:::
+
+:::quiz[id="ruotsi_kahvila_q1" title="Muistatko sanat?"]
+Pytanie: Miten sana tack (kiitos) lausutaan?
+- ”takk”, lyhyt a ja pitkä k. [correct]
+- ”taak”, pitkä a ja lyhyt k.
+- ”tak”, kaikki äänteet lyhyitä.
+Wyjaśnienie: Ruotsissa kaksi konsonanttia (tai ck) tekee edellisestä vokaalista lyhyen. Sana tak (katto) lausutaan pitkällä a:lla.
+Pytanie: Mitä sanaa käytät, kun kysyt hintaa?
+- Vad kostar det? [correct]
+- Vad betalar det?
+- Vad får det?
+Wyjaśnienie: Kosta on ”maksaa” hinnasta puhuttaessa. Betala tarkoittaa rahan maksamista kassalle.
+Pytanie: Mitä tarkoittaa kysymys Här eller ta med?
+- Tänne vai mukaan? [correct]
+- Kortilla vai käteisellä?
+- Yksi vai kaksi?
+Wyjaśnienie: Kahvilassa kysytään, syötkö paikan päällä vai otatko mukaan. Kortti vai käteinen on Kort eller kontant?
+:::

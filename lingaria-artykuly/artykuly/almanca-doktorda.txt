@@ -1,0 +1,115 @@
+tytul: Almanca doktorda: randevu, şikâyet, rapor ve reçete için cümleler
+opis: Almanya'da doktora randevu alırken, şikâyetinizi anlatırken ve rapor ya da reçete isterken işinize yarayacak Almanca cümleler, Türkçe okunuşlarıyla.
+data: 2026-11-04
+zaktualizowano: 2026-11-04
+status: szkic
+dzial: praktyka
+poziom: A2
+autor:
+tagi: almanca, doktor, randevu, rapor, reçete
+powiazane:
+jezyk_docelowy: de
+jezyk_tekstu: tr
+---
+Almanya'da doktora gitmek bir *Termin* ile, yani randevuyla başlar. Çoğu muayenehane randevuyla çalışır, bu yüzden önce telefon açarsınız ya da internetten randevu alırsınız. MHRS'ye alışkın biri için bu tanıdık gelir. Fark, telefonun öbür ucundaki kişinin Almanca konuşmasıdır.
+
+## Okunuşu nasıl okuyacaksınız
+
+Vurgulu heceyi büyük harfle yazıyorum. Türkçe konuşan biri olarak Almancanın bazı zor seslerine zaten sahipsiniz:
+
+- *ü* ve *ö* Almancada da Türkçedeki gibidir (*Überweisung*, *möchte*).
+- *sch* Türkçedeki *ş* gibidir (*Schmerzen*), *tsch* ise *ç* gibidir.
+- *w* sesi *v* olur (*weh*), *v* çoğunlukla *f* olur (*Verband*), *z* sesi *ts* olur (*Zahn*), ünlüden önceki *s* sesi *z* olur (*Sie*), *j* sesi *y* olur.
+- *ei* sesi *ay*, *eu* sesi *oy* olur, *ie* uzun bir *i*dir. *au*, *a* ile *u*'yu arka arkaya, tek hecede söylemektir.
+- *ch* iki türlüdür. *i*, *e*, *ö*, *ü* ve *ei*'den sonra (*ich*) dilin ortası damağa yaklaşır, *a*, *o*, *u*'dan sonra (*noch*) boğazdan gelir. İkisini de *h* ile yazıyorum, ama hiçbiri *ş* değildir.
+
+## Randevu almak: Termin vereinbaren
+
+Telefonda önce *einen Termin vereinbaren* istediğinizi söylersiniz. Resepsiyondaki kişi büyük olasılıkla *Gesetzlich oder privat versichert?* diye sorar. Almanya'da sağlık sigortası ya *gesetzlich*, yani yasal sağlık sigortasıdır (AOK ve TK gibi sağlık sandıkları, almancası *Krankenkasse*), ya da *privat*, yani özel sigortadır.
+
+İlk ziyarette *Gesundheitskarte*, yani sağlık kartınızı gösterirsiniz. Muayenehane kartı her *Quartal*, yani her takvim çeyreğinde (üç aylık dönem: ocak-mart, nisan-haziran gibi) ilk görüşmede okutur. Aynı çeyrekte tekrar giderseniz genellikle yeniden okutmaları gerekmez, yeni çeyrekte ise kartı yine yanınıza almalısınız.
+
+İlk durak genellikle *Hausarzt*, yani aile hekimidir. Uzman hekime *Facharzt* denir. Uzmana giderken Hausarzt'tan *Überweisung*, yani sevk almak çoğu zaman işi kolaylaştırır. 116 117 numarasındaki randevu hizmeti de uzman randevusu için kural olarak sevk ister. Göz ve kadın doğum doktorları bu kuralın dışındadır, ayrıntılar eyalete göre değişebilir.
+
+Acil durumda arayacağınız numara Türkiye'dekiyle aynıdır: 112. Akşam ve hafta sonu, acil olmayan şikâyetler için nöbetçi hekim hizmeti 116 117'dir, Almancası *ärztlicher Bereitschaftsdienst*.
+
+## Şikâyeti anlatmak
+
+Doktor *Was fehlt Ihnen?* (Neyiniz var?) ya da *Wo tut es weh?* (Neresi ağrıyor?) diye sorar. Cevap için iki kalıp yeter. Birincisi *Mir tut ... weh*, kelimesi kelimesine “bana ... ağrıyor”: *Mir tut der Kopf weh*. İkincisi *Ich habe ...schmerzen*: *Kopfschmerzen* (baş ağrısı), *Bauchschmerzen* (karın ağrısı), *Halsschmerzen* (boğaz ağrısı), *Zahnschmerzen* (diş ağrısı). Bu kalıplarda *Schmerzen* çoğul kullanılır, Türkçede “ağrı” tekil olsa da.
+
+Zaman için *seit* kullanırsınız: *seit drei Tagen*, yani “üç gündür”. Türkçede bunu tek bir ek yapar (-dir), Almancada karşılığı *seit* sözcüğüdür. *Ich habe seit drei Tagen Fieber* ise “üç gündür ateşim var” demektir.
+
+:frazy
+Ich möchte einen Termin vereinbaren. | ih MÖH-te AY-nen ter-MİN fer-AYN-ba-ren | Randevu almak istiyorum. | Telefonda söylenen ilk cümle. Termin hem randevu hem belirlenmiş tarih demektir.
+Ich bin gesetzlich versichert. | ih bin ge-ZETS-lih fer-Zİ-hert | Yasal sağlık sigortalısıyım. | Resepsiyon gesetzlich mi privat mı diye sorar. AOK ve TK gibi sağlık sandıkları gesetzlich tarafındadır.
+Ich habe seit drei Tagen starke Schmerzen. | ih HA-be zayt dray TA-gen ŞTAR-ke ŞMER-tsen | Üç gündür şiddetli ağrılarım var. | Seit ile zaman söylemek Türkçedeki -dir ekinin karşılığıdır. Bu kalıpta Schmerzen çoğuldur.
+Mein Rücken tut weh. | mayn RÜ-ken tut vey | Sırtım ağrıyor. | Rücken hem sırt hem bel demektir. Belinizi kastediyorsanız unterer Rücken, yani alt sırt denir. Başka söyleyiş: Mir tut der Rücken weh.
+Ich habe Fieber und Husten. | ih HA-be Fİ-ber unt HUS-ten | Ateşim var ve öksürüyorum. | Fieber ateş, Husten öksürüktür. Doktor ateşi sorarsa Haben Sie Fieber? der.
+Ich bin allergisch gegen Penicillin. | ih bin a-LER-giş GE-gen pe-ni-tsi-LİN | Penisiline alerjim var. | Allergisch gegen ile alerjinin türünü söylersiniz. Doktorun mutlaka bilmesi gereken bir cümle.
+Ich nehme regelmäßig Medikamente. | ih NE-me RE-gel-me-sih me-di-ka-MEN-te | Düzenli ilaç kullanıyorum. | Doktor Nehmen Sie Medikamente? diye sorar. Nehmen, Türkçedeki “almak” gibi hem ilaç hem başka şeyler için kullanılır.
+Ich brauche eine Krankschreibung. | ih BRAU-he AY-ne KRANK-şray-bung | Rapora ihtiyacım var. | Krankschreibung doktorun yazdığı rapordur. İşvereni bilgilendirmek ayrı bir iş: sich krankmelden.
+Ich brauche eine Überweisung zum Facharzt. | ih BRAU-he AY-ne ü-ber-VAY-zung tsum FAH-artst | Uzman hekime sevk kâğıdı lazım. | Überweisung Türkçedeki sevke denk gelir. Genellikle Hausarzt'tan istenir.
+Kann ich ein Rezept bekommen? | kan ih ayn re-TSEPT be-KO-men | Reçete alabilir miyim? | Almanya'da yasal sigortalılara reçete bugün çoğunlukla elektroniktir (E-Rezept). Eczanede kartınız okutulur.
+Dreimal täglich eine Tablette. | DRAY-mal TE-klih AY-ne ta-BLE-te | Günde üç kez bir tablet. | Doktorun ya da eczacının cümlesi. Einmal ve zweimal de aynı kalıpla kullanılır. Vor dem Essen yemekten önce, nach dem Essen yemekten sonra demektir.
+Ist das rezeptfrei? | ist das re-TSEPT-fray | Bu reçetesiz mi? | Eczanede sorulur. Rezeptfrei reçetesiz, rezeptpflichtig reçeteli demektir.
+:koniec
+
+:cwiczenie fiszki
+
+## Rapor: Krankschreibung ve Krankmeldung
+
+Türkçede rapor tek kelime. Almancada iki ayrı iş var. Doktor sizi raporlu yazar, yani *jemanden krankschreiben*: *Ich schreibe Sie bis Freitag krank.* Siz de işyerinize hastalığınızı bildirirsiniz, yani *sich krankmelden*. Bildirimi vakit kaybetmeden yaparsınız, yani hastalandığınız gün.
+
+:cta
+
+:uwaga
+Doktorun verdiği belgenin adı *Arbeitsunfähigkeitsbescheinigung*, kısaca *AU*. Hastalık üç takvim gününden uzun sürerse belgenin kural olarak dördüncü güne kadar (en geç ertesi iş günü) hazır olması gerekir; işveren isterse belgeyi ilk günden de talep edebilir. Yasal sigortalılar için belge 2023'ten beri elektroniktir (*eAU*): doktor belgeyi sağlık sandığına gönderir, işveren oradan alır, siz kâğıt götürmezsiniz. İşverene haber vermek (*Krankmeldung*) yine sizin göreviniz. Özel sigortalıysanız ya da muayene yurt dışındaysa kâğıt belgeyi kendiniz iletmeniz gerekir.
+:koniec
+
+## Reçete ve eczane
+
+1 Ocak 2024'ten beri yasal sigortalılar için pembe kâğıt reçetenin yerini büyük ölçüde *E-Rezept* aldı. Pembe kâğıt, evde ziyaret ya da teknik arıza gibi istisnalarda hâlâ çıkabilir. Eczanede sağlık kartınızı okuyucuya takarsınız ya da kod gösterirsiniz. Eczanelerin tabelasında çoğunlukla büyük kırmızı bir *A* harfi olur, o yüzden uzaktan tanınır.
+
+Yasal sigortalıların reçeteli ilaçta *Zuzahlung*, yani ek ödemesi vardır: ilaç fiyatının yüzde 10'u, en az 5 euro, en çok 10 euro. İlaç 5 euro'dan ucuzsa fiyatı kadar ödersiniz. 18 yaşından küçükler bu ek ödemeden muaftır. Reçetesiz ilaca *rezeptfrei*, reçeteli ilaca *rezeptpflichtig* denir.
+
+:::modal-trigger[target="quiz" id="doktor_q1" label="Bilginizi sınayın"]
+:::
+
+## İki kısa konuşma
+
+:::sluchanie[title="Telefonda randevu"]
+Praxis Dr. Weber, guten Morgen. | Dr. Weber muayenehanesi, günaydın.
+Guten Morgen. Ich möchte einen Termin vereinbaren. | Günaydın. Randevu almak istiyorum.
+Sind Sie gesetzlich oder privat versichert? | Kamu sigortalısınız yoksa özel mi?
+Gesetzlich. Ich habe seit drei Tagen Fieber und Husten. | Kamu. Üç gündür ateşim ve öksürüğüm var.
+Können Sie heute um elf Uhr kommen? | Bugün saat on birde gelebilir misiniz?
+Ja, gern. | Evet, olur.
+Bringen Sie bitte Ihre Gesundheitskarte mit. | Lütfen sağlık kartınızı getirin.
+:::
+
+:::sluchanie[title="Muayenede"]
+Was fehlt Ihnen? | Neyiniz var?
+Mein Rücken tut weh, seit Montag. | Sırtım ağrıyor, pazartesiden beri.
+Haben Sie Fieber? | Ateşiniz var mı?
+Nein, aber ich brauche eine Krankschreibung. | Hayır, ama rapora ihtiyacım var.
+Ich schreibe Sie bis Freitag krank. | Sizi cumaya kadar raporlu yazıyorum.
+Vielen Dank, Frau Doktor. | Çok teşekkürler, doktor hanım.
+:::
+
+:::quiz[id="doktor_q1" title="Bilginizi sınayın"]
+Pytanie: Doktor “Ich schreibe Sie bis Freitag krank” derse ne yapmış olur?
+- Rapor yazmış olur [correct]
+- İşvereninize haber vermiş olur
+- Reçete yazmış olur
+Wyjaśnienie: Krankschreiben doktorun rapor yazmasıdır. İşverene haber vermek ise sich krankmelden ile söylenir.
+Pytanie: “Seit drei Tagen” ne demektir?
+- Üç gündür [correct]
+- Üç gün sonra
+- Üç gün önce
+Wyjaśnienie: Seit, geçmişte başlayıp hâlâ süren bir durumu anlatır ve Türkçedeki -dir ekine denk gelir. Üç gün önce vor drei Tagen, üç gün sonra in drei Tagen olur.
+Pytanie: Reçeteli bir ilaçta yetişkin yasal sigortalı ek ödeme olarak ne öder?
+- Fiyatın yüzde 10'unu, en az 5 en çok 10 euro [correct]
+- Hiçbir şey ödemez
+- İlacın bütün fiyatını
+Wyjaśnienie: Bu ek ödemeye Zuzahlung denir. İlaç 5 euro'dan ucuzsa ilacın fiyatı kadar ödenir.
+:::

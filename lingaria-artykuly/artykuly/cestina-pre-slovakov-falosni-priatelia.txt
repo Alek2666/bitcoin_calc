@@ -1,0 +1,107 @@
+tytul: Čeština pre Slovákov: falošní priatelia, pozdravy a nákup v českom obchode
+opis: Slováci rozumejú češtine takmer všetko, ale horký, kapusta či syrový znamenajú v Česku niečo iné. Pozdravy, nákup a výslovnosť ř, ě a ů slovenským pravopisom.
+data: 2026-11-04
+zaktualizowano: 2026-11-04
+status: szkic
+dzial: praktyka
+poziom: A2
+autor:
+tagi: čeština, falošní priatelia, nákup, výslovnosť, Česko
+powiazane:
+jezyk_docelowy: cs
+jezyk_tekstu: sk
+zdjecie_pomysl: Regál s čokoládami v českom obchode, jedna z nich s nápisom "hořká"
+---
+Horká čokoláda je v Česku nápoj, na Slovensku tmavá tabuľka. Tmavú tabuľku volajú Česi hořká čokoláda, a rozdiel je v jedinom písmene. Takých dvojíc je dosť a ťažko si ich všimnúť, pretože čeština a slovenčina sa podobajú natoľko, že si väčšinou rozumieme bez učenia. Nikto vás neopraví, a tak môže Slovák roky opakovať tú istú chybu.
+
+Výslovnosť píšem slovenským pravopisom a prízvuk veľkými písmenami. Prízvuk je v češtine pevne na prvej slabike slova, rovnako ako v slovenčine, takže ho značím len pri frázach.
+
+## Rozdiely, ktoré sa dajú naučiť ako pravidlo
+
+České ou je slovenské ú: mouka a múka, louka a lúka, koupit a kúpiť. České é zodpovedá často slovenskému ie: mléko a mlieko, chléb a chlieb. České ů zodpovedá často slovenskému ô: kůň a kôň, stůl a stôl, nůž a nôž. Slovenské ľ v češtine nenájdete, je tam obyčajné l: koľko je kolik, ľudia sú lidé. A infinitív končí na -t, nie na -ť: kupovat, nie kupovať.
+
+## Falošní priatelia v obchode
+
+Najzradnejšie sú slová, ktoré vyzerajú rovnako a znamenajú niečo iné, lebo im Slovák verí.
+
+- České horký je slovenské horúci: horký čaj je horúci čaj. Slovenské horký (trpký) je po česky hořký. Preto je hořká čokoláda tmavá tabuľka a horká čokoláda nápoj.
+- České kapusta (hlávková alebo kučeravá) je po slovensky kel. Slovenskú kapustu volajú Česi zelí.
+- České syrový znamená surový: syrové maso, syrové vejce. To, čo súvisí so syrom, je po česky sýrový, s dlhým ý.
+- České spravit znamená opraviť. Keď Slovák povie „spravil som to“, Čech to často pochopí ako „opravil som to“. Slovenské robiť je po česky dělat a urobiť je udělat.
+- České pokoj je izba, napríklad v hoteli, ale aj kľud. Slovenské pokoj je kľud, nie izba.
+- České stávka je štrajk. Stávka, na ktorú vsádzame peniaze, je po česky sázka.
+- České pivnice je hostinec s pivom. Slovenská pivnica pod domom je po česky sklep.
+
+:uwaga
+Sloveso spraviť počujete na Slovensku na každom kroku, od „spravím to“ po „spravil si to dobre“. Česi to však často pochopia ako „opravím to“ alebo „opravil jsi to dobře“. V češtine radšej používajte udělat.
+:koniec
+
+## Výslovnosť: ř, ě, ů a dlhé samohlásky
+
+- Písmeno ř. Slovenčina ho nemá. Vyslovuje sa ako r a ž naraz, jedným pohybom jazyka: třešně je TRŽEŠ-ňe, dobře DOB-rže. Ak ho nezvládnete, nahraďte ho zvukom „rž“, bude to zrozumiteľné.
+- Písmeno ě. Mení spôsob, ako sa číta spoluhláska pred ním. Po d, t a n ju zmäkčuje: děkuji je ĎE-ku-ji, ještě JEŠ-ťe, něco ŇE-co. Po b, p a v sa číta ako bje, pje, vje: pět je pjet. Po m sa číta mňe: město je MŇES-to.
+- Písmeno ů. Je to dlhé u, rovnako ako ú. Píše sa len vo vnútri slova, na začiatku slova stojí ú.
+- Rytmické pravidlo. Slovenčina nepustí dve dlhé slabiky hneď za sebou, preto je krásny s krátkym y, ale dobrý s dlhým. Čeština takéto pravidlo nemá, takže v slove krásný sú dlhé obe samohlásky. Slovák ich často skráti.
+- Písmená h a ch. Znejú ako v slovenčine, netreba ich trénovať.
+
+## Pozdravy a nákup
+
+Pri vstupe do obchodu sa v Česku hovorí dobrý den a pri odchode na shledanou. Slovenské dovidenia a české na shledanou znamenajú v podstate to isté. Písmená „sh“ v shledanou sa čítajú ako „sch“, čiže NA schle-da-nou. Ahoj je pozdrav aj rozlúčka, rovnako ako u nás, ale predavačke povieme dobrý den.
+
+Pri pulte sa predavač pýta Co to bude? alebo jednoducho Prosím? a vy odpovedáte Dám si a názov tovaru. Rozdiel proti slovenčine je skôr v slovách ako v gramatike. Zemiaky sú v češtine brambory, paradajky rajčata, uhorky okurky a rožok rohlík. Zľava je po česky sleva a pokladňa je pokladna. Platí sa v korunách (Kč), nie v eurách. Pokladník sa pýta Kartou, nebo hotově? a hotově znamená v hotovosti.
+
+:cta
+
+## Dvanásť fráz
+
+:frazy
+Dobrý den | DOB-rí den | Dobrý deň | Pri vstupe do obchodu aj pri pulte. Na rozdiel od „ahoj“ je vhodný pre každého.
+Ahoj | A-hoj | Ahoj, čau | Pozdrav aj rozlúčka. Pre ľudí, ktorých poznáte, nie pre predavačku.
+Na shledanou | NA schle-da-nou | Dovidenia | Pri odchode. Písmená „sh“ sa čítajú ako sch.
+Co to bude? | CO to BU-de | Čo to bude? | Pýta sa predavač alebo čašník pri pulte. Odpoveď začína slovami Dám si.
+Dám si dva rohlíky. | DÁM si dva ROH-lí-ky | Dám si dva rožky. | Dám si funguje aj v slovenčine. Rohlík je slovenský rožok, rohlíky sú rožky.
+Kolik to stojí? | KO-lik to STO-jí | Koľko to stojí? | České kolik nemá ľ. Odpoveď nájdete na cenovke v korunách.
+Máte třešně? | MÁ-te TRŽEŠ-ňe | Máte čerešne? | Slovo třešně obsahuje ř, tak to je dobrá skúška výslovnosti.
+Jedno kilo brambor. | JED-no KI-lo BRAM-bor | Jedno kilo zemiakov. | Brambory sú české zemiaky. Po „kilo“ stojí genitív množného čísla, brambor.
+Mohu platit kartou? | MO-hu PLA-tit KAR-tou | Môžem platiť kartou? | Mohu je formálnejšie, hovorovo sa povie Můžu platit kartou?
+Kartou, nebo hotově? | KAR-tou NE-bo HO-to-vje | Kartou, alebo v hotovosti? | Otázka pokladníka. Nebo je české alebo.
+Ještě něco? | JEŠ-ťe ŇE-co | Ešte niečo? | Pýta sa predavač pred zaplatením. Odpoveď je Ne, děkuji.
+To je všechno, děkuji. | TO je VŠE-chno, ĎE-ku-ji | To je všetko, ďakujem. | Takto skončíte nákup. V hovorovej češtine často počujete děkuju.
+:koniec
+
+:cwiczenie fiszki
+
+## Nákup v obchode
+
+:::sluchanie[title="Vypočujte si rozhovor v obchode"]
+Dobrý den. | Dobrý deň.
+Dobrý den, co to bude? | Dobrý deň, čo to bude?
+Dám si dva rohlíky a půl kila třešní. | Dám si dva rožky a pol kila čerešní.
+Prosím. Ještě něco? | Prosím. Ešte niečo?
+Ne, děkuji. To je všechno. | Nie, ďakujem. To je všetko.
+To bude sto dvacet korun. | To bude sto dvadsať korún.
+Kartou, nebo hotově? | Kartou, alebo v hotovosti?
+Kartou, prosím. | Kartou, prosím.
+Děkuji, na shledanou. | Ďakujem, dovidenia.
+:::
+
+:::quiz[id="cestina_slovaci_q1" title="Čo si pamätáte?"]
+Pytanie: Čo je v češtine „horká čokoláda“?
+- Nápoj z horúcej čokolády. [correct]
+- Tmavá čokoláda v tabuľke.
+- Čokoláda s korením.
+Wyjaśnienie: Horká čokoláda je v češtine nápoj. Tmavej tabuľkovej čokoláde sa po česky hovorí hořká čokoláda.
+Pytanie: Čo znamená české „syrový“?
+- Surový. [correct]
+- So syrom.
+- Slaný.
+Wyjaśnienie: Syrové maso je surové mäso. To, čo súvisí so syrom, je po česky sýrový.
+Pytanie: Ako sa vyslovuje české ř?
+- Ako r a ž naraz. [correct]
+- Ako obyčajné r.
+- Ako čisté ž.
+Wyjaśnienie: Ř je zvuk, ktorý v slovenčine nie je. Vyslovuje sa ako r a ž naraz, preto třešně je TRŽEŠ-ňe.
+:::
+
+:::modal-trigger[target="quiz" id="cestina_slovaci_q1" label="Otestujte sa"]
+:::

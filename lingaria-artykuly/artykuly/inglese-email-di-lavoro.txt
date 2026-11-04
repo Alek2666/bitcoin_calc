@@ -1,0 +1,111 @@
+tytul: Email di lavoro in inglese: come aprire, chiedere e chiudere senza sembrare rigidi
+opis: Frasi per scrivere email di lavoro in inglese, con pronuncia: Dear Mr o Hi, I am writing to, Could you please, Kind regards e il livello di formalità giusto.
+data: 2026-11-04
+zaktualizowano: 2026-11-04
+status: szkic
+dzial: praktyka
+poziom: B1
+autor:
+tagi: inglese, email di lavoro, formule, Kind regards, inglese commerciale
+powiazane:
+jezyk_docelowy: en
+jezyk_tekstu: it
+zdjecie_pomysl: una scrivania con laptop aperto su una casella di posta e una tazza di caffè
+---
+Un'email di lavoro in italiano vive di formule: «Gentile Dottor Rossi», «In allegato Le invio», «Resto in attesa di un Suo riscontro», «Distinti saluti». Tradotte parola per parola in inglese diventano frasi che un madrelingua non scriverebbe. L'email inglese tende a essere più corta e più diretta, e il grado di formalità dipende da poche scelte precise: come apri, quanto ammorbidisci la richiesta e come chiudi.
+
+:uwaga
+Come leggere la pronuncia. L'accento è in maiuscolo. «th» si dice con la lingua tra i denti, non come «s» o «d», e «dh» è la stessa «th» sonora di «the». La «h» si soffia (in italiano è muta). «tch» suona come la «ci» di «ciao», «dj» come la «g» di «giro», «sci» come in «scena», «iu» è «you». Dove vedi «ei» o «ai» la voce scivola da una vocale all'altra.
+:koniec
+
+## Come aprire: Dear, Hi o Hello
+
+Con una persona che non conosci, apri con «Dear» più titolo e cognome: «Dear Mr Taylor,» per un uomo, «Dear Ms Clarke,» per una donna. «Ms» è la scelta sicura perché non rivela se una donna è sposata. «Mrs» e «Miss» vanno usati solo se sai che la persona li preferisce. Nell'inglese britannico «Mr» e «Ms» di solito si scrivono senza punto, in quello americano con il punto: scegli una regola e tienila. Dopo il nome va la virgola.
+
+Qui scatta una trappola tipica degli italiani. In Italia «dottore» spetta a chiunque si sia laureato, e «Gentile Dott. Bianchi» è normalissimo. In inglese «Dr» indica un medico o chi ha un dottorato di ricerca. Se scrivi «Dear Dr Bianchi» a un laureato in economia, chi legge si chiede di che cosa sia dottore. Scrivi «Dear Mr Bianchi,». Lo stesso vale per ingegnere, avvocato e architetto: in inglese di norma non si mettono davanti al cognome.
+
+Se non conosci il nome, la forma classica è «Dear Sir or Madam,». «To whom it may concern» suona freddo e impersonale, quindi se puoi cerca il nome sul sito dell'azienda.
+
+Quando l'altro ti risponde con «Hi» e firma con il nome, passa a «Hi Laura,». La regola pratica è rispecchiare il livello di chi ti scrive. «Dear Laura,» sta a metà strada. Il «Buongiorno» italiano non ha un posto fisso nell'email inglese: «Good morning» funziona solo se sai quando verrà letta, mentre «Hello» va bene a qualsiasi ora.
+
+L'oggetto («Subject») è breve e dice che cosa serve: «Invoice 2043: payment date» si legge in un secondo.
+
+## Perché scrivi: I am writing to
+
+La prima email a una persona apre di solito con «I am writing to» seguito da un verbo: «I am writing to ask about…», «to confirm…», «to follow up on…». Fa il lavoro del nostro «con la presente», ma senza il tono burocratico. Se rispondi a un messaggio, salta la formula e ringrazia: «Thank you for your email.» oppure «Thanks for getting back to me.» Prima della richiesta si mette spesso «I hope you are well.», che è una formula di cortesia e non una domanda.
+
+Per il file, «in allegato» si dice «attached». «Please find attached the report» è la formula classica, un po' formale. «I've attached the report» è più naturale tra colleghi. «Enclosed» è da lettera cartacea.
+
+## Come chiedere: dal secco al molto gentile
+
+L'inglese non ha un «Lei», quindi la cortesia passa dai verbi. Stessa richiesta, quattro gradini:
+
+- «Send me the figures.» Suona come un ordine, salvo tra colleghi molto stretti.
+- «Can you send me the figures?» Va bene tra colleghi che si conoscono.
+- «Could you please send me the figures?» Il livello sicuro per quasi tutto.
+- «I was wondering if you could send me the figures.» Per un favore, o quando la persona non ti deve niente. Simile: «Would you mind sending me the figures?», dove dopo «mind» il verbo va in -ing.
+
+Le scadenze creano un altro errore frequente. «Entro venerdì» è «by Friday». «Until Friday» significa «fino a venerdì»: «I'm away until Friday» dice che torni venerdì. Per «il prima possibile» c'è «as soon as possible», o «ASAP» tra colleghi, ma a un cliente può sembrare una pretesa. «When you have a chance» o «by the end of the week» sono più morbidi.
+
+:cta
+
+## Come chiudere
+
+Prima della firma c'è di solito una riga che invita alla risposta: «I look forward to hearing from you.» Dopo «look forward to» il verbo è in -ing, perché qui «to» è una preposizione e non fa parte dell'infinito. In alternativa, «Please let me know if you have any questions.» al posto di «Resto a disposizione». «Don't hesitate to contact me» è più formale e si incontra ovunque.
+
+Poi la formula di saluto:
+
+- «Kind regards,» è il punto di partenza: neutra, corrisponde a «Cordiali saluti» e va bene quasi sempre.
+- «Best regards,» è equivalente. «Best wishes,» è un po' più calda.
+- «Regards,» da sola è asciutta. «Best,» e «Cheers,» sono per chi si conosce già bene, il secondo soprattutto in Gran Bretagna.
+- «Yours sincerely,» è la chiusura britannica formale quando hai scritto «Dear Mr Taylor,». Con «Dear Sir or Madam,» si chiude con «Yours faithfully,». Negli Stati Uniti si usa «Sincerely,». Nelle email la regola è meno rigida, ma la logica resta: nome conosciuto, «sincerely»; nome ignoto, «faithfully».
+
+:uwaga
+Due falsi amici che compaiono spesso nelle email. «Actually» significa «in realtà», non «attualmente» (che è «currently»). «Eventually» significa «alla fine, prima o poi», non «eventualmente» (che è «if necessary» o «possibly»). «I'll send it eventually» dice a un collega che lo manderai prima o poi.
+:koniec
+
+:::smart-czytanie[title="Un'email completa, riga per riga"]
+Subject: [Invoice|fattura|wymowa: IN-vois] 2043: payment date
+Dear Ms Clarke,
+I hope you are [well|bene|wymowa: uel].
+I am writing to ask when we can expect [payment|pagamento|wymowa: PEI-ment] of invoice 2043.
+I have [attached|allegato|wymowa: a-TATCHT] a copy for your [records|archivi|wymowa: RE-cordz].
+Could you please let me know [by|entro|wymowa: bai] Friday?
+I look forward to [hearing|avere notizie|wymowa: HI-ring] from you.
+Kind regards,
+Marco Bianchi
+:::
+
+## Undici formule da tenere a portata di mano
+
+:frazy
+Dear Mr Taylor, | dir MI-ster TEI-ler | Gentile Signor Taylor, | Titolo e cognome, mai il nome di battesimo. «Mr» si legge «mister» e nell'inglese britannico si scrive senza punto.
+Dear Ms Clarke, | dir MIZ clark | Gentile Signora Clarke, | «Ms» non dice se la donna è sposata: è la scelta sicura quando non sai che cosa preferisce.
+Hi Laura, | hai LO-ra | Ciao Laura, | Solo se l'altro ha già scritto «Hi» e firma con il nome. Prima è meglio «Dear».
+I am writing to ask about… | ai em RAI-ting tu ask a-BAUT | Le scrivo per avere informazioni su… | Apre la prima email. Dopo «to» va un verbo, dopo «about» il tema. In una risposta si salta.
+Could you please send me…? | cud iu pliz send mi | Potrebbe inviarmi…? | «Could» è il livello sicuro, mentre «Send me…» da solo suona come un ordine.
+Please find attached the report. | pliz faind a-TATCHT dhe ri-PORT | In allegato trova il report. | «Allegato» è «attached». Tra colleghi è più naturale «I've attached the report».
+I would appreciate your reply by Friday. | ai ud a-PRI-sci-eit ior ri-PLAI bai FRAI-dei | Gradirei una risposta entro venerdì. | «By» è «entro», «until» è «fino a». Con «until Friday» avresti scritto «fino a venerdì», e la scadenza sparisce.
+Apologies for the delay in replying. | a-PO-lo-djiz for dhe di-LEI in ri-PLAI-ing | Mi scuso per il ritardo nella risposta. | Dopo «delay in» il verbo va in -ing. «Sorry for the delay» è la versione meno formale.
+I look forward to hearing from you. | ai luk FO-ued tu HI-ring from iu | Resto in attesa di una Sua risposta. | Dopo «look forward to» si usa il gerundio, perché qui «to» è una preposizione.
+Please let me know if you have any questions. | pliz let mi nou if iu hav E-ni KUES-tchenz | Mi faccia sapere se ha domande. | Il modo normale di dire «resto a disposizione».
+Kind regards, | kaind ri-GARDZ | Cordiali saluti, | Chiusura neutra che va quasi sempre bene. L'accento cade su «regards».
+:koniec
+
+:::quiz[id="email_q1" title="Sai scrivere la mail giusta?"]
+Pytanie: Un collega ti chiede una risposta «entro venerdì». Come lo scrivi?
+- by Friday [correct]
+- until Friday
+- to Friday
+Wyjaśnienie: «By» significa «entro». «Until» significa «fino a» e indica una durata, per esempio «I'm away until Friday».
+Pytanie: Scrivi al dott. Bianchi, laureato in economia e senza dottorato. Come apri l'email?
+- Dear Doctor Bianchi,
+- Dear Mr Bianchi, [correct]
+- Dear Dott. Bianchi,
+Wyjaśnienie: In inglese «Dr» indica un medico o chi ha un dottorato. Per un laureato si usa «Mr» (o «Ms») con il cognome.
+Pytanie: Hai aperto con «Dear Sir or Madam,». Quale chiusura britannica formale è corretta?
+- Yours sincerely,
+- Yours faithfully, [correct]
+- Cheers,
+Wyjaśnienie: Con un destinatario senza nome si usa «Yours faithfully». «Yours sincerely» va con «Dear Mr Taylor,» e simili, mentre «Cheers» è per chi si conosce già bene.
+:::

@@ -1,0 +1,97 @@
+tytul: French Greetings: Bonjour, Salut and La Bise, and When Each One Fits
+opis: Why bonjour comes before every question in France, when salut and la bise are fine, how tu and vous differ, and the goodbyes that sound natural.
+data: 2026-11-04
+zaktualizowano: 2026-11-04
+status: szkic
+dzial: praktyka
+poziom: A1
+autor:
+tagi: french, greetings, bonjour, salut, la bise, tu and vous
+powiazane: german-sie-or-du, japanese-at-the-konbini
+jezyk_docelowy: fr
+jezyk_tekstu: en
+zdjecie_pomysl: a customer and a baker greeting each other over the counter of a small French boulangerie
+---
+
+In France the first word of almost every exchange is *bonjour*, and leaving it out can come across as rude. You say it before you order, before you ask for directions, and before you ask "do you speak English?". The question comes second: *Bonjour, vous parlez anglais ?*
+
+## Bonjour first, then everything else
+
+When you walk into a small shop, a bakery or a café, you greet the person behind the counter. *Bonjour* alone is fine, and *Bonjour, Madame* or *Bonjour, Monsieur* is better. When you leave, the polite closing is *Merci, au revoir, bonne journée*. In the evening you swap *bonjour* for *bonsoir*. There is no official clock time for the switch. Most people change over as the afternoon turns into evening, and a late *bonjour* does not shock anyone.
+
+*Madame* is the safe choice for any adult woman. French administrative forms dropped *Mademoiselle* after a government circular of 21 February 2012.
+
+:uwaga
+*Bonne nuit* is not a greeting. It means "sleep well" and you say it when you part at night or go to bed. As a hello it sounds strange. In the evening, use *bonsoir* to greet and *bonne soirée* to say goodbye. *Adieu* is also a trap: in standard French it sounds like "farewell, we won't meet again". In some regions, the south-west for example, you may still hear it as a casual hello or goodbye, but as a learner it is safer to skip it.
+:koniec
+
+## Tu or vous
+
+French has two words for "you", just like German *du* and *Sie*. *Vous* is for strangers, shop staff, officials and anyone older whom you do not know well. It also works for several people at once. *Tu* is for family, friends, children and, in many workplaces, colleagues, as well as anyone your own age in a relaxed setting.
+
+The verbs change with the pronoun: *tu vas*, *vous allez*. A greeting for a stranger is *Comment allez-vous ?*, and for a friend *Ça va ?* or *Comment vas-tu ?*. If you want to switch, ask: *On se tutoie ?* ("Shall we use *tu*?"). The older or more senior person usually makes that suggestion.
+
+## Salut, coucou and allô
+
+*Salut* means both "hi" and "bye", but only to people you are on informal terms with: friends, classmates, younger colleagues. To a shop assistant you do not know it is slightly too casual, so use *bonjour* instead. *Coucou* is warmer still, an affectionate hello among close friends and family.
+
+*Allô* is what you say when you answer the phone in France. In Quebec you may also hear it as a casual hello in person.
+
+## La bise
+
+*La bise* is the greeting kiss on the cheek between friends, family and acquaintances. It is usually a light cheek-to-cheek touch with a kissing sound, not a kiss on the skin. The number of kisses depends on where you are: two is the most common, as in Paris. Other places go to three (around Marseille, for example) or even four, and a few stop at one, so watch what the other person does. You do not do it with strangers, with shop staff or in formal situations. For those, a handshake (*une poignée de main*) is the default.
+
+If you meet a friend of a friend and you are not sure, wait for the other person to lean in, or ask: *On se fait la bise ?* In a workplace, some colleagues kiss each other every morning and others shake hands, so follow what your coworkers do.
+
+:cta
+
+## The phrases, with sounds
+
+The pronunciation guides here use (n) for a nasal vowel, *zh* for the sound in "measure" and *ew* for the French *u*. French has no strong stress inside a word. The last syllable of a phrase is a little longer and higher, and that is what the capitals mark.
+
+:frazy
+Bonjour | bo(n)-ZHOOR | Hello / Good morning | The first word in any shop, café or office, before any question. The (n) marks a nasal vowel: do not pronounce a real n.
+Bonjour, Madame | bo(n)-ZHOOR mah-DAHM | Hello, ma'am | Adding Madame or Monsieur makes it polite. Madame is safe for any adult woman.
+Bonsoir | bo(n)-SWAHR | Good evening | Replaces bonjour once the afternoon turns into evening, with no official clock time.
+Salut | sah-LEW | Hi / Bye (informal) | Works both ways, but only with friends or peers. The u is like ee with rounded lips.
+Ça va ? | sah VAH | How's it going? | Both the question and the usual answer: "Ça va, et toi ?". Nobody expects a long reply.
+Comment allez-vous ? | koh-mah(n) tah-lay-VOO | How are you? (formal) | The vous version, for strangers and in a formal setting. The final t of comment is pronounced here, linking into allez.
+Enchanté(e) | ah(n)-shah(n)-TAY | Nice to meet you | A man writes enchanté, a woman enchantée, but both sound the same.
+On se tutoie ? | o(n) suh tew-TWAH | Shall we use tu? | How you propose the switch from vous to tu. Often asked by the older or more senior person.
+On se fait la bise ? | o(n) suh feh lah BEEZ | Shall we do the cheek kiss? | A way to check when you are unsure. Not for strangers.
+Au revoir | oh ruh-VWAHR | Goodbye | The standard goodbye, usually after merci in a shop. Not adieu, which sounds final.
+Bonne journée | bonn zhoor-NAY | Have a good day | Said when parting, or by staff as you leave. The reply is "Vous aussi".
+Bonne soirée | bonn swah-RAY | Have a good evening | The evening version of bonne journée. Bonne nuit is only for going to bed.
+:koniec
+
+## A visit to the bakery
+
+Nobody in a French bakery mentions what they want until both sides have said hello. A whole visit sounds like this:
+
+:::sluchanie[title="Listen to a bakery visit"]
+Bonjour, madame. | Hello, madam.
+Bonjour, monsieur. Vous désirez ? | Hello, sir. What would you like?
+Une baguette, s'il vous plaît. | A baguette, please.
+Voilà. Et avec ceci ? | Here you go. Anything else?
+C'est tout, merci. | That's all, thank you.
+Très bien. Bonne journée ! | Very good. Have a nice day!
+Merci, vous aussi. Au revoir ! | Thanks, you too. Goodbye!
+:::
+
+:::quiz[id="bonjour_q1" title="Test your French greetings"]
+Pytanie: You walk into a small bakery. What should you say first?
+- Une baguette, s'il vous plaît.
+- Au revoir.
+- Bonjour, madame. [correct]
+Wyjaśnienie: A greeting always comes first. The order, the question or the request for help follows afterwards.
+Pytanie: When do you say "bonne nuit"?
+- As a greeting in the evening.
+- When you part at night or go to bed. [correct]
+- When you leave a shop in the afternoon.
+Wyjaśnienie: Bonne nuit means "sleep well". The evening greeting is bonsoir, and the evening goodbye is bonne soirée.
+Pytanie: What is true about la bise?
+- You do it with every shop assistant.
+- The number of kisses depends on the region, and two is the most common. [correct]
+- It is always three kisses everywhere in France.
+Wyjaśnienie: Two is the most common, and some areas use three or four. It is a greeting for friends, family and acquaintances, not for strangers or shop staff.
+:::

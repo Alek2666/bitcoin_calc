@@ -1,0 +1,105 @@
+tytul: Polština pro Čechy: fráze na nákup, falešní přátelé a pasti ve výslovnosti
+opis: Jak se v Polsku zeptat na cenu, koupit chleba a zaplatit kartou. S výslovností českým pravopisem, falešnými přáteli (sklep, czerstwy, jagoda) a pastmi ł, ą, ę a rz.
+data: 2026-11-04
+zaktualizowano: 2026-11-04
+status: szkic
+dzial: praktyka
+poziom: A2
+autor:
+tagi: polština, nákup, falešní přátelé, výslovnost, fráze
+powiazane:
+jezyk_docelowy: pl
+jezyk_tekstu: cs
+zdjecie_pomysl: Pult s pečivem v polské pekárně s cedulkou „chleb“
+---
+Polské slovo sklep znamená obchod, české sklep znamená místnost pod domem. Když vám polská kamarádka napíše „Idę do sklepu“, nechce jít pro brambory, jde nakupovat. Polština je pro Čecha snadná natolik, že většinu slov odhadne. Potíž je v několika slovech, která odhadnout nejde, a ve zvucích, které čeština nemá.
+
+Výslovnost píšu českým pravopisem a přízvuk velkými písmeny.
+
+## Co máme stejné
+
+Základní potraviny se skoro neliší: chleb (chléb), mleko (mléko), masło (máslo), ser (sýr), woda (voda), jabłko (jablko), pieczywo (pečivo). Navíc mezi oběma jazyky platí pravidelné souvislosti hlásek, díky kterým slova poznáte dřív, než je přečtete nahlas. Polské ą odpovídá často české skupině ou nebo samohlásce u: mąka a mouka, łąka a louka, ząb a zub. Polské ę odpovídá často českému ě, u nebo a: pięć a pět, ręka a ruka, mięso a maso. A polské rz bývá tam, kde máme ř: rzeka a řeka.
+
+## Pasti ve výslovnosti
+
+- Přízvuk. Čeština přízvukuje první slabiku, polština téměř vždy předposlední: po-PRO-szę, dzię-KU-ję, prze-PRA-szam. Když budete přízvukovat po česku, Polák vám bude rozumět, ale hned pozná, odkud jste.
+- Písmeno ł. Čte se jako anglické w ve slově water. Čeština nic takového nemá, nejblíž je druhá část dvojhlásky ve slově auto. V přepisu píšu ł jako w: mało se čte MA-wo. Půl se píše pół a čte se „puw“, protože ó je prostě u.
+- Nosovky ą a ę. Před p a b se čtou jako om a em, před t, d, k a g jako on a en: mąka je MON-ka, dziękuję je džen-KU-je. Na konci slova se ę čte jako obyčejné e (proszę je PRO-še), kdežto ą si nosovku drží a zní jako naše ou (kartą je KAR-tou).
+- Skupina rz. Čte se jako ž, nikdy jako české ř. Rzeka je ŽE-ka. Za neznělým p se rz ohlušuje a zní jako š, takže „omlouvám se“ je przepraszam, čtěte pše-PRA-šam. Podobně sz je š, cz je č, dz je dz a dż je dž.
+- Měkké hlásky. Písmena ś, ć, ź a ń (a skupiny si, ci, zi, ni před samohláskou) jsou měkčí varianty š, č, ž a ň. Čech je obvykle čte jako obyčejné š, č, ž, ň a Polák mu rozumí, ale slyšet ten rozdíl se vyplatí.
+- Písmeno h. Čte se stejně jako ch, takže herbata (čaj) je cher-BA-ta. České znělé „h“ polština nemá.
+- Délka samohlásek. Polština dlouhé samohlásky nemá. Mleko se čte krátce, ne „mléko“, a dlouhé „á“ nebo „í“ prostě nehledejte.
+
+## Falešní přátelé u pultu
+
+Slova, která vypadají stejně a znamenají něco jiného, jsou u nákupu nejnebezpečnější, protože jim Čech věří.
+
+- Polské sklep je obchod a české sklep je po polsku piwnica. Naopak české obchod je po polsku sklep, kdežto polské obchód znamená obchůzku, v množném čísle obchody pak oslavy.
+- Polské zboże je obilí a české zboží je po polsku towar. Když uvidíte nápis zboże, nečekejte zboží k prodeji, ale pole nebo pytel obilí.
+- Polské czerstwy chleb je starší, trochu oschlý chléb. Čerstvý je po polsku świeży. Kdo se v pekárně zeptá, jestli je chleba czerstwy, myslí čerstvý, ale prodavačka slyší oschlý.
+- Polské jagoda je borůvka, česká jahoda je po polsku truskawka. „Poproszę pół kilo jagód“ vám tedy dá půl kila borůvek, ne jahod.
+
+:uwaga
+Polské szukać (hledat) se čte „šukat“, což je v češtině vulgární sloveso. V polštině je to obyčejné „hledat“ a uslyšíte ho často: Szukam piekarni, Szukam toalety. Používejte ho bez obav.
+:koniec
+
+## Jak se v Polsku nakupuje
+
+Poláci si v obchodě vykají jinak než my. Místo „vy“ říkají „pan“ nebo „pani“ a sloveso dávají do třetí osoby: Czy chce pani paragon? Česky bychom řekli „Chcete účtenku?“. Při vstupu se zdraví dzień dobry a při odchodu do widzenia, jako u nás.
+
+V Polsku se platí ve zlotých (zł) a grošech, ne v eurech. U pultu s uzeninami se stejně jako u nás často nakupuje na deka. Spisovná polština říká deka, běžně se ale slyší deko: poproszę dwadzieścia deko szynki, dvacet deka šunky. A pozor na neděli. V Polsku platí zákaz nedělního obchodu: většina obchodů je v neděli zavřená a obchodních nedělí (niedziele handlowe) je jen několik za rok. Výjimky mají například čerpací stanice a lékárny.
+
+:cta
+
+## Dvanáct frází pro obchod a pekárnu
+
+:frazy
+Dzień dobry | džeň DOB-ry | Dobrý den | Slova jsou v opačném pořadí než česky. Říká se při vstupu, odchází se s do widzenia.
+Szukam piekarni. | ŠU-kam pje-KAR-ňi | Hledám pekárnu. | Piekarnia je pekárna, piekarni je druhý pád. Význam slova szukać je v rámečku výše.
+Gdzie jest najbliższy sklep? | gdže jest naj-BLIŠ-ši sklep | Kde je nejbližší obchod? | Sklep je tady obchod. Skupina gdz na začátku se čte gdž, bez samohlásky mezi.
+Czy chleb jest świeży? | či chlep jest ŠFJE-ži | Je ten chléb čerstvý? | Na konci slova se b čte jako p, stejně jako v češtině. Kdybyste řekli czerstwy, ptáte se, jestli je oschlý.
+Poproszę pół kilo truskawek. | po-PRO-še puw KI-lo trus-KA-vek | Poprosím půl kila jahod. | Poproszę je běžný způsob, jak si něco objednat. Po kilo následuje druhý pád množného čísla: truskawek.
+Ile to kosztuje? | I-le to koš-TU-je | Kolik to stojí? | Česky se ptáme „kolik to stojí“, polsky se na cenu ptáme slovesem kosztować. Sz se čte š a přízvuk padá na předposlední slabiku: koš-TU-je.
+Czy mogę zapłacić kartą? | či MO-ge za-PWA-čič KAR-tou | Mohu platit kartou? | Po zapłacić následuje 7. pád (čím?). U ženských slov má koncovku -ą, česky -ou: kartą a kartou.
+Poproszę paragon. | po-PRO-še pa-RA-gon | Poprosím účtenku. | Paragon je pokladní doklad. Faktura je daňový doklad a o fakturu musíte požádat zvlášť.
+Proszę bardzo. | PRO-še BAR-dzo | Prosím. / Tady máte. | Stejné slovo jako naše prosím: říká se při podávání zboží i jako odpověď na poděkování.
+Dziękuję. | džen-KU-je | Děkuji. | Ę před k se čte jako en a přízvuk padá na ku, ne na první slabiku.
+Do widzenia. | do vi-DZE-ňa | Na shledanou. | Doslova „do shledání“. Odpověď je znovu do widzenia nebo miłego dnia, hezký den.
+Smacznego! | smač-NE-go | Dobrou chuť! | Říká se před jídlem a často ho slyšíte od obsluhy, když vám jídlo donese. Odpověď: dziękuję, nawzajem (děkuji, vzájemně).
+:koniec
+
+:cwiczenie fiszki
+
+## V pekárně
+
+:::sluchanie[title="Poslechněte si dialog v pekárně"]
+Dzień dobry. W czym mogę pomóc? | Dobrý den. S čím mohu pomoci?
+Dzień dobry. Poproszę chleb i pół kilo truskawek. | Dobrý den. Poprosím chléb a půl kila jahod.
+Proszę bardzo. Coś jeszcze? | Prosím. Ještě něco?
+Nie, dziękuję. To wszystko. | Ne, děkuji. To je všechno.
+To będzie dwadzieścia pięć złotych. | To bude dvacet pět zlotých.
+Czy mogę zapłacić kartą? | Mohu platit kartou?
+Oczywiście. Czy chce pani paragon? | Samozřejmě. Chcete účtenku?
+Tak, poproszę. Do widzenia. | Ano, poprosím. Na shledanou.
+:::
+
+:::quiz[id="polstina_nakup_q1" title="Co si pamatujete?"]
+Pytanie: Co znamená polské sklep?
+- Obchod. [correct]
+- Místnost pod domem, jako v češtině.
+- Skříň.
+Wyjaśnienie: Sklep je po polsku obchod. Místnost pod domem se řekne piwnica. České obchod je v polštině sklep.
+Pytanie: Jaký je czerstwy chleb?
+- Starší a trochu oschlý. [correct]
+- Čerstvý, právě upečený.
+- Žitný.
+Wyjaśnienie: Czerstwy znamená starší, oschlý. Čerstvý chléb je po polsku świeży.
+Pytanie: Jak se čte rz v polském rzeka (řeka)?
+- Jako ž. [correct]
+- Jako české ř.
+- Jako r a z zvlášť.
+Wyjaśnienie: Rz se čte jako ž, ŽE-ka. České ř v polštině neexistuje.
+:::
+
+:::modal-trigger[target="quiz" id="polstina_nakup_q1" label="Vyzkoušejte se"]
+:::

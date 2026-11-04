@@ -1,0 +1,413 @@
+[
+ {
+  "nr": 1,
+  "slug": "niemieckie-rodzajniki-der-die-das",
+  "jezyk_tekstu": "pl",
+  "jezyk_docelowy": "de",
+  "dzial": "gramatyka",
+  "poziom": "A1",
+  "grupa": "W1",
+  "tresc": "German genders for Polish readers: endings that reveal the gender (-ung, -heit, -keit, -schaft, -tion = die; -chen, -lein = das; days, months, seasons = der), the exceptions, and what to do when you do not know. Polish has three genders too, so compare.",
+  "fraza_google": "rodzajniki w niemieckim der die das",
+  "slowa_cel": 1500,
+  "powiazane": [
+   "wloskie-rodzajniki"
+  ]
+ },
+ {
+  "nr": 2,
+  "slug": "ile-slowek-dziennie",
+  "jezyk_tekstu": "pl",
+  "jezyk_docelowy": "",
+  "dzial": "metoda",
+  "poziom": "A1-B2",
+  "grupa": "W1",
+  "tresc": "Method: how many new words per day. A simple calculation of new cards per day versus the number of reviews that accumulate, how to pick a personal limit, what to do after a break. No studies or statistics that are hard to verify.",
+  "fraza_google": "ile słówek dziennie się uczyć",
+  "slowa_cel": 700,
+  "powiazane": [
+   "powtorki-rozlozone-w-czasie"
+  ]
+ },
+ {
+  "nr": 3,
+  "slug": "japanese-at-the-konbini",
+  "jezyk_tekstu": "en",
+  "jezyk_docelowy": "ja",
+  "dzial": "praktyka",
+  "poziom": "A1-A2",
+  "grupa": "W1",
+  "tresc": "Japanese at the convenience store (konbini): greeting, paying, \"Do you need a bag?\", heating food, chopsticks, receipt. Real facts only (for example the plastic bag charge introduced in Japan in July 2020). Pronunciation in English spelling, no stress capitals (Japanese has pitch, not stress), kana plus romaji.",
+  "fraza_google": "japanese phrases convenience store",
+  "slowa_cel": 850,
+  "powiazane": [
+   "german-sie-or-du",
+   "french-greetings-bonjour-salut-la-bise"
+  ]
+ },
+ {
+  "nr": 4,
+  "slug": "german-sie-or-du",
+  "jezyk_tekstu": "en",
+  "jezyk_docelowy": "de",
+  "dzial": "gramatyka",
+  "poziom": "A1-A2",
+  "grupa": "W1",
+  "tresc": "Sie or du in German: when to use which, what happens at work (many companies use du), how someone offers you du, what to do if you get it wrong. Only well-known facts.",
+  "fraza_google": "german sie or du",
+  "slowa_cel": 1200,
+  "powiazane": [
+   "french-greetings-bonjour-salut-la-bise",
+   "japanese-at-the-konbini"
+  ]
+ },
+ {
+  "nr": 5,
+  "slug": "french-greetings-bonjour-salut-la-bise",
+  "jezyk_tekstu": "en",
+  "jezyk_docelowy": "fr",
+  "dzial": "praktyka",
+  "poziom": "A1",
+  "grupa": "W1",
+  "tresc": "French greetings: bonjour when entering a shop, tu versus vous, salut, la bise (varies by region, not for strangers), au revoir, bonne journée. Pronunciation in English spelling.",
+  "fraza_google": "french greetings bonjour salut",
+  "slowa_cel": 900,
+  "powiazane": [
+   "german-sie-or-du",
+   "japanese-at-the-konbini"
+  ]
+ },
+ {
+  "nr": 6,
+  "slug": "englisch-im-buero-small-talk",
+  "jezyk_tekstu": "de",
+  "jezyk_docelowy": "en",
+  "dzial": "praktyka",
+  "poziom": "B1",
+  "grupa": "W2",
+  "tresc": "English at the office for German speakers: polite requests (Could you..., Would you mind...), small talk at the coffee machine, meeting phrases. Pronunciation in German spelling.",
+  "fraza_google": "englisch im büro small talk",
+  "slowa_cel": 1100,
+  "powiazane": [
+   "tuerkisch-im-urlaub-tee-und-basar"
+  ]
+ },
+ {
+  "nr": 7,
+  "slug": "tuerkisch-im-urlaub-tee-und-basar",
+  "jezyk_tekstu": "de",
+  "jezyk_docelowy": "tr",
+  "dzial": "praktyka",
+  "poziom": "A1-A2",
+  "grupa": "W2",
+  "tresc": "Turkish on holiday for German speakers: tea, baklava, the bazaar, prices, thanking. Only certain facts about customs. Pronunciation in German spelling.",
+  "fraza_google": "türkisch im urlaub wichtige sätze",
+  "slowa_cel": 800,
+  "powiazane": [
+   "englisch-im-buero-small-talk"
+  ]
+ },
+ {
+  "nr": 8,
+  "slug": "portugues-en-lisboa-cafe-y-pastel-de-nata",
+  "jezyk_tekstu": "es",
+  "jezyk_docelowy": "pt",
+  "dzial": "praktyka",
+  "poziom": "A1",
+  "grupa": "W2",
+  "tresc": "Portuguese in Lisbon for Spanish speakers: ordering a coffee and a pastel de nata, pronunciation traps for Spanish speakers (nasal vowels, unstressed vowels), false friends (only certain ones). European Portuguese. Pronunciation in Spanish spelling.",
+  "fraza_google": "portugués en lisboa frases",
+  "slowa_cel": 650,
+  "powiazane": [
+   "frances-en-la-panaderia"
+  ]
+ },
+ {
+  "nr": 9,
+  "slug": "frances-en-la-panaderia",
+  "jezyk_tekstu": "es",
+  "jezyk_docelowy": "fr",
+  "dzial": "praktyka",
+  "poziom": "A1",
+  "grupa": "W2",
+  "tresc": "French in the bakery for Spanish speakers: bonjour when entering, une baguette, un croissant, un pain au chocolat, au revoir, politeness. Pronunciation in Spanish spelling.",
+  "fraza_google": "francés en la panadería frases",
+  "slowa_cel": 750,
+  "powiazane": [
+   "portugues-en-lisboa-cafe-y-pastel-de-nata"
+  ]
+ },
+ {
+  "nr": 10,
+  "slug": "anglais-au-telephone",
+  "jezyk_tekstu": "fr",
+  "jezyk_docelowy": "en",
+  "dzial": "praktyka",
+  "poziom": "A2-B1",
+  "grupa": "W3",
+  "tresc": "English on the phone for French speakers: making an appointment, spelling a name with the alphabet, asking someone to repeat, calling back later. Pronunciation in French spelling.",
+  "fraza_google": "anglais au téléphone phrases",
+  "slowa_cel": 1000,
+  "powiazane": []
+ },
+ {
+  "nr": 11,
+  "slug": "inglese-email-di-lavoro",
+  "jezyk_tekstu": "it",
+  "jezyk_docelowy": "en",
+  "dzial": "praktyka",
+  "poziom": "B1",
+  "grupa": "W3",
+  "tresc": "English work emails for Italian speakers: openings (Dear Mr..., Hi...), I am writing to, Could you please, closings (Kind regards, Best regards), level of formality. Pronunciation in Italian spelling.",
+  "fraza_google": "inglese email di lavoro frasi",
+  "slowa_cel": 1300,
+  "powiazane": []
+ },
+ {
+  "nr": 12,
+  "slug": "espanhol-falsos-amigos",
+  "jezyk_tekstu": "pt",
+  "jezyk_docelowy": "es",
+  "dzial": "praktyka",
+  "poziom": "A2",
+  "grupa": "W2",
+  "tresc": "Spanish for Brazilian Portuguese speakers: false friends (only certain pairs, for example esquisito/exquisito, embaraçada/embarazada, apelido/apellido), with a note on what people understand. Pronunciation in Brazilian Portuguese spelling.",
+  "fraza_google": "espanhol falsos amigos",
+  "slowa_cel": 1050,
+  "powiazane": []
+ },
+ {
+  "nr": 13,
+  "slug": "grieks-op-vakantie-taverne-en-rekening",
+  "jezyk_tekstu": "nl",
+  "jezyk_docelowy": "el",
+  "dzial": "praktyka",
+  "poziom": "A1-A2",
+  "grupa": "W3",
+  "tresc": "Greek on holiday for Dutch speakers: taverna, ordering food and drinks, the bill, thanks, the Greek alphabet in a few words. Pronunciation in Dutch spelling. Only certain facts about customs.",
+  "fraza_google": "grieks op vakantie zinnen",
+  "slowa_cel": 700,
+  "powiazane": []
+ },
+ {
+  "nr": 14,
+  "slug": "spanska-pa-semester-tapas-och-notan",
+  "jezyk_tekstu": "sv",
+  "jezyk_docelowy": "es",
+  "dzial": "praktyka",
+  "poziom": "A1-A2",
+  "grupa": "W3",
+  "tresc": "Spanish on holiday for Swedish speakers: ordering tapas and drinks, asking for the bill, small greetings. Pronunciation in Swedish spelling.",
+  "fraza_google": "spanska på semester fraser",
+  "slowa_cel": 900,
+  "powiazane": []
+ },
+ {
+  "nr": 15,
+  "slug": "portugisisk-i-brasil-lanchonete",
+  "jezyk_tekstu": "no",
+  "jezyk_docelowy": "pt",
+  "dzial": "praktyka",
+  "poziom": "A1-A2",
+  "grupa": "W3",
+  "tresc": "Brazilian Portuguese for Norwegian speakers: lanchonete, suco, pao de queijo, the bill. Brazilian pronunciation in Norwegian spelling. Only certain facts.",
+  "fraza_google": "portugisisk i brasil fraser",
+  "slowa_cel": 850,
+  "powiazane": []
+ },
+ {
+  "nr": 16,
+  "slug": "spansk-i-byen-metro-og-taxa",
+  "jezyk_tekstu": "da",
+  "jezyk_docelowy": "es",
+  "dzial": "praktyka",
+  "poziom": "A2",
+  "grupa": "W4",
+  "tresc": "Spanish in the city for Danish speakers: the metro, taxis, asking the way, tickets. Pronunciation in Danish spelling. Only certain facts.",
+  "fraza_google": "spansk i byen metro taxa",
+  "slowa_cel": 1000,
+  "powiazane": []
+ },
+ {
+  "nr": 17,
+  "slug": "ruotsi-kaupassa-ja-kahvilassa",
+  "jezyk_tekstu": "fi",
+  "jezyk_docelowy": "sv",
+  "dzial": "praktyka",
+  "poziom": "A1-A2",
+  "grupa": "W4",
+  "tresc": "Swedish in a shop and a cafe for Finnish speakers (Swedish is a national language in Finland): greetings, ordering coffee and a bun, paying. Pronunciation in Finnish spelling. Only certain facts.",
+  "fraza_google": "ruotsi kaupassa ja kahvilassa",
+  "slowa_cel": 750,
+  "powiazane": []
+ },
+ {
+  "nr": 18,
+  "slug": "polstina-pro-cechy-nakup-a-falesni-pratele",
+  "jezyk_tekstu": "cs",
+  "jezyk_docelowy": "pl",
+  "dzial": "praktyka",
+  "poziom": "A2",
+  "grupa": "W4",
+  "tresc": "Polish for Czech speakers: shopping, a few certain false friends (for example smacznego/dobrou chut, szukać/hledat), pronunciation traps (ł, ą, ę, rz, sz). Pronunciation in Czech spelling.",
+  "fraza_google": "polština pro Čechy fráze",
+  "slowa_cel": 1250,
+  "powiazane": []
+ },
+ {
+  "nr": 19,
+  "slug": "cestina-pre-slovakov-falosni-priatelia",
+  "jezyk_tekstu": "sk",
+  "jezyk_docelowy": "cs",
+  "dzial": "praktyka",
+  "poziom": "A2",
+  "grupa": "W4",
+  "tresc": "Czech for Slovak speakers: shared words and false friends (only certain pairs, for example pivo/pivo same, but check meanings like zase/zasa), greetings, shops. Pronunciation in Slovak spelling.",
+  "fraza_google": "čeština pre Slovákov",
+  "slowa_cel": 950,
+  "powiazane": []
+ },
+ {
+  "nr": 20,
+  "slug": "talijanski-u-restoranu",
+  "jezyk_tekstu": "hr",
+  "jezyk_docelowy": "it",
+  "dzial": "praktyka",
+  "poziom": "A1-A2",
+  "grupa": "W4",
+  "tresc": "Italian in a restaurant for Croatian speakers: ordering, the cover charge coperto (certain facts), the bill, thanks. Pronunciation in Croatian spelling.",
+  "fraza_google": "talijanski u restoranu fraze",
+  "slowa_cel": 800,
+  "powiazane": []
+ },
+ {
+  "nr": 21,
+  "slug": "italiana-la-piata-si-la-farmacie",
+  "jezyk_tekstu": "ro",
+  "jezyk_docelowy": "it",
+  "dzial": "praktyka",
+  "poziom": "A1-A2",
+  "grupa": "W5",
+  "tresc": "Italian at the market and the pharmacy for Romanian speakers: un etto, mezzo chilo, quanto costa, la ricetta, senza ricetta; similarities and differences with Romanian. Pronunciation in Romanian spelling.",
+  "fraza_google": "italiană la piață expresii",
+  "slowa_cel": 1150,
+  "powiazane": []
+ },
+ {
+  "nr": 22,
+  "slug": "germanika-sto-aerodromio",
+  "jezyk_tekstu": "el",
+  "jezyk_docelowy": "de",
+  "dzial": "praktyka",
+  "poziom": "A2",
+  "grupa": "W5",
+  "tresc": "German at the airport for Greek speakers: check-in, Flugsteig, Gepaeck, Verspaetung, passport control. Pronunciation in Greek letters. Only certain facts.",
+  "fraza_google": "γερμανικά στο αεροδρόμιο",
+  "slowa_cel": 900,
+  "powiazane": []
+ },
+ {
+  "nr": 23,
+  "slug": "almanca-doktorda",
+  "jezyk_tekstu": "tr",
+  "jezyk_docelowy": "de",
+  "dzial": "praktyka",
+  "poziom": "A2",
+  "grupa": "W5",
+  "tresc": "German at the doctor for Turkish speakers: making an appointment (Termin), describing pain, Rezept, Krankmeldung, Hausarzt. Pronunciation in Turkish spelling. Only certain facts about the German system.",
+  "fraza_google": "almanca doktorda cümleler",
+  "slowa_cel": 1000,
+  "powiazane": []
+ },
+ {
+  "nr": 24,
+  "slug": "anglijskij-artikli-a-an-the",
+  "jezyk_tekstu": "ru",
+  "jezyk_docelowy": "en",
+  "dzial": "gramatyka",
+  "poziom": "A2",
+  "grupa": "W5",
+  "tresc": "English articles for Russian speakers (Russian has none): new versus known information, a before consonant sounds, an before vowel sounds, when no article is needed.",
+  "fraza_google": "английские артикли a an the",
+  "slowa_cel": 1450,
+  "powiazane": []
+ },
+ {
+  "nr": 25,
+  "slug": "polska-mova-v-apteci-ta-magazini",
+  "jezyk_tekstu": "uk",
+  "jezyk_docelowy": "pl",
+  "dzial": "praktyka",
+  "poziom": "A1-A2",
+  "grupa": "W5",
+  "tresc": "Polish for Ukrainian speakers: at the pharmacy and in a shop (apteka, recepta, bez recepty, kasa, reklamacja, torba). Pronunciation in Ukrainian spelling.",
+  "fraza_google": "польська мова в аптеці фрази",
+  "slowa_cel": 700,
+  "powiazane": []
+ },
+ {
+  "nr": 26,
+  "slug": "alinjliziya-fi-altasawwuq",
+  "jezyk_tekstu": "ar",
+  "jezyk_docelowy": "en",
+  "dzial": "praktyka",
+  "poziom": "A2",
+  "grupa": "W6",
+  "tresc": "English for shopping for Arabic speakers: size, try on, how much is it, receipt, refund. Pronunciation in Arabic letters.",
+  "fraza_google": "الإنجليزية في التسوق",
+  "slowa_cel": 850,
+  "powiazane": []
+ },
+ {
+  "nr": 27,
+  "slug": "angrezi-mein-apna-parichay",
+  "jezyk_tekstu": "hi",
+  "jezyk_docelowy": "en",
+  "dzial": "praktyka",
+  "poziom": "A1",
+  "grupa": "W6",
+  "tresc": "English self-introduction for Hindi speakers: name, where you are from, job, hobbies, small talk. Pronunciation in Devanagari.",
+  "fraza_google": "अंग्रेज़ी में अपना परिचय",
+  "slowa_cel": 650,
+  "powiazane": []
+ },
+ {
+  "nr": 28,
+  "slug": "kankokugo-kafe-de-chuumon",
+  "jezyk_tekstu": "ja",
+  "jezyk_docelowy": "ko",
+  "dzial": "praktyka",
+  "poziom": "A1-A2",
+  "grupa": "W6",
+  "tresc": "Korean at a cafe for Japanese speakers: ordering a drink, size, to go or here, paying, thanks. Hangul with pronunciation in Japanese kana.",
+  "fraza_google": "韓国語 カフェ 注文",
+  "slowa_cel": 1600,
+  "powiazane": []
+ },
+ {
+  "nr": 29,
+  "slug": "ilboneo-sikdang-jumun",
+  "jezyk_tekstu": "ko",
+  "jezyk_docelowy": "ja",
+  "dzial": "praktyka",
+  "poziom": "A1-A2",
+  "grupa": "W6",
+  "tresc": "Japanese in a restaurant for Korean speakers: ordering, asking for water, the bill, thanks. Japanese (kana and kanji) with pronunciation in Hangul.",
+  "fraza_google": "일본어 식당 주문",
+  "slowa_cel": 750,
+  "powiazane": []
+ },
+ {
+  "nr": 30,
+  "slug": "fayu-kafeiguan-diandan",
+  "jezyk_tekstu": "zh",
+  "jezyk_docelowy": "fr",
+  "dzial": "praktyka",
+  "poziom": "A1-A2",
+  "grupa": "W6",
+  "tresc": "French in a cafe for Chinese speakers: ordering a coffee and a croissant, thanks, the bill. Pronunciation using Chinese characters or pinyin-like approximations (choose one and be consistent).",
+  "fraza_google": "法语 咖啡馆 点单",
+  "slowa_cel": 900,
+  "powiazane": []
+ }
+]

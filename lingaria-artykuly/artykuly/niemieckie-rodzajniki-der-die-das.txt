@@ -1,0 +1,114 @@
+tytul: Rodzajniki w niemieckim der, die, das: końcówki, które zdradzają rodzaj
+opis: Skąd wiedzieć, czy to der, die czy das? Końcówki -ung, -heit, -keit, -chen, dni tygodnia i kilka innych reguł, które oszczędzają wkuwania każdego słowa osobno.
+data: 2026-11-04
+zaktualizowano: 2026-11-04
+status: szkic
+dzial: gramatyka
+poziom: A1
+autor:
+tagi: niemiecki, rodzajniki, der die das, rodzaj rzeczownika, gramatyka
+powiazane: wloskie-rodzajniki
+jezyk_docelowy: de
+jezyk_tekstu: pl
+zdjecie_pomysl: stół nakryty do śniadania w niemieckim mieszkaniu, na nim łyżka, widelec, nóż i bułki
+---
+
+Po niemiecku dziewczynka jest rodzaju nijakiego (*das Mädchen*), łyżka męskiego (*der Löffel*), a widelec żeńskiego (*die Gabel*). Po polsku dziewczynka i łyżka są żeńskie, a widelec męski. Oba języki mają po trzy rodzaje, więc można by liczyć na to, że nawyki się przeniosą. Nie przenoszą się. Za to niemiecki ma garść końcówek, które zdradzają rodzaj prawie bez wyjątków, i od nich warto zacząć.
+
+## Dlaczego polski rodzaj tu nie pomaga
+
+Po polsku rodzaj widać w samym słowie: *-a* to zwykle żeński, *-o* i *-e* nijaki, spółgłoska na końcu to zwykle męski. W niemieckim słowo takiego znacznika nie ma, rodzaj siedzi w rodzajniku: *der* (męski), *die* (żeński), *das* (nijaki). Czasem się zgadza: okno to *das Fenster*, dziecko to *das Kind*, stół to *der Tisch*. Potem trafiasz na mieszkanie (*die Wohnung*, żeńskie, choć po polsku nijakie) albo słońce (*die Sonne*, też żeńskie) i zgodność się kończy.
+
+Rodzajnik w niemieckim zmienia formę razem z przypadkiem. W bierniku liczby pojedynczej zmienia się tylko rodzaj męski: *der Hund* (pies) przechodzi w *den Hund* w zdaniu *Ich sehe den Hund* (widzę psa). Żeński i nijaki zostają bez zmian. Pomyłka w rodzajniku zwykle nie przeszkadza w zrozumieniu: słowo jest to samo, więc rozmówca najwyżej cię poprawi.
+
+:uwaga
+W liczbie mnogiej w mianowniku i bierniku jest tylko jeden rodzajnik: *die*. Mówi się *die Wohnungen*, *die Mädchen*, *die Tische*, bez względu na rodzaj w liczbie pojedynczej. W pozostałych przypadkach liczba mnoga też ma własne formy (na przykład *den Kindern* w celowniku), ale one również są wspólne dla wszystkich rodzajów. Rodzaju uczysz się więc tylko dla form pojedynczych.
+:koniec
+
+## Rodzaj żeński: -ung, -heit, -keit, -schaft, -tion
+
+Te pięć końcówek to przyrostki, które robią rzeczownik z czasownika, przymiotnika albo innego rzeczownika. Wszystkie dają rodzaj żeński, więc rodzajnik znasz, zanim sprawdzisz słowo w słowniku.
+
+- *-ung* robi rzeczownik z czasownika: *wohnen* (mieszkać) daje *die Wohnung*, *lösen* (rozwiązać) daje *die Lösung* (rozwiązanie), a *die Zeitung* to gazeta.
+- *-heit* i *-keit* robią rzeczownik z przymiotnika: *frei* (wolny) daje *die Freiheit*, *möglich* (możliwy) daje *die Möglichkeit*. Wersja z *-keit* pojawia się najczęściej po *-ig*, *-lich* i *-bar*: *die Wichtigkeit* (ważność), *die Dankbarkeit* (wdzięczność).
+- *-schaft* najczęściej dokleja się do rzeczownika, także do nazwy osoby: *der Freund* (przyjaciel) daje *die Freundschaft* (przyjaźń).
+- *-tion* przychodzi z łaciny i brzmi jak polskie *-cja*: *die Information*, *die Station*, *die Nation*. Akcent pada na tę końcówkę.
+
+Pułapka dla Polaka siedzi w *-ung*. Polskie *-anie* i *-enie* też robią rzeczowniki z czasowników, ale są nijakie: mieszkanie, czytanie, ogłoszenie. Niemieckie *-ung* jest żeńskie. Jeśli kusi cię, żeby powiedzieć *das Wohnung* dlatego, że „mieszkanie" jest nijakie, zatrzymaj się na końcówce. Z *-heit* i *-keit* masz łatwiej: polskie *-ość* (wolność, możliwość) też jest żeńskie, więc ucho podpowiada dobrze.
+
+Żeńskie są jeszcze trzy końcówki:*-in* przy nazwach kobiet (*die Lehrerin*, nauczycielka), *-ei* (*die Bäckerei*, piekarnia) i *-ität* (*die Universität*). Jeśli słowo kończy się na *-e*, najczęściej też będzie żeńskie: *die Lampe*, *die Tasche* (torba), *die Sonne*. Wyjątki są, ale znane: *der Name*, *der Käse* (ser), *das Ende* (koniec) oraz męskie osoby i zwierzęta, jak *der Junge* (chłopiec) albo *der Löwe* (lew). Kilka słów tylko wygląda na wyjątek od reguły z *-ung*: *der Sprung* (skok) i *der Schwung* (rozmach) kończą się na *-ung*, ale to część rdzenia, a nie przyrostek, więc są męskie.
+
+:frazy
+die Wohnung | di WO-nunk | mieszkanie | Od wohnen (mieszkać). Przyrostek -ung robi rzeczownik żeński, choć polskie „mieszkanie" jest nijakie.
+die Freiheit | di FRAJ-hajt | wolność | Od frei (wolny). Rodzaj żeński jak w polskim -ość, więc łatwo zapamiętać.
+die Möglichkeit | di MÖK-lich-kajt | możliwość | -keit stoi po -lich. Ch po i brzmi miękko, jak w polskim „chiński", a nie jak w „chata". Samo g w Mög- wymawia się tu jak k.
+die Freundschaft | di FROJNT-szaft | przyjaźń | Freund plus -schaft. Eu czyta się „oj".
+die Information | di in-for-ma-CJON | informacja | Słowa na -tion są żeńskie i mają akcent na końcu, jak polskie -cja.
+die Sonne | di ZO-ne | słońce | Słowa na -e są najczęściej żeńskie. Po polsku słońce jest nijakie, po niemiecku żeńskie.
+das Mädchen | das MET-chen | dziewczynka | Zdrobnienie na -chen jest zawsze nijakie, nawet gdy mowa o dziewczynce. Ch czytaj miękko, jak w „chiński". Mädchen to zdrobnienie od dawnego słowa Magd.
+das Brötchen | das BRÖT-chen | bułka | Zdrobnienie od Brot, więc nijakie. Ch znów miękkie. W Bawarii powiesz Semmel, w Berlinie Schrippe, ale Brötchen zrozumiesz wszędzie.
+der Montag | der MON-tak | poniedziałek | Dni tygodnia są męskie. „W poniedziałek" to am Montag.
+der Sommer | der ZO-mer | lato | Pory roku i miesiące są męskie, choć po polsku lato jest nijakie. „W lecie" to im Sommer.
+das Bier | das BIR | piwo | Nazwy napojów alkoholowych są zwykle męskie: der Wein, der Wodka, der Schnaps. Piwo się wyłamuje.
+:koniec
+
+## Rodzaj nijaki: -chen, -lein i kilka pewniaków
+
+Zdrobnienia na *-chen* i *-lein* są zawsze nijakie. Nie liczy się płeć ani rodzaj słowa wyjściowego: *der Hund* (pies) to *das Hündchen* (piesek), *die Katze* (kot) to *das Kätzchen*. Stąd dziewczynka jest *das Mädchen*: słowo powstało jako zdrobnienie, więc dostało rodzaj nijaki razem z końcówką, mimo że oznacza osobę. Z tego samego powodu *das Fräulein* (panienka, dziś słowo przestarzałe) jest nijakie.
+
+Z nijakich warto jeszcze znać:
+
+- czasowniki użyte jako rzeczowniki: *essen* (jeść) to *das Essen* (jedzenie), *lernen* to *das Lernen* (nauka), *leben* to *das Leben* (życie);
+- końcówkę *-ment*: *das Instrument*, *das Dokument* (wyjątki: *der Zement*, *der Moment*);
+- końcówkę *-um*: *das Museum*, *das Datum*.
+
+:cwiczenie fiszki
+
+:cta
+
+## Rodzaj męski: dni, miesiące, pory roku
+
+Poniedziałek, styczeń i lato mają ten sam rodzajnik: *der*. Wszystkie dni tygodnia są męskie: *der Montag*, *der Dienstag*, *der Freitag*. Większość z nich kończy się na *-tag*, a *der Tag* jest męski. Środa, *der Mittwoch*, ma w sobie słowo *Woche* (tydzień), które jest żeńskie, a mimo to cała środa jest męska.
+
+Męskie są też wszystkie miesiące (*der Januar*, *der Juli*), pory roku (*der Frühling*, *der Sommer*, *der Herbst*, *der Winter*), strony świata (*der Norden*, *der Süden*) i wiele zjawisk pogody: *der Regen* (deszcz), *der Schnee* (śnieg), *der Wind*.
+
+Przy okazji zyskujesz gotowy schemat: *am* przy dniach (*am Montag*) i *im* przy miesiącach oraz porach roku (*im Juli*, *im Sommer*). Na początek te dwie kombinacje wystarczą, żeby powiedzieć, kiedy coś się dzieje.
+
+Męskie są jeszcze nazwy wykonawców czynności na *-er* (*der Lehrer*, nauczyciel, *der Fahrer*, kierowca) oraz przyrostki *-ling* (*der Lehrling*, praktykant) i *-ismus* (*der Tourismus*). Końcówka *-er* jest jednak zwodnicza: *die Mutter*, *die Schwester*, *das Fenster* i *das Wasser* mają ją i nie są męskie. Rodzaj męski zakładaj tylko wtedy, gdy *-er* oznacza mężczyznę wykonującego czynność, a w innych słowach sprawdzaj w słowniku.
+
+## Gdy końcówka nic nie mówi
+
+Pierwsza reguła: złożenia. Rodzaj całego słowa wyznacza jego ostatni człon. *Die Tür* (drzwi) w złożeniu *die Haustür* (drzwi wejściowe) zostaje żeńskie. *Der Salat* w złożeniu *der Kartoffelsalat* (sałatka ziemniaczana) zostaje męski.
+
+Druga: uczyć się rodzajnika razem ze słowem. Na fiszce nie zapisuj *Wohnung*, tylko *die Wohnung*, bo inaczej rodzajnik będziesz potem zgadywać.
+
+Trzecia: sprawdzać w słowniku. Wpis podaje rodzaj skrótem *m*, *f*, *n* albo wprost *der*, *die*, *das*.
+
+Czwarta: uważać na pary, w których rodzajnik zmienia znaczenie. Zdarzają się nawet w dość podstawowych słowach:
+
+- *der See* to jezioro, *die See* to morze;
+- *der Leiter* to kierownik, *die Leiter* to drabina;
+- *die Band* to zespół muzyczny, *das Band* to wstążka albo taśma, *der Band* to tom książki;
+- *der Kiefer* to szczęka, *die Kiefer* to sosna.
+
+:uwaga
+Niektóre słowa mają różny rodzaj zależnie od kraju. Duden podaje *die E-Mail* jako formę podstawową, a *das E-Mail* jako wariant używany zwłaszcza w południowych Niemczech, Austrii i Szwajcarii. Jeśli kolega z Wiednia mówi inaczej niż ty, żadne z was nie robi błędu.
+:koniec
+
+:::quiz[id="rodzajniki_q1" title="Sprawdź, co pamiętasz"]
+Pytanie: Który rodzajnik pasuje do słowa Freundschaft (przyjaźń)?
+- der
+- die [correct]
+- das
+Wyjaśnienie: Końcówka -schaft zawsze daje rodzaj żeński: die Freundschaft.
+Pytanie: Dlaczego mówimy das Mädchen, choć dziewczynka to osoba płci żeńskiej?
+- Bo zdrobnienia na -chen są zawsze nijakie. [correct]
+- Bo wszystkie słowa na -en są nijakie.
+- Bo Mädchen pochodzi od rzeczownika męskiego.
+Wyjaśnienie: Końcówka -chen robi z każdego słowa rzeczownik nijaki, bez względu na to, kogo lub co opisuje.
+Pytanie: Jaki rodzajnik ma złożenie Haustür, skoro die Tür jest żeńskie, a das Haus nijakie?
+- das
+- der
+- die [correct]
+Wyjaśnienie: Rodzaj złożenia wyznacza jego ostatni człon, czyli Tür: die Haustür.
+:::

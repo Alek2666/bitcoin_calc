@@ -1,0 +1,89 @@
+tytul: Falsos amigos do espanhol: 12 palavras que enganam o brasileiro
+opis: Doze palavras espanholas que parecem português e significam outra coisa, como exquisito, embarazada e apellido, com pronúncia em ortografia brasileira.
+data: 2026-11-04
+zaktualizowano: 2026-11-04
+status: szkic
+dzial: praktyka
+poziom: A2
+autor:
+tagi: espanhol, falsos amigos, vocabulário, brasileiros
+powiazane:
+jezyk_docelowy: es
+jezyk_tekstu: pt
+zdjecie_pomysl: Duas pessoas à mesa de um restaurante, uma delas segurando o cardápio com cara de dúvida
+---
+## Uma torta «exquisita» é elogio
+
+Uma brasileira que diz «estoy embarazada» para contar que ficou constrangida acaba de anunciar uma gravidez. E se um espanhol disser que o seu bolo está «exquisito», ele está elogiando.
+
+Espanhol e português têm tanto vocabulário em comum que o erro nasce da confiança: a palavra espanhola existe, é corriqueira e quer dizer outra coisa. O pior caso é quando a frase continua fazendo sentido: «estoy embarazada» e «está exquisito» passam sem estranhamento, e quem ouve entende o que a palavra significa em espanhol, não o que você queria dizer. Já com «polvo» ou «cena» o contexto costuma desfazer a dúvida.
+
+## Doze pares para decorar
+
+:frazy
+exquisito | es-ki-SSI-to | delicioso, requintado | É um elogio: «esta tarta está exquisita» é «esta torta está uma delícia». Estranho, em espanhol, é «raro» ou «extraño».
+embarazada | em-ba-ra-SSA-da | grávida | «Estoy embarazada» anuncia uma gravidez. Constrangida é «avergonzada».
+el apellido | el a-pe-YI-do | o sobrenome | O apelido de brincadeira é «el apodo». Em Portugal «apelido» também é sobrenome, então lá o par não engana.
+la cena | la SSE-na | o jantar | Cena de filme é «escena».
+la salsa | la SAL-sa | o molho | A erva que no Brasil se chama «salsa» é «el perejil» em espanhol.
+el vaso | el BA-sso | o copo | «Un vaso de agua» é um copo de água. Vaso de planta é «maceta» e vaso de flores, «jarrón».
+el polvo | el POL-bo | o pó, a poeira | O bicho de oito braços é «el pulpo». Cuidado com a expressão «echar un polvo»: é gíria para «transar».
+largo | LAR-go | comprido, longo | Largo de largura é «ancho». «Una calle larga» é uma rua comprida.
+la oficina | la o-fi-SSI-na | o escritório | A oficina mecânica é «el taller».
+pronto | PRON-to | logo, em breve | «Hasta pronto» é «até breve». O «pronto, acabou» brasileiro é «listo» ou «ya está».
+tirar | ti-RAR | jogar, atirar, puxar | «Tirar la basura» é jogar o lixo fora. Tirar do bolso é «sacar» e tirar a roupa é «quitarse la ropa».
+pegar | pe-GAR | bater, colar | «Pegar» é bater ou colar um selo, não agarrar. Para pegar o ônibus, «tomar el autobús».
+:koniec
+
+:cwiczenie fiszki
+
+## O verbo «pegar» e o perigo do «coger»
+
+Em português, «pegar» serve para quase tudo: pegar o ônibus, pegar a chave, pegar uma gripe. Em espanhol o verbo quer dizer sobretudo bater ou colar. «Pegar un sello» é colar um selo, «pegar a alguien» é bater em alguém. Para pegar o ônibus, o verbo certo é «tomar».
+
+Na Espanha, «coger el autobús» é totalmente corriqueiro. Em vários países da América Latina, como México e Argentina, porém, «coger» tem sentido sexual e soa grosseiro. «Tomar» é entendido em qualquer lugar, então é a escolha segura.
+
+:cta
+
+## Três armadilhas de pronúncia
+
+A primeira é o «t» e o «d» antes de «e» e «i». Em boa parte do Brasil eles viram «tch» e «dj», mas em espanhol ficam limpos: «tarde» é «TAR-de», não «TAR-dji», e «tirar» é «ti-RAR».
+
+A segunda é o «s» entre vogais. Em português ele soa como «z» (casa, vaso). Em espanhol continua sendo /s/, então «casa» e «vaso» soam como se fossem escritas com «ss».
+
+A terceira é o «j» e o «g» antes de «e» e «i». Eles soam como um «rr» áspero, parecido com o de «carro» em boa parte do Brasil, nunca como o «j» de «já»: «rojo» é «RRO-rro», «gente» é «RREN-te». Além disso, o «e» e o «o» no fim da palavra não viram «i» e «u», e o «v» tem som de «b».
+
+:uwaga
+Na pronúncia figurada, as maiúsculas marcam a sílaba tônica, «ss» é sempre o som de /s/ e «rr» é o som do «r» de «carro». A pronúncia figurada segue o espanhol da América Latina. Na maior parte da Espanha, «z» e «c» antes de «e» e «i» soam como o «th» do inglês «think».
+:koniec
+
+## Um jantar para ler
+
+:::sluchanie[title="No restaurante"]
+Buenas noches. ¿Qué va a tomar para la cena? | Boa noite. O que vai querer para o jantar?
+De primero, pulpo, por favor. | De entrada, polvo, por favor.
+¿Quiere salsa con la carne? | Quer molho com a carne?
+Sí, y un vaso de agua. | Sim, e um copo de água.
+Enseguida. ¿Algo más? | Já trago. Mais alguma coisa?
+Nada más, gracias. La cuenta, por favor. | Mais nada, obrigado. A conta, por favor.
+:::
+
+:::quiz[id="falsos_q1" title="Confira o que você aprendeu"]
+Pytanie: Uma amiga espanhola diz «Estoy embarazada». O que ela quer dizer?
+- Que está grávida. [correct]
+- Que está constrangida.
+- Que está atrapalhada.
+Wyjaśnienie: «Embarazada» é grávida. Para constrangida se diz «avergonzada».
+Pytanie: Como se chama, em espanhol, o apelido de brincadeira de um amigo?
+- el apodo [correct]
+- el apellido
+Wyjaśnienie: «Apellido» é o sobrenome. O nome de brincadeira é «apodo».
+Pytanie: Qual verbo é seguro para «pegar o ônibus» em qualquer país de língua espanhola?
+- tomar [correct]
+- pegar
+- coger
+Wyjaśnienie: «Pegar» quer dizer bater ou colar, e «coger» tem sentido sexual em vários países da América Latina. «Tomar» funciona em todos.
+:::
+
+:::modal-trigger[target="quiz" id="falsos_q1" label="Teste seu espanhol"]
+:::

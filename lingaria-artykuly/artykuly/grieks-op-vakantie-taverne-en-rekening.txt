@@ -1,0 +1,80 @@
+tytul: Grieks op vakantie: bestellen in de taverne en om de rekening vragen
+opis: Griekse zinnen voor in de taverne, met uitspraak in Nederlandse spelling: een tafel vragen, eten en drinken bestellen, om de rekening vragen en een paar letters lezen.
+data: 2026-11-04
+zaktualizowano: 2026-11-04
+status: szkic
+dzial: praktyka
+poziom: A1-A2
+autor:
+tagi: grieks, vakantie, taverne, rekening, bestellen
+powiazane:
+jezyk_docelowy: el
+jezyk_tekstu: nl
+zdjecie_pomysl: een tafel met witte tafelkleed, een karaf wijn en kleine schaaltjes bij een taverne aan zee
+---
+In het Grieks betekent ναι "ja" en je spreekt het uit als "ne". Voor Nederlandse oren klinkt dat als "nee", dus aan tafel gaat het al bij de eerste vraag van de ober mis.
+
+:uwaga
+Zo lees je de uitspraak. De beklemtoonde lettergreep staat in hoofdletters. "ch" klinkt als in "lachen". "dh" is de zachte Engelse th van "this", "th" de harde van "thing"; lukt dat niet, dan is een d of t ook te verstaan. "j" is gewoon onze j.
+:koniec
+
+## Ne is ja en ochi is nee
+
+Ναι (ne) is "ja" en όχι (O-chie) is "nee". De ch in όχι lijkt op die in "lachen"; voor een i-klank is hij iets zachter, maar onze gewone ch is prima. Fransen en Engelsen vinden dit geluid lastig, jij niet. Het zit ook in ευχαριστώ (ef-cha-rie-STO), "dank u". De eerste klank is hier "ef" en niet "eu": ευ wordt "ef" voor een stemloze medeklinker. De klemtoon ligt op het laatste stukje.
+
+Παρακαλώ (pa-ra-ka-LO) doet dubbel werk. Het is "alstublieft" als je iets vraagt en "graag gedaan" als iemand je bedankt. Voor "dag" gebruik je γεια σου (ja-SOE) tegen iemand die je kent en γεια σας (ja-SAS) tegen een vreemde of tegen meer mensen. Het werkt als begroeting en als afscheid.
+
+## Vijf letters die je op de kaart misleiden
+
+Om een kaart te lezen hoef je niet het hele alfabet te kennen. Vijf hoofdletters zijn de moeite waard, want ze lijken op Latijnse letters en klinken anders: Β is een v, Η een i, Ρ een r, Χ een ch en Υ een i. Het bord ΤΑΒΕΡΝΑ is dus "taverna", met een v. En ΝΕΡΟ ziet eruit als "nepo", maar de Ρ is een r en het woord betekent "water".
+
+Op een menu herken je zo ook ΣΑΛΑΤΑ (salata), ΜΠΥΡΑ (bira) en ΚΑΦΕ (kafe). Let op ΜΠ aan het begin van een woord: dat is een b. Het Grieks heeft voor de harde b geen eigen letter, omdat de β al een v is. Daarom zie je ΜΠΥΡΑ voor bier en ΜΠΟΥΚΑΛΙ voor fles.
+
+## Bestellen in de taverne
+
+Een tafel vraag je met ένα τραπέζι για δύο. Het woordje για betekent hier "voor" en klinkt als het Nederlandse "ja". De kaart heet ο κατάλογος, bijna "catalogus". In een taverne bestel je vaak meerdere gerechten en zet je alles in het midden. Die kleine schaaltjes heten μεζέδες (me-ZE-dhes).
+
+Huiswijn uit het vat heet χύμα (CHIE-ma). Die bestel je in veel tavernes per kilo: een kilo, een halve kilo of een kwart. Rood is κόκκινο, wit is λευκό (lef-KO).
+
+"Een" heeft in het Grieks drie vormen: ένας voor mannelijke woorden, μία voor vrouwelijke en ένα voor onzijdige. Bier is vrouwelijk, dus μία μπύρα. Tafel, fles, water en wijn zijn onzijdig, dus ένα τραπέζι en ένα μπουκάλι νερό.
+
+:cta
+
+## De rekening
+
+De rekening komt in Griekenland meestal niet uit zichzelf. Je vraagt erom: τον λογαριασμό, παρακαλώ. Soms staat er een klein bedrag per persoon voor brood en couvert (κουβέρ) op het briefje. Dat is geen fooi. Officieel mag een couvert voor borden, bestek en servetten niet worden gerekend, ook niet als het op de kaart staat, en brood of water mag alleen op de rekening als je ermee hebt ingestemd. Toch kom je het nog tegen, dus kijk naar wat er staat en vraag het gerust na.
+
+Na de maaltijd komt er in veel tavernes iets van het huis op tafel, een κέρασμα (KE-ra-zma): fruit, een zoet gerecht of een glaasje tsipouro of raki. Het is een gebaar van de eigenaar en komt niet op de rekening, maar je kunt er niet op rekenen. Een fooi is niet verplicht: afronden of wat kleingeld op tafel laten is gebruikelijk.
+
+## Tien zinnen voor aan tafel
+
+:frazy
+Ναι / Όχι | ne / O-chie | Ja / Nee | Ναι klinkt als ons "nee" maar betekent ja. Wie "nee" wil zeggen, zegt όχι.
+Καλησπέρα | ka-lie-SPE-ra | Goedenavond | Vanaf de namiddag tot ver in de avond. Overdag zeg je καλημέρα (ka-lie-ME-ra).
+Παρακαλώ | pa-ra-ka-LO | Alstublieft / graag gedaan | Betekent allebei. Je zegt het als je iets vraagt en als iemand je bedankt.
+Ένα τραπέζι για δύο, παρακαλώ | E-na tra-PE-zie ja DHIE-o pa-ra-ka-LO | Een tafel voor twee, alstublieft | Για betekent hier "voor" en klinkt als ons "ja". Δύο (twee) begint met de zachte dh.
+Μισό κιλό κόκκινο κρασί | mie-SO kie-LO KO-kie-no kra-SIE | Een halve kilo rode wijn | Huiswijn wordt in tavernes vaak per kilo besteld: een kilo, een halve kilo of een kwart. Wit is λευκό.
+Θα τα μοιραστούμε | tha ta mie-ra-STOE-me | We delen ze | Zeg dit als je meerdere schaaltjes (μεζέδες) bestelt en alles in het midden zet.
+Ευχαριστώ, ήταν πολύ νόστιμο | ef-cha-rie-STO, IE-tan po-LIE NO-stie-mo | Dank u, het was erg lekker | Ευ is hier "ef", en de ch is die van "lachen". Νόστιμο is "lekker".
+Τον λογαριασμό, παρακαλώ | ton lo-ga-rjaz-MO pa-ra-ka-LO | De rekening, alstublieft | De rekening komt niet uit zichzelf, je vraagt erom.
+Μπορώ να πληρώσω με κάρτα; | bo-RO na plie-RO-so me KAR-ta | Kan ik met de kaart betalen? | Je kunt dit ook vooraf vragen, dan weet je waar je aan toe bent.
+Στην υγειά μας! | stien ie-JA mas | Proost! | Letterlijk "op onze gezondheid". Je hoort ook kortweg γεια μας.
+:koniec
+
+:::quiz[id="grieks_q1" title="Weet je het nog?"]
+Pytanie: Wat betekent ναι, dat klinkt als "ne"?
+- Nee
+- Ja [correct]
+- Alstublieft
+Wyjaśnienie: Ναι is "ja". "Nee" is όχι, uitgesproken als O-chie.
+Pytanie: Hoe lees je de Griekse hoofdletter Ρ?
+- Als een p
+- Als een r [correct]
+- Als een ch
+Wyjaśnienie: Ρ is een r. Daarom is ΝΕΡΟ niet "nepo" maar "nero", water.
+Pytanie: Hoe vraag je om de rekening?
+- Τον λογαριασμό, παρακαλώ. [correct]
+- Τον κατάλογο, παρακαλώ.
+- Ένα τραπέζι, παρακαλώ.
+Wyjaśnienie: Ο λογαριασμός is de rekening. Ο κατάλογος is de kaart en ένα τραπέζι is "een tafel".
+:::

@@ -1,0 +1,110 @@
+tytul: Italiană la piață și la farmacie: expresii cu pronunție pentru români
+opis: Cum ceri un etto de șuncă, un kil de roșii sau un medicament fără rețetă în Italia, cu pronunția scrisă pe înțelesul românului și capcanele limbii.
+data: 2026-11-04
+zaktualizowano: 2026-11-04
+status: szkic
+dzial: praktyka
+poziom: A1-A2
+autor:
+tagi: italiană, piață, farmacie, expresii, pronunție
+powiazane:
+jezyk_docelowy: it
+jezyk_tekstu: ro
+---
+În Italia nu ceri o sută de grame de șuncă. Ceri un etto, iar dacă nu ai auzit niciodată cuvântul, nu ai de unde să știi ce înseamnă. Peste un milion de cetățeni români locuiesc în Italia (după datele ISTAT), așa că scena se repetă des la tarabe și în farmacii. Româna și italiana au aceeași rădăcină latină, deci o parte din vocabularul de la piață și din farmacie îl recunoști din prima. Câteva asemănări sunt însă înșelătoare.
+
+## La piață: etto, chilo și cum intri în rând
+
+**Etto** este forma scurtă a cuvântului *ettogrammo*, hectogram, și înseamnă 100 de grame. Două etti sunt 200 g, un etto și jumătate sunt 150 g, iar *mezzo chilo* este jumătate de kilogram. Mezelurile, brânza și șunca se cer la etto. Fructele și legumele se cer la kil: *un chilo di arance*, *mezzo chilo di pomodori*. „Chilo" este forma de zi cu zi pentru kilogram, la fel cum noi spunem „kil".
+
+La șuncă trebuie să alegi: *prosciutto crudo* este șunca crudă, maturată și tăiată foarte subțire, iar *prosciutto cotto* este cea fiartă. Dacă spui doar *prosciutto*, vânzătorul te poate întreba care dintre ele.
+
+La o tarabă aglomerată, ca și într-o farmacie sau la un cabinet medical, nu găsești mereu o coadă ordonată. Întrebi *Chi è l'ultimo?* (cine e ultimul?), cineva spune *Sono io* (eu sunt) și știi după cine urmezi. Când îți vine rândul, vânzătorul zice *Dica!* sau *Mi dica* (spuneți, vă ascult), apoi *Altro?* (altceva?) sau *Basta così?* (ajunge?).
+
+O diferență de gramatică se aude imediat. Pentru politețe, italiana folosește persoana a treia singular (*Lei*), nu persoana a doua plural, ca româna. *Mi dà un chilo di arance* corespunde lui „Îmi dați un kil de portocale", dar verbul arată ca un „el dă". La preț, verbul se acordă cu numărul: *Quanto costa questo?* pentru un singur lucru, *Quanto costano le ciliegie?* pentru mai multe. Româna spune „costă" în ambele cazuri.
+
+Un tipar te scutește de multă memorare. Grupul latinesc *-ct-* a ajuns *-pt-* în română și *-tt-* în italiană: *lapte* este *latte*, *noapte* este *notte*, *opt* este *otto*, *piept* este *petto*. Așa se explică și *petto di pollo*, adică piept de pui.
+
+:frazy
+Un etto di prosciutto, per favore. | un ET-to di pro-ȘUT-to per fa-VO-re | O sută de grame de șuncă, vă rog. | Șunca și brânza se cer la etto, nu la kilogram. Adaugă crudo sau cotto, altfel poți fi întrebat.
+Mezzo chilo di pomodori. | MED-dzo CHI-lo di po-mo-DO-ri | Jumătate de kil de roșii. | Un kil și jumătate se spune un chilo e mezzo. Pomodori este plural: la singular e pomodoro.
+Quanto costa? Quanto costano? | CUAN-to COS-ta / CUAN-to COS-ta-no | Cât costă? | Costa pentru un singur lucru, costano pentru mai multe. Româna nu face diferența.
+Posso assaggiare? | POS-so as-sad-GIA-re | Pot să gust? | Se cere firesc la brânză, măsline sau salam, unde vânzătorul poate tăia o bucățică. La fructe, mai bine întrebi decât să iei singur.
+Un po' di più, per favore. | un po di PIU per fa-VO-re | Puțin mai mult, vă rog. | Spui asta când felia sau porția ți se pare mică. Pentru invers, un po' meno (puțin mai puțin).
+Basta così, grazie. | BAS-ta co-ZI GRAT-ție | Ajunge, mulțumesc. | Răspunsul la Altro? sau Basta così? din partea vânzătorului. Accentul cade pe ultima silabă din così.
+Chi è l'ultimo? | chi e LUL-ti-mo | Cine e ultimul? | Cum intri în rând fără rând. Răspunsul este Sono io (eu sunt).
+Quanto le devo? | CUAN-to le DE-vo | Cât vă datorez? | Plata se face după ce vânzătorul a cântărit tot. Devo vine de la dovere, a datora.
+Avete qualcosa per il mal di gola? | a-VE-te cual-CO-za per il mal di GO-la | Aveți ceva pentru durerea în gât? | Avete se aude aproape ca „aveți", pentru că vine din același cuvânt latinesc. Gola înseamnă gât, nu gură.
+Serve la ricetta? | SER-ve la ri-CET-ta | E nevoie de rețetă? | Întrebarea de bază la farmacie. Răspunsul poate fi Sì, serve sau No, è senza ricetta.
+È senza ricetta? | e SEN-ța ri-CET-ta | E fără rețetă? | Medicamentele fără rețetă sunt de două feluri: da banco (OTC), care au voie să facă reclamă, și SOP, adică senza obbligo di prescrizione, care nu au voie. Pentru niciunul nu ai nevoie de rețetă.
+Una compressa due volte al giorno, dopo i pasti. | U-na com-PRES-sa DU-e VOL-te al GIOR-no DO-po i PA-sti | O tabletă de două ori pe zi, după mese. | Volte înseamnă ori, deci due volte este de două ori. Prospectul se numește foglietto illustrativo.
+:koniec
+
+:cwiczenie fiszki
+
+## Pronunția: ce ai deja și ce nu
+
+Literele *c* și *g* se citesc la fel ca în română. *Ci* și *ce* sună ca în „ciorbă" și „cercel", *chi* și *che* ca în „chibrit" și „cheie", *gi* ca în „girafă", *ghi* ca în „ghiozdan". Pentru *sci* și *sce* ai deja sunetul ș: *pesce* (pește) se citește „PEȘ-șe", *prosciutto* se citește „pro-ȘUT-to". Accentul cade de cele mai multe ori pe penultima silabă, dar nu mereu, de aceea este scris cu litere mari.
+
+Trei lucruri nu le ai din română. Primul este *gn*, care sună ca un „ni" spus dintr-o suflare: *lasagna* se citește „la-ZA-nia", nu „las-ag-na". Al doilea este *gli*, un „li" muiat: *famiglia* se citește aproximativ „fa-MI-lia". Al treilea sunt consoanele duble.
+
+:uwaga
+Italiana ține consoanele duble o clipă mai mult, iar diferența schimbă sensul. *Sete* înseamnă sete (*ho sete*, mi-e sete), *sette* înseamnă șapte. *Caro* este scump, *carro* este car, căruță. Româna nu are așa ceva, deci trebuie exersat: spune *etto* cu un mic hop între cele două t-uri, nu „eto".
+:koniec
+
+:cta
+
+## La farmacie: ricetta, senza ricetta, da banco
+
+Deasupra intrării este de obicei o cruce verde luminoasă. Noaptea și în zilele de sărbătoare funcționează de regulă doar farmacia *di turno*, adică de serviciu, iar lista celor din zonă este afișată de obicei pe ușa fiecărei farmacii.
+
+Cuvântul *ricetta* îl cunoști: este „rețetă". Ca în română, înseamnă și rețeta de bucătărie, și rețeta medicală (*ricetta medica*). Astăzi rețeta este mai ales electronică (*ricetta dematerializzata*). Medicul o înregistrează în sistemul național, iar tu primești un *promemoria* cu un cod numit NRE, pe hârtie sau digital (e-mail, SMS, aplicații de mesagerie). La farmacie, farmacistul găsește rețeta pe baza acestui cod și a cardului *tessera sanitaria*, pe care este înscris și *codice fiscale*. Modul exact în care primești codul poate diferi de la o regiune la alta, așa că întreabă la cabinet.
+
+Medicamentele care nu cer rețetă sunt *senza ricetta*. În *parafarmacia* găsești doar astfel de medicamente, plus suplimente și produse de îngrijire. Ce cere rețetă se dă numai în farmacie.
+
+Pentru dureri, italiana folosește *mal di* urmat de partea corpului, adică „durere de": *mal di testa* (durere de cap), *mal di gola* (durere în gât), *mal di pancia* (durere de burtă), *mal di denti* (durere de dinți). Pentru febră și tuse spui *ho la febbre*, *ho la tosse*, la fel ca „am febră", „am tuse".
+
+:uwaga
+Nu confunda *gola* cu gura. Latinescul *gula* însemna gât, beregată. Italiana a păstrat sensul, româna l-a mutat la „gură". De aceea *mal di gola* este durere în gât, iar gura se numește *bocca*.
+:koniec
+
+:::modal-trigger[target="quiz" id="piata_q1" label="Verifică ce ții minte"]
+:::
+
+## Două dialoguri scurte
+
+:::sluchanie[title="La taraba de mezeluri"]
+Buongiorno, dica! | Bună ziua, spuneți!
+Un etto di prosciutto cotto, per favore. | O sută de grame de șuncă fiartă, vă rog.
+Va bene così? | Așa e bine?
+Un po' di più, grazie. | Puțin mai mult, mulțumesc.
+Altro? | Altceva?
+Basta così. Quanto le devo? | Ajunge. Cât vă datorez?
+:::
+
+:::sluchanie[title="La farmacie"]
+Buonasera. Avete qualcosa per il mal di gola? | Bună seara. Aveți ceva pentru durerea în gât?
+Certo. Preferisce le pastiglie o lo sciroppo? | Desigur. Preferați pastile sau sirop?
+Le pastiglie. Serve la ricetta? | Pastilele. E nevoie de rețetă?
+No, sono senza ricetta. | Nu, sunt fără rețetă.
+Come si prendono? | Cum se iau?
+Una pastiglia dopo i pasti. Legga il foglietto illustrativo. | O pastilă după mese. Citiți prospectul.
+:::
+
+:::quiz[id="piata_q1" title="Verifică ce ții minte"]
+Pytanie: Câte grame are un etto?
+- 100 de grame [correct]
+- 10 grame
+- 500 de grame
+Wyjaśnienie: Etto vine de la ettogrammo, adică hectogram, 100 g. Jumătate de kilogram este mezzo chilo.
+Pytanie: Ce înseamnă mal di gola?
+- Durere în gât [correct]
+- Durere de gură
+- Durere de dinți
+Wyjaśnienie: Gola este gâtul, nu gura. Gura se spune bocca, iar durerea de dinți este mal di denti.
+Pytanie: Ce faci când intri într-o piață aglomerată și vrei să știi după cine urmezi?
+- Întrebi „Chi è l'ultimo?" [correct]
+- Spui „Basta così"
+- Întrebi „Quanto costa?"
+Wyjaśnienie: Chi è l'ultimo? înseamnă cine e ultimul. Cineva răspunde Sono io, iar tu urmezi după el sau ea.
+:::

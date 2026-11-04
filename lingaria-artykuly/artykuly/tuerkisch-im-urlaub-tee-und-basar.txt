@@ -1,0 +1,87 @@
+tytul: Türkisch im Urlaub: Tee bestellen, Baklava kaufen, auf dem Basar feilschen
+opis: Wichtige türkische Sätze für Teestube, Konditorei und Basar, mit Aussprache in deutscher Schreibweise und einer Falle beim türkischen s, die Anfänger verrät.
+data: 2026-11-04
+zaktualizowano: 2026-11-04
+status: szkic
+dzial: praktyka
+poziom: A1-A2
+autor:
+tagi: türkisch, urlaub, tee, basar, baklava
+powiazane: englisch-im-buero-small-talk
+jezyk_docelowy: tr
+jezyk_tekstu: de
+zdjecie_pomysl: Tulpenförmiges Teeglas auf einer Untertasse mit zwei Zuckerwürfeln, im Hintergrund ein Basarstand
+---
+## Ein Glas Tee ist schnell leer
+
+In der Türkei kommt der Tee in einem kleinen Tulpenglas mit schmaler Taille, auf einer Untertasse, oft mit Zuckerwürfeln. Das Glas heißt »ince belli«, wörtlich »schlanke Taille«. Weil es so klein ist, trinkt man es schnell aus und bestellt das nächste. Dafür brauchst du nur ein Wort mehr: »Bir çay daha, lütfen« heißt »noch einen Tee, bitte«.
+
+Die Stärke kannst du wählen. »Açık« bedeutet hell oder leicht, »koyu« dunkel und kräftig. Sagst du nichts, bekommst du meist die übliche Stärke.
+
+Beim türkischen Kaffee nennst du die Süße gleich mit, denn gekocht wird er mit Zucker, nicht nachträglich gesüßt. »Sade« heißt ohne Zucker, »az şekerli« wenig, »orta« mittel und »şekerli« süß. Dazu gibt es ein Glas Wasser und manchmal ein Stück Lokum.
+
+## Baklava wird oft nach Gewicht verkauft
+
+In vielen Läden und Konditoreien wiegt der Verkäufer das Baklava ab, ein Satz wie »Yarım kilo baklava, lütfen« ist also alltäglich. Wer im Café eine Portion essen möchte, sagt »bir porsiyon baklava«. Mit »Antep baklavası« bestellst du die Variante aus Gaziantep, die mit Pistazien gemacht wird. Der Name ist seit 2013 in der EU als geschützte geografische Angabe (g.g.A.) eingetragen.
+
+## Hereinkommen und Danke sagen
+
+Betrittst du einen Laden oder ein Restaurant, hörst du oft »Hoş geldiniz«, also »Herzlich willkommen«. Die feste Antwort ist »Hoş bulduk«. Wörtlich heißt das etwa »wir haben es angenehm gefunden«, gemeint ist sinngemäß »danke, ich fühle mich hier wohl«.
+
+Zum Danken reicht »Teşekkür ederim«. Unter Freunden sagt man kürzer »Sağ ol«. Die Antwort auf ein Danke ist »Rica ederim«, »gern geschehen«. Wer isst, bekommt »Afiyet olsun« zu hören, ähnlich wie unser »Guten Appetit«. Und wenn es dir geschmeckt hat, sagst du »Elinize sağlık«: wörtlich »Gesundheit Ihren Händen«, ein Kompliment an die Person, die gekocht hat. Unter Vertrauten ist die Kurzform »Eline sağlık« üblich.
+
+## Auf dem Basar: Preise erfragen und feilschen
+
+Feilschen heißt »pazarlık«. Es gehört auf den Basar, nicht in Supermarkt oder Restaurant, wo die Preise auf dem Schild oder der Karte stehen. Der übliche Ablauf: Du fragst »Ne kadar?«, hörst den ersten Preis, sagst »Çok pahalı« und fragst, ob es einen Nachlass gibt. Das alles mit einem Lächeln, es ist ein Gespräch und kein Streit.
+
+Damit du die genannten Preise verstehst: Die Zahlen von eins bis zehn heißen bir, iki, üç, dört, beş, altı, yedi, sekiz, dokuz, on. In deutscher Schreibweise: bir, i-KI, ÜTSCH, DÖRT, BESCH, al-TI, je-DI, sse-KIS, do-KUS, ON. Die Landeswährung ist die Lira.
+
+Der Große Basar in Istanbul (Kapalıçarşı) ist nach gängigen Angaben sonntags und an den religiösen Feiertagen (Bayram) geschlossen. Wie es an den Tagen rund um den Bayram aussieht, wechselt, und Öffnungszeiten ändern sich. Prüf sie vor dem Besuch.
+
+Wenn dich ein Händler anspricht und du nur schauen willst, sagst du »Sadece bakıyorum, teşekkürler«. Das ist höflich und wird verstanden.
+
+:cta
+
+## Zwölf Sätze zum Mitnehmen
+
+:frazy
+Bir çay, lütfen. | bir TSCHAI, LÜT-fen | Einen Tee, bitte. | Kommt im kleinen Tulpenglas mit Untertasse. »Çay« spricht sich fast wie »Tschai«.
+Bir Türk kahvesi, orta, lütfen. | bir türk kah-ve-SSI, or-TA, LÜT-fen | Einen türkischen Kaffee, mittelsüß, bitte. | Die Süße gehört zur Bestellung: sade, az şekerli, orta oder şekerli.
+Yarım kilo baklava, lütfen. | ja-RIM ki-LO bak-la-VA, LÜT-fen | Ein halbes Kilo Baklava, bitte. | In vielen Läden wird Baklava abgewogen. Im Café bestellst du eine Portion mit »bir porsiyon baklava«.
+Hoş geldiniz. | hosch gel-di-NIS | Herzlich willkommen. | Wird dir beim Betreten von Laden oder Restaurant zugerufen.
+Hoş bulduk. | hosch bul-DUK | Schön, hier zu sein. | Die übliche Antwort auf »Hoş geldiniz«, wörtlich »wir haben es angenehm gefunden«.
+Teşekkür ederim. | te-schek-KÜR e-de-RIM | Vielen Dank. | Das Standard-Danke. Unter Freunden reicht »Sağ ol«, gesprochen »ssaa ol«.
+Ne kadar? | ne ka-DAR | Wie viel kostet das? | Auf dem Basar beginnt hier das Feilschen. Zeig dabei auf die Ware, dann ist klar, was du meinst.
+İndirim yapar mısınız? | in-di-RIM ja-PAR mi-ssi-nis | Geben Sie mir einen Rabatt? | Höflich mit »Sie«. Das Wort »indirim« bedeutet Preisnachlass.
+Çok pahalı. | tschok pa-ha-LI | Das ist sehr teuer. | Der Klassiker nach dem ersten Preis. Mit Lächeln gesagt ist es eine Einladung zum Verhandeln.
+Sadece bakıyorum. | SSA-de-dsche ba-KI-jo-rum | Ich schaue nur. | Die höfliche Antwort, wenn dich ein Händler anspricht.
+Afiyet olsun. | a-fi-JET ol-SSUN | Guten Appetit. | Sagt man zu jemandem, der isst, und auch der Wirt zum Gast.
+Elinize sağlık. | e-li-ni-SE ssaa-LIK | Danke an die Köchin oder den Koch. | Wörtlich »Gesundheit Ihren Händen«. Das Kompliment nach dem Essen, gesagt zu der Person, die gekocht hat.
+:koniec
+
+:cwiczenie fiszki
+
+:uwaga
+Beim s und z verraten sich Anfänger sofort. Das türkische »s« ist immer scharf wie in »Haus«, auch zwischen Vokalen, deshalb steht es in der Umschrift als »ss«. Das »z« ist dagegen weich wie unser »s« in »Sonne« und steht in der Umschrift als »s«. Weiter: ç ist »tsch«, ş ist »sch«, c ist »dsch«. Das »ğ« wird nicht gesprochen und dehnt den Vokal davor. Das »ı« ohne Punkt ist ein dumpfes i: sprich i, aber mit lockeren Lippen und der Zunge weiter hinten wie bei u. In der Umschrift steht dafür einfach »i«. Die Betonung liegt meistens auf der letzten Silbe, Ausnahmen sind etwa »MER-ha-ba« und »LÜT-fen«. Die Fragepartikel »mı« trägt selbst keinen Ton, er liegt auf der Silbe davor (ja-PAR mi-ssi-nis). Bei Verben auf -ıyor sitzt er auf dem Vokal vor »yor« (ba-KI-jo-rum).
+:koniec
+
+:::quiz[id="tuerkisch_q1" title="Was hast du behalten?"]
+Pytanie: Der Händler sagt »Hoş geldiniz«. Was antwortest du?
+- Hoş bulduk. [correct]
+- Afiyet olsun.
+- Çok pahalı.
+Wyjaśnienie: »Hoş bulduk« ist die feste Antwort auf den Willkommensgruß. »Afiyet olsun« sagt man zu jemandem, der isst.
+Pytanie: Du bestellst einen türkischen Kaffee ohne Zucker. Welches Wort gehört dazu?
+- sade [correct]
+- orta
+- şekerli
+Wyjaśnienie: »Sade« heißt ohne Zucker. »Orta« ist mittelsüß, »şekerli« süß.
+Pytanie: Was sagst du, wenn du nur schauen willst?
+- Sadece bakıyorum. [correct]
+- Ne kadar?
+- İndirim yapar mısınız?
+Wyjaśnienie: »Sadece bakıyorum« heißt »Ich schaue nur«. »Ne kadar?« fragt nach dem Preis.
+:::
+
+:::modal-trigger[target="quiz" id="tuerkisch_q1" label="Teste dein Türkisch"]
+:::

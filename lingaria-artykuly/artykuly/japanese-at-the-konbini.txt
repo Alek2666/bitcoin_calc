@@ -1,0 +1,98 @@
+tytul: Japanese at the Konbini: What the Clerk Asks and What to Say Back
+opis: Bag, heating, chopsticks, point card: the questions you hear at a Japanese convenience store checkout, with kana, romaji and short answers that work.
+data: 2026-11-04
+zaktualizowano: 2026-11-04
+status: szkic
+dzial: praktyka
+poziom: A1-A2
+autor:
+tagi: japanese, konbini, convenience store, phrases, travel japanese
+powiazane: german-sie-or-du, french-greetings-bonjour-salut-la-bise
+jezyk_docelowy: ja
+jezyk_tekstu: en
+zdjecie_pomysl: a brightly lit konbini counter at night with a small payment tray next to the register
+---
+
+A Japanese convenience store checkout is a quick quiz in polite Japanese, and you can pass it with two answers. The clerk asks about a bag, about heating your food, about chopsticks and a point card. You only need to recognize them and reply with *onegaishimasu* (yes, please) or *daijōbu desu* (no, I'm fine).
+
+## Walking in
+
+The first thing you hear is いらっしゃいませ (*irasshaimase*), "welcome". Clerks say it to every customer who comes through the door, often without looking up. It is not a question and nobody expects a reply. A small nod is plenty.
+
+Japanese has pitch, not stress, so the pronunciations here use no capital letters. A macron (*ō*, *ū*) marks a long vowel, held about twice as long. A doubled consonant, as in *irasshaimase*, is a tiny pause before the second one. The final *u* in *desu* and *masu* is nearly silent, so they come out as "dess" and "mahss".
+
+## The bag question
+
+Since 1 July 2020, shops in Japan have been required to charge for plastic shopping bags, convenience stores included. Shops set their own price, and the big convenience chains began at around 3 yen, which is why most checkouts now include a bag question. The usual wording is 袋はご利用ですか (*fukuro wa goriyō desu ka*), literally "will you use a bag?". Some clerks say 袋にお入れしますか (*fukuro ni oire shimasu ka*), "shall I put it in a bag?". The plainer 袋は要りますか (*fukuro wa irimasu ka*) means the same, but staff tend to use the politer forms.
+
+If you buy a single item, such as a drink, the clerk may offer a sticker on it instead of a bag: シールでよろしいでしょうか (*shīru de yoroshii deshō ka*). You can answer はい、大丈夫です (*hai, daijōbu desu*) and carry on.
+
+:uwaga
+大丈夫です (*daijōbu desu*) literally means "it's all right", and that is the trap. To "will you use a bag?" it means "no, thanks". To "is a sticker okay?" the same words mean "yes, that's fine". The question decides the meaning, so listen to it, and add a small shake of the head or a flat hand wave when you mean no. A clearer no is 要りません (*irimasen*), "I don't need it", though it sounds a little blunt. 結構です (*kekkō desu*) is also common, but it is just as ambiguous.
+:koniec
+
+## Heating, chopsticks and the point card
+
+Buy a bento or another food that goes in the microwave and you will hear 温めますか (*atatamemasu ka*), "shall I heat it?". Answer お願いします for yes or 大丈夫です for no.
+
+Next comes お箸はお付けしますか (*ohashi wa otsuke shimasu ka*), "would you like chopsticks?". The same pattern works for a spoon (スプーン, *supūn*) or a fork (フォーク, *fōku*). To say yes, ask for the item directly: お箸をお願いします (*ohashi o onegaishimasu*).
+
+Finally, ポイントカードはお持ちですか (*pointo kādo wa omochi desu ka*). Lawson uses Ponta, for example, and visitors usually have no card. The answer is 持っていません (*motte imasen*), "I don't have one".
+
+:cta
+
+## Paying
+
+Cash goes on the small tray beside the register (カルトン, *karuton*) rather than into the clerk's hand. The clerk may ask お支払いはどうなさいますか (*oshiharai wa dō nasaimasu ka*), "how would you like to pay?". To pay by card, answer カードでお願いします (*kādo de onegaishimasu*) and then tap or insert the card at the reader; for cash, 現金で (*genkin de*) replaces カードで. レシートはご利用ですか (*reshīto wa goriyō desu ka*) is about the ordinary till receipt. A formal one for expense claims is a 領収書 (*ryōshūsho*), and you ask for it by name: 領収書をお願いします (*ryōshūsho o onegaishimasu*).
+
+Buying beer or cigarettes adds a step. A screen at the register asks you to confirm that you are 20 or older, and the clerk says something like 年齢確認のボタンを押してください (*nenrei kakunin no botan o oshite kudasai*), "please press the age-confirmation button". The legal age for alcohol and tobacco in Japan is still 20, even though adulthood starts at 18. Pressing the button is normally how you confirm it.
+
+:frazy
+いらっしゃいませ (irasshaimase) | ee-rahss-shy-mah-seh | Welcome (said by staff) | Called out to every customer, sometimes from the back room. You do not answer; a nod is enough.
+袋はご利用ですか (fukuro wa goriyō desu ka) | foo-koo-roh wah goh-ree-yoh dess kah | Do you need a bag? | The usual bag question now that bags cost money (since July 2020). The plainer 袋は要りますか (fukuro wa irimasu ka) means the same.
+大丈夫です (daijōbu desu) | dye-joh-boo dess | I'm fine / No, thank you | The all-purpose polite refusal for a bag, chopsticks or a heated bento. Add a head shake, because the same words can also mean "that's fine" (yes).
+お願いします (onegaishimasu) | oh-neh-guy-shee-mahss | Yes, please / please | Your all-purpose yes. Add はい (hai) in front if you want it to sound warmer.
+温めますか (atatamemasu ka) | ah-tah-tah-meh-mahss kah | Shall I heat it up? | Asked when you buy a bento or other food that can go in the microwave.
+お箸はお付けしますか (ohashi wa otsuke shimasu ka) | oh-hah-shee wah oh-tsoo-keh shee-mahss kah | Would you like chopsticks? | Swap お箸 for スプーン (supūn) or フォーク (fōku) to be asked about a spoon or fork.
+ポイントカードはお持ちですか (pointo kādo wa omochi desu ka) | poh-een-toh kah-doh wah oh-moh-chee dess kah | Do you have a point card? | Each chain ties in with its own point program. If you don't, say 持っていません (motte imasen).
+カードでお願いします (kādo de onegaishimasu) | kah-doh deh oh-neh-guy-shee-mahss | By card, please | Say it when the clerk asks how you will pay, then tap or insert the card at the reader.
+ファミチキを一つください (Famichiki o hitotsu kudasai) | fah-mee-chee-kee oh hee-toh-tsoo koo-dah-sigh | One Famichiki, please | FamilyMart's fried chicken sits behind the register, so you ask the clerk. Lawson's counter classic is からあげクン (Karaage-kun). Hitotsu is the general "one".
+ありがとうございました (arigatō gozaimashita) | ah-ree-gah-toh goh-zah-ee-mahsh-tah | Thank you very much | Said by the clerk in the past tense because the transaction is finished. A nod or どうも (dōmo) in return is fine.
+:koniec
+
+## Hot snacks
+
+Fried chicken and steamed buns sit behind the counter, not on the shelves. Say the name or point and say これ (*kore*), "this one", then add *hitotsu* (one) or *futatsu* (two) and *kudasai*.
+
+:::sluchanie[title="Listen to a full checkout"]
+いらっしゃいませ。 | Welcome.
+お弁当、温めますか。 | Shall I heat the bento?
+お願いします。 | Yes, please.
+袋はご利用ですか。 | Do you need a bag?
+大丈夫です。 | No, I'm fine.
+お箸はお付けしますか。 | Would you like chopsticks?
+はい、お願いします。 | Yes, please.
+ポイントカードはお持ちですか。 | Do you have a point card?
+持っていません。 | No, I don't.
+648円です。 | That's 648 yen.
+カードでお願いします。 | By card, please.
+ありがとうございました。 | Thank you very much.
+:::
+
+:::quiz[id="konbini_q1" title="Check what you remember"]
+Pytanie: When did shops in Japan have to start charging for plastic shopping bags?
+- April 2015
+- July 2020 [correct]
+- January 2023
+Wyjaśnienie: The rule took effect on 1 July 2020. Each shop sets its own price, and 3 yen was a common starting point.
+Pytanie: The clerk asks 温めますか (atatamemasu ka). What are they offering?
+- To pack it in a bag.
+- To give you chopsticks.
+- To heat your food. [correct]
+Wyjaśnienie: Atatameru means "to warm up". The question is about the microwave. Chopsticks are お箸 and a bag is 袋.
+Pytanie: Where do you put your cash at a Japanese convenience store checkout?
+- On the small tray next to the register. [correct]
+- Straight into the clerk's hand.
+- On the shelf behind the counter.
+Wyjaśnienie: The tray is the normal place for cash. It is called カルトン (karuton), and change may come back on it too.
+:::

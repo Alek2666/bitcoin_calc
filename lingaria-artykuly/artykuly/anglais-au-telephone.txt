@@ -1,0 +1,105 @@
+tytul: Anglais au téléphone : prendre rendez-vous, épeler son nom et faire répéter
+opis: Les phrases d'anglais pour téléphoner, avec la prononciation en français : se présenter, épeler son nom, prendre rendez-vous, faire répéter et rappeler plus tard.
+data: 2026-11-04
+zaktualizowano: 2026-11-04
+status: szkic
+dzial: praktyka
+poziom: A2-B1
+autor:
+tagi: anglais, téléphone, rendez-vous, épeler son nom, expressions
+powiazane:
+jezyk_docelowy: en
+jezyk_tekstu: fr
+zdjecie_pomysl: une main qui note un nom sur un carnet, un téléphone posé à côté
+---
+Beaucoup de Français lisent un e-mail en anglais sans trembler, puis se figent quand le téléphone sonne. La grammaire y est pour peu de chose. Au téléphone, il n'y a ni visage, ni écran, ni possibilité de relire, et on vous demande très vite votre nom de famille, à épeler dans un alphabet dont presque aucune voyelle ne sonne comme chez nous.
+
+:uwaga
+Comment lire la prononciation. La syllabe accentuée est en majuscules. « th » se dit la langue entre les dents, et « dh » note le « th » sonore de « the » ou de « this ». Le « h » est un vrai souffle (en français il est muet, ici on expire). « dj » se lit comme le « j » de « jazz », et « eu » note le son faible de « the » ou de « number », à peine prononcé.
+:koniec
+
+## Décrocher et se présenter
+
+En français, on décroche avec « Allô » ou en donnant son nom. En anglais, on dit « Hello », et pour se présenter « This is » suivi du nom : « Hello, this is Claire Martin. » « I am Claire Martin » est un calque du français : on vous comprendra, mais ce n'est pas la formule habituelle au téléphone. Si vous demandez quelqu'un et que c'est justement lui qui a décroché, il répond simplement « Speaking. »
+
+Pour demander quelqu'un, la formule sûre est « Could I speak to… ? ». « Can I » passe aussi, mais « could » adoucit la demande. Si la personne est absente, vous entendrez : « I'm afraid he's not available at the moment. Can I take a message? » Le mot à retenir est « available » : il couvre à la fois « absent » et « occupé », donc inutile de savoir lequel des deux.
+
+Quand on vous fait patienter, c'est « Could you hold the line? » (entre collègues, « Hold on »), puis « I'll put you through » au moment du transfert. Au Royaume-Uni on dit volontiers « ring » à la place de « call », et le téléphone portable est un « mobile » en Grande-Bretagne, un « cell phone » aux États-Unis.
+
+## Épeler son nom
+
+Le nom de famille est le vrai test, et il se joue sur les voyelles de l'alphabet anglais. Trois groupes de lettres provoquent presque toutes les erreurs.
+
+- « E » se dit « i » et « I » se dit « aï ». Quelqu'un qui épelle « Pierre » dit donc : pi, aï, i, ar, ar, i.
+- « G » se dit « dji » et « J » se dit « djéï ».
+- « A » se dit « éï », « K » se dit « kéï » et « H » se dit « éïtch ». C'est le « H » qui surprend le plus : en français il commence par « a », en anglais par « é ».
+
+Les autres lettres qui trompent : « W » (« DEU-bel-iou », littéralement « double u »), « Y » (« ouaï »), « U » (« iou ») et « R » (« ar »). Pour « Z », les Britanniques disent « zèd » et les Américains « zi ».
+
+Pour départager deux lettres proches comme B et D, les anglophones ajoutent un mot : « B as in boy », « D as in dog ». Au Royaume-Uni, une lettre doublée se dit « double » : « Scott » s'épelle « S, C, O, double T ». Les Américains préfèrent répéter la lettre. Dans un numéro de téléphone, le zéro se dit « oh » (plus souvent « zero » aux États-Unis), et les Britanniques disent aussi « double » pour un chiffre répété : 077 devient « oh, double seven ».
+
+## Prendre rendez-vous
+
+Le piège tient en un verbe. En anglais on ne « prend » pas un rendez-vous : on le fait (« make an appointment ») ou on le réserve (« book an appointment »). « Take an appointment » est un autre calque du français, compris mais peu naturel. De son côté, « rendezvous » existe en anglais mais désigne plutôt un point de rencontre, parfois galant. Pour le dentiste, le garage ou un entretien d'embauche, le mot est « appointment ».
+
+Les jours prennent « on » et les heures « at » : on Thursday, at ten. À l'oral, on ne dit pas « quatorze heures » mais « two in the afternoon » ou « two p.m. », et 14 h 30 devient « half past two ». Pour proposer un créneau : « Would Thursday at ten work for you? »
+
+Pour refuser, on adoucit : « I'm afraid I can't make Thursday. Would Friday be possible? » Le « I'm afraid » n'exprime aucune peur, c'est l'équivalent de « malheureusement », et « make Thursday » veut dire « être disponible jeudi ».
+
+:cta
+
+## Faire répéter sans vexer
+
+Demander de répéter ne choque personne. Ce qui passe mal, c'est un « What? » lâché tout seul. « Sorry? » ou « Sorry, could you say that again? » font la même demande poliment. Si vous n'avez pas saisi le nom : « Sorry, I didn't catch your name. » Si le débit est trop rapide : « Could you speak a little more slowly, please? » Et si le problème vient de la ligne : « The line is breaking up » ou « I can't hear you very well ».
+
+Un bon réflexe consiste à répéter soi-même ce qu'on a noté : « Let me just check that: Friday at half past two? »
+
+:::sluchanie[title="Un appel pour prendre rendez-vous"]
+Hartley Dental, good morning. How can I help? | Cabinet dentaire Hartley, bonjour. Que puis-je pour vous ?
+Hello, I'd like to make an appointment, please. | Bonjour, je voudrais prendre rendez-vous.
+Of course. Sorry, could you spell your surname for me? | Bien sûr. Pardon, pouvez-vous épeler votre nom de famille ?
+M, A, R, T, I, N. | M, A, R, T, I, N.
+Thank you. Would Thursday at ten work for you? | Merci. Jeudi à dix heures, ça vous irait ?
+I'm afraid I can't make Thursday. Would Friday be possible? | Malheureusement je ne peux pas jeudi. Vendredi, c'est possible ?
+Friday at half past two is free. | Vendredi à quatorze heures trente, c'est libre.
+Let me just read that back: Friday at half past two. | Je répète pour vérifier : vendredi à 14 h 30.
+:::
+
+## Rappeler plus tard
+
+En français, « rappeler » couvre deux situations : on rappelle parce qu'on n'a pas eu la personne, ou parce qu'elle vous l'a demandé. L'anglais emploie « call back » pour les deux : « I'll call back later », « Could you ask her to call me back? ». Si on vous propose de transmettre un message, vous pouvez dire : « Could you tell him that Claire Martin called? »
+
+:uwaga
+« Recall » ne veut pas dire « rappeler quelqu'un ». En anglais, « to recall » signifie se souvenir de quelque chose ou retirer un produit défectueux de la vente. Au téléphone, on dit « call back », ou « ring back » au Royaume-Uni.
+:koniec
+
+## Huit phrases à garder pour l'appel
+
+:frazy
+Hello, this is Claire Martin. | hè-LÔ, dhis iz klèr MAR-tinn | Allô, c'est Claire Martin. | On dit « this is », pas « I am » : « I am Claire » passe pour une traduction mot à mot.
+Could I speak to Mr Wilson, please? | koud aï spik tou MIS-teur OUIL-seunn, pliz | Pourrais-je parler à M. Wilson, s'il vous plaît ? | « Mr » se lit « mister » et s'écrit sans point en anglais britannique (avec un point en américain).
+Could you hold the line, please? | koud iou hôld dhe laïn, pliz | Pouvez-vous patienter, s'il vous plaît ? | Équivalent de « ne quittez pas ». Entre collègues on entend plutôt « Hold on a moment ».
+I'd like to make an appointment. | aïd laïk tou méïk ann eu-POÏNT-meunt | Je voudrais prendre rendez-vous. | On « make » ou on « book » un rendez-vous, on ne le « take » pas.
+Would Thursday at ten work for you? | woud THEURZ-dé att tèn weurk for iou | Jeudi à dix heures, ça vous irait ? | « Work for you » veut dire « vous convient ». Le « th » de « Thursday » se fait la langue entre les dents.
+I'm afraid I can't make Thursday. | aïm eu-FRÉÏD aï kannt méïk THEURZ-dé | Malheureusement, je ne peux pas jeudi. | « I'm afraid » adoucit un refus. « Make Thursday » signifie « être libre jeudi ».
+Sorry, could you say that again? | SO-ri, koud iou séï dhatt eu-GUÈN | Pardon, pouvez-vous répéter ? | Version courte : « Sorry? ». Un « What? » seul est brusque.
+Can I call you back later? | kann aï kol iou bak LÉÏ-teur | Puis-je vous rappeler plus tard ? | « Call back » sert pour tous les rappels. On peut ajouter une heure précise : « at three ».
+:koniec
+
+:::quiz[id="telephone_q1" title="Sur le fil, qu'avez-vous retenu ?"]
+Pytanie: Comment se présente-t-on au téléphone en anglais ?
+- Hello, this is Claire Martin. [correct]
+- Hello, I am Claire Martin at the phone.
+- Hello, here Claire Martin.
+Wyjaśnienie: On dit « this is » suivi du nom. « I am… » est un calque du français que les anglophones ne disent pas au téléphone.
+Pytanie: Quelle lettre se dit « djéï » ?
+- G
+- J [correct]
+- H
+Wyjaśnienie: « J » se dit « djéï », « G » se dit « dji » et « H » se dit « éïtch ».
+Pytanie: Comment demande-t-on un rendez-vous ?
+- I'd like to take an appointment.
+- I'd like to make an appointment. [correct]
+- I'd like to do an appointment.
+Wyjaśnienie: On « make » ou on « book » un appointment. « Take an appointment » est un calque du français.
+:::
