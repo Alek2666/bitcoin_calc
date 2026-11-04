@@ -1,0 +1,263 @@
+{
+  "klucz": "lingaria_lotnisko_odprawa_a2",
+  "tytul": "Odprawa na lotnisku",
+  "opis": "Odprawiasz się na lot za granicę. Podajesz dokumenty, bagaż i miejsce w samolocie, a potem pytasz o bramkę i opowiadasz o celu podróży.",
+  "cefr": "A2",
+  "ikona": "fi-rr-plane",
+  "glos": "auto:masculine",
+  "role": {
+    "bot": "Pracownik odprawy",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "lotnisko",
+    "paszport",
+    "bilet",
+    "bagaż",
+    "bramka",
+    "okno",
+    "korytarz",
+    "lot"
+  ],
+  "luki": [
+    "paszport",
+    "bramka"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "a2",
+    "lotnisko",
+    "podroz",
+    "samolot",
+    "bagaz",
+    "odprawa"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "op1",
+    "wezly": {
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Jesteś na lotnisku przy stanowisku odprawy. Za chwilę lecisz za granicę. Pracownik odprawy czeka z uśmiechem.",
+        "dalej": "s1"
+      },
+      "s1": {
+        "kto": "ai",
+        "tekst": "Dzień dobry! Poproszę paszport i bilet. Dokąd dziś lecimy?",
+        "instrukcja": "Podaj dokumenty i powiedz, dokąd lecisz",
+        "blad": "Przepraszam, nie dosłyszałem. Dokąd lecimy?",
+        "galezie": [
+          {
+            "intencja": "paszport",
+            "wzor": "Proszę, oto mój paszport. Lecę do {miasto}.",
+            "dalej": "s2"
+          },
+          {
+            "intencja": "bilet",
+            "wzor": "Przepraszam, nie mam biletu w ręku.",
+            "dalej": "a2"
+          },
+          {
+            "intencja": "brak",
+            "wzor": "Chyba nie mam paszportu przy sobie.",
+            "dalej": "a7"
+          },
+          {
+            "intencja": "basen",
+            "wzor": "Czy samolot ma basen?",
+            "dalej": "a3",
+            "ukryta": true
+          }
+        ]
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "Nic nie szkodzi. Wystarczy numer rezerwacji.",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Podaj numer rezerwacji",
+        "wzor": "Mój numer rezerwacji to AB1234.",
+        "blad": "Słucham? Jaki numer?",
+        "dalej": "s2"
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Niestety nie, ale mamy bardzo wygodne fotele.",
+        "dalej": "s2"
+      },
+      "a7": {
+        "kto": "ai",
+        "tekst": "Bez paszportu nie mogę cię odprawić na lot zagraniczny. Wróć po dokument, jeszcze zdążysz.",
+        "dalej": "fin2"
+      },
+      "s2": {
+        "kto": "ai",
+        "tekst": "Dziękuję. Lot do {miasto|tego miasta} jest punktualny. Masz bagaż do nadania?",
+        "instrukcja": "Powiedz, jaki masz bagaż",
+        "blad": "Przepraszam, walizka czy tylko bagaż podręczny?",
+        "galezie": [
+          {
+            "intencja": "walizka",
+            "wzor": "Mam jedną walizkę do nadania.",
+            "dalej": "a4"
+          },
+          {
+            "intencja": "reczny",
+            "wzor": "Mam tylko bagaż podręczny.",
+            "dalej": "s3"
+          }
+        ]
+      },
+      "a4": {
+        "kto": "ai",
+        "tekst": "Postaw walizkę na wadze. Waży dwadzieścia kilogramów, to w porządku.",
+        "dalej": "s3"
+      },
+      "s3": {
+        "kto": "ai",
+        "tekst": "Gdzie wolisz siedzieć, przy oknie czy przy korytarzu?",
+        "instrukcja": "Wybierz miejsce w samolocie",
+        "blad": "Przepraszam, okno czy korytarz?",
+        "galezie": [
+          {
+            "intencja": "okno",
+            "wzor": "Poproszę miejsce przy oknie.",
+            "dalej": "a5"
+          },
+          {
+            "intencja": "korytarz",
+            "wzor": "Poproszę miejsce przy korytarzu.",
+            "dalej": "a5"
+          },
+          {
+            "intencja": "obojetnie",
+            "wzor": "Obojętnie, jakie jest wolne.",
+            "dalej": "a5"
+          }
+        ]
+      },
+      "a5": {
+        "kto": "ai",
+        "tekst": "Oto twoja karta pokładowa. Bramka numer dwanaście. Masz jeszcze jakieś pytanie?",
+        "dalej": "u2"
+      },
+      "u2": {
+        "kto": "uczen",
+        "instrukcja": "Zapytaj, o której zaczyna się wejście do samolotu",
+        "wzor": "O której zaczyna się wejście na pokład?",
+        "blad": "Słucham?",
+        "dalej": "a6"
+      },
+      "a6": {
+        "kto": "ai",
+        "tekst": "Wejście zaczyna się godzinę przed startem. A ty? Po co lecisz, w podróż służbową czy na wakacje?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Opowiedz, po co lecisz",
+        "kryteria": "po co lecisz i na jak długo, 2 zdania",
+        "wzor": "Lecę na wakacje na tydzień. Chcę odpocząć i zwiedzić miasto.",
+        "blad": "Przepraszam, pytałem, po co lecisz.",
+        "dalej": "op2"
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: na tablicy odlotów szukaj trzech rzeczy: numeru lotu, godziny i bramki. Te słowa warto znać w każdym języku.",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Przepraszam, gdzie jest bramka numer dwanaście?",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Prosto, a potem w prawo. Miłego lotu!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Do zobaczenia! Powodzenia i szybkiego powrotu z paszportem."
+      }
+    },
+    "uklad": {
+      "op1": {
+        "x": 0,
+        "y": 0
+      },
+      "s1": {
+        "x": 0,
+        "y": 170
+      },
+      "s2": {
+        "x": -420,
+        "y": 340
+      },
+      "a2": {
+        "x": -140,
+        "y": 340
+      },
+      "a7": {
+        "x": 140,
+        "y": 340
+      },
+      "a3": {
+        "x": 420,
+        "y": 340
+      },
+      "a4": {
+        "x": -420,
+        "y": 510
+      },
+      "s3": {
+        "x": -140,
+        "y": 510
+      },
+      "u1": {
+        "x": 140,
+        "y": 510
+      },
+      "fin2": {
+        "x": 420,
+        "y": 510
+      },
+      "a5": {
+        "x": 0,
+        "y": 680
+      },
+      "u2": {
+        "x": 0,
+        "y": 850
+      },
+      "a6": {
+        "x": 0,
+        "y": 1020
+      },
+      "sw1": {
+        "x": 0,
+        "y": 1190
+      },
+      "op2": {
+        "x": 0,
+        "y": 1360
+      },
+      "p1": {
+        "x": 0,
+        "y": 1530
+      },
+      "fin1": {
+        "x": 0,
+        "y": 1700
+      }
+    }
+  }
+}

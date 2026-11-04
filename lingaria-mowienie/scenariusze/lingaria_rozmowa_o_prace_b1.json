@@ -1,0 +1,275 @@
+{
+  "klucz": "lingaria_rozmowa_o_prace_b1",
+  "tytul": "Rozmowa o pracę",
+  "opis": "Masz rozmowę kwalifikacyjną. Opowiadasz o swoim doświadczeniu i znajomości języków, ustalasz, kiedy możesz zacząć, i opisujesz swój największy sukces.",
+  "cefr": "B1",
+  "ikona": "fi-rr-briefcase",
+  "glos": "auto:masculine",
+  "role": {
+    "bot": "Rekruter",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "doświadczenie",
+    "stanowisko",
+    "zespół",
+    "umiejętności",
+    "wynagrodzenie",
+    "rozmowa",
+    "kandydat",
+    "umowa"
+  ],
+  "luki": [
+    "doświadczenie",
+    "zespół"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "b1",
+    "praca",
+    "rozmowa",
+    "kariera",
+    "doswiadczenie",
+    "cv"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "op1",
+    "wezly": {
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Siedzisz w sali konferencyjnej. Masz rozmowę o pracę w średniej firmie. Naprzeciwko siedzi rekruter z twoim CV w ręku.",
+        "dalej": "a1"
+      },
+      "a1": {
+        "kto": "ai",
+        "tekst": "Dzień dobry i dziękuję za spotkanie. Mam przed sobą twoje CV.",
+        "dalej": "s1"
+      },
+      "s1": {
+        "kto": "ai",
+        "tekst": "Opowiedz mi krótko o sobie. Czym zajmujesz się obecnie?",
+        "instrukcja": "Powiedz, czym zajmujesz się zawodowo",
+        "blad": "Przepraszam, czym zajmujesz się na co dzień?",
+        "galezie": [
+          {
+            "intencja": "praca",
+            "wzor": "Pracuję jako {zawod} od trzech lat.",
+            "dalej": "a2"
+          },
+          {
+            "intencja": "studia",
+            "wzor": "Jestem po studiach i szukam pierwszej pracy.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "zmiana",
+            "wzor": "Chcę zmienić branżę, bo szukam nowych wyzwań.",
+            "dalej": "a10"
+          },
+          {
+            "intencja": "szachy",
+            "wzor": "Moim największym doświadczeniem jest gra w szachy.",
+            "dalej": "a9",
+            "ukryta": true
+          }
+        ]
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "Praca jako {zawod|specjalista} to dobre doświadczenie. Co najbardziej lubisz w swojej pracy?",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Powiedz, co lubisz w swojej pracy",
+        "wzor": "Najbardziej lubię pracę w zespole i rozwiązywanie problemów.",
+        "blad": "Przepraszam, co lubisz w pracy?",
+        "dalej": "s2"
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Każdy zaczyna od pierwszej pracy. Mamy program stażowy dla osób po studiach.",
+        "dalej": "s2"
+      },
+      "a10": {
+        "kto": "ai",
+        "tekst": "Zmiana branży wymaga odwagi. Cenimy takie nastawienie.",
+        "dalej": "s2"
+      },
+      "a9": {
+        "kto": "ai",
+        "tekst": "Szachy uczą planowania. To przydatna umiejętność w naszej firmie.",
+        "dalej": "s2"
+      },
+      "s2": {
+        "kto": "ai",
+        "tekst": "Pracujemy z klientami z różnych krajów. W jakim stopniu znasz języki obce?",
+        "instrukcja": "Opisz swoją znajomość języków",
+        "blad": "Przepraszam, jakie języki znasz?",
+        "galezie": [
+          {
+            "intencja": "dobrze",
+            "wzor": "Dobrze znam angielski i uczę się kolejnego języka.",
+            "dalej": "a4"
+          },
+          {
+            "intencja": "srednio",
+            "wzor": "Znam angielski na poziomie komunikatywnym.",
+            "dalej": "a4"
+          },
+          {
+            "intencja": "poczatek",
+            "wzor": "Dopiero zaczynam, ale szybko się uczę.",
+            "dalej": "a4"
+          }
+        ]
+      },
+      "a4": {
+        "kto": "ai",
+        "tekst": "Dziękuję za odpowiedź. Teraz kwestia organizacyjna.",
+        "dalej": "s3"
+      },
+      "s3": {
+        "kto": "ai",
+        "tekst": "Od kiedy możesz zacząć pracę?",
+        "instrukcja": "Powiedz, od kiedy możesz zacząć",
+        "blad": "Przepraszam, od kiedy możesz zacząć?",
+        "galezie": [
+          {
+            "intencja": "tydzien",
+            "wzor": "Mogę zacząć od przyszłego tygodnia.",
+            "dalej": "a5"
+          },
+          {
+            "intencja": "miesiac",
+            "wzor": "Potrzebuję miesiąca okresu wypowiedzenia.",
+            "dalej": "a5"
+          },
+          {
+            "intencja": "pomysle",
+            "wzor": "Chcę to jeszcze przemyśleć.",
+            "dalej": "a6"
+          }
+        ]
+      },
+      "a6": {
+        "kto": "ai",
+        "tekst": "Rozumiem. Poczekamy na twoją odpowiedź do piątku.",
+        "dalej": "fin2"
+      },
+      "a5": {
+        "kto": "ai",
+        "tekst": "Dobrze. A teraz opowiedz o swoim największym sukcesie w pracy lub w nauce.",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Opowiedz o swoim największym sukcesie",
+        "kryteria": "jaki to był sukces, co zrobiono i jaki był wynik, 3 zdania",
+        "wzor": "W zeszłym roku przygotowaliśmy w zespole nowy system zamówień. Dzięki niemu skróciliśmy czas obsługi klienta o połowę.",
+        "blad": "Przepraszam, pytałem o twój największy sukces.",
+        "dalej": "op2"
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: opowiadając o sukcesie, podaj trzy rzeczy: co zrobiono, jak i z jakim wynikiem. To prosty plan dobrej odpowiedzi na rozmowie.",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Chętnie dołączę do waszego zespołu.",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Dziękujemy za rozmowę. Odezwiemy się w ciągu tygodnia."
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Dziękujemy za spotkanie i do usłyszenia!"
+      }
+    },
+    "uklad": {
+      "op1": {
+        "x": 0,
+        "y": 0
+      },
+      "a1": {
+        "x": 0,
+        "y": 170
+      },
+      "s1": {
+        "x": 0,
+        "y": 340
+      },
+      "a2": {
+        "x": -420,
+        "y": 510
+      },
+      "a3": {
+        "x": -140,
+        "y": 510
+      },
+      "a10": {
+        "x": 140,
+        "y": 510
+      },
+      "a9": {
+        "x": 420,
+        "y": 510
+      },
+      "u1": {
+        "x": -140,
+        "y": 680
+      },
+      "s2": {
+        "x": 140,
+        "y": 680
+      },
+      "a4": {
+        "x": 0,
+        "y": 850
+      },
+      "s3": {
+        "x": 0,
+        "y": 1020
+      },
+      "a5": {
+        "x": -140,
+        "y": 1190
+      },
+      "a6": {
+        "x": 140,
+        "y": 1190
+      },
+      "sw1": {
+        "x": -140,
+        "y": 1360
+      },
+      "fin2": {
+        "x": 140,
+        "y": 1360
+      },
+      "op2": {
+        "x": 0,
+        "y": 1530
+      },
+      "p1": {
+        "x": 0,
+        "y": 1700
+      },
+      "fin1": {
+        "x": 0,
+        "y": 1870
+      }
+    }
+  }
+}

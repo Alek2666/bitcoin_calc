@@ -1,0 +1,232 @@
+{
+  "start": "op1",
+  "wezly": {
+    "op1": {
+      "kto": "ai",
+      "opis": true,
+      "tekst": "Stoisz w kolejce w kasie biletowej. Chcesz kupić bilet na pociąg do innego miasta. Kasjerka patrzy na ciebie życzliwie.",
+      "dalej": "a1"
+    },
+    "a1": {
+      "kto": "ai",
+      "tekst": "Dzień dobry! Dokąd jedziemy?",
+      "dalej": "u1"
+    },
+    "u1": {
+      "kto": "uczen",
+      "instrukcja": "Powiedz, dokąd chcesz jechać",
+      "wzor": "Dzień dobry. Poproszę bilet do {miasto}.",
+      "blad": "Przepraszam, dokąd?",
+      "dalej": "s1"
+    },
+    "s1": {
+      "kto": "ai",
+      "tekst": "Do {miasto|tego miasta}? Mam pociąg o dziewiątej i o dwunastej. Który wybierasz?",
+      "instrukcja": "Wybierz godzinę odjazdu",
+      "blad": "Przepraszam, o dziewiątej czy o dwunastej?",
+      "galezie": [
+        {
+          "intencja": "dziewiata",
+          "wzor": "Poproszę ten o dziewiątej.",
+          "dalej": "s2"
+        },
+        {
+          "intencja": "dwunasta",
+          "wzor": "Poproszę ten o dwunastej.",
+          "dalej": "s2"
+        },
+        {
+          "intencja": "pozniej",
+          "wzor": "Czy jest coś później?",
+          "dalej": "a2"
+        },
+        {
+          "intencja": "kosmos",
+          "wzor": "Czy pociąg jedzie przez kosmos?",
+          "dalej": "a3",
+          "ukryta": true
+        }
+      ]
+    },
+    "a2": {
+      "kto": "ai",
+      "tekst": "Ostatni pociąg odjeżdża o dwudziestej.",
+      "dalej": "u2"
+    },
+    "u2": {
+      "kto": "uczen",
+      "instrukcja": "Powiedz, że bierzesz ten o dwudziestej",
+      "wzor": "W takim razie poproszę ten o dwudziestej.",
+      "blad": "Przepraszam, który pociąg?",
+      "dalej": "s2"
+    },
+    "a3": {
+      "kto": "ai",
+      "tekst": "Niestety nie, tylko przez pola i lasy.",
+      "dalej": "s2"
+    },
+    "s2": {
+      "kto": "ai",
+      "tekst": "W jedną stronę czy powrotny?",
+      "instrukcja": "Powiedz, jaki bilet chcesz",
+      "blad": "Przepraszam, w jedną stronę czy powrotny?",
+      "galezie": [
+        {
+          "intencja": "jedna",
+          "wzor": "W jedną stronę, proszę.",
+          "dalej": "a4"
+        },
+        {
+          "intencja": "powrotny",
+          "wzor": "Poproszę bilet powrotny.",
+          "dalej": "a4"
+        },
+        {
+          "intencja": "dziecko",
+          "wzor": "Poproszę też bilet dla dziecka.",
+          "dalej": "a4"
+        }
+      ]
+    },
+    "a4": {
+      "kto": "ai",
+      "tekst": "Dobrze. Razem dwadzieścia pięć euro.",
+      "dalej": "s3"
+    },
+    "s3": {
+      "kto": "ai",
+      "tekst": "Płacisz kartą czy gotówką?",
+      "instrukcja": "Powiedz, jak płacisz",
+      "blad": "Przepraszam, kartą czy gotówką?",
+      "galezie": [
+        {
+          "intencja": "karta",
+          "wzor": "Kartą, proszę.",
+          "dalej": "a5"
+        },
+        {
+          "intencja": "gotowka",
+          "wzor": "Gotówką, proszę.",
+          "dalej": "a5"
+        },
+        {
+          "intencja": "brak",
+          "wzor": "Przepraszam, nie mam przy sobie portfela.",
+          "dalej": "a6"
+        }
+      ]
+    },
+    "a6": {
+      "kto": "ai",
+      "tekst": "Rozumiem. Bankomat jest przy wejściu. Poczekam na ciebie.",
+      "dalej": "fin2"
+    },
+    "a5": {
+      "kto": "ai",
+      "tekst": "Dziękuję. Oto bilet. Pociąg odjeżdża z peronu trzeciego. Dużo osób jedzie dziś do {miasto|tego miasta}. Po co tam jedziesz?",
+      "dalej": "sw1"
+    },
+    "sw1": {
+      "kto": "uczen",
+      "swobodna": true,
+      "instrukcja": "Powiedz, po co jedziesz",
+      "kryteria": "po co jedziesz i na jak długo, 2 zdania",
+      "wzor": "Jadę odwiedzić babcię. Zostanę tam na trzy dni.",
+      "blad": "Przepraszam, pytałam, po co jedziesz.",
+      "dalej": "op2"
+    },
+    "op2": {
+      "kto": "ai",
+      "opis": true,
+      "jezyk_ucznia": true,
+      "tekst": "Wskazówka: na bilecie szukaj numeru peronu i godziny odjazdu. To dwie informacje, bez których pociąg ci ucieknie.",
+      "dalej": "p1"
+    },
+    "p1": {
+      "kto": "uczen",
+      "na_pamiec": true,
+      "wzor": "Przepraszam, z którego peronu odjeżdża pociąg?",
+      "dalej": "fin1"
+    },
+    "fin1": {
+      "kto": "ai",
+      "koniec": true,
+      "tekst": "Z peronu trzeciego, schodami w dół. Szczęśliwej podróży!"
+    },
+    "fin2": {
+      "kto": "ai",
+      "koniec": true,
+      "tekst": "Do zobaczenia! Zdążysz jeszcze na pociąg."
+    }
+  },
+  "uklad": {
+    "op1": {
+      "x": 0,
+      "y": 0
+    },
+    "a1": {
+      "x": 0,
+      "y": 170
+    },
+    "u1": {
+      "x": 0,
+      "y": 340
+    },
+    "s1": {
+      "x": 0,
+      "y": 510
+    },
+    "s2": {
+      "x": -280,
+      "y": 680
+    },
+    "a2": {
+      "x": 0,
+      "y": 680
+    },
+    "a3": {
+      "x": 280,
+      "y": 680
+    },
+    "a4": {
+      "x": -140,
+      "y": 850
+    },
+    "u2": {
+      "x": 140,
+      "y": 850
+    },
+    "s3": {
+      "x": 0,
+      "y": 1020
+    },
+    "a5": {
+      "x": -140,
+      "y": 1190
+    },
+    "a6": {
+      "x": 140,
+      "y": 1190
+    },
+    "sw1": {
+      "x": -140,
+      "y": 1360
+    },
+    "fin2": {
+      "x": 140,
+      "y": 1360
+    },
+    "op2": {
+      "x": 0,
+      "y": 1530
+    },
+    "p1": {
+      "x": 0,
+      "y": 1700
+    },
+    "fin1": {
+      "x": 0,
+      "y": 1870
+    }
+  }
+}

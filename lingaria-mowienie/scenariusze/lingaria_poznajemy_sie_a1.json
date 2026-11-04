@@ -1,0 +1,226 @@
+{
+  "klucz": "lingaria_poznajemy_sie_a1",
+  "tytul": "Poznajemy się na przyjęciu",
+  "opis": "Poznajesz kogoś na przyjęciu. Podajesz imię, mówisz, skąd jesteś, czym się zajmujesz i co lubisz robić w wolnym czasie.",
+  "cefr": "A1",
+  "ikona": "fi-rr-comment",
+  "glos": "auto:masculine",
+  "role": {
+    "bot": "Nowy znajomy",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "imię",
+    "miasto",
+    "mieszkam",
+    "pracuję",
+    "studiuję",
+    "lubię",
+    "wolny czas",
+    "miło mi"
+  ],
+  "luki": [
+    "mieszkam",
+    "lubię"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "a1",
+    "poznawanie",
+    "przedstawianie",
+    "hobby",
+    "praca",
+    "rozmowa"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "op1",
+    "wezly": {
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Jesteś na przyjęciu u znajomych. Obok ciebie stoi sympatyczny mężczyzna ze szklanką soku. Uśmiecha się do ciebie.",
+        "dalej": "a1"
+      },
+      "a1": {
+        "kto": "ai",
+        "tekst": "Cześć! Jestem Alex. A ty jak masz na imię?",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Przedstaw się",
+        "wzor": "Cześć, mam na imię {imie}.",
+        "blad": "Przepraszam, jak masz na imię?",
+        "dalej": "s1"
+      },
+      "s1": {
+        "kto": "ai",
+        "tekst": "Miło mi cię poznać! Skąd jesteś?",
+        "instrukcja": "Powiedz, skąd jesteś lub gdzie mieszkasz",
+        "blad": "Przepraszam, skąd jesteś?",
+        "galezie": [
+          {
+            "intencja": "skad",
+            "wzor": "Jestem z {miasto}.",
+            "dalej": "s2"
+          },
+          {
+            "intencja": "mieszkam",
+            "wzor": "Mieszkam w {miasto}.",
+            "dalej": "s2"
+          },
+          {
+            "intencja": "daleko",
+            "wzor": "Jestem z bardzo daleka.",
+            "dalej": "a2"
+          },
+          {
+            "intencja": "prywatne",
+            "wzor": "Wolę o tym nie mówić.",
+            "dalej": "a6"
+          }
+        ]
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "To ciekawe! Opowiesz mi kiedyś więcej.",
+        "dalej": "s2"
+      },
+      "a6": {
+        "kto": "ai",
+        "tekst": "Rozumiem, nie ma sprawy. Miło było pogadać. Idę po ciastko.",
+        "dalej": "fin2"
+      },
+      "s2": {
+        "kto": "ai",
+        "tekst": "{miasto|Twoje miasto} brzmi pięknie! A czym się zajmujesz?",
+        "instrukcja": "Powiedz, czym się zajmujesz",
+        "blad": "Przepraszam, czym się zajmujesz?",
+        "galezie": [
+          {
+            "intencja": "studia",
+            "wzor": "Studiuję.",
+            "dalej": "a4"
+          },
+          {
+            "intencja": "praca",
+            "wzor": "Pracuję w szkole.",
+            "dalej": "a4"
+          },
+          {
+            "intencja": "szuka",
+            "wzor": "Szukam pracy.",
+            "dalej": "a4"
+          },
+          {
+            "intencja": "tajne",
+            "wzor": "Tego nie mogę ci powiedzieć.",
+            "dalej": "a3",
+            "ukryta": true
+          }
+        ]
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Ha, brzmi tajemniczo! Nie będę pytał dalej.",
+        "dalej": "a4"
+      },
+      "a4": {
+        "kto": "ai",
+        "tekst": "Fajnie! Ja uwielbiam gotować w wolnym czasie. A ty? Co lubisz robić po pracy lub po zajęciach?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Opowiedz, co lubisz robić w wolnym czasie",
+        "kryteria": "co lubisz robić i jak często to robisz, 2 zdania",
+        "wzor": "Lubię czytać książki i chodzić na spacery. Robię to w weekendy.",
+        "blad": "Przepraszam, pytałem, co lubisz robić w wolnym czasie.",
+        "dalej": "op2"
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: gdy kogoś poznajesz, zadaj pytanie zwrotne, na przykład „A ty?”. To najprostszy sposób, by rozmowa trwała dłużej.",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Miło było cię poznać.",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Mnie też! Do zobaczenia przy stole z ciastem!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Do zobaczenia później!"
+      }
+    },
+    "uklad": {
+      "op1": {
+        "x": 0,
+        "y": 0
+      },
+      "a1": {
+        "x": 0,
+        "y": 170
+      },
+      "u1": {
+        "x": 0,
+        "y": 340
+      },
+      "s1": {
+        "x": 0,
+        "y": 510
+      },
+      "s2": {
+        "x": -280,
+        "y": 680
+      },
+      "a2": {
+        "x": 0,
+        "y": 680
+      },
+      "a6": {
+        "x": 280,
+        "y": 680
+      },
+      "a4": {
+        "x": -280,
+        "y": 850
+      },
+      "a3": {
+        "x": 0,
+        "y": 850
+      },
+      "fin2": {
+        "x": 280,
+        "y": 850
+      },
+      "sw1": {
+        "x": 0,
+        "y": 1020
+      },
+      "op2": {
+        "x": 0,
+        "y": 1190
+      },
+      "p1": {
+        "x": 0,
+        "y": 1360
+      },
+      "fin1": {
+        "x": 0,
+        "y": 1530
+      }
+    }
+  }
+}

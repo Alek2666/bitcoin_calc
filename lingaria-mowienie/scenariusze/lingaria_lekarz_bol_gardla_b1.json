@@ -1,0 +1,275 @@
+{
+  "klucz": "lingaria_lekarz_bol_gardla_b1",
+  "tytul": "U lekarza: ból gardła",
+  "opis": "Idziesz do lekarki z bólem gardła. Opisujesz objawy, odpowiadasz na pytania o gorączkę i alergię, a potem ustalasz, jak będziesz odpoczywać.",
+  "cefr": "B1",
+  "ikona": "fi-rr-stethoscope",
+  "glos": "auto:feminine",
+  "role": {
+    "bot": "Lekarka",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "gardło",
+    "gorączka",
+    "kaszel",
+    "recepta",
+    "alergia",
+    "objawy",
+    "tabletki",
+    "odpoczynek"
+  ],
+  "luki": [
+    "gorączka",
+    "recepta"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "b1",
+    "lekarz",
+    "zdrowie",
+    "objawy",
+    "choroba",
+    "przychodnia"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "op1",
+    "wezly": {
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Od trzech dni boli cię gardło i masz katar. Idziesz do przychodni. Lekarka zaprasza cię do gabinetu.",
+        "dalej": "s1"
+      },
+      "s1": {
+        "kto": "ai",
+        "tekst": "Dzień dobry, proszę usiąść. Co się dzieje?",
+        "instrukcja": "Opisz, co cię boli",
+        "blad": "Przepraszam, co dokładnie cię boli?",
+        "galezie": [
+          {
+            "intencja": "gardlo",
+            "wzor": "Od trzech dni boli mnie gardło i mam katar.",
+            "dalej": "a1"
+          },
+          {
+            "intencja": "glowa",
+            "wzor": "Boli mnie głowa i czuję się bardzo słabo.",
+            "dalej": "a1"
+          },
+          {
+            "intencja": "kaszel",
+            "wzor": "Mam silny kaszel, zwłaszcza w nocy.",
+            "dalej": "a1"
+          },
+          {
+            "intencja": "serce",
+            "wzor": "Boli mnie serce, bo nikt do mnie nie pisze.",
+            "dalej": "a2",
+            "ukryta": true
+          }
+        ]
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "To nie jest choroba, ale rozumiem. Zbadajmy najpierw gardło.",
+        "dalej": "a1"
+      },
+      "a1": {
+        "kto": "ai",
+        "tekst": "Rozumiem. Zaraz to sprawdzę. Najpierw zmierzymy temperaturę.",
+        "dalej": "s2"
+      },
+      "s2": {
+        "kto": "ai",
+        "tekst": "Czy masz gorączkę?",
+        "instrukcja": "Powiedz, czy masz gorączkę",
+        "blad": "Przepraszam, masz gorączkę czy nie?",
+        "galezie": [
+          {
+            "intencja": "tak",
+            "wzor": "Tak, wczoraj termometr pokazał trzydzieści osiem stopni.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "nie",
+            "wzor": "Nie, temperatura jest normalna.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "niewiem",
+            "wzor": "Nie wiem, nie mam termometru.",
+            "dalej": "a4"
+          }
+        ]
+      },
+      "a4": {
+        "kto": "ai",
+        "tekst": "To nic. Zmierzymy ją tutaj.",
+        "dalej": "a3"
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Otwórz szeroko usta. Gardło jest czerwone i spuchnięte.",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Zapytaj, czy to coś poważnego",
+        "wzor": "Czy to coś poważnego?",
+        "blad": "Słucham?",
+        "dalej": "a5"
+      },
+      "a5": {
+        "kto": "ai",
+        "tekst": "Nie, to zwykłe zapalenie gardła. Muszę jeszcze o coś zapytać.",
+        "dalej": "s3"
+      },
+      "s3": {
+        "kto": "ai",
+        "tekst": "Czy masz alergię na jakieś leki?",
+        "instrukcja": "Powiedz, czy masz alergię na leki",
+        "blad": "Przepraszam, czy masz alergię na leki?",
+        "galezie": [
+          {
+            "intencja": "nie",
+            "wzor": "Nie, nie mam alergii na leki.",
+            "dalej": "a6"
+          },
+          {
+            "intencja": "penicylina",
+            "wzor": "Tak, mam alergię na penicylinę.",
+            "dalej": "a7"
+          },
+          {
+            "intencja": "wole",
+            "wzor": "Wolę nie brać żadnych leków.",
+            "dalej": "a8"
+          }
+        ]
+      },
+      "a7": {
+        "kto": "ai",
+        "tekst": "Dziękuję. W takim razie przepiszę inny lek, bez penicyliny.",
+        "dalej": "a6"
+      },
+      "a8": {
+        "kto": "ai",
+        "tekst": "Rozumiem. Zalecam wtedy odpoczynek i dużo płynów. Jeśli gorączka wróci, przyjdź ponownie.",
+        "dalej": "fin2"
+      },
+      "a6": {
+        "kto": "ai",
+        "tekst": "Wypiszę ci receptę na tabletki do ssania i syrop. Przez trzy dni musisz odpoczywać i pić dużo ciepłych napojów. Czy możesz zostać w domu?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Powiedz, czy możesz odpoczywać w domu",
+        "kryteria": "czy możesz zostać w domu i jak to zorganizujesz, 2 lub 3 zdania",
+        "wzor": "Mogę pracować z domu przez trzy dni, a sąsiad zrobi mi zakupy.",
+        "blad": "Przepraszam, pytałam, czy możesz odpoczywać w domu.",
+        "dalej": "op2"
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: opisując objawy, podaj dwie rzeczy: co cię boli i od kiedy. Lekarz zawsze zapyta o jedno i drugie.",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Ile razy dziennie mam brać ten lek?",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Trzy razy dziennie po posiłku. Szybkiego powrotu do zdrowia!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Dbaj o siebie i wracaj do zdrowia!"
+      }
+    },
+    "uklad": {
+      "op1": {
+        "x": 0,
+        "y": 0
+      },
+      "s1": {
+        "x": 0,
+        "y": 170
+      },
+      "a1": {
+        "x": -140,
+        "y": 340
+      },
+      "a2": {
+        "x": 140,
+        "y": 340
+      },
+      "s2": {
+        "x": 0,
+        "y": 510
+      },
+      "a3": {
+        "x": -140,
+        "y": 680
+      },
+      "a4": {
+        "x": 140,
+        "y": 680
+      },
+      "u1": {
+        "x": 0,
+        "y": 850
+      },
+      "a5": {
+        "x": 0,
+        "y": 1020
+      },
+      "s3": {
+        "x": 0,
+        "y": 1190
+      },
+      "a6": {
+        "x": -280,
+        "y": 1360
+      },
+      "a7": {
+        "x": 0,
+        "y": 1360
+      },
+      "a8": {
+        "x": 280,
+        "y": 1360
+      },
+      "sw1": {
+        "x": -140,
+        "y": 1530
+      },
+      "fin2": {
+        "x": 140,
+        "y": 1530
+      },
+      "op2": {
+        "x": 0,
+        "y": 1700
+      },
+      "p1": {
+        "x": 0,
+        "y": 1870
+      },
+      "fin1": {
+        "x": 0,
+        "y": 2040
+      }
+    }
+  }
+}

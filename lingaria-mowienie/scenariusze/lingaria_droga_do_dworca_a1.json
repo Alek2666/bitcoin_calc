@@ -1,0 +1,245 @@
+{
+  "klucz": "lingaria_droga_do_dworca_a1",
+  "tytul": "Jak dojść do dworca?",
+  "opis": "Szukasz dworca w obcym mieście. Pytasz przechodnia o drogę, potwierdzasz wskazówki i dowiadujesz się, ile zostało do celu.",
+  "cefr": "A1",
+  "ikona": "fi-rr-map-marker",
+  "glos": "auto:feminine",
+  "role": {
+    "bot": "Przechodnia",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "dworzec",
+    "prosto",
+    "w lewo",
+    "w prawo",
+    "skrzyżowanie",
+    "blisko",
+    "daleko",
+    "apteka"
+  ],
+  "luki": [
+    "skrzyżowanie",
+    "apteka"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "a1",
+    "droga",
+    "miasto",
+    "kierunki",
+    "ulica",
+    "orientacja"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "op1",
+    "wezly": {
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Stoisz na ulicy w obcym mieście. Szukasz dworca kolejowego, ale nie masz mapy. Obok idzie przyjazna kobieta.",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Zatrzymaj tę osobę i zapytaj, gdzie jest dworzec",
+        "wzor": "Przepraszam, gdzie jest dworzec?",
+        "blad": "Słucham? Czego szukasz?",
+        "dalej": "s1"
+      },
+      "s1": {
+        "kto": "ai",
+        "tekst": "Dworzec? To niedaleko. Idź prosto tą ulicą aż do skrzyżowania. Rozumiesz?",
+        "instrukcja": "Powiedz, czy rozumiesz",
+        "blad": "Przepraszam, rozumiesz? Prosto aż do skrzyżowania.",
+        "galezie": [
+          {
+            "intencja": "tak",
+            "wzor": "Tak, rozumiem. Prosto do skrzyżowania.",
+            "dalej": "a1"
+          },
+          {
+            "intencja": "nie",
+            "wzor": "Przepraszam, nie rozumiem. Powtórz, proszę.",
+            "dalej": "a2"
+          },
+          {
+            "intencja": "taxi",
+            "wzor": "Czy mogę pojechać taksówką?",
+            "dalej": "a3",
+            "ukryta": true
+          }
+        ]
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "Dobrze. Jeszcze raz, powoli: prosto, aż do skrzyżowania.",
+        "dalej": "a1"
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Oczywiście, ale pieszo to tylko pięć minut.",
+        "dalej": "a1"
+      },
+      "a1": {
+        "kto": "ai",
+        "tekst": "Na skrzyżowaniu skręć w lewo. Zobaczysz dużą aptekę. Dworzec jest zaraz za nią.",
+        "dalej": "s2"
+      },
+      "s2": {
+        "kto": "ai",
+        "tekst": "A teraz sprawdźmy. Gdzie skręcasz na skrzyżowaniu?",
+        "instrukcja": "Powiedz, gdzie skręcasz",
+        "blad": "Przepraszam, w którą stronę skręcasz?",
+        "galezie": [
+          {
+            "intencja": "lewo",
+            "wzor": "W lewo, przy aptece.",
+            "dalej": "a4"
+          },
+          {
+            "intencja": "prawo",
+            "wzor": "W prawo.",
+            "dalej": "a5"
+          },
+          {
+            "intencja": "niewiem",
+            "wzor": "Nie wiem, gdzie jestem.",
+            "dalej": "a8"
+          }
+        ]
+      },
+      "a5": {
+        "kto": "ai",
+        "tekst": "Nie, w lewo! W prawo jest rzeka.",
+        "dalej": "a4"
+      },
+      "a8": {
+        "kto": "ai",
+        "tekst": "Spokojnie, pokażę ci to na mapie w telefonie.",
+        "dalej": "fin2"
+      },
+      "a4": {
+        "kto": "ai",
+        "tekst": "Dokładnie! Dworzec jest po prawej stronie, za apteką.",
+        "dalej": "u2"
+      },
+      "u2": {
+        "kto": "uczen",
+        "instrukcja": "Zapytaj, czy to daleko",
+        "wzor": "Czy to daleko stąd?",
+        "blad": "Słucham?",
+        "dalej": "a6"
+      },
+      "a6": {
+        "kto": "ai",
+        "tekst": "Nie, tylko pięć minut pieszo. A ty? Dokąd jedziesz pociągiem?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Powiedz, dokąd jedziesz i po co",
+        "kryteria": "dokąd jedziesz i po co, 1 lub 2 zdania",
+        "wzor": "Jadę do stolicy odwiedzić przyjaciółkę.",
+        "blad": "Przepraszam, pytałam, dokąd jedziesz.",
+        "dalej": "op2"
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: kierunki to proste słowa: prosto, w lewo, w prawo. Warto je znać na pamięć, bo przydają się w każdym mieście.",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Bardzo dziękuję za pomoc.",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Nie ma za co! Miłej podróży!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Proszę, tu jest dworzec na mapie. Powodzenia!"
+      }
+    },
+    "uklad": {
+      "op1": {
+        "x": 0,
+        "y": 0
+      },
+      "u1": {
+        "x": 0,
+        "y": 170
+      },
+      "s1": {
+        "x": 0,
+        "y": 340
+      },
+      "a1": {
+        "x": -280,
+        "y": 510
+      },
+      "a2": {
+        "x": 0,
+        "y": 510
+      },
+      "a3": {
+        "x": 280,
+        "y": 510
+      },
+      "s2": {
+        "x": 0,
+        "y": 680
+      },
+      "a4": {
+        "x": -280,
+        "y": 850
+      },
+      "a5": {
+        "x": 0,
+        "y": 850
+      },
+      "a8": {
+        "x": 280,
+        "y": 850
+      },
+      "u2": {
+        "x": -140,
+        "y": 1020
+      },
+      "fin2": {
+        "x": 140,
+        "y": 1020
+      },
+      "a6": {
+        "x": 0,
+        "y": 1190
+      },
+      "sw1": {
+        "x": 0,
+        "y": 1360
+      },
+      "op2": {
+        "x": 0,
+        "y": 1530
+      },
+      "p1": {
+        "x": 0,
+        "y": 1700
+      },
+      "fin1": {
+        "x": 0,
+        "y": 1870
+      }
+    }
+  }
+}

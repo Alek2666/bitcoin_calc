@@ -1,0 +1,245 @@
+{
+  "start": "op1",
+  "wezly": {
+    "op1": {
+      "kto": "ai",
+      "opis": true,
+      "tekst": "Wchodzisz do małej kawiarni. Jest rano, pachnie świeżą kawą. Przy ladzie stoi uśmiechnięta kelnerka.",
+      "dalej": "s1"
+    },
+    "s1": {
+      "kto": "ai",
+      "tekst": "Dzień dobry! Co podać?",
+      "instrukcja": "Zamów coś do picia",
+      "blad": "Przepraszam, nie dosłyszałam. Co podać do picia?",
+      "galezie": [
+        {
+          "intencja": "kawa",
+          "wzor": "Poproszę kawę.",
+          "dalej": "s2"
+        },
+        {
+          "intencja": "herbata",
+          "wzor": "Poproszę herbatę.",
+          "dalej": "a1"
+        },
+        {
+          "intencja": "woda",
+          "wzor": "Poproszę wodę.",
+          "dalej": "s3"
+        },
+        {
+          "intencja": "zart",
+          "wzor": "Poproszę kawę dla mojego psa.",
+          "dalej": "a2",
+          "ukryta": true
+        }
+      ]
+    },
+    "a1": {
+      "kto": "ai",
+      "tekst": "Dobrze. Mamy czarną i zieloną herbatę. Którą lubisz?",
+      "dalej": "u1"
+    },
+    "u1": {
+      "kto": "uczen",
+      "instrukcja": "Powiedz, jaką herbatę chcesz",
+      "wzor": "Poproszę zieloną herbatę.",
+      "blad": "Przepraszam, czarną czy zieloną?",
+      "dalej": "s3"
+    },
+    "a2": {
+      "kto": "ai",
+      "tekst": "Ha! Dla psa mamy tylko miskę wody. Kawy lepiej nie polecam!",
+      "dalej": "s3"
+    },
+    "s2": {
+      "kto": "ai",
+      "tekst": "Dobrze, kawa. Z mlekiem czy bez mleka?",
+      "instrukcja": "Powiedz, czy chcesz mleko",
+      "blad": "Przepraszam, z mlekiem czy bez?",
+      "galezie": [
+        {
+          "intencja": "mleko",
+          "wzor": "Z mlekiem, proszę.",
+          "dalej": "s3"
+        },
+        {
+          "intencja": "bez",
+          "wzor": "Bez mleka, dziękuję.",
+          "dalej": "s3"
+        },
+        {
+          "intencja": "cukier",
+          "wzor": "Z mlekiem i z cukrem.",
+          "dalej": "s3"
+        }
+      ]
+    },
+    "s3": {
+      "kto": "ai",
+      "tekst": "A może coś słodkiego? Mamy ciasto czekoladowe i szarlotkę.",
+      "instrukcja": "Powiedz, czy chcesz ciasto",
+      "blad": "Przepraszam, chcesz ciasto?",
+      "galezie": [
+        {
+          "intencja": "czekolada",
+          "wzor": "Poproszę ciasto czekoladowe.",
+          "dalej": "a3"
+        },
+        {
+          "intencja": "szarlotka",
+          "wzor": "Poproszę szarlotkę.",
+          "dalej": "a3"
+        },
+        {
+          "intencja": "nie",
+          "wzor": "Nie, dziękuję. To wszystko.",
+          "dalej": "a3"
+        }
+      ]
+    },
+    "a3": {
+      "kto": "ai",
+      "tekst": "Dobrze. Na jakie imię zapisać zamówienie?",
+      "dalej": "u2"
+    },
+    "u2": {
+      "kto": "uczen",
+      "instrukcja": "Podaj swoje imię",
+      "wzor": "Mam na imię {imie}.",
+      "blad": "Przepraszam, jak masz na imię?",
+      "dalej": "a4"
+    },
+    "a4": {
+      "kto": "ai",
+      "tekst": "Dziękuję! Zamówienie dla {imie|tej osoby} będzie gotowe za chwilę. Razem osiem euro.",
+      "dalej": "s4"
+    },
+    "s4": {
+      "kto": "ai",
+      "tekst": "Płacisz kartą czy gotówką?",
+      "instrukcja": "Powiedz, jak płacisz",
+      "blad": "Przepraszam, kartą czy gotówką?",
+      "galezie": [
+        {
+          "intencja": "karta",
+          "wzor": "Kartą, proszę.",
+          "dalej": "fin2"
+        },
+        {
+          "intencja": "gotowka",
+          "wzor": "Gotówką, proszę.",
+          "dalej": "a5"
+        }
+      ]
+    },
+    "a5": {
+      "kto": "ai",
+      "tekst": "Dziękuję! Zanim przygotuję zamówienie, powiedz mi coś. Jak się dziś czujesz?",
+      "dalej": "sw1"
+    },
+    "sw1": {
+      "kto": "uczen",
+      "swobodna": true,
+      "instrukcja": "Powiedz, jak się dziś czujesz",
+      "kryteria": "jak się czujesz i dlaczego, 1 lub 2 zdania",
+      "wzor": "Czuję się dobrze, bo świeci słońce.",
+      "blad": "Przepraszam, pytałam, jak się czujesz.",
+      "dalej": "op2"
+    },
+    "op2": {
+      "kto": "ai",
+      "opis": true,
+      "jezyk_ucznia": true,
+      "tekst": "Wskazówka: w kawiarni zacznij od słowa „poproszę” i nazwy napoju. To krótko, grzecznie i zawsze zrozumiale.",
+      "dalej": "p1"
+    },
+    "p1": {
+      "kto": "uczen",
+      "na_pamiec": true,
+      "wzor": "Poproszę jeszcze jedną kawę.",
+      "dalej": "fin1"
+    },
+    "fin1": {
+      "kto": "ai",
+      "koniec": true,
+      "tekst": "Już robię! Do zobaczenia!"
+    },
+    "fin2": {
+      "kto": "ai",
+      "koniec": true,
+      "tekst": "Dziękuję! Kawa będzie za chwilę przy twoim stoliku. Miłego dnia!"
+    }
+  },
+  "uklad": {
+    "op1": {
+      "x": 0,
+      "y": 0
+    },
+    "s1": {
+      "x": 0,
+      "y": 170
+    },
+    "s2": {
+      "x": -420,
+      "y": 340
+    },
+    "a1": {
+      "x": -140,
+      "y": 340
+    },
+    "s3": {
+      "x": 140,
+      "y": 340
+    },
+    "a2": {
+      "x": 420,
+      "y": 340
+    },
+    "u1": {
+      "x": -140,
+      "y": 510
+    },
+    "a3": {
+      "x": 140,
+      "y": 510
+    },
+    "u2": {
+      "x": 0,
+      "y": 680
+    },
+    "a4": {
+      "x": 0,
+      "y": 850
+    },
+    "s4": {
+      "x": 0,
+      "y": 1020
+    },
+    "fin2": {
+      "x": -140,
+      "y": 1190
+    },
+    "a5": {
+      "x": 140,
+      "y": 1190
+    },
+    "sw1": {
+      "x": 0,
+      "y": 1360
+    },
+    "op2": {
+      "x": 0,
+      "y": 1530
+    },
+    "p1": {
+      "x": 0,
+      "y": 1700
+    },
+    "fin1": {
+      "x": 0,
+      "y": 1870
+    }
+  }
+}

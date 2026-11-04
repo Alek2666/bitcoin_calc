@@ -1,0 +1,295 @@
+{
+  "klucz": "lingaria_hotel_zameldowanie_a2",
+  "tytul": "Zameldowanie w hotelu",
+  "opis": "Meldujesz się w hotelu wieczorem po podróży. Podajesz nazwisko, wybierasz pokój i śniadanie, pytasz o internet i wymeldowanie.",
+  "cefr": "A2",
+  "ikona": "fi-rr-bed",
+  "glos": "auto:feminine",
+  "role": {
+    "bot": "Recepcjonistka",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "hotel",
+    "rezerwacja",
+    "pokój",
+    "klucz",
+    "śniadanie",
+    "internet",
+    "winda",
+    "wymeldowanie"
+  ],
+  "luki": [
+    "rezerwacja",
+    "klucz"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "a2",
+    "hotel",
+    "podroz",
+    "rezerwacja",
+    "pokoj",
+    "sniadanie"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "op1",
+    "wezly": {
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Jest wieczór. Wchodzisz do hotelu po długiej podróży. Za ladą stoi miła recepcjonistka.",
+        "dalej": "a1"
+      },
+      "a1": {
+        "kto": "ai",
+        "tekst": "Dobry wieczór! Witamy w naszym hotelu. W czym mogę pomóc?",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Powiedz, że masz rezerwację",
+        "wzor": "Dobry wieczór. Mam rezerwację na nazwisko {nazwisko}.",
+        "blad": "Przepraszam, na jakie nazwisko?",
+        "dalej": "s1"
+      },
+      "s1": {
+        "kto": "ai",
+        "tekst": "Dziękuję. Mam rezerwację dla {nazwisko|ciebie} na trzy noce. Wolisz łóżko małżeńskie czy dwa osobne łóżka?",
+        "instrukcja": "Wybierz rodzaj pokoju",
+        "blad": "Przepraszam, nie dosłyszałam. Łóżko małżeńskie czy dwa łóżka?",
+        "galezie": [
+          {
+            "intencja": "malzenskie",
+            "wzor": "Poproszę łóżko małżeńskie.",
+            "dalej": "a2"
+          },
+          {
+            "intencja": "dwa",
+            "wzor": "Poproszę dwa osobne łóżka.",
+            "dalej": "a2"
+          },
+          {
+            "intencja": "widok",
+            "wzor": "Czy macie pokój z widokiem na morze?",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "kot",
+            "wzor": "Czy mogę zabrać do pokoju mojego kota?",
+            "dalej": "a4",
+            "ukryta": true
+          }
+        ]
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Mamy taki pokój na piątym piętrze. Jest trochę droższy.",
+        "dalej": "u2"
+      },
+      "u2": {
+        "kto": "uczen",
+        "instrukcja": "Powiedz, że bierzesz ten pokój",
+        "wzor": "Dobrze, wezmę ten pokój.",
+        "blad": "Przepraszam, bierzesz ten pokój?",
+        "dalej": "a2"
+      },
+      "a4": {
+        "kto": "ai",
+        "tekst": "Koty są mile widziane, ale kot musi być w transporterze.",
+        "dalej": "a2"
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "Świetnie. Pokój numer trzysta dwanaście jest na trzecim piętrze. Śniadanie jest od siódmej do dziesiątej.",
+        "dalej": "s2"
+      },
+      "s2": {
+        "kto": "ai",
+        "tekst": "Czy chcesz jeść śniadanie w restauracji hotelowej, czy zamówić je do pokoju?",
+        "instrukcja": "Powiedz, gdzie chcesz jeść śniadanie",
+        "blad": "Przepraszam, śniadanie w restauracji czy w pokoju?",
+        "galezie": [
+          {
+            "intencja": "restauracja",
+            "wzor": "Zjem śniadanie w restauracji.",
+            "dalej": "a5"
+          },
+          {
+            "intencja": "pokoj",
+            "wzor": "Poproszę śniadanie do pokoju.",
+            "dalej": "a5"
+          },
+          {
+            "intencja": "rezygnacja",
+            "wzor": "Przepraszam, wolę zrezygnować z rezerwacji.",
+            "dalej": "a8"
+          }
+        ]
+      },
+      "a8": {
+        "kto": "ai",
+        "tekst": "Rozumiem. Anuluję rezerwację bez opłat. Dziękuję za informację.",
+        "dalej": "fin2"
+      },
+      "a5": {
+        "kto": "ai",
+        "tekst": "Dobrze. Oto klucz do pokoju. Winda jest po prawej stronie.",
+        "dalej": "s3"
+      },
+      "s3": {
+        "kto": "ai",
+        "tekst": "Czy mogę jeszcze w czymś pomóc?",
+        "instrukcja": "Zapytaj o coś albo podziękuj",
+        "blad": "Przepraszam, czy mogę w czymś pomóc?",
+        "galezie": [
+          {
+            "intencja": "internet",
+            "wzor": "Jakie jest hasło do internetu?",
+            "dalej": "a6"
+          },
+          {
+            "intencja": "wymeldowanie",
+            "wzor": "O której trzeba opuścić pokój?",
+            "dalej": "a7"
+          },
+          {
+            "intencja": "nie",
+            "wzor": "Nie, dziękuję. To wszystko.",
+            "dalej": "a9"
+          }
+        ]
+      },
+      "a6": {
+        "kto": "ai",
+        "tekst": "Hasło jest na karcie w pokoju.",
+        "dalej": "a9"
+      },
+      "a7": {
+        "kto": "ai",
+        "tekst": "Wymeldowanie jest do jedenastej.",
+        "dalej": "a9"
+      },
+      "a9": {
+        "kto": "ai",
+        "tekst": "Miłego pobytu! A tak między nami, jak minęła podróż?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Opowiedz o swojej podróży",
+        "kryteria": "jak minęła podróż i jak się czujesz, 2 zdania",
+        "wzor": "Podróż była długa, ale spokojna. Chętnie się dziś wyśpię.",
+        "blad": "Przepraszam, pytałam, jak minęła podróż.",
+        "dalej": "op2"
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: w hotelu często usłyszysz słowa „rezerwacja”, „klucz” i „wymeldowanie”. Dobrze je znać, zanim przyjedziesz.",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Poproszę budzenie o siódmej rano.",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Oczywiście! Dobranoc i miłego odpoczynku!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Do widzenia i miłego wieczoru!"
+      }
+    },
+    "uklad": {
+      "op1": {
+        "x": 0,
+        "y": 0
+      },
+      "a1": {
+        "x": 0,
+        "y": 170
+      },
+      "u1": {
+        "x": 0,
+        "y": 340
+      },
+      "s1": {
+        "x": 0,
+        "y": 510
+      },
+      "a2": {
+        "x": -280,
+        "y": 680
+      },
+      "a3": {
+        "x": 0,
+        "y": 680
+      },
+      "a4": {
+        "x": 280,
+        "y": 680
+      },
+      "s2": {
+        "x": -140,
+        "y": 850
+      },
+      "u2": {
+        "x": 140,
+        "y": 850
+      },
+      "a5": {
+        "x": -140,
+        "y": 1020
+      },
+      "a8": {
+        "x": 140,
+        "y": 1020
+      },
+      "s3": {
+        "x": -140,
+        "y": 1190
+      },
+      "fin2": {
+        "x": 140,
+        "y": 1190
+      },
+      "a6": {
+        "x": -280,
+        "y": 1360
+      },
+      "a7": {
+        "x": 0,
+        "y": 1360
+      },
+      "a9": {
+        "x": 280,
+        "y": 1360
+      },
+      "sw1": {
+        "x": 0,
+        "y": 1530
+      },
+      "op2": {
+        "x": 0,
+        "y": 1700
+      },
+      "p1": {
+        "x": 0,
+        "y": 1870
+      },
+      "fin1": {
+        "x": 0,
+        "y": 2040
+      }
+    }
+  }
+}

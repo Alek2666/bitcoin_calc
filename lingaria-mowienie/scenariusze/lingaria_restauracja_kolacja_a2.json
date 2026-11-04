@@ -1,0 +1,281 @@
+{
+  "klucz": "lingaria_restauracja_kolacja_a2",
+  "tytul": "Kolacja w restauracji",
+  "opis": "Zamawiasz kolację w restauracji: napój, danie główne, deser i rachunek. Mówisz kelnerowi o alergii i opisujesz, jak smakowało.",
+  "cefr": "A2",
+  "ikona": "fi-rr-utensils",
+  "glos": "auto:masculine",
+  "role": {
+    "bot": "Kelner",
+    "uczen": "Gość"
+  },
+  "slowka": [
+    "menu",
+    "zupa",
+    "danie główne",
+    "deser",
+    "rachunek",
+    "napój",
+    "alergia",
+    "woda"
+  ],
+  "luki": [
+    "rachunek",
+    "alergia"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "a2",
+    "restauracja",
+    "jedzenie",
+    "zamawianie",
+    "napoje",
+    "rachunek"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "op1",
+    "wezly": {
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Wieczorem wchodzisz do restauracji. Na stołach stoją świece, gra spokojna muzyka. Podchodzi kelner z kartą dań.",
+        "dalej": "s1"
+      },
+      "s1": {
+        "kto": "ai",
+        "tekst": "Dobry wieczór! Oto menu. Co przynieść do picia na początek?",
+        "instrukcja": "Zamów napój",
+        "blad": "Przepraszam, nie dosłyszałem. Co przynieść do picia?",
+        "galezie": [
+          {
+            "intencja": "woda",
+            "wzor": "Poproszę wodę.",
+            "dalej": "a1"
+          },
+          {
+            "intencja": "sok",
+            "wzor": "Poproszę sok pomarańczowy.",
+            "dalej": "a1"
+          },
+          {
+            "intencja": "lemoniada",
+            "wzor": "Poproszę szklankę lemoniady.",
+            "dalej": "a1"
+          },
+          {
+            "intencja": "smok",
+            "wzor": "Poproszę wodę z lodem dla mojego smoka.",
+            "dalej": "a2",
+            "ukryta": true
+          }
+        ]
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "Dla smoka mamy tylko gorącą zupę! Przyniosę też wodę dla ciebie.",
+        "dalej": "a1"
+      },
+      "a1": {
+        "kto": "ai",
+        "tekst": "Już przynoszę. Czy możemy przyjąć zamówienie na danie główne?",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Zamów danie główne",
+        "wzor": "Poproszę {danie}.",
+        "blad": "Przepraszam, jakie danie?",
+        "dalej": "s2"
+      },
+      "s2": {
+        "kto": "ai",
+        "tekst": "{danie|To danie} brzmi świetnie. Czy jest jakaś alergia na jedzenie?",
+        "instrukcja": "Powiedz, czy masz alergię",
+        "blad": "Przepraszam, czy jest jakaś alergia?",
+        "galezie": [
+          {
+            "intencja": "nie",
+            "wzor": "Nie, nie mam alergii.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "orzechy",
+            "wzor": "Tak, mam alergię na orzechy.",
+            "dalej": "a4"
+          },
+          {
+            "intencja": "gluten",
+            "wzor": "Tak, nie mogę jeść glutenu.",
+            "dalej": "a4"
+          },
+          {
+            "intencja": "poniedzialki",
+            "wzor": "Mam alergię na poniedziałki.",
+            "dalej": "a5",
+            "ukryta": true
+          }
+        ]
+      },
+      "a4": {
+        "kto": "ai",
+        "tekst": "Dziękuję za informację. Poproszę kuchnię o specjalne przygotowanie.",
+        "dalej": "a3"
+      },
+      "a5": {
+        "kto": "ai",
+        "tekst": "Na szczęście dziś jest piątek!",
+        "dalej": "a3"
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Zamówienie przyjęte. Danie będzie gotowe za piętnaście minut.",
+        "dalej": "a6"
+      },
+      "a6": {
+        "kto": "ai",
+        "tekst": "Minęło trochę czasu. Mam nadzieję, że smakowało. Mamy dziś lody, sernik i świeże owoce.",
+        "dalej": "s3"
+      },
+      "s3": {
+        "kto": "ai",
+        "tekst": "Czy chcesz deser?",
+        "instrukcja": "Zamów deser albo poproś o rachunek",
+        "blad": "Przepraszam, deser czy rachunek?",
+        "galezie": [
+          {
+            "intencja": "lody",
+            "wzor": "Poproszę lody.",
+            "dalej": "a7"
+          },
+          {
+            "intencja": "sernik",
+            "wzor": "Poproszę sernik.",
+            "dalej": "a7"
+          },
+          {
+            "intencja": "rachunek",
+            "wzor": "Nie, dziękuję. Poproszę rachunek.",
+            "dalej": "a8"
+          }
+        ]
+      },
+      "a8": {
+        "kto": "ai",
+        "tekst": "Oczywiście, przynoszę rachunek. Razem trzydzieści euro. Dziękuję i do zobaczenia!",
+        "dalej": "fin2"
+      },
+      "a7": {
+        "kto": "ai",
+        "tekst": "Dobry wybór! Razem trzydzieści pięć euro. A jak ci smakowała kolacja?",
+        "dalej": "sw1"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Powiedz, jak smakowała kolacja",
+        "kryteria": "co smakowało, a co mniej, 2 zdania",
+        "wzor": "Zupa była bardzo smaczna, a danie główne trochę za słone.",
+        "blad": "Przepraszam, pytałem, jak smakowała kolacja.",
+        "dalej": "op2"
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: w restauracji nie wołaj kelnera głośno. Wystarczy powiedzieć „przepraszam” i spokojnie podnieść rękę.",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Poproszę rachunek. Zapłacę kartą.",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Oczywiście. Dziękuję za wizytę i do zobaczenia!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Zapraszamy ponownie!"
+      }
+    },
+    "uklad": {
+      "op1": {
+        "x": 0,
+        "y": 0
+      },
+      "s1": {
+        "x": 0,
+        "y": 170
+      },
+      "a1": {
+        "x": -140,
+        "y": 340
+      },
+      "a2": {
+        "x": 140,
+        "y": 340
+      },
+      "u1": {
+        "x": 0,
+        "y": 510
+      },
+      "s2": {
+        "x": 0,
+        "y": 680
+      },
+      "a3": {
+        "x": -280,
+        "y": 850
+      },
+      "a4": {
+        "x": 0,
+        "y": 850
+      },
+      "a5": {
+        "x": 280,
+        "y": 850
+      },
+      "a6": {
+        "x": 0,
+        "y": 1020
+      },
+      "s3": {
+        "x": 0,
+        "y": 1190
+      },
+      "a7": {
+        "x": -140,
+        "y": 1360
+      },
+      "a8": {
+        "x": 140,
+        "y": 1360
+      },
+      "sw1": {
+        "x": -140,
+        "y": 1530
+      },
+      "fin2": {
+        "x": 140,
+        "y": 1530
+      },
+      "op2": {
+        "x": 0,
+        "y": 1700
+      },
+      "p1": {
+        "x": 0,
+        "y": 1870
+      },
+      "fin1": {
+        "x": 0,
+        "y": 2040
+      }
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "klucz": "lingaria_wynajem_mieszkania_b2",
+  "tytul": "Wynajem mieszkania",
+  "opis": "Oglądasz mieszkanie do wynajęcia i negocjujesz z właścicielem czynsz, kaucję i okres wypowiedzenia. Na koniec tłumaczysz, dlaczego wybierasz właśnie tę okolicę.",
+  "cefr": "B2",
+  "ikona": "fi-rr-home",
+  "glos": "auto:masculine",
+  "role": {
+    "bot": "Właściciel",
+    "uczen": "Ty"
+  },
+  "slowka": [
+    "wynajem",
+    "kaucja",
+    "umowa",
+    "czynsz",
+    "rachunki",
+    "właściciel",
+    "umeblowane",
+    "wypowiedzenie"
+  ],
+  "luki": [
+    "kaucja",
+    "czynsz"
+  ],
+  "jezyki": [],
+  "tagi": [
+    "b2",
+    "mieszkanie",
+    "wynajem",
+    "umowa",
+    "kaucja",
+    "negocjacje"
+  ],
+  "status": "szkic",
+  "drzewo": {
+    "start": "op1",
+    "wezly": {
+      "op1": {
+        "kto": "ai",
+        "opis": true,
+        "tekst": "Oglądasz mieszkanie do wynajęcia. Jest jasne, na trzecim piętrze, z balkonem. Właściciel oprowadza cię po pokojach i czeka na twoje pytania.",
+        "dalej": "s1"
+      },
+      "s1": {
+        "kto": "ai",
+        "tekst": "Jak widzisz, mieszkanie jest umeblowane i świeżo odmalowane. Czynsz wynosi osiemset euro miesięcznie. Co o tym sądzisz?",
+        "instrukcja": "Zareaguj na cenę i zapytaj o szczegóły",
+        "blad": "Przepraszam, nie zrozumiałem. Co sądzisz o cenie?",
+        "galezie": [
+          {
+            "intencja": "ok",
+            "wzor": "Cena jest w porządku. Czy w tej kwocie są wliczone rachunki?",
+            "dalej": "a1"
+          },
+          {
+            "intencja": "drogo",
+            "wzor": "To trochę za dużo jak na mój budżet. Czy możemy negocjować?",
+            "dalej": "a2"
+          },
+          {
+            "intencja": "kuchnia",
+            "wzor": "Najpierw chcę zobaczyć kuchnię i łazienkę.",
+            "dalej": "a3"
+          },
+          {
+            "intencja": "sprzatanie",
+            "wzor": "Czy w cenie jest codzienne sprzątanie przez pana?",
+            "dalej": "a4",
+            "ukryta": true
+          }
+        ]
+      },
+      "a1": {
+        "kto": "ai",
+        "tekst": "Rachunki za prąd i internet płacisz osobno. Czynsz obejmuje tylko wodę i ogrzewanie.",
+        "dalej": "u1"
+      },
+      "u1": {
+        "kto": "uczen",
+        "instrukcja": "Zapytaj o kaucję",
+        "wzor": "A jaka jest wysokość kaucji i kiedy ją zwracacie?",
+        "blad": "Słucham? O co pytasz?",
+        "dalej": "s2"
+      },
+      "a2": {
+        "kto": "ai",
+        "tekst": "Mogę zejść do siedmiuset pięćdziesięciu euro, jeśli podpiszesz umowę na rok.",
+        "dalej": "s2"
+      },
+      "a3": {
+        "kto": "ai",
+        "tekst": "Proszę bardzo. Kuchnia jest nowa, a w łazience stoi pralka.",
+        "dalej": "s2"
+      },
+      "a4": {
+        "kto": "ai",
+        "tekst": "Niestety nie, ale mogę polecić dobrą firmę sprzątającą.",
+        "dalej": "s2"
+      },
+      "s2": {
+        "kto": "ai",
+        "tekst": "Kaucja to dwa miesięczne czynsze i zwracam ją po wyprowadzce, jeśli mieszkanie jest w dobrym stanie. Umowa jest na rok z trzymiesięcznym okresem wypowiedzenia. Czy te warunki ci odpowiadają?",
+        "instrukcja": "Powiedz, czy akceptujesz warunki umowy",
+        "blad": "Przepraszam, czy akceptujesz warunki umowy?",
+        "galezie": [
+          {
+            "intencja": "tak",
+            "wzor": "Tak, warunki mi odpowiadają. Kiedy mogę się wprowadzić?",
+            "dalej": "a5"
+          },
+          {
+            "intencja": "wypowiedzenie",
+            "wzor": "Okres wypowiedzenia jest dla mnie za długi. Czy da się go skrócić?",
+            "dalej": "a6"
+          },
+          {
+            "intencja": "przemysle",
+            "wzor": "Muszę to jeszcze przemyśleć i skonsultować.",
+            "dalej": "a7"
+          }
+        ]
+      },
+      "a6": {
+        "kto": "ai",
+        "tekst": "Mogę skrócić go do dwóch miesięcy, ale nie mniej.",
+        "dalej": "u2"
+      },
+      "u2": {
+        "kto": "uczen",
+        "instrukcja": "Przyjmij propozycję właściciela",
+        "wzor": "Dwa miesiące to dla mnie dobre rozwiązanie. Zgadzam się.",
+        "blad": "Przepraszam, zgadzasz się?",
+        "dalej": "a5"
+      },
+      "a5": {
+        "kto": "ai",
+        "tekst": "Możesz wprowadzić się od pierwszego dnia przyszłego miesiąca. Umowę podpiszemy w piątek. A tak z ciekawości: dlaczego szukasz mieszkania właśnie w tej okolicy?",
+        "dalej": "sw1"
+      },
+      "a7": {
+        "kto": "ai",
+        "tekst": "Oczywiście, to ważna decyzja. Daj mi znać do końca tygodnia.",
+        "dalej": "fin2"
+      },
+      "sw1": {
+        "kto": "uczen",
+        "swobodna": true,
+        "instrukcja": "Opowiedz, dlaczego wybierasz tę okolicę",
+        "kryteria": "powody wyboru okolicy, jeden argument i jeden przykład, 2 lub 3 zdania",
+        "wzor": "Wybieram tę okolicę, bo mieszkam blisko pracy, a w pobliżu jest duży park, w którym mogę biegać.",
+        "blad": "Przepraszam, pytałem, dlaczego wybierasz właśnie tę okolicę.",
+        "dalej": "op2"
+      },
+      "op2": {
+        "kto": "ai",
+        "opis": true,
+        "jezyk_ucznia": true,
+        "tekst": "Wskazówka: przy negocjacjach używaj łagodnych form, na przykład „Czy da się to zmienić?” albo „Czy moglibyśmy to ustalić inaczej?”. Brzmi to uprzejmiej niż polecenie.",
+        "dalej": "p1"
+      },
+      "p1": {
+        "kto": "uczen",
+        "na_pamiec": true,
+        "wzor": "Czy mogę zobaczyć projekt umowy przed podpisaniem?",
+        "dalej": "fin1"
+      },
+      "fin1": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Oczywiście, wyślę ci ją mailem jeszcze dziś. Do zobaczenia w piątek!"
+      },
+      "fin2": {
+        "kto": "ai",
+        "koniec": true,
+        "tekst": "Dziękuję za wizytę. Jeśli mieszkanie ci się spodoba, odezwij się do końca tygodnia."
+      }
+    },
+    "uklad": {
+      "op1": {
+        "x": 0,
+        "y": 0
+      },
+      "s1": {
+        "x": 0,
+        "y": 170
+      },
+      "a1": {
+        "x": -420,
+        "y": 340
+      },
+      "a2": {
+        "x": -140,
+        "y": 340
+      },
+      "a3": {
+        "x": 140,
+        "y": 340
+      },
+      "a4": {
+        "x": 420,
+        "y": 340
+      },
+      "u1": {
+        "x": -140,
+        "y": 510
+      },
+      "s2": {
+        "x": 140,
+        "y": 510
+      },
+      "a5": {
+        "x": -280,
+        "y": 680
+      },
+      "a6": {
+        "x": 0,
+        "y": 680
+      },
+      "a7": {
+        "x": 280,
+        "y": 680
+      },
+      "sw1": {
+        "x": -280,
+        "y": 850
+      },
+      "u2": {
+        "x": 0,
+        "y": 850
+      },
+      "fin2": {
+        "x": 280,
+        "y": 850
+      },
+      "op2": {
+        "x": 0,
+        "y": 1020
+      },
+      "p1": {
+        "x": 0,
+        "y": 1190
+      },
+      "fin1": {
+        "x": 0,
+        "y": 1360
+      }
+    }
+  }
+}
